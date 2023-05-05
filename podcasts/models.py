@@ -11,9 +11,9 @@ class Podcast(models.Model):
     site_link = models.URLField()
     feed_link = models.URLField(unique=True)
     image_link = models.URLField()
-    pub_date = models.DateTimeField()
-    last_build_date = models.DateTimeField()
-    ttl = models.DurationField()
+    pub_date = models.DateTimeField(blank=True, null=True)
+    last_build_date = models.DateTimeField(blank=True, null=True)
+    ttl = models.DurationField(blank=True, null=True)
 
     def get_absolute_url(self):
         return reverse("podcast-detail", kwargs={"pk": self.id})
@@ -31,6 +31,9 @@ class Episode(models.Model):
     media_link = models.URLField()
     pub_date = models.DateTimeField()
     guid = models.CharField(max_length=300)
+
+    class Meta:
+        ordering = ["-pub_date"]
 
     def __str__(self):
         return self.title
