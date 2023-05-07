@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <omny:organizationId>e73c998e-6e60-432f-8610-ae210140c5b1</omny:organizationId>
+    <omny:networkId>f4bdfbd3-5be1-45d2-b690-ae3e0141cc95</omny:networkId>
+    <omny:programId>a91018a4-ea4f-4130-bf55-ae270180c327</omny:programId>
+    <omny:playlistId>44710ecc-10bb-48d1-93c7-ae270180c33e</omny:playlistId>
+    <language>en-US</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss" />
+    <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss?page=1" />
+    <atom:link rel="last" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss?page=1" />
+    <itunes:new-feed-url>https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/podcast.rss</itunes:new-feed-url>
+    <title>Stuff You Should Know</title>
+    <itunes:subtitle>Stuff You Should Know</itunes:subtitle>
+    <link>https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/</link>
+    <description><![CDATA[If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered.]]></description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>If you've ever wanted to know about champagne, satanism, the Stonewall Uprising, chaos theory, LSD, El Nino, true crime and Rosa Parks, then look no further. Josh and Chuck have you covered.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>iHeartPodcasts</itunes:name>
+      <itunes:email>applepodcast@howstuffworks.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>iHeartPodcasts</itunes:author>
+    <copyright>2023 iHeartPodcasts</copyright>
+    <itunes:explicit>no</itunes:explicit>
+    <itunes:category text="Society &amp; Culture"></itunes:category>
+    <itunes:image href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/image.jpg?t=1643066471&amp;size=Large" />
+    <image>
+      <url>https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/image.jpg?t=1643066471&amp;size=Large</url>
+      <title>Stuff You Should Know</title>
+      <link>https://www.iheart.com/podcast/105-stuff-you-should-know-26940277/</link>
+    </image>
+    <item>
+      <title>Introducing Smell-O-Vision!</title>
+      <itunes:title>Introducing Smell-O-Vision!</itunes:title>
+      <description><![CDATA[<p>Smell-O-Vision was a post-war movie theater gimmick that delivered well-timed scents to the noses of audiences to align with the movie. Did it work? Sort of. Did it ultimately fail? Yes. Does that mean it has gone away forever? No.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Smell-O-Vision was a post-war movie theater gimmick that delivered well-timed scents to the noses of audiences to align with the movie. Did it work? Sort of. Did it ultimately fail? Yes. Does that mean it has gone away forever? No.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/image.jpg?t=1643066471&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/28a57579-89ae-4e5d-97ca-aff7011f64d5/audio.mp3?utm_source=Podcast&amp;in_playlist=44710ecc-10bb-48d1-93c7-ae270180c33e" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/stuff-you-should-know-1/introducing-smell-o-vision/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/image.jpg?t=1643066471&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">28a57579-89ae-4e5d-97ca-aff7011f64d5</guid>
+      <omny:clipId>28a57579-89ae-4e5d-97ca-aff7011f64d5</omny:clipId>
+      <pubDate>Thu, 04 May 2023 09:00:00 +0000</pubDate>
+      <itunes:duration>2297</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/28a57579-89ae-4e5d-97ca-aff7011f64d5/audio.mp3?utm_source=Podcast&amp;in_playlist=44710ecc-10bb-48d1-93c7-ae270180c33e" length="36794279" type="audio/mpeg" />
+      <link>https://omny.fm/shows/stuff-you-should-know-1/introducing-smell-o-vision</link>
+    </item>
+    <item>
+      <title>Short Stuff: Dunbar's Number</title>
+      <itunes:title>Short Stuff: Dunbar's Number</itunes:title>
+      <description><![CDATA[<p>There’s a theory that all of us have a maximum number of friendships that we can maintain – 150, to be exact. Suspiciously exact, really, if you think about it.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>There’s a theory that all of us have a maximum number of friendships that we can maintain – 150, to be exact. Suspiciously exact, really, if you think about it.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/5ab14a98-8da8-4b0c-b843-aff1011bcf9b/image.jpg?t=1682615677&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/5ab14a98-8da8-4b0c-b843-aff1011bcf9b/audio.mp3?utm_source=Podcast&amp;in_playlist=44710ecc-10bb-48d1-93c7-ae270180c33e" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/stuff-you-should-know-1/short-stuff-dunbars-number/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/5ab14a98-8da8-4b0c-b843-aff1011bcf9b/image.jpg?t=1682615677&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">5ab14a98-8da8-4b0c-b843-aff1011bcf9b</guid>
+      <omny:clipId>5ab14a98-8da8-4b0c-b843-aff1011bcf9b</omny:clipId>
+      <pubDate>Wed, 03 May 2023 09:00:00 +0000</pubDate>
+      <itunes:duration>878</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/5ab14a98-8da8-4b0c-b843-aff1011bcf9b/audio.mp3?utm_source=Podcast&amp;in_playlist=44710ecc-10bb-48d1-93c7-ae270180c33e" length="14068647" type="audio/mpeg" />
+      <link>https://omny.fm/shows/stuff-you-should-know-1/short-stuff-dunbars-number</link>
+    </item>
+    <item>
+      <title>Nerf!</title>
+      <itunes:title>Nerf!</itunes:title>
+      <description><![CDATA[<p>Another classic toys edition is at your collective feet. Today, we dive into the soft, padded world of NERF!</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Another classic toys edition is at your collective feet. Today, we dive into the soft, padded world of NERF!</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/image.jpg?t=1643066471&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/28c79684-5fc3-4ae3-9e6e-aff501130558/audio.mp3?utm_source=Podcast&amp;in_playlist=44710ecc-10bb-48d1-93c7-ae270180c33e" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/stuff-you-should-know-1/nerf/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/44710ecc-10bb-48d1-93c7-ae270180c33e/image.jpg?t=1643066471&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">28c79684-5fc3-4ae3-9e6e-aff501130558</guid>
+      <omny:clipId>28c79684-5fc3-4ae3-9e6e-aff501130558</omny:clipId>
+      <pubDate>Tue, 02 May 2023 09:00:00 +0000</pubDate>
+      <itunes:duration>2307</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/a91018a4-ea4f-4130-bf55-ae270180c327/28c79684-5fc3-4ae3-9e6e-aff501130558/audio.mp3?utm_source=Podcast&amp;in_playlist=44710ecc-10bb-48d1-93c7-ae270180c33e" length="36951410" type="audio/mpeg" />
+      <link>https://omny.fm/shows/stuff-you-should-know-1/nerf</link>
+    </item>
+  </channel>
+</rss>
