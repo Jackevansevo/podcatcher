@@ -13,7 +13,7 @@ from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
 from .models import Episode, Podcast
-from .parser import parse_podcast
+from .parser import ingest_podcast, parse_podcast
 
 
 @require_GET
@@ -21,12 +21,7 @@ def import_feed(request):
     url = request.GET.get("url")
     if url:
         resp = urllib3.request("GET", url)
-        parsed_podcast, parsed_episodes = parse_podcast(resp.data)
-        podcast = Podcast(**parsed_podcast)
-        podcast.save()
-        for parsed_episode in parsed_episodes:
-            episode = Episode(**parsed_episode, podcast=podcast)
-            episode.save()
+        podcast = ingest_podcast(resp.data)
         return redirect(podcast)
 
 
