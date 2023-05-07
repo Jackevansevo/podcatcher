@@ -1,9 +1,9 @@
 {% extends "base.html" %}
 {% block content %}
-  <div class="container-fluid p-4">
+  <div class="container-fluid p-4 d-flex">
     {% for podcast in object_list %}
-      <a href="{{ podcast.get_absolute_url }}" class="text-decoration-none" style="position: fixed;">
-        <div class="card" style="width: 18rem;">
+      <a href="{{ podcast.get_absolute_url }}" class="text-decoration-none">
+        <div class="card me-4" style="width: 18rem;">
           <img src="{{ podcast.image_link }}" class="card-img-top" alt="...">
           <div class="card-body">
             <p class="card-title">{{ podcast.title }}</p>
