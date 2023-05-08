@@ -7,6 +7,8 @@ from .parser import ingest_podcast, parse_podcast
 
 class EpisodeInline(admin.TabularInline):
     model = Episode
+    fields = ["title", "site_link", "media_link", "pub_date", "guid"]
+    readonly_fields = fields
 
 
 @admin.register(Episode)
@@ -24,7 +26,8 @@ class PodcastAdmin(admin.ModelAdmin):
     inlines = [
         EpisodeInline,
     ]
-    fields = ["feed_link"]
+    fields = ["title", "description", "feed_link", "pub_date", "last_build_date"]
+    readonly_fields = fields
 
     def save_model(self, request, obj, form, change):
         resp = urllib3.request("GET", obj.feed_link)
