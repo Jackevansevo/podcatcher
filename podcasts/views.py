@@ -90,7 +90,7 @@ class EpisodeListView(ListView, LoginRequiredMixin):
     model = Episode
 
     def get_queryset(self):
-        return Episode.objects.filter(
+        return Episode.objects.prefetch_related("podcast").filter(
             podcast__subscription__in=Subscription.objects.filter(
                 user=self.request.user
             )
