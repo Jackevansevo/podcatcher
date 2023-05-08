@@ -1,0 +1,8 @@
+# dev-requirements.in
+-c requirements.txt
+django-debug-toolbar
+djhtml
+ipython
+black
+isort
+flake8
