@@ -35,7 +35,10 @@
           </ul>
           {% endif %}
           <form class="d-flex" action="/search">
+            <div class="input-group">
+            <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
             <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="{{ request.GET.search|default:""}}">
+            </div>
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
