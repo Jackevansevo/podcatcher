@@ -1,7 +1,7 @@
 import urllib3
 from django.contrib import admin
 
-from .models import Episode, Podcast
+from .models import Episode, Podcast, Subscription
 from .parser import ingest_podcast, parse_podcast
 
 
@@ -12,6 +12,11 @@ class EpisodeInline(admin.TabularInline):
 @admin.register(Episode)
 class EpisodeAdmin(admin.ModelAdmin):
     pass
+
+
+@admin.register(Subscription)
+class SubscriptionAdmin(admin.ModelAdmin):
+    list_display = ["user", "podcast"]
 
 
 @admin.register(Podcast)

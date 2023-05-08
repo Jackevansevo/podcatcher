@@ -2,19 +2,18 @@ import datetime as dt
 from email.utils import parsedate_to_datetime
 
 import xmltodict
-from django.db import transaction
 
 from .models import Episode, Podcast
 
 
 def ingest_podcast(data):
     parsed_podcast, parsed_episodes = parse_podcast(data)
-    with transaction.atomic():
-        podcast = Podcast(**parsed_podcast)
-        podcast.save()
-        for parsed_episode in parsed_episodes:
-            episode = Episode(**parsed_episode, podcast=podcast)
-            episode.save()
+    podcast = Podcast(**parsed_podcast)
+    podcast.save()
+    for parsed_episode in parsed_episodes:
+        episode = Episode(**parsed_episode, podcast=podcast)
+        episode.save()
+    return podcast
 
 
 def parse_item(data):

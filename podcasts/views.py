@@ -7,12 +7,14 @@ from http import HTTPStatus
 from urllib.parse import urlparse
 
 import urllib3
+from django.contrib.auth.mixins import LoginRequiredMixin
+from django.db import transaction
 from django.shortcuts import redirect, render
 from django.views.decorators.http import require_GET
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
-from .models import Episode, Podcast
+from .models import Episode, Podcast, Subscription
 from .parser import ingest_podcast, parse_podcast
 
 
@@ -21,8 +23,10 @@ def import_feed(request):
     url = request.GET.get("url")
     if url:
         resp = urllib3.request("GET", url)
-        podcast = ingest_podcast(resp.data)
-        return redirect(podcast)
+        with transaction.atomic():
+            podcast = ingest_podcast(resp.data)
+            Subscription.objects.create(podcast=podcast, user=request.user)
+            return redirect(podcast)
 
 
 @require_GET
@@ -71,8 +75,11 @@ def search(request):
         return render(request, "podcasts/search.html", {"results": {}})
 
 
-class PodcastListView(ListView):
-    model = Podcast
+class SubscriptionListView(ListView, LoginRequiredMixin):
+    model = Subscription
+
+    def get_queryset(self):
+        return Subscription.objects.filter(user=self.request.user)
 
 
 class PodcastDetailView(DetailView):

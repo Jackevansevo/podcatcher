@@ -1,0 +1,16 @@
+{% extends "base.html" %}
+{% block content %}
+  <div class="container-fluid p-4 d-flex">
+    {% for subscription in object_list %}
+      <a href="{{ subscription.podcast.get_absolute_url }}" class="text-decoration-none">
+        <div class="card me-4" style="width: 18rem;">
+          <img src="{{ subscription.podcast.image_link }}" class="card-img-top" alt="...">
+          <div class="card-body">
+            <p class="card-title">{{ subscription.podcast.title }}</p>
+          </div>
+        </div>
+      </a>
+    {% endfor %}
+{% endblock %}
+
+</div>
