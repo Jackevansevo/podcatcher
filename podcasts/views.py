@@ -22,11 +22,15 @@ from .parser import ingest_podcast, parse_podcast
 def import_feed(request):
     url = request.GET.get("url")
     if url:
-        resp = urllib3.request("GET", url)
         with transaction.atomic():
-            podcast = ingest_podcast(resp.data)
-            Subscription.objects.create(podcast=podcast, user=request.user)
-            return redirect(podcast)
+            try:
+                podcast = Podcast.objects.get(feed_link=url)
+            except Podcast.DoesNotExist:
+                resp = urllib3.request("GET", url)
+                podcast = ingest_podcast(resp.data)
+            finally:
+                Subscription.objects.create(podcast=podcast, user=request.user)
+                return redirect(podcast)
 
 
 @require_GET
@@ -80,6 +84,17 @@ class SubscriptionListView(ListView, LoginRequiredMixin):
 
     def get_queryset(self):
         return Subscription.objects.filter(user=self.request.user)
+
+
+class EpisodeListView(ListView, LoginRequiredMixin):
+    model = Episode
+
+    def get_queryset(self):
+        return Episode.objects.filter(
+            podcast__subscription__in=Subscription.objects.filter(
+                user=self.request.user
+            )
+        )
 
 
 class PodcastDetailView(DetailView):
