@@ -76,14 +76,14 @@ def search(request):
         return render(request, "podcasts/search.html", {"results": {}})
 
 
-class SubscriptionListView(ListView, LoginRequiredMixin):
+class SubscriptionListView(LoginRequiredMixin, ListView):
     model = Subscription
 
     def get_queryset(self):
         return Subscription.objects.filter(user=self.request.user)
 
 
-class EpisodeListView(ListView, LoginRequiredMixin):
+class EpisodeListView(LoginRequiredMixin, ListView):
     model = Episode
 
     def get_queryset(self):
