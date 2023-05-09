@@ -23,7 +23,7 @@
             <a class="nav-link" aria-current="page" href="{% url 'episode-list' %}">Episodes</a>
             </li>
           </ul>
-          {% if request.user %}
+          {% if request.user and request.user.is_authenticated %}
           <ul class="navbar-nav me-2 mb-2">
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
@@ -31,7 +31,8 @@
                 {{ request.user }}
               </a>
               <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="/admin/logout">Logout</a></li>
+                <li><a class="dropdown-item" href="{% url 'account_logout' %}">Logout</a></li>
+                <li><a class="dropdown-item" href="{% url 'socialaccount_connections' %}">Social Connections</a></li>
               </ul>
             </li>
 
