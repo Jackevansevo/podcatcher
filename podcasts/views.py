@@ -1,10 +1,7 @@
 import hashlib
-import json
 import os
 import time
-from datetime import date
 from http import HTTPStatus
-from urllib.parse import urlparse
 
 import urllib3
 from django.contrib.auth.mixins import LoginRequiredMixin
@@ -15,7 +12,7 @@ from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
 from .models import Episode, Podcast, Subscription
-from .parser import ingest_podcast, parse_podcast
+from .parser import ingest_podcast
 
 
 @require_GET
