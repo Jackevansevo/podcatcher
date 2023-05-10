@@ -2,8 +2,7 @@ from pathlib import Path
 
 from django.test import TestCase
 
-from .models import Episode, Podcast
-from .parser import ingest_podcast, parse_podcast
+from .parser import ingest_podcast
 
 
 class TestParser(TestCase):
