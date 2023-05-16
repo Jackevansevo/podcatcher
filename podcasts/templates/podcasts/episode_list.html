@@ -2,21 +2,21 @@
 {% block title %}Episodes{% endblock %}
 {% block content %}
   <div class="container pt-4">
-  {% for episode in object_list %}
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <a href="{{ episode.podcast.get_absolute_url }}">
-          <img src="{{ episode.podcast.image_link }}" class="img-fluid rounded-start" alt="...">
-          </a>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{{ episode.title }}</h5>
+    {% for episode in object_list %}
+      <div class="card mb-3" style="max-width: 540px;">
+        <div class="row g-0">
+          <div class="col-md-4">
+            <a href="{{ episode.podcast.get_absolute_url }}">
+              <img src="{{ episode.podcast.image_link }}" class="img-fluid rounded-start" alt="...">
+            </a>
+          </div>
+          <div class="col-md-8">
+            <div class="card-body">
+              <h5 class="card-title">{{ episode.title }}</h5>
+            </div>
           </div>
         </div>
       </div>
-    </div>
-  {% endfor %}
-</div>
+    {% endfor %}
+  </div>
 {% endblock content %}
