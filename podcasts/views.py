@@ -69,11 +69,14 @@ def search(request):
     except urllib3.exceptions.MaxRetryError:
         return render(request, "podcasts/search.html", {"results": {}})
 
+    results = {}
     if resp.status == HTTPStatus.OK:
         results = resp.json()
-        return render(request, "podcasts/search.html", {"results": results})
+
+    if request.htmx:
+        return render(request, "podcasts/search_partial.html", {"results": results})
     else:
-        return render(request, "podcasts/search.html", {"results": {}})
+        return render(request, "podcasts/search.html", {"results": results})
 
 
 class SubscriptionListView(LoginRequiredMixin, ListView):

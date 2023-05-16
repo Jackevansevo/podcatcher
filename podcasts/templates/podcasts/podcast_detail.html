@@ -30,24 +30,21 @@
       </table>
     </div>
   </div>
-<div style="position: fixed; bottom: 0; width: 100%;">
-      <audio id="player" style="width: 100%"
-        controls
-        src="/media/cc0-audio/t-rex-roar.mp3">
-    </audio>
-  </div>
+
+
+
+{% endblock %}
+
+{% block player %}
   <script>
-  const episodeURLs = document.getElementsByClassName("episodeURL");
-  const player = document.getElementById("player");
-  Array.from(episodeURLs).map(episode => {
-    episode.addEventListener("click", (event) => {
-      event.preventDefault();
-      player.src = episode.href;
-      player.play();
+    const episodeURLs = document.getElementsByClassName("episodeURL");
+    const player = document.getElementById("player");
+    Array.from(episodeURLs).map(episode => {
+      episode.addEventListener("click", (event) => {
+        event.preventDefault();
+        player.src = episode.href;
+        player.play();
+      })
     })
-  })
   </script>
-
-
-
 {% endblock %}

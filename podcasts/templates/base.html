@@ -8,6 +8,9 @@
     <!-- Bootstrap CSS -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
 
+    {% load static %}
+    <script src="{% static 'htmx.min.js' %}" defer></script>
+
     <title>Podcatcher - {% block title %}{% endblock %}</title>
   </head>
   <body>
@@ -20,35 +23,45 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-            <a class="nav-link" aria-current="page" href="{% url 'episode-list' %}">Episodes</a>
+              <a class="nav-link" aria-current="page" href="{% url 'episode-list' %}">Episodes</a>
             </li>
           </ul>
           {% if request.user and request.user.is_authenticated %}
-          <ul class="navbar-nav me-2 mb-2">
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                <i class="bi bi-person"></i>
-                {{ request.user }}
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="{% url 'account_logout' %}">Logout</a></li>
-                <li><a class="dropdown-item" href="{% url 'socialaccount_connections' %}">Social Connections</a></li>
-              </ul>
-            </li>
+            <ul class="navbar-nav me-2 mb-2">
+              <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                  <i class="bi bi-person"></i>
+                  {{ request.user }}
+                </a>
+                <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+                  <li><a class="dropdown-item" href="{% url 'account_logout' %}">Logout</a></li>
+                  <li><a class="dropdown-item" href="{% url 'socialaccount_connections' %}">Social Connections</a></li>
+                </ul>
+              </li>
 
-          </ul>
+            </ul>
           {% endif %}
           <form class="d-flex" action="/search">
             <div class="input-group">
-            <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="{{ request.GET.search|default:""}}">
+              <span class="input-group-text" id="basic-addon1"><i class="bi bi-search"></i></span>
+              <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search" name="search" value="{{ request.GET.search|default:""}}" hx-get="/search" hx-trigger="keyup changed delay:500ms, search" hx-trigger="keyup changed delay:500ms, search" hx-replace-url="true" hx-target="#page">
             </div>
             <button class="btn btn-outline-success" type="submit">Search</button>
           </form>
         </div>
       </div>
     </nav>
-    {% block content %}
+    <div id="page">
+      {% block content %}
+      {% endblock %}
+    </div>
+    <div style="position: fixed; bottom: 0; width: 100%;">
+      <audio id="player" style="width: 100%"
+            controls
+            src="/media/cc0-audio/t-rex-roar.mp3">
+      </audio>
+    </div>
+    {% block player %}
     {% endblock %}
 
     <!-- Optional JavaScript; choose one of the two! -->

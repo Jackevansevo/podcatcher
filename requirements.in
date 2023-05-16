@@ -2,3 +2,4 @@ django
 xmltodict
 urllib3
 django-allauth
+django-htmx
