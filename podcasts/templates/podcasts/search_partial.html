@@ -12,7 +12,11 @@
               <h5 class="card-title">{{ result.title }}</h5>
               <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
               <a href="{{ result.link }}" class="btn btn-primary">View podcast</a>
-              <a href="{% url 'import-feed' %}?url={{ result.originalUrl|urlencode }}" class="btn btn-success">Subscribe</a>
+              {% if result.subscribed %}
+                <a href="{% url 'unsubscribe' %}?url={{ result.originalUrl|urlencode }}" class="btn btn-danger">Unsubscribe</a>
+              {% else %}
+                <a href="{% url 'subscribe' %}?url={{ result.originalUrl|urlencode }}" class="btn btn-success">Subscribe</a>
+              {% endif %}
             </div>
           </div>
         </div>

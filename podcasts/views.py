@@ -16,10 +16,33 @@ from .parser import ingest_podcast
 
 
 @require_GET
-def import_feed(request):
+def unsubscribe(request):
+    url = request.GET.get("url")
+    if url:
+        try:
+            subscription = Subscription.objects.get(
+                podcast__feed_link=url, user=request.user
+            )
+        except Subscription.DoesNotExist:
+            pass
+        else:
+            subscription.delete()
+    return redirect("subscription-list")
+
+
+@require_GET
+def subscribe(request):
     url = request.GET.get("url")
     if url:
         with transaction.atomic():
+            try:
+                subscription = Subscription.objects.get(
+                    podcast__feed_link=url, user=request.user
+                )
+            except Subscription.DoesNotExist:
+                pass
+            else:
+                return redirect(subscription.podcast)
             try:
                 podcast = Podcast.objects.get(feed_link=url)
             except Podcast.DoesNotExist:
@@ -72,6 +95,17 @@ def search(request):
     results = {}
     if resp.status == HTTPStatus.OK:
         results = resp.json()
+
+    if results.get("feeds"):
+        subscriptions = set(
+            Subscription.objects.filter(user=request.user).values_list(
+                "podcast__feed_link", flat=True
+            )
+        )
+        for index, result in enumerate(results["feeds"]):
+            results["feeds"][index]["subscribed"] = (
+                result["originalUrl"] in subscriptions
+            )
 
     if request.htmx:
         return render(request, "podcasts/search_partial.html", {"results": results})

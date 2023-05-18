@@ -36,6 +36,9 @@ class Subscription(models.Model):
         on_delete=models.CASCADE,
     )
 
+    class Meta:
+        unique_together = [["user", "podcast"]]
+
     def __str__(self):
         return self.podcast.title
 
