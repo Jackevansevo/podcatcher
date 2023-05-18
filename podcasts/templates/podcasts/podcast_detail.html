@@ -1,47 +1,4 @@
 {% extends "base.html" %}
 {% block content %}
-  <div class="container pt-4">
-    <div class="d-flex">
-      <div class="card me-4" style="width: 18rem;">
-        <img src="{{ object.image_link }}" class="card-img-top" alt="...">
-      </div>
-      <div class="card w-100">
-        <div class="card-body">
-          <h5 class="card-title">{{ object.title }}</h5>
-          <p class="card-text">{{ object.description }}</p>
-          <a href="{{ object.site_link }}" class="btn btn-primary">Visit site</a>
-        </div>
-      </div>
-    </div>
-    <div class="row pt-4">
-      <table class="table">
-        <thead>
-          <tr>
-            <th>Episode</th>
-          </tr>
-        </thead>
-        <tbody>
-          {% for episode in podcast.episode_set.all %}
-            <tr>
-              <td><a class="episodeURL" href="{{ episode.media_link }}">{{ episode.title }}</a></td>
-            </tr>
-          {% endfor %}
-        </tbody>
-      </table>
-    </div>
-  </div>
-
-
-  <script>
-    const episodeURLs = document.getElementsByClassName("episodeURL");
-    const player = document.getElementById("player");
-    Array.from(episodeURLs).map(episode => {
-      episode.addEventListener("click", (event) => {
-        event.preventDefault();
-        player.src = episode.href;
-        player.play();
-      })
-    })
-  </script>
-
+    {% include "podcasts/podcast_detail_partial.html" %}
 {% endblock %}

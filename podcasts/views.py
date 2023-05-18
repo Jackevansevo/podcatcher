@@ -82,12 +82,24 @@ def search(request):
 class SubscriptionListView(LoginRequiredMixin, ListView):
     model = Subscription
 
+    def get_template_names(self):
+        if self.request.htmx:
+            return ["podcasts/subscription_list_partial.html"]
+        else:
+            return ["podcasts/subscription_list.html"]
+
     def get_queryset(self):
         return Subscription.objects.filter(user=self.request.user)
 
 
 class EpisodeListView(LoginRequiredMixin, ListView):
     model = Episode
+
+    def get_template_names(self):
+        if self.request.htmx:
+            return ["podcasts/episode_list_partial.html"]
+        else:
+            return ["podcasts/episode_list.html"]
 
     def get_queryset(self):
         return Episode.objects.prefetch_related("podcast").filter(
@@ -99,3 +111,9 @@ class EpisodeListView(LoginRequiredMixin, ListView):
 
 class PodcastDetailView(DetailView):
     model = Podcast
+
+    def get_template_names(self):
+        if self.request.htmx:
+            return ["podcasts/podcast_detail_partial.html"]
+        else:
+            return ["podcasts/podcast_detail.html"]
