@@ -36,8 +36,8 @@
 
 
 <script>
-  const episodeURLs = document.getElementsByClassName("episodeURL");
-  const player = document.getElementById("player");
+  player = document.getElementById("player")
+  episodeURLs = document.getElementsByClassName("episodeURL");
   Array.from(episodeURLs).map(episode => {
     episode.addEventListener("click", (event) => {
       event.preventDefault();
