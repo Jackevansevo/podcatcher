@@ -5,7 +5,9 @@ from http import HTTPStatus
 
 import urllib3
 from django.contrib.auth.mixins import LoginRequiredMixin
+from django.contrib.auth.models import User
 from django.db import transaction
+from django.db.models import Exists, OuterRef
 from django.shortcuts import redirect, render
 from django.views.decorators.http import require_GET
 from django.views.generic.detail import DetailView
@@ -145,6 +147,15 @@ class EpisodeListView(LoginRequiredMixin, ListView):
 
 class PodcastDetailView(DetailView):
     model = Podcast
+
+    def get_queryset(self):
+        return Podcast.objects.annotate(
+            subscribed=Exists(
+                Subscription.objects.filter(
+                    user=self.request.user, podcast=OuterRef("pk")
+                )
+            )
+        )
 
     def get_template_names(self):
         if self.request.htmx:

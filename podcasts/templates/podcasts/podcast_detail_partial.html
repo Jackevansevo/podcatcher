@@ -8,6 +8,11 @@
         <h5 class="card-title">{{ object.title }}</h5>
         <p class="card-text">{{ object.description }}</p>
         <a href="{{ object.site_link }}" class="btn btn-primary">Visit site</a>
+        {% if object.subscribed %}
+          <a href="{% url 'unsubscribe' %}?url={{ object.feed_link|urlencode }}" class="btn btn-danger">Unsubscribe</a>
+        {% else %}
+          <a href="{% url 'subscribe' %}?url={{ object.feed_link|urlencode }}" class="btn btn-success">Subscribe</a>
+        {% endif %}
       </div>
     </div>
   </div>
