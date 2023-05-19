@@ -7,14 +7,30 @@ import urllib3
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
 from django.db import transaction
-from django.db.models import Exists, OuterRef
+from django.db.models import Exists, OuterRef, Prefetch
 from django.shortcuts import redirect, render
-from django.views.decorators.http import require_GET
+from django.views.decorators.http import require_GET, require_POST
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
 
-from .models import Episode, Podcast, Subscription
+from .models import Episode, EpisodeInteraction, Podcast, Subscription
 from .parser import ingest_podcast
+
+
+@require_POST
+def favourite(request, pk):
+    interaction, _ = EpisodeInteraction.objects.update_or_create(
+        episode_id=pk, user=request.user, defaults={"favourite": True}
+    )
+    return redirect(interaction.episode.podcast)
+
+
+@require_POST
+def unfavourite(request, pk):
+    interaction, _ = EpisodeInteraction.objects.update_or_create(
+        episode_id=pk, user=request.user, defaults={"favourite": False}
+    )
+    return redirect(interaction.episode.podcast)
 
 
 @require_GET
@@ -149,7 +165,20 @@ class PodcastDetailView(DetailView):
     model = Podcast
 
     def get_queryset(self):
-        return Podcast.objects.annotate(
+        return Podcast.objects.prefetch_related(
+            Prefetch(
+                "episode_set",
+                queryset=Episode.objects.prefetch_related(
+                    Prefetch(
+                        "interactions",
+                        queryset=EpisodeInteraction.objects.filter(
+                            user=self.request.user
+                        ),
+                        to_attr="user_interactions",
+                    )
+                ),
+            )
+        ).annotate(
             subscribed=Exists(
                 Subscription.objects.filter(
                     user=self.request.user, podcast=OuterRef("pk")

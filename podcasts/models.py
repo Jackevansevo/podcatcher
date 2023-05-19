@@ -58,3 +58,25 @@ class Episode(models.Model):
 
     def __str__(self):
         return self.title
+
+
+class EpisodeInteraction(models.Model):
+    user = models.ForeignKey(
+        settings.AUTH_USER_MODEL,
+        on_delete=models.CASCADE,
+    )
+    episode = models.ForeignKey(
+        Episode,
+        on_delete=models.CASCADE,
+        related_name="interactions",
+    )
+
+    progress = models.IntegerField(blank=True, null=True)
+    favourite = models.BooleanField(default=False)
+    listened = models.BooleanField(default=False)
+
+    class Meta:
+        unique_together = [["user", "episode"]]
+
+    def __str__(self):
+        return self.episode.title

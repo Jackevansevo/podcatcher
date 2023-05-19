@@ -17,20 +17,21 @@
     </div>
   </div>
   <div class="row pt-4">
-    <table class="table">
-      <thead>
-        <tr>
-          <th>Episode</th>
-        </tr>
-      </thead>
-      <tbody>
-        {% for episode in podcast.episode_set.all %}
-          <tr>
-            <td><a class="episodeURL" href="{{ episode.media_link }}">{{ episode.title }}</a></td>
-          </tr>
-        {% endfor %}
-      </tbody>
-    </table>
+    <ul class="list-group list-group-flush">
+
+      {% for episode in podcast.episode_set.all %}
+        {% with interaction=episode.user_interactions|first %}
+          <li class="list-group-item d-flex justify-content-between align-items-center">
+            <a class="episodeURL text-decoration-none {% if interaction.listened %}text-secondary{% endif %}" href="{{ episode.media_link }}">{{ episode.title }}</a>
+            {% if interaction.favourite %}
+              <i class="bi bi-star-fill" hx-post="/unfavourite/{{ episode.id }}" hx-trigger="click" hx-target="#page"></i>
+            {% else %}
+              <i class="bi bi-star" hx-post="/favourite/{{ episode.id }}" hx-trigger="click" hx-target="#page"></i>
+            {% endif %}
+        {% endwith %}
+        </li>
+      {% endfor %}
+    </ul>
   </div>
 </div>
 

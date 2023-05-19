@@ -1,7 +1,7 @@
 import urllib3
 from django.contrib import admin
 
-from .models import Episode, Podcast, Subscription
+from .models import Episode, EpisodeInteraction, Podcast, Subscription
 from .parser import ingest_podcast, parse_podcast
 
 
@@ -9,6 +9,11 @@ class EpisodeInline(admin.TabularInline):
     model = Episode
     fields = ["title", "site_link", "media_link", "pub_date", "guid"]
     readonly_fields = fields
+
+
+@admin.register(EpisodeInteraction)
+class EpisodeInteractionAdmin(admin.ModelAdmin):
+    pass
 
 
 @admin.register(Episode)

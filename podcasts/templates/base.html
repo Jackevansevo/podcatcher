@@ -13,7 +13,7 @@
 
     <title>Podcatcher - {% block title %}{% endblock %}</title>
   </head>
-  <body>
+  <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/" hx-get="/" hx-trigger="click" hx-replace-url="true" hx-target="#page">Podcatcher</a>
