@@ -155,9 +155,23 @@ class EpisodeListView(LoginRequiredMixin, ListView):
 
     def get_queryset(self):
         return Episode.objects.prefetch_related("podcast").filter(
-            podcast__subscription__in=Subscription.objects.filter(
-                user=self.request.user
-            )
+            podcast__subscription__user=self.request.user
+        )
+
+
+class EpisodeFavouriteView(EpisodeListView):
+    def get_queryset(self):
+        return Episode.objects.prefetch_related("podcast").filter(
+            podcast__subscription__user=self.request.user,
+            interactions__favourite=True,
+        )
+
+
+class EpisodeListeningView(EpisodeListView):
+    def get_queryset(self):
+        return Episode.objects.prefetch_related("podcast").filter(
+            podcast__subscription__user=self.request.user,
+            interactions__progress__isnull=False,
         )
 
 

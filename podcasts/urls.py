@@ -10,5 +10,15 @@ urlpatterns = [
     path("favourite/<uuid:pk>", views.favourite, name="favourite"),
     path("unfavourite/<uuid:pk>", views.unfavourite, name="unfavourite"),
     path("episodes", views.EpisodeListView.as_view(), name="episode-list"),
+    path(
+        "episodes/favourites",
+        views.EpisodeFavouriteView.as_view(),
+        name="episode-favourites",
+    ),
+    path(
+        "episodes/listening",
+        views.EpisodeListeningView.as_view(),
+        name="episode-listening",
+    ),
     path("podcast/<uuid:pk>", views.PodcastDetailView.as_view(), name="podcast-detail"),
 ]
