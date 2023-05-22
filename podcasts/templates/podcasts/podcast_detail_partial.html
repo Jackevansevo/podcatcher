@@ -18,36 +18,11 @@
   </div>
   <div class="row pt-4">
     <ul class="list-group list-group-flush">
-
       {% for episode in podcast.episode_set.all %}
         {% with interaction=episode.user_interactions|first %}
-          <li class="list-group-item d-flex justify-content-between align-items-center">
-            <a class="episodeURL text-decoration-none {% if interaction.listened %}link-secondary{% else %}link-dark{% endif %}" href="{{ episode.media_link }}">{{ episode.title }}</a>
-            {% if interaction.favourite %}
-              <a href="#" hx-trigger="click" hx-target="#page" hx-post="/unfavourite/{{ episode.id }}" class="link-warning">
-                <i class="bi bi-star-fill"></i>
-              </a>
-            {% else %}
-              <a href="#" hx-trigger="click" hx-target="#page" hx-post="/favourite/{{ episode.id }}" class="link-warning">
-                <i class="bi bi-star"></i>
-              </a>
-            {% endif %}
+          {% include "podcasts/episode_list_item_partial.html" %}
         {% endwith %}
-        </li>
       {% endfor %}
     </ul>
   </div>
 </div>
-
-
-<script>
-  player = document.getElementById("player")
-  episodeURLs = document.getElementsByClassName("episodeURL");
-  Array.from(episodeURLs).map(episode => {
-    episode.addEventListener("click", (event) => {
-      event.preventDefault();
-      player.src = episode.href;
-      player.play();
-    })
-  })
-</script>

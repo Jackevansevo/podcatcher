@@ -58,6 +58,14 @@
       </div>
     </nav>
     <audio id="player" style="width: 100%; position: fixed; bottom: 0; z-index: 1000" controls="true"></audio>
+    <script>
+      player = document.getElementById("player")
+      function playAudio(event) {
+        event.preventDefault();
+        player.src = episode.href;
+        player.play();
+      }
+    </script>
     <div id="page">
       {% block content %}
       {% endblock %}

@@ -1,0 +1,17 @@
+<li class="list-group-item d-flex justify-content-between align-items-center" id="episodeListItem{{ episode.id }}">
+  <a id="episodeLink{{ episode.id }}" class="episodeURL text-decoration-none {% if interaction.listened %}link-secondary{% else %}link-dark{% endif %}" href="{{ episode.media_link }}">{{ episode.title }}</a>
+  {% if interaction.favourite %}
+    <a href="#" hx-trigger="click" hx-swap="outerHTML" hx-target="#episodeListItem{{ episode.id }}" hx-post="/unfavourite/{{ episode.id }}" class="link-warning">
+      <i class="bi bi-star-fill"></i>
+    </a>
+  {% else %}
+    <a href="#" hx-trigger="click" hx-swap="outerHTML" hx-target="#episodeListItem{{ episode.id }}" hx-post="/favourite/{{ episode.id }}" class="link-warning">
+      <i class="bi bi-star"></i>
+    </a>
+  {% endif %}
+</li>
+
+<script>
+  episode = document.getElementById("episodeLink{{ episode.id }}")
+  episode.addEventListener("click", playAudio);
+</script>

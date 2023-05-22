@@ -18,19 +18,27 @@ from .parser import ingest_podcast
 
 
 @require_POST
-def favourite(request, pk):
+def update_episode(request, pk, defaults):
     interaction, _ = EpisodeInteraction.objects.update_or_create(
-        episode_id=pk, user=request.user, defaults={"favourite": True}
+        episode_id=pk, user=request.user, defaults=defaults
     )
-    return redirect(interaction.episode.podcast)
+    if request.htmx:
+        return render(
+            request,
+            "podcasts/episode_list_item_partial.html",
+            {"interaction": interaction, "episode": interaction.episode},
+        )
+    else:
+        return redirect(interaction.episode.podcast)
+
+
+def favourite(request, pk):
+    return update_episode(request, pk, {"favourite": True})
 
 
 @require_POST
 def unfavourite(request, pk):
-    interaction, _ = EpisodeInteraction.objects.update_or_create(
-        episode_id=pk, user=request.user, defaults={"favourite": False}
-    )
-    return redirect(interaction.episode.podcast)
+    return update_episode(request, pk, {"favourite": False})
 
 
 @require_GET
