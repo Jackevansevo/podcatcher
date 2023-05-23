@@ -209,7 +209,6 @@ def podcast_detail_view(request, pk):
     if request.htmx:
         referer = request.META.get("HTTP_REFERER")
         if referer and urlparse(referer).path == request.path:
-            print("MADE IT HERE")
             return render(
                 request,
                 "podcasts/podcast_episode_list_partial.html",
