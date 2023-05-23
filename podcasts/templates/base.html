@@ -62,7 +62,7 @@
       player = document.getElementById("player")
       function playAudio(event) {
         event.preventDefault();
-        player.src = episode.href;
+        player.src = event.currentTarget.href;
         player.play();
       }
     </script>
