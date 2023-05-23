@@ -1,28 +1,55 @@
 <div class="container pt-4">
   <div class="d-flex">
     <div class="card me-4" style="width: 18rem;">
-      <img src="{{ object.image_link }}" class="card-img-top" alt="...">
+      <img src="{{ podcast.image_link }}" class="card-img-top" alt="...">
     </div>
     <div class="card w-100">
       <div class="card-body">
-        <h5 class="card-title">{{ object.title }}</h5>
-        <p class="card-text">{{ object.description }}</p>
-        <a href="{{ object.site_link }}" class="btn btn-primary">Visit site</a>
-        {% if object.subscribed %}
-          <a href="{% url 'unsubscribe' %}?url={{ object.feed_link|urlencode }}" class="btn btn-danger">Unsubscribe</a>
+        <h5 class="card-title">{{ podcast.title }}</h5>
+        <p class="card-text">{{ podcast.description }}</p>
+        <a href="{{ podcast.site_link }}" class="btn btn-primary">Visit site</a>
+        {% if podcast.subscribed %}
+          <a href="{% url 'unsubscribe' %}?url={{ podcast.feed_link|urlencode }}" class="btn btn-danger">Unsubscribe</a>
         {% else %}
-          <a href="{% url 'subscribe' %}?url={{ object.feed_link|urlencode }}" class="btn btn-success">Subscribe</a>
+          <a href="{% url 'subscribe' %}?url={{ podcast.feed_link|urlencode }}" class="btn btn-success">Subscribe</a>
         {% endif %}
       </div>
     </div>
   </div>
   <div class="row pt-4">
     <ul class="list-group list-group-flush">
-      {% for episode in podcast.episode_set.all %}
-        {% with interaction=episode.user_interactions|first %}
-          {% include "podcasts/episode_list_item_partial.html" %}
-        {% endwith %}
-      {% endfor %}
+      {% include "podcasts/podcast_episode_list_partial.html" %}
     </ul>
   </div>
+  <noscript>
+    <div class="row pt-4">
+      <nav aria-label="...">
+        <ul class="pagination">
+          {% if page_obj.has_previous %}
+            <li class="page-item">
+              <a href="?page={{ page_obj.previous_page_number }}" class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a></li>
+          {% else %}
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+          {% endif %}
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="?page={{ page_obj.number }}">{{ page_obj.number }}</a>
+          </li>
+          {% if page_obj.has_next %}
+            <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a></li>
+            <li class="page-item">
+              <a href="?page={{ page_obj.next_page_number }}" class="page-link" href="#">Next</a>
+            </li>
+          {% else %}
+            <li class="page-item disable">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
+    </div>
+  </noscript>
 </div>

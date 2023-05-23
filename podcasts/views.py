@@ -2,13 +2,15 @@ import hashlib
 import os
 import time
 from http import HTTPStatus
+from urllib.parse import urlparse
 
 import urllib3
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
+from django.core.paginator import Paginator
 from django.db import transaction
 from django.db.models import Exists, OuterRef, Prefetch
-from django.shortcuts import redirect, render
+from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_GET, require_POST
 from django.views.generic.detail import DetailView
 from django.views.generic.list import ListView
@@ -183,33 +185,44 @@ class EpisodeListeningView(EpisodeListView):
         )
 
 
-class PodcastDetailView(DetailView):
-    model = Podcast
-
-    def get_queryset(self):
-        return Podcast.objects.prefetch_related(
-            Prefetch(
-                "episode_set",
-                queryset=Episode.objects.prefetch_related(
-                    Prefetch(
-                        "interactions",
-                        queryset=EpisodeInteraction.objects.filter(
-                            user=self.request.user
-                        ),
-                        to_attr="user_interactions",
-                    )
-                ),
-            )
-        ).annotate(
-            subscribed=Exists(
-                Subscription.objects.filter(
-                    user=self.request.user, podcast=OuterRef("pk")
+def podcast_detail_view(request, pk):
+    queryset = Podcast.objects.prefetch_related(
+        Prefetch(
+            "episode_set",
+            queryset=Episode.objects.prefetch_related(
+                Prefetch(
+                    "interactions",
+                    queryset=EpisodeInteraction.objects.filter(user=request.user),
+                    to_attr="user_interactions",
                 )
-            )
+            ),
         )
-
-    def get_template_names(self):
-        if self.request.htmx:
-            return ["podcasts/podcast_detail_partial.html"]
-        else:
-            return ["podcasts/podcast_detail.html"]
+    ).annotate(
+        subscribed=Exists(
+            Subscription.objects.filter(user=request.user, podcast=OuterRef("pk"))
+        )
+    )
+    podcast = get_object_or_404(queryset, pk=pk)
+    paginator = Paginator(podcast.episode_set.all(), 100)
+    page_number = request.GET.get("page")
+    page_obj = paginator.get_page(page_number)
+    if request.htmx:
+        referer = request.META.get("HTTP_REFERER")
+        if referer and urlparse(referer).path == request.path:
+            print("MADE IT HERE")
+            return render(
+                request,
+                "podcasts/podcast_episode_list_partial.html",
+                {"podcast": podcast, "page_obj": page_obj},
+            )
+        return render(
+            request,
+            "podcasts/podcast_detail_partial.html",
+            {"podcast": podcast, "page_obj": page_obj},
+        )
+    else:
+        return render(
+            request,
+            "podcasts/podcast_detail.html",
+            {"podcast": podcast, "page_obj": page_obj},
+        )

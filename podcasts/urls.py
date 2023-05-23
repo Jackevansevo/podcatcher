@@ -20,5 +20,5 @@ urlpatterns = [
         views.EpisodeListeningView.as_view(),
         name="episode-listening",
     ),
-    path("podcast/<uuid:pk>", views.PodcastDetailView.as_view(), name="podcast-detail"),
+    path("podcast/<uuid:pk>", views.podcast_detail_view, name="podcast-detail"),
 ]

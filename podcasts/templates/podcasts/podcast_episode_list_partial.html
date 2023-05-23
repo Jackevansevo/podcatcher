@@ -1,0 +1,9 @@
+{% if page_obj.number <= page_obj.paginator.num_pages %}
+  {% for episode in page_obj %}
+    {% with interaction=episode.user_interactions|first %}
+      {% include "podcasts/episode_list_item_partial.html" %}
+    {% endwith %}
+  {% endfor %}
+{% else %}
+  Nothing left to show
+{% endif %}
