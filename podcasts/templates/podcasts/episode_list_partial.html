@@ -1,18 +1,47 @@
 <div class="container pt-4">
-  {% for episode in object_list %}
-    <div class="card mb-3" style="max-width: 540px;">
-      <div class="row g-0">
-        <div class="col-md-4">
-          <a href="{{ episode.podcast.get_absolute_url }}" hx-get="{{ episode.podcast.get_absolute_url }}" hx-push-url="true" hx-target="#page">
-            <img src="{{ episode.podcast.image_link }}" class="img-fluid rounded-start" alt="...">
-          </a>
-        </div>
-        <div class="col-md-8">
-          <div class="card-body">
-            <h5 class="card-title">{{ episode.title }}</h5>
-          </div>
-        </div>
-      </div>
+  <h1>
+    {% if request.path == "/episodes" %}
+      New Releases
+    {% elif request.path == "/episodes/favourites" %}
+      Favourites
+    {% elif request.path == "/episodes/listening" %}
+      In Progress
+    {% endif %}
+  </h1>
+  <hr>
+  <ul class="list-group list-group-flush">
+    {% include "podcasts/podcast_episode_list_partial.html" with component="podcasts/episode_list_item_with_cover_art_partial.html" %}
+  </ul>
+  <noscript>
+    <div class="row pt-4">
+      <nav aria-label="...">
+        <ul class="pagination">
+          {% if page_obj.has_previous %}
+            <li class="page-item">
+              <a href="?page={{ page_obj.previous_page_number }}" class="page-link">Previous</a>
+            </li>
+            <li class="page-item"><a class="page-link" href="?page={{ page_obj.previous_page_number }}">{{ page_obj.previous_page_number }}</a></li>
+          {% else %}
+            <li class="page-item disabled">
+              <a class="page-link">Previous</a>
+            </li>
+          {% endif %}
+          <li class="page-item active" aria-current="page">
+            <a class="page-link" href="?page={{ page_obj.number }}">{{ page_obj.number }}</a>
+          </li>
+          {% if page_obj.has_next %}
+            <li class="page-item"><a class="page-link" href="?page={{ page_obj.next_page_number }}">{{ page_obj.next_page_number }}</a></li>
+            <li class="page-item">
+              <a href="?page={{ page_obj.next_page_number }}" class="page-link" href="#">Next</a>
+            </li>
+          {% else %}
+            <li class="page-item disable">
+              <a class="page-link" href="#">Next</a>
+            </li>
+          {% endif %}
+        </ul>
+      </nav>
     </div>
-  {% endfor %}
+  </noscript>
 </div>
+

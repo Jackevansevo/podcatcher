@@ -13,7 +13,7 @@
 
     <title>Podcatcher - {% block title %}{% endblock %}</title>
   </head>
-  <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}'>
+  <body hx-headers='{"X-CSRFToken": "{{ csrf_token }}"}' class="vh-100">
     <nav class="navbar navbar-expand-lg navbar-light bg-light">
       <div class="container-fluid">
         <a class="navbar-brand" href="/" hx-get="/" hx-trigger="click" hx-push-url="true" hx-target="#page">Podcatcher</a>
@@ -23,13 +23,13 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{% url 'episode-list' %}" hx-get="{% url 'episode-list' %}" hx-push-url="true" hx-trigger="click" hx-target="#page">Episodes</a>
+              <a class="nav-link" aria-current="page" href="{% url 'episode-list' %}" hx-get="{% url 'episode-list' %}" hx-push-url="true" hx-trigger="click" hx-target="#page"><i class="bi bi-music-note-list"></i>&nbsp;Episodes</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{% url 'episode-favourites' %}" hx-get="{% url 'episode-favourites' %}" hx-push-url="true" hx-trigger="click" hx-target="#page">Favourites</a>
+              <a class="nav-link" aria-current="page" href="{% url 'episode-favourites' %}" hx-get="{% url 'episode-favourites' %}" hx-push-url="true" hx-trigger="click" hx-target="#page"><i class="bi bi-stars"></i>&nbsp;Favourites</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="{% url 'episode-listening' %}" hx-get="{% url 'episode-listening' %}" hx-push-url="true" hx-trigger="click" hx-target="#page">In Progress</a>
+              <a class="nav-link" aria-current="page" href="{% url 'episode-listening' %}" hx-get="{% url 'episode-listening' %}" hx-push-url="true" hx-trigger="click" hx-target="#page"><i class="bi bi-ear"></i>&nbsp;In Progress</a>
             </li>
           </ul>
           {% if request.user and request.user.is_authenticated %}
@@ -57,7 +57,7 @@
         </div>
       </div>
     </nav>
-    <audio id="player" style="width: 100%; position: fixed; bottom: 0; z-index: 1000" controls="true"></audio>
+    <audio id="player" controls="true" style="position: fixed; bottom: 0; width: 100%; z-index: 1000"></audio>
     <script>
       player = document.getElementById("player")
       function playAudio(event) {

@@ -160,9 +160,23 @@ class SubscriptionListView(LoginRequiredMixin, ListView):
 
 class EpisodeListView(LoginRequiredMixin, ListView):
     model = Episode
+    paginate_by = 100
+
+    def get_context_data(self, **kwargs):
+        context = super().get_context_data(**kwargs)
+        context["component"] = "podcasts/episode_list_item_with_cover_art_partial.html"
+        return context
 
     def get_template_names(self):
         if self.request.htmx:
+            referer = self.request.META.get("HTTP_REFERER")
+            if (
+                referer
+                and urlparse(referer).path == self.request.path
+                and self.request.GET.get("page")
+            ):
+                return ["podcasts/podcast_episode_list_partial.html"]
+
             return ["podcasts/episode_list_partial.html"]
         else:
             return ["podcasts/episode_list.html"]
@@ -186,6 +200,7 @@ class EpisodeListeningView(EpisodeListView):
         return Episode.objects.prefetch_related("podcast").filter(
             podcast__subscription__user=self.request.user,
             interactions__progress__isnull=False,
+            interactions__listened=False,
         )
 
 
@@ -216,7 +231,11 @@ def podcast_detail_view(request, pk):
             return render(
                 request,
                 "podcasts/podcast_episode_list_partial.html",
-                {"podcast": podcast, "page_obj": page_obj},
+                {
+                    "podcast": podcast,
+                    "page_obj": page_obj,
+                    "component": "podcasts/episode_list_item_partial.html",
+                },
             )
         return render(
             request,
