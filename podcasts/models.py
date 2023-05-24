@@ -19,6 +19,9 @@ class Podcast(models.Model):
         settings.AUTH_USER_MODEL, through="Subscription"
     )
 
+    class Meta:
+        ordering = ["title"]
+
     def get_absolute_url(self):
         return reverse("podcast-detail", kwargs={"pk": self.id})
 
@@ -37,6 +40,7 @@ class Subscription(models.Model):
     )
 
     class Meta:
+        ordering = ["podcast__title"]
         unique_together = [["user", "podcast"]]
 
     def __str__(self):

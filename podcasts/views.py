@@ -151,7 +151,11 @@ class SubscriptionListView(LoginRequiredMixin, ListView):
             return ["podcasts/subscription_list.html"]
 
     def get_queryset(self):
-        return Subscription.objects.filter(user=self.request.user)
+        return (
+            Subscription.objects.select_related("podcast")
+            .filter(user=self.request.user)
+            .all()
+        )
 
 
 class EpisodeListView(LoginRequiredMixin, ListView):
