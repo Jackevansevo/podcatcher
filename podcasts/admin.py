@@ -31,7 +31,15 @@ class PodcastAdmin(admin.ModelAdmin):
     inlines = [
         EpisodeInline,
     ]
-    fields = ["title", "description", "feed_link", "pub_date", "last_build_date"]
+    fields = [
+        "title",
+        "description",
+        "feed_link",
+        "pub_date",
+        "last_build_date",
+        "ttl",
+        "etag",
+    ]
     readonly_fields = fields
 
     def save_model(self, request, obj, form, change):

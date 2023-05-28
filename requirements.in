@@ -3,3 +3,6 @@ xmltodict
 urllib3
 django-allauth
 django-htmx
+celery[redis]
+django-celery-results
+django-celery-beat

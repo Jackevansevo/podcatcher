@@ -15,7 +15,9 @@ backcall==0.2.0
 black==23.3.0
     # via -r dev-requirements.in
 click==8.1.3
-    # via black
+    # via
+    #   -c requirements.txt
+    #   black
 decorator==5.1.1
     # via ipython
 django==4.2.1
@@ -55,7 +57,9 @@ pickleshare==0.7.5
 platformdirs==3.5.0
     # via black
 prompt-toolkit==3.0.38
-    # via ipython
+    # via
+    #   -c requirements.txt
+    #   ipython
 ptyprocess==0.7.0
     # via pexpect
 pure-eval==0.2.2
@@ -67,7 +71,9 @@ pyflakes==3.0.1
 pygments==2.15.1
     # via ipython
 six==1.16.0
-    # via asttokens
+    # via
+    #   -c requirements.txt
+    #   asttokens
 sqlparse==0.4.4
     # via
     #   -c requirements.txt
@@ -80,4 +86,6 @@ traitlets==5.9.0
     #   ipython
     #   matplotlib-inline
 wcwidth==0.2.6
-    # via prompt-toolkit
+    # via
+    #   -c requirements.txt
+    #   prompt-toolkit

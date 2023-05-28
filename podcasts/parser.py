@@ -1,6 +1,8 @@
 import datetime as dt
 from email.utils import parsedate_to_datetime
+from http import HTTPStatus
 
+import urllib3
 import xmltodict
 
 from .models import Episode, Podcast
@@ -55,3 +57,33 @@ def parse_podcast(data):
         else None,
         "ttl": dt.timedelta(minutes=int(ttl)) if ttl is not None else None,
     }, [parse_item(item) for item in channel.get("item")]
+
+
+def update_podcast(podcast):
+    headers = {}
+
+    if podcast.etag:
+        headers["If-None-Match"] = podcast.etag
+
+    print("sending", headers)
+    resp = urllib3.request("GET", podcast.feed_link, headers=headers)
+
+    if resp.status == HTTPStatus.NOT_MODIFIED:
+        print("nothing changed", resp.data)
+        return podcast
+
+    _, parsed_episodes = parse_podcast(resp.data)
+    guids = set(podcast.episode_set.values_list("guid", flat=True))
+    for parsed_episode in parsed_episodes:
+        if parsed_episode["guid"] not in guids:
+            print("adding episode", parsed_episode["title"])
+            episode = Episode(**parsed_episode, podcast=podcast)
+            episode.save()
+
+    print(resp.headers)
+    etag = resp.headers.get("ETag")
+    if etag is not None:
+        podcast.etag = etag
+        podcast.save(update_fields=["etag"])
+
+    return podcast

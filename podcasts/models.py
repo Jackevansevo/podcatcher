@@ -14,10 +14,12 @@ class Podcast(models.Model):
     image_link = models.URLField()
     pub_date = models.DateTimeField(blank=True, null=True)
     last_build_date = models.DateTimeField(blank=True, null=True)
-    ttl = models.DurationField(blank=True, null=True)
     subscribers = models.ManyToManyField(
         settings.AUTH_USER_MODEL, through="Subscription"
     )
+
+    ttl = models.DurationField(blank=True, null=True)
+    etag = models.CharField(max_length=300, blank=True, null=True)
 
     class Meta:
         ordering = ["title"]
