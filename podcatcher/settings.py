@@ -170,9 +170,7 @@ DEFAULT_AUTO_FIELD = "django.db.models.BigAutoField"
 CELERY_RESULT_BACKEND = "django-db"
 CELERY_CACHE_BACKEND = "django-cache"
 
-CELERY_BROKER_URL = (
-    "redis://default:07e88b0f26c048a685bbd8651a0f2f5d@good-elf-35782.upstash.io:35782"
-)
+CELERY_BROKER_URL = os.environ.get("CELERY_BROKER_URL")
 
 
 CELERY_BEAT_SCHEDULER = "django_celery_beat.schedulers:DatabaseScheduler"
