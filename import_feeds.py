@@ -1,10 +1,11 @@
 from pathlib import Path
 
-import urllib3
+import httpx
 import xmltodict
+from django.contrib.auth.models import User
 from django.db import IntegrityError
 
-from podcasts.models import Podcast
+from podcasts.models import Podcast, Subscription
 from podcasts.parser import ingest_podcast
 
 p = Path("/home/jack/Downloads/podcasts_opml.xml")
@@ -20,5 +21,8 @@ for url in feed_urls:
     try:
         podcast = Podcast.objects.get(feed_link=url)
     except Podcast.DoesNotExist:
-        resp = urllib3.request("GET", url=url)
-        podcast = ingest_podcast(resp.data, url=resp)
+        resp = httpx.get(url=url, follow_redirects=True)
+        podcast = ingest_podcast(resp)
+
+    user = User.objects.first()
+    Subscription.objects.create(user=user, podcast=podcast)

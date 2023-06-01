@@ -1,6 +1,6 @@
-<div class="container-fluid p-4 d-flex">
+<div class="container-fluid p-4 d-flex flex-wrap justify-content-start align-items-center">
   {% for subscription in object_list %}
-    <a href="{{ subscription.podcast.get_absolute_url }}" hx-get="{{ subscription.podcast.get_absolute_url }}" hx-push-url="true" hx-trigger="click" hx-target="#page" class="text-decoration-none me-4">
+    <a href="{{ subscription.podcast.get_absolute_url }}" hx-get="{{ subscription.podcast.get_absolute_url }}" hx-push-url="true" hx-trigger="click" hx-target="#page" class="text-decoration-none m-2">
       <div class="card " style="width: 18rem;">
         <img src="{{ subscription.podcast.image_link }}" class="card-img-top" alt="...">
       </div>

@@ -1,6 +1,6 @@
 django
 xmltodict
-urllib3
+httpx
 django-allauth
 django-htmx
 celery[redis]

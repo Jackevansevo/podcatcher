@@ -4,7 +4,7 @@ import time
 from http import HTTPStatus
 from urllib.parse import urlparse
 
-import urllib3
+import httpx
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
 from django.core.paginator import Paginator
@@ -74,8 +74,8 @@ def subscribe(request):
             try:
                 podcast = Podcast.objects.get(feed_link=url)
             except Podcast.DoesNotExist:
-                resp = urllib3.request("GET", url)
-                podcast = ingest_podcast(resp.data, url=url)
+                resp = httpx.get(url, follow_redirects=True)
+                podcast = ingest_podcast(resp.content)
             finally:
                 Subscription.objects.create(podcast=podcast, user=request.user)
                 return redirect(podcast)
@@ -115,13 +115,10 @@ def search(request):
         "User-Agent": "postcasting-index-python-cli",
     }
 
-    try:
-        resp = urllib3.request("POST", url, headers=headers)
-    except urllib3.exceptions.MaxRetryError:
-        return render(request, "podcasts/search.html", {"results": {}})
+    resp = httpx.post(url, headers=headers)
 
     results = {}
-    if resp.status == HTTPStatus.OK:
+    if resp.status_code == HTTPStatus.OK:
         results = resp.json()
 
     if results.get("feeds"):

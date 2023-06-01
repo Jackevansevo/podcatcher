@@ -1,4 +1,4 @@
-import urllib3
+import httpx
 from django.contrib import admin
 
 from .models import Episode, EpisodeInteraction, Podcast, Subscription
@@ -43,5 +43,5 @@ class PodcastAdmin(admin.ModelAdmin):
     readonly_fields = fields
 
     def save_model(self, request, obj, form, change):
-        resp = urllib3.request("GET", obj.feed_link)
-        ingest_podcast(resp.data)
+        resp = httpx.get(obj.feed_link, follow_redirects=True)
+        ingest_podcast(resp.content)

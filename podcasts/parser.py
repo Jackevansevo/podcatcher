@@ -2,18 +2,18 @@ import datetime as dt
 from email.utils import parsedate_to_datetime
 from http import HTTPStatus
 
-import urllib3
+import httpx
 import xmltodict
 from django.db import IntegrityError
 
 from .models import Episode, Podcast
 
 
-def ingest_podcast(data, url=None):
+def ingest_podcast(data):
     parsed_podcast, parsed_episodes = parse_podcast(data)
 
-    if not parsed_podcast.get("feed_link") and url is not None:
-        parsed_podcast["feed_link"] = url
+    if isinstance(data, httpx.Response):
+        parsed_podcast["feed_link"] = data.url
 
     try:
         podcast = Podcast.objects.get(feed_link=parsed_podcast["feed_link"])
@@ -26,8 +26,6 @@ def ingest_podcast(data, url=None):
 
             episode = Episode(**parsed_episode, podcast=podcast)
             episode.save()
-    else:
-        breakpoint()
     return podcast
 
 
@@ -49,8 +47,20 @@ def parse_item(data):
     }
 
 
+def parse_feed_link(data):
+    if isinstance(data, dict):
+        return data.get("@href")
+    elif isinstance(data, list):
+        for elem in data:
+            if elem.get("@rel") == "self":
+                return parse_feed_link(elem)
+
+
 def parse_podcast(data):
-    data = xmltodict.parse(data)
+    if isinstance(data, httpx.Response):
+        data = xmltodict.parse(data.content)
+    else:
+        data = xmltodict.parse(data)
     rss = data["rss"]
     channel = rss["channel"]
     pub_date = channel.get("pubDate")
@@ -60,7 +70,9 @@ def parse_podcast(data):
         "title": channel.get("title"),
         "description": channel.get("description"),
         "site_link": channel.get("link"),
-        "feed_link": channel.get("atom:link", channel.get("itunes:new-feed-url", {})),
+        "feed_link": parse_feed_link(
+            channel.get("atom:link", channel.get("itunes:new-feed-url", {}))
+        ),
         "image_link": channel.get("itunes:image", {}).get("@href"),
         "pub_date": parsedate_to_datetime(pub_date) if pub_date is not None else None,
         "last_build_date": parsedate_to_datetime(last_build_date)
@@ -77,13 +89,13 @@ def update_podcast(podcast):
         headers["If-None-Match"] = podcast.etag
 
     print("sending", headers)
-    resp = urllib3.request("GET", podcast.feed_link, headers=headers)
+    resp = httpx.get(podcast.feed_link, headers=headers, follow_redirects=True)
 
-    if resp.status == HTTPStatus.NOT_MODIFIED:
-        print("nothing changed", resp.data)
+    if resp.status_code == HTTPStatus.NOT_MODIFIED:
+        print("nothing changed", resp.content)
         return podcast
 
-    _, parsed_episodes = parse_podcast(resp.data)
+    _, parsed_episodes = parse_podcast(resp.content)
     guids = set(podcast.episode_set.values_list("guid", flat=True))
     for parsed_episode in parsed_episodes:
         if parsed_episode["guid"] not in guids:
