@@ -8,8 +8,8 @@ from django.urls import reverse
 class Podcast(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=300)
-    description = models.TextField()
-    site_link = models.URLField()
+    description = models.TextField(blank=True, null=True)
+    site_link = models.URLField(blank=True, null=True)
     feed_link = models.URLField(unique=True)
     image_link = models.URLField()
     pub_date = models.DateTimeField(blank=True, null=True)
@@ -52,7 +52,7 @@ class Subscription(models.Model):
 class Episode(models.Model):
     id = models.UUIDField(primary_key=True, default=uuid.uuid4, editable=False)
     title = models.CharField(max_length=300)
-    description = models.TextField()
+    description = models.TextField(blank=True, null=True)
     podcast = models.ForeignKey(Podcast, on_delete=models.CASCADE)
     site_link = models.URLField()
     media_link = models.URLField()

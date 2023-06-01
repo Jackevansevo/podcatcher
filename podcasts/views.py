@@ -75,7 +75,7 @@ def subscribe(request):
                 podcast = Podcast.objects.get(feed_link=url)
             except Podcast.DoesNotExist:
                 resp = urllib3.request("GET", url)
-                podcast = ingest_podcast(resp.data)
+                podcast = ingest_podcast(resp.data, url=url)
             finally:
                 Subscription.objects.create(podcast=podcast, user=request.user)
                 return redirect(podcast)
