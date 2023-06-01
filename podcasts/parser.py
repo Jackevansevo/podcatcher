@@ -13,7 +13,11 @@ def ingest_podcast(data):
     parsed_podcast, parsed_episodes = parse_podcast(data)
 
     if isinstance(data, httpx.Response):
-        parsed_podcast["feed_link"] = data.url
+        resp = data
+        parsed_podcast["feed_link"] = resp.url
+        etag = resp.headers.get("ETag")
+        if etag is not None:
+            parsed_podcast["etag"] = etag
 
     try:
         podcast = Podcast.objects.get(feed_link=parsed_podcast["feed_link"])
@@ -99,6 +103,8 @@ def update_podcast(podcast):
     guids = set(podcast.episode_set.values_list("guid", flat=True))
     for parsed_episode in parsed_episodes:
         if parsed_episode["guid"] not in guids:
+            if not parsed_episode.get("media_link"):
+                continue
             print("adding episode", parsed_episode["title"])
             episode = Episode(**parsed_episode, podcast=podcast)
             episode.save()
