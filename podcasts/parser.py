@@ -92,11 +92,10 @@ def update_podcast(podcast):
     if podcast.etag:
         headers["If-None-Match"] = podcast.etag
 
-    print("sending", headers)
     resp = httpx.get(podcast.feed_link, headers=headers, follow_redirects=True)
 
+    print(podcast.feed_link, resp.status_code)
     if resp.status_code == HTTPStatus.NOT_MODIFIED:
-        print("nothing changed", resp.content)
         return podcast
 
     _, parsed_episodes = parse_podcast(resp.content)
@@ -105,11 +104,9 @@ def update_podcast(podcast):
         if parsed_episode["guid"] not in guids:
             if not parsed_episode.get("media_link"):
                 continue
-            print("adding episode", parsed_episode["title"])
             episode = Episode(**parsed_episode, podcast=podcast)
             episode.save()
 
-    print(resp.headers)
     etag = resp.headers.get("ETag")
     if etag is not None:
         podcast.etag = etag
