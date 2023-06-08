@@ -19,6 +19,8 @@ def ingest_podcast(data):
         if etag is not None:
             parsed_podcast["etag"] = etag
 
+    created = False
+
     try:
         podcast = Podcast.objects.get(feed_link=parsed_podcast["feed_link"])
     except Podcast.DoesNotExist:
@@ -30,7 +32,10 @@ def ingest_podcast(data):
 
             episode = Episode(**parsed_episode, podcast=podcast)
             episode.save()
-    return podcast
+
+        created = True
+
+    return podcast, created
 
 
 def parse_guid(guid):

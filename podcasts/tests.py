@@ -13,4 +13,4 @@ class TestParser(TestCase):
             with self.subTest(path=path):
                 data = path.read_bytes()
                 # TODO would be nice to keep the original URL
-                podcast = ingest_podcast(data)
+                podcast, _ = ingest_podcast(data)
