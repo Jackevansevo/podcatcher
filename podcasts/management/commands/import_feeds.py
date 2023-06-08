@@ -22,33 +22,10 @@ class Command(BaseCommand):
             for sub_outline in outline:
                 url = sub_outline["@xmlUrl"]
                 name = sub_outline["@text"]
-                try:
-                    podcast = Podcast.objects.get(feed_link=url)
-                except Podcast.DoesNotExist:
-                    resp = httpx.get(url=url, follow_redirects=True)
-                    self.stdout.write('Fetching "%s"' % url)
-                    if resp.url != url:
-                        self.stdout.write(
-                            self.style.WARNING(
-                                '%s %s redirected -> "%s"' % (name, url, resp.url)
-                            )
+                podcast, created = ingest_podcast(url)
+                if created:
+                    self.stdout.write(
+                        self.style.SUCCESS(
+                            'Successfully imported "%s" "%s"' % (name, url)
                         )
-                        try:
-                            podcast = Podcast.objects.get(feed_link=resp.url)
-                        except Podcast.DoesNotExist:
-                            pass
-                        else:
-                            self.stdout.write(
-                                self.style.SUCCESS(
-                                    '"%s" "%s" already exists' % (name, resp.url)
-                                )
-                            )
-                            continue
-
-                    podcast, created = ingest_podcast(resp)
-                    if created:
-                        self.stdout.write(
-                            self.style.SUCCESS(
-                                'Successfully imported "%s" "%s"' % (name, url)
-                            )
-                        )
+                    )

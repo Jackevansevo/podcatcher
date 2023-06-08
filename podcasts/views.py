@@ -71,14 +71,9 @@ def subscribe(request):
                 pass
             else:
                 return redirect(subscription.podcast)
-            try:
-                podcast = Podcast.objects.get(feed_link=url)
-            except Podcast.DoesNotExist:
-                resp = httpx.get(url, follow_redirects=True)
-                podcast, _ = ingest_podcast(resp)
-            finally:
-                Subscription.objects.get_or_create(podcast=podcast, user=request.user)
-                return redirect(podcast)
+            podcast, _ = ingest_podcast(url)
+            Subscription.objects.get_or_create(podcast=podcast, user=request.user)
+            return redirect(podcast)
 
 
 @require_GET

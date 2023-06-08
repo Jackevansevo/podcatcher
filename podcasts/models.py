@@ -21,6 +21,13 @@ class Podcast(models.Model):
     ttl = models.DurationField(blank=True, null=True)
     etag = models.CharField(max_length=300, blank=True, null=True)
 
+    @classmethod
+    def by_url(cls, url):
+        try:
+            return cls.objects.get(feed_link=url)
+        except Podcast.DoesNotExist:
+            return None
+
     class Meta:
         ordering = ["title"]
 

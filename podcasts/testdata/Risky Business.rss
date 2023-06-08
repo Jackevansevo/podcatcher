@@ -1,0 +1,1569 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<rss version="2.0" xml:base="https://risky.biz/feeds/risky-business" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"  xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>Risky Business</title>
+        <description>Risky Business is a weekly information security podcast featuring news and in-depth interviews with industry luminaries. Launched in February 2007, Risky Business is a must-listen digest for information security pros. With a running time of approximately 50-60 minutes, Risky Business is pacy; a security podcast without the waffle.</description>
+        <link>https://risky.biz/</link>
+        <copyright>Copyright 2007-2023 Patrick Gray</copyright>
+        <language>en</language>
+        <atom:link href="https://risky.biz/feeds/risky-business" rel="self" type="application/rss+xml" />
+        <pubDate>Thu, 08 Jun 2023 01:42:04 +0000</pubDate>
+        <lastBuildDate>Thu, 08 Jun 2023 01:42:04 +0000</lastBuildDate>
+        <itunes:image href="https://risky.biz/static/img/rbipod2.jpg" />
+        <itunes:author>Patrick Gray</itunes:author>
+        <itunes:category text="Technology">
+          <itunes:category text="Tech News" />
+        </itunes:category>
+        <itunes:owner>
+            <itunes:name>Risky.biz</itunes:name>
+            <itunes:email>patrick@risky.biz</itunes:email>
+        </itunes:owner>
+        <itunes:explicit>No</itunes:explicit>
+        <generator>Jekyll v2.5.3</generator>
+        
+        
+        
+            
+        
+        <item>
+            <title>Risky Business #709 -- Cl0p goes berserk with MOVEit 0day</title>
+            <pubDate>Wed, 07 Jun 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB709</link>
+            <guid isPermaLink="true">https://risky.biz/RB709</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB709.mp3" length="54275853" type="audio/mpeg" />
+            <itunes:subtitle>Please oh please get rid of your file transfer servers...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  Russia’s FSB uncovers “NSA malware” on iPhones
+  Cl0p mass harvests data from MOVEit file transfer servers
+  ASD discloses a bunch of operations against ISIS, criminals
+  Why China’s prepositioning is probably… prepositioning
+  Much, much more
+
+
+This week’s show is brought to you by Thinkst Canary. Marco Slaviero is this week’s sponsor guest and he joins us to talk about indirect LLM prompt injection and the latest Canary release.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>Russia’s FSB uncovers “NSA malware” on iPhones</li>
+  <li>Cl0p mass harvests data from MOVEit file transfer servers</li>
+  <li>ASD discloses a bunch of operations against ISIS, criminals</li>
+  <li>Why China’s prepositioning is probably… prepositioning</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Thinkst Canary. Marco Slaviero is this week’s sponsor guest and he joins us to talk about indirect LLM prompt injection and the latest Canary release.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.reuters.com/technology/russias-fsb-says-us-nsa-penetrated-thousands-apple-phones-spy-plot-2023-06-01/">Russia says US hacked thousands of Apple phones in spy plot | Reuters</a></li>
+                          <li><a href="https://riskybiznews.substack.com/p/risky-biz-news-russias-fsb-says-nsa">Risky Biz News: Russia&#39;s FSB says NSA hacked iPhones in cyber-espionage campaign</a></li>
+                          <li><a href="https://therecord.media/russia-wants-phones-with-aurora-os">Russia wants 2 million phones with home-grown Aurora OS for use by officials</a></li>
+                          <li><a href="https://www.rst-com.ru/b2b/aurora/">Доверенная мобильная среда. Мобильная операционная система «Аврора» — Ростелеком</a></li>
+                          <li><a href="https://srslyriskybiz.substack.com/p/why-chinas-latest-apt-campaign-is">Why China&#39;s Latest APT Campaign is Legitimately Worrying</a></li>
+                          <li><a href="https://therecord.media/war-crimes-cyberspace-cycon-estonia-president-alar-karis">War crimes committed through cyberspace must not escape international justice, says Estonian president</a></li>
+                          <li><a href="https://www.wired.com/story/cloudflare-project-galileo-ukraine/">Hacks Against Ukraine&#39;s Emergency Response Services Rise During Bombings | WIRED</a></li>
+                          <li><a href="https://www.abc.net.au/news/2023-06-05/australian-cyber-spies-disrupted-islamic-state-militants/102425324">How Australian cyber spies used &#39;Rickrolling&#39; to disrupt Islamic State militants in Iraq - ABC News</a></li>
+                          <li><a href="https://www.abc.net.au/news/2023-06-04/bali-bombers-caught-with-australian-intelligence-involvement/102362158">Australian intelligence&#39;s secret hand in bringing down the Bali bombers - ABC News</a></li>
+                          <li><a href="https://twitter.com/MsftSecIntel/status/1665537730946670595">Microsoft Threat Intelligence on Twitter: &quot;Microsoft is attributing attacks exploiting the CVE-2023-34362 MOVEit Transfer 0-day vulnerability to Lace Tempest, known for ransomware operations &amp; running the Clop extortion site. The threat actor has used similar vulnerabilities in the past to steal data &amp; extort victims. https://t.co/q73WtGru7j&quot; / Twitter</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/moveit-vulnerability-compromises-what-we-know/652187/">What we know about the MOVEit vulnerability and compromises | Cybersecurity Dive</a></li>
+                          <li><a href="https://infosec.exchange/@metlstorm/110131319374376619">metlstorm: &quot;Great, so now I have to roll i…&quot; - Infosec Exchange</a></li>
+                          <li><a href="https://infosec.exchange/@dave_aitel@mastodon.social/110151681970975134">Dave Aitel: &quot;@riskybusiness @chort honestly…&quot; - Infosec Exchange</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/05/critical-barracuda-0-day-was-used-to-backdoor-networks-for-8-months/">Critical Barracuda 0-day was used to backdoor networks for 8 months | Ars Technica</a></li>
+                          <li><a href="https://www.wired.com/story/gigabyte-motherboard-firmware-backdoor/">Millions of Gigabyte Motherboards Were Sold With a Firmware Backdoor | WIRED</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/06/ask-fitis-the-bear-real-crooks-sign-their-malware/">Ask Fitis, the Bear: Real Crooks Sign Their Malware – Krebs on Security</a></li>
+                          <li><a href="https://web.archive.org/web/20070117021011/http://fitis.ru:80/fitis.jpg">Wayback Machine</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/05/discord-admins-hacked-by-malicious-bookmarks/">Discord Admins Hacked by Malicious Bookmarks – Krebs on Security</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/06/injecting-strange-code-into-websites-file-snooping-google-marketplaces-are-a-mess/">Google’s Android and Chrome extensions are a very sad place. Here’s why | Ars Technica</a></li>
+                          <li><a href="https://cyberscoop.com/cybersecurity-clinics-ransomware/">How university cybersecurity clinics can help cities fight ransomware | CyberScoop</a></li>
+                          <li><a href="https://twitter.com/AtomicWallet/status/1664946301815910400">Atomic - Crypto Wallet on Twitter: &quot;We have received reports of wallets being compromised. We are doing all we can to investigate and analyse the situation. As we have more information, we will share it accordingly. For any questions and concerns, contact support@atomicwallet.io&quot; / Twitter</a></li>
+                          <li><a href="https://infosec.exchange/@briankrebs/110497405643291072">BrianKrebs: &quot;Russian news outlet Kommersant…&quot; - Infosec Exchange</a></li>
+                          <li><a href="https://thinkst.com/ts">Thinkst</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #708 – China's lolbin-powered adventures in US critical infrastructure</title>
+            <pubDate>Wed, 31 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB708</link>
+            <guid isPermaLink="true">https://risky.biz/RB708</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB708.mp3" length="50569717" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Trend backs BlackBerry's Cuba call...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  China’s lolbin-powered intrusions into critical infrastructure
+  Trend Micro backs BlackBerry’s Cuba call
+  Anonymous Sudan shakes down Scandanavian Airlines
+  Iranian opposition party MEK publishes gargantuan leak
+  Much, much more
+
+
+This week’s show is brought to you by Kubernetes security company KSOC. Jimmy Mesta is this week’s sponsor guest and he joins us to talk about the big security challenges in Kubernetes.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>China’s lolbin-powered intrusions into critical infrastructure</li>
+  <li>Trend Micro backs BlackBerry’s Cuba call</li>
+  <li>Anonymous Sudan shakes down Scandanavian Airlines</li>
+  <li>Iranian opposition party MEK publishes gargantuan leak</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Kubernetes security company KSOC. Jimmy Mesta is this week’s sponsor guest and he joins us to talk about the big security challenges in Kubernetes.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.microsoft.com/en-us/security/blog/2023/05/24/volt-typhoon-targets-us-critical-infrastructure-with-living-off-the-land-techniques/">Volt Typhoon targets US critical infrastructure with living-off-the-land techniques | Microsoft Security Blog</a></li>
+                          <li><a href="https://www.secureworks.com/blog/chinese-cyberespionage-group-bronze-silhouette-targets-us-government-and-defense-organizations">(1) New Messages!</a></li>
+                          <li><a href="https://www.reuters.com/world/china/china-rejects-claim-it-is-spying-western-critical-infrastructure-2023-05-25/">U.S. warns China could hack infrastructure, including pipelines, rail systems | Reuters</a></li>
+                          <li><a href="https://www.reuters.com/technology/what-is-volt-typhoon-alleged-china-backed-hacking-group-2023-05-25/">Factbox: What is Volt Typhoon, the alleged China-backed hacking group? | Reuters</a></li>
+                          <li><a href="https://www.nytimes.com/2023/05/24/us/politics/china-guam-malware-cyber-microsoft.html">Chinese Malware Hits Systems on Guam. Is Taiwan the Real Target? - The New York Times</a></li>
+                          <li><a href="https://www.mandiant.com/resources/blog/cosmicenergy-ot-malware-russian-response">COSMICENERGY: New OT Malware Possibly Related To Russian Emergency Response Exercises | Mandiant</a></li>
+                          <li><a href="https://www.trendmicro.com/en_us/research/23/e/void-rabisu-s-use-of-romcom-backdoor-shows-a-growing-shift-in-th.html">Void Rabisu’s Use of RomCom Backdoor Shows a Growing Shift in Threat Actors’ Goals</a></li>
+                          <li><a href="https://therecord.media/hacker-group-anonymous-sudan-demands-three-million-from-sas">Hacker group Anonymous Sudan demands $3 million from Scandinavian Airlines</a></li>
+                          <li><a href="https://english.mojahedin.org/news/iranian-dissidents-take-over-high-security-servers-of-regime-presidency/">Iranian dissidents take over high-security servers of regime presidency |</a></li>
+                          <li><a href="https://therecord.media/iran-hackers-agrius-deploying-new-ransomware">Iran-linked hackers Agrius deploying new ransomware against Israeli orgs</a></li>
+                          <li><a href="https://www.reuters.com/world/africa/chinese-hackers-attacked-kenyan-government-debt-strains-grew-2023-05-24/">Exclusive: Chinese hackers attacked Kenyan government as debt strains grew | Reuters</a></li>
+                          <li><a href="https://riskybiznews.substack.com/p/risky-biz-news-pypi-to-enforce-2fa">Risky Biz News: PyPI to enforce 2FA, reduce stored IP addresses</a></li>
+                          <li><a href="https://www.nbcnews.com/tech/security/nso-spyware-used-armenia-azerbaijan-conflict-report-finds-rcna84035">NSO spyware used in Armenia-Azerbaijan conflict, report finds</a></li>
+                          <li><a href="https://blog.talosintelligence.com/mercenary-intellexa-predator/">Mercenary mayhem: A technical analysis of Intellexa&#39;s PREDATOR spyware</a></li>
+                          <li><a href="https://techhq.com/2023/02/sms-pumping-fraud-take-care-how-you-configure-mfa/">SMS pumping fraud: take care how you configure MFA - TechHQ</a></li>
+                          <li><a href="https://seclists.org/fulldisclosure/2023/May/16">Full Disclosure: Printerlogic multiple vulnerabilities</a></li>
+                          <li><a href="https://therecord.media/barracuda-networks-bug-added-to-cisa-vulnerability-list">Barracuda Networks issue added to CISA vulnerability list</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/barracuda-patches-zero-day-vulnerability/651276/">Barracuda patches actively exploited zero-day vulnerability in email gateways | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.databreaches.net/developing-raidforums-users-db-leaked/">Developing: RaidForums users db leaked</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/05/phishing-domains-tanked-after-meta-sued-freenom/">Phishing Domains Tanked After Meta Sued Freenom – Krebs on Security</a></li>
+                          <li><a href="https://cyberscoop.com/advocacy-groups-slack-encryption/">Broad coalition of advocacy groups urges Slack to protect users&#39; messages from eavesdropping | CyberScoop</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Biz Soap Box: Why your EDR won't save you</title>
+            <pubDate>Fri, 26 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/soapbox76</link>
+            <guid isPermaLink="true">https://risky.biz/soapbox76</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/soapbox76.mp3" length="35909093" type="audio/mpeg" />
+            <itunes:subtitle>There's no point having the D without the R…</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                In this Soap Box podcast Patrick Gray talks to George Glass, the threat intelligence operations leader in the Cyber Risk practice at Kroll.
+
+They talk about all sorts of things, like:
+
+
+  How the ransomware ecosystem is evolving into “ma and pa” operations
+  Some killer detections they’ve figured out
+  What separates the good networks from the bad ones
+  Why EDR is of limited value if you’re not actually monitoring it
+  Why not letting MDRs do the R part of their job is really, really, really dumb
+
+
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>In this Soap Box podcast Patrick Gray talks to George Glass, the threat intelligence operations leader in the Cyber Risk practice at Kroll.</p>
+
+<p>They talk about all sorts of things, like:</p>
+
+<ul>
+  <li>How the ransomware ecosystem is evolving into “ma and pa” operations</li>
+  <li>Some killer detections they’ve figured out</li>
+  <li>What separates the good networks from the bad ones</li>
+  <li>Why EDR is of limited value if you’re not actually monitoring it</li>
+  <li>Why not letting MDRs do the R part of their job is really, really, really dumb</li>
+</ul>
+
+
+                
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #707 -- Inside China's information lockdown with Chris Krebs</title>
+            <pubDate>Wed, 24 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB707</link>
+            <guid isPermaLink="true">https://risky.biz/RB707</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB707.mp3" length="55336297" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Germans charge Finfisher execs, FBI busted abusing 702 access...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  Germans charge FinFisher executives
+  The got FBI busted misusing 702 data
+  Special guest Chris Krebs talks China, new CISA mandates and more
+  New research breaks Android fingerprint auth
+  Much, much more
+
+
+This week’s show is brought to you by Trail of Bits. Dan Guido is this week’s sponsor guest and he joins us to talk about the work Trail of Bits is doing in securing AI systems, and making them safe.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>Germans charge FinFisher executives</li>
+  <li>The got FBI busted misusing 702 data</li>
+  <li>Special guest Chris Krebs talks China, new CISA mandates and more</li>
+  <li>New research breaks Android fingerprint auth</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Trail of Bits. Dan Guido is this week’s sponsor guest and he joins us to talk about the work Trail of Bits is doing in securing AI systems, and making them safe.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://cyberscoop.com/lawmakers-markup-cisa-bills/">Congress looks to expand CISA&#39;s role, adding responsibilities for satellites and open source software | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/biden-nominates-haugh-for-top-position-at-nsa-cyber-command">Biden nominates Lt. Gen. Timothy Haugh for top position at NSA, Cyber Command</a></li>
+                          <li><a href="https://netzpolitik.org/2023/unsere-strafanzeige-staatsanwaltschaft-erhebt-anklage-gegen-finfisher/">Unsere Strafanzeige: Staatsanwaltschaft erhebt Anklage gegen FinFisher</a></li>
+                          <li><a href="https://www.wired.com/story/google-zip-mov-domains-phishing-risks/">The Real Risks in Google’s New .Zip and .Mov Domains | WIRED</a></li>
+                          <li><a href="https://therecord.media/fbi-fisa-database-improper-queries-odni-justice">FBI misused controversial surveillance tool to investigate Jan. 6 protesters</a></li>
+                          <li><a href="https://therecord.media/genesis-market-russian-market-2easy-shop-cybercrime-fraud">Suspicion stalks Genesis Market’s competitors following FBI takedown</a></li>
+                          <li><a href="https://srslyriskybiz.substack.com/p/crimephones-are-a-cops-best-friend">Crimephones Are a Cop&#39;s Best Friend - by Tom Uren</a></li>
+                          <li><a href="https://www.wired.com/story/turla-history-russia-fsb-hackers/">The Underground History of Turla, Russia&#39;s Most Ingenious Hacker Group | WIRED</a></li>
+                          <li><a href="https://www.forbes.com/sites/thomasbrewster/2023/05/18/rich-russian-cybercriminals-have-their-malware-dealer-unmasked/?sh=539f1d3f13c2">Some Of Russia’s Most Dangerous Cybercriminals Just Had Their Malware Dealer Unmasked</a></li>
+                          <li><a href="https://www.microsoft.com/en-us/security/business/security-insider/reports/shifting-tactics-fuel-surge-in-business-email-compromise/">Shifting tactics fuel surge in Business Email Compromise</a></li>
+                          <li><a href="https://cyberscoop.com/treasury-department-sanctions-north-korea-hackers-crypto/">Treasury Department sanctions entities tied to North Korean IT scams, hacking | CyberScoop</a></li>
+                          <li><a href="https://www.wired.com/story/fentanyl-ingredients-chinese-labs-cryptocurrency/">Chinese Labs Are Selling Fentanyl Ingredients for Millions in Crypto | WIRED</a></li>
+                          <li><a href="https://www.wired.com/story/europe-break-encryption-leaked-document-csa-law/">Leaked EU Document Shows Spain Wants to Ban End-to-End Encryption | WIRED</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/05/hackers-can-brute-force-fingerprint-authentication-of-android-devices/">Here’s how long it takes new BrutePrint attack to unlock 10 different smartphones | Ars Technica</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/05/asus-fixes-error-that-caused-mass-router-outage-worldwide-for-2-days/">It took 48 hours, but the mystery of the mass Asus router outage is solved | Ars Technica</a></li>
+                          <li><a href="https://techcrunch.com/2023/05/18/popular-android-tv-boxes-sold-on-amazon-are-laced-with-malware/">Popular Android TV boxes sold on Amazon are laced with malware | TechCrunch</a></li>
+                          <li><a href="https://therecord.media/teen-charged-in-scheme-to-siphon-funds-from-sports-betting-platform">Teen hacker charged in scheme to siphon funds from sports betting accounts</a></li>
+                          <li><a href="https://therecord.media/researchers-tie-fin7-cybercrime-family-to-clop-ransomware-microsoft">Researchers tie FIN7 cybercrime family to Clop ransomware</a></li>
+                          <li><a href="https://therecord.media/rheinmetall-confirms-black-basta-ransomware-group-behind-cyberattack">German arms company Rheinmetall confirms Black Basta ransomware group behind cyberattack</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/dallas-courts-closed-ransomware/650523/">Dallas courts still closed 2 weeks post-ransomware attack | Cybersecurity Dive</a></li>
+                          <li><a href="https://therecord.media/harvard-pilgrim-health-care-ransomware-point32health">Health insurer says patients’ information was stolen in ransomware attack</a></li>
+                          <li><a href="https://therecord.media/oklahoma-allergy-clinic-blames-ransomware-for-shutdown">Patients angered after Oklahoma allergy clinic blames cyberattack for shutdown</a></li>
+                          <li><a href="https://therecord.media/vesuvius-engineering-uk-steel-cyber-incident-cost">UK steel industry supplier Vesuvius says ‘cyber incident’ cost £3.5 million</a></li>
+                          <li><a href="https://therecord.media/researchers-infiltrate-qilin-ransomware">Researchers infiltrate Qilin ransomware group, finding lucrative affiliate payouts</a></li>
+                          <li><a href="https://cyberscoop.com/ransomware-charity-malaslocker/">A different kind of ransomware demand: Donate to charity to get your data back | CyberScoop</a></li>
+                          <li><a href="https://twitter.com/joetidy/status/1660914230177013760?s=46&t=VLIuBKdOq3MvRk4IpV-_-A">Joe Tidy on Twitter: &quot;A bizarre one from Reading courts - an IT Security worker pleads guilty to piggy-backing off a cyber attack against his own firm. Liles switched the ransom payment details to his own Bitcoin wallet and changed the hacker&#39;s email to secretly apply pressured on bosses to pay up. https://t.co/Ze4yAJA6vM&quot; / Twitter</a></li>
+                          <li><a href="https://www.wired.com/story/chatgpt-scams-apple-app-store-google-play/">ChatGPT Scams Are Infiltrating Apple&#39;s App Store and Google Play | WIRED</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #706 -- Why BlackBerry thinks Cuba ransomware is a Russian front</title>
+            <pubDate>Wed, 17 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB706</link>
+            <guid isPermaLink="true">https://risky.biz/RB706</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB706.mp3" length="61020692" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Wazawaka charged and PlugwalkJoe pleads guilty...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  Wazawaka charged, sanctioned
+  PlugwalkJoe extradited, pleads guilty
+  BlackBerry thinks Cuba ransomware is a front for Russian intelligence
+  Anonymous Sudan pops up in Israel
+  Microsoft’s Outlook patch fail
+  Much, much more
+
+
+This week’s show is brought to you by Bloodhound Enterprise. Andy Robbins is this week’s sponsor guest. He talks about how graph theory could help us to uncover more lolbins.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>Wazawaka charged, sanctioned</li>
+  <li>PlugwalkJoe extradited, pleads guilty</li>
+  <li>BlackBerry thinks Cuba ransomware is a front for Russian intelligence</li>
+  <li>Anonymous Sudan pops up in Israel</li>
+  <li>Microsoft’s Outlook patch fail</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Bloodhound Enterprise. Andy Robbins is this week’s sponsor guest. He talks about how graph theory could help us to uncover more lolbins.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://therecord.media/alleged-babuk-ransomware-leader-sanctioned-and-indicted-by-us">Alleged Babuk ransomware gang leader ‘Wazawaka’ indicted, sanctioned by US</a></li>
+                          <li><a href="https://krebsonsecurity.com/2022/01/who-is-the-network-access-broker-wazawaka/">Who is the Network Access Broker ‘Wazawaka?’ – Krebs on Security</a></li>
+                          <li><a href="https://therecord.media/twitter-hack-guilty-plea-sim-swapping-cyberstalking">British man involved in Twitter hack extradited to US, pleads guilty to numerous cybercrimes</a></li>
+                          <li><a href="https://techcrunch.com/2023/05/15/cybercriminals-who-targeted-ukraine-are-actually-russian-government-hackers-researchers-say/">Cybercriminals who targeted Ukraine are actually Russian government hackers, researchers say | TechCrunch</a></li>
+                          <li><a href="https://www.timesofisrael.com/slapdash-attempt-to-hack-rocket-sirens-may-be-cause-for-serious-alarm-about-iran/">Slapdash attempt to hack rocket sirens may be cause for serious alarm about Iran | The Times of Israel</a></li>
+                          <li><a href="https://www.wired.com/story/twitter-encrypted-dm-signal-whatsapp/">Twitter’s Encrypted DMs Are Deeply Inferior to Signal and WhatsApp | WIRED</a></li>
+                          <li><a href="https://www.cbsnews.com/news/twitter-censoring-content-recep-tayyip-erdogan-turkish-presidential-election/">Twitter under fire for restricting content before Turkish presidential election - CBS News</a></li>
+                          <li><a href="https://www.duvarenglish.com/three-opposition-media-outlets-hit-by-cyber-attack-news-62414">Three opposition media outlets hit by cyber attack</a></li>
+                          <li><a href="https://twitter.com/riskybusiness/status/1658225798082596876?s=46&t=VLIuBKdOq3MvRk4IpV-_-A">Patrick Gray on Twitter: &quot;https://t.co/n5b7wPjI6Y https://t.co/UmDbHbhEcS&quot; / Twitter</a></li>
+                          <li><a href="https://twitter.com/riskybusiness/status/1658325990844809216">(1) Patrick Gray on Twitter: &quot;Switched to a domain validated username at the other place. Very easy. https://t.co/U46zABPnJl&quot; / Twitter</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/ransomware-group-hits-critical-infrastructure/650285/">Emerging ransomware group quickly hits 4 critical infrastructure providers | Cybersecurity Dive</a></li>
+                          <li><a href="https://therecord.media/babuk-source-code-leak-leads-to-new-ransomware-variants">A ransomware source code leak spawned at least 10 ‘Babuk’ imitators, researchers say</a></li>
+                          <li><a href="https://therecord.media/philadelphia-inquirer-cyber-incident-newspaper">Philadelphia Inquirer unable to go to print due to ‘cyber incident’</a></li>
+                          <li><a href="https://cyberscoop.com/dragos-cyberattack-ransomware/">Hackers attempt to extort Dragos and its executives in suspected ransomware attempt | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/dallas-ransomware-attack-will-take-weeks-to-recover">Dallas says it &#39;will likely take weeks to get back to full functionality&#39; after ransomware attack</a></li>
+                          <li><a href="https://therecord.media/abb-confirms-it-security-incident">Swiss tech giant ABB confirms ‘IT security incident’</a></li>
+                          <li><a href="https://therecord.media/cisa-warns-of-bl00dy-ransomware-gang-using-papercut-vulnerability">CISA: Bl00dy Ransomware Gang using printer vulnerability to attack schools</a></li>
+                          <li><a href="https://therecord.media/capita-ransomware-incident-response-cost">Capita says responding to ransomware attack will cost up to £20 million</a></li>
+                          <li><a href="https://therecord.media/national-gallery-canada-recovering-from-ransomware-attack">National Gallery of Canada recovering from ransomware incident</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/yum-brands-class-action-suits-employees-ransomware/650394/">Yum Brands faces class action suits from employees after ransomware attack | Cybersecurity Dive</a></li>
+                          <li><a href="https://therecord.media/hive-ransomware-decryptors-fbi-bryan-smith-interview-click-here">Knocking down Hive: How the FBI ran its own ransomware decryption operation</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/05/leak-of-msi-uefi-signing-keys-stokes-concerns-of-doomsday-supply-chain-attack/">Leak of MSI UEFI signing keys stokes fears of “doomsday” supply chain attack | Ars Technica</a></li>
+                          <li><a href="https://www.bleepingcomputer.com/news/security/fbi-nukes-russian-snake-data-theft-malware-with-self-destruct-command/">FBI nukes Russian Snake data theft malware with self-destruct command</a></li>
+                          <li><a href="https://news.bloomberglaw.com/us-law-week/the-fbis-new-malware-eradication-service-is-on-thin-legal-ice">The FBI’s New Malware Eradication Service Is on Thin Legal Ice</a></li>
+                          <li><a href="https://therecord.media/phishing-as-a-service-tool-greatness-used-by-hackers-cisco">Cisco warns of new ‘Greatness’ phishing-as-a-service tool seen in the wild</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/vmware-target-rich-environment-ransomware/650388/">VMware’s ‘target-rich environment’ is growing more volatile, CrowdStrike warns | Cybersecurity Dive</a></li>
+                          <li><a href="https://therecord.media/nca-wins-encrochat-case-hacked-messaging-platform">UK&#39;s National Crime Agency wins major legal challenge over Encrochat hack</a></li>
+                          <li><a href="https://www.vice.com/en/article/88xgjz/inside-italian-mafias-encrypted-phone-no1bc">Inside the Italian Mafia’s Encrypted Phone of Choice</a></li>
+                          <li><a href="https://therecord.media/microsoft-releases-fix-for-patched-outlook-bug-russian-hackers">Microsoft releases fix for patched Outlook issue exploited by Russian hackers</a></li>
+                          <li><a href="https://www.vice.com/en/article/z3mn75/scammer-made-thousands-selling-leaked-frank-ocean-tracks-that-were-fake-ai-generated-the-line-steer-it">Scammer Made Thousands Selling &#39;Leaked&#39; Frank Ocean Tracks That Were Fake, AI-Generated</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #705 -- USA's Turla takedown marks a shift in tactics</title>
+            <pubDate>Wed, 10 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB705</link>
+            <guid isPermaLink="true">https://risky.biz/RB705</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB705.mp3" length="51701011" type="audio/mpeg" />
+            <itunes:subtitle>US authorities just aren't as shy as they used to be…</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  Joe Sullivan’s sentencing
+  MSI key material leak
+  Merck to be paid in NotPetya claim
+  The FBI takes down Turla’s Snake malware operation
+  Much, much more
+
+
+This week’s show is brought to you by Gigamon. Chaim Mazal, Gigamon’s CSO, is this week’s sponsor guest. He’s talking about how the company’s gear is acting as a data source for network security products.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>Joe Sullivan’s sentencing</li>
+  <li>MSI key material leak</li>
+  <li>Merck to be paid in NotPetya claim</li>
+  <li>The FBI takes down Turla’s Snake malware operation</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Gigamon. Chaim Mazal, Gigamon’s CSO, is this week’s sponsor guest. He’s talking about how the company’s gear is acting as a data source for network security products.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.cybersecuritydive.com/news/uber-cso-prison-ransomware/649561/">Former Uber CSO avoids prison time for ransomware coverup | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/merck-cyber-upheld-notpetya/649317/">Merck cyber coverage upheld in NotPetya decision, seen as victory for policyholders | Cybersecurity Dive</a></li>
+                          <li><a href="https://twitter.com/home">Home / Twitter</a></li>
+                          <li><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-129a">Hunting Russian Intelligence “Snake” Malware | CISA</a></li>
+                          <li><a href="https://www.justice.gov/opa/pr/justice-department-announces-court-authorized-disruption-snake-malware-network-controlled">Justice Department Announces Court-Authorized Disruption of Snake Malware Network Controlled by Russia’s Federal Security Service | OPA | Department of Justice</a></li>
+                          <li><a href="https://therecord.media/iranian-state-sponsored-hackers-exploiting-printer-vulnerability">Iranian state-sponsored hackers exploiting printer vulnerability</a></li>
+                          <li><a href="https://srslyriskybiz.substack.com/p/iran-fake-it-till-you-make-it">Iran: Fake It Till You Make It - by Tom Uren</a></li>
+                          <li><a href="https://www.iranintl.com/en/202305079860">Hacktivists Target Iran’s Foreign Ministry, Leak Trove Of Data</a></li>
+                          <li><a href="https://www.bleepingcomputer.com/news/security/new-cactus-ransomware-encrypts-itself-to-evade-antivirus/">New Cactus ransomware encrypts itself to evade antivirus</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/white-house-considers-ransom-payment-ban/649673/">White House considers ban on ransom payments, with caveats | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.reuters.com/world/middle-east/hamas-armed-wing-announces-suspension-bitcoin-fundraising-2023-04-28/">Hamas armed wing announces suspension of bitcoin fundraising | Reuters</a></li>
+                          <li><a href="https://therecord.media/cryptocurrency-exchanges-seized-by-fbi-ukraine">FBI, Ukraine seize cryptocurrency exchanges for abetting cybercriminals</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/dallas-ransomware-recovery/649555/">Dallas still recovering from ransomware on eve of municipal election | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/dallas-restores-emergency-dispatch/649789/">Dallas restores core emergency dispatch systems | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.nbcnews.com/tech/security/hackers-hijacked-universitys-emergency-system-threaten-students-facult-rcna82558">Hackers hijacked a university&#39;s emergency system to threaten students and faculty</a></li>
+                          <li><a href="https://therecord.media/organizations-slow-to-patch-goanywhere-vulnerability-after-clop-attacks">Organizations slow to patch GoAnywhere MFT vulnerability even after Clop ransomware attacks</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/05/10m-is-yours-if-you-can-get-this-guy-to-leave-russia/">$10M Is Yours If You Can Get This Guy to Leave Russia – Krebs on Security</a></li>
+                          <li><a href="https://cyberscoop.com/def-con-red-teaming-ai/">Coming to DEF CON 31: Hacking AI models | CyberScoop</a></li>
+                          <li><a href="https://www.wired.com/story/google-passkey-password-replacement/">Google Is Rolling Out Passkeys, the Password-Killing Tech, to All Accounts | WIRED</a></li>
+                          <li><a href="https://www.bankinfosecurity.com/us-court-rules-for-corellium-in-apple-copyright-case-a-22017">US Court Rules for Corellium in Apple Copyright Case</a></li>
+                          <li><a href="https://www.wired.com/story/safegraph-us-air-force-location-data/">SafeGraph Lands US Air Force Contract After Targeting Abortion Clinics | WIRED</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Snake Oilers: Resourcely, Panther and Island</title>
+            <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/snakeoilers17pt2</link>
+            <guid isPermaLink="true">https://risky.biz/snakeoilers17pt2</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/snakeoilers17pt2.mp3" length="39714953" type="audio/mpeg" />
+            <itunes:subtitle>Automagic Terraform, a practitioner-developed cloud-SIEM and a true enterprise browser…</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                In this edition of Snake Oilers:
+
+
+  Travis McPeak pitches Resourcely’s automagic Terraform cloud-provisioning technology
+  Ken Westin pitches Panther – a cloud-native SIEM developed by former practitioners
+  Brian Kenyon from Island talks about the company’s enterprise browser
+
+
+Enjoy!
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>In this edition of Snake Oilers:</p>
+
+<ul>
+  <li>Travis McPeak pitches <a href="https://resourcely.io">Resourcely’s</a> automagic Terraform cloud-provisioning technology</li>
+  <li>Ken Westin pitches <a href="https://panther.io">Panther</a> – a cloud-native SIEM developed by former practitioners</li>
+  <li>Brian Kenyon from <a href="https://island.io">Island</a> talks about the company’s enterprise browser</li>
+</ul>
+
+<p>Enjoy!</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.resourcely.io/">Resourcely | Cloud resource creation and management</a></li>
+                          <li><a href="https://panther.com/">Panther | A Cloud SIEM Platform for Modern Security Teams</a></li>
+                          <li><a href="https://www.island.io/">Island | The Enterprise Browser</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #704 -- Why LLMs aren't an exploit bonanza</title>
+            <pubDate>Wed, 03 May 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB704</link>
+            <guid isPermaLink="true">https://risky.biz/RB704</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB704.mp3" length="61188529" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Mysterious hacker doxes Russian intelligence bitcoin addresses, steals holdings…</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  Rob Joyce weighs in on AI and offsec
+  Mysterious hacker doxes Russian intelligence agency bitcoin wallets
+  Wired deep dives on SolarWinds
+  AmeriCold food logistics giant suffers incident
+  Iranian authorities roll low-tech spyware
+  Much, much more
+
+
+This week’s show is brought to you by Greynoise. Its founder and CEO Andrew Morris is this week’s sponsor guest.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>Rob Joyce weighs in on AI and offsec</li>
+  <li>Mysterious hacker doxes Russian intelligence agency bitcoin wallets</li>
+  <li>Wired deep dives on SolarWinds</li>
+  <li>AmeriCold food logistics giant suffers incident</li>
+  <li>Iranian authorities roll low-tech spyware</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Greynoise. Its founder and CEO Andrew Morris is this week’s sponsor guest.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.wired.com/story/nsa-rob-joyce-chatgpt-security/">NSA Cybersecurity Director Says ‘Buckle Up’ for Generative AI | WIRED</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/nsa-watching-generative-ai/649041/">3 areas of generative AI the NSA is watching in cybersecurity | Cybersecurity Dive</a></li>
+                          <li><a href="https://therecord.media/russia-ransomware-attacks-logistics-supply-chain-ukraine">NSA cyber director warns of ransomware attacks on Ukraine, Western supply chains</a></li>
+                          <li><a href="https://www.vice.com/en/article/qjvb4x/palantir-demos-ai-to-fight-wars-but-says-it-will-be-totally-ethical-dont-worry-about-it">Palantir Demos AI to Fight Wars But Says It Will Be Totally Ethical Don’t Worry About It</a></li>
+                          <li><a href="https://twitter.com/thealexbanks/status/1651560588362002433?s=46&t=VLIuBKdOq3MvRk4IpV-_-A">(1) Alex Banks on Twitter: &quot;Yesterday Palantir announced its Artificial Intelligence Platform. Here&#39;s how it transforms the future of military and defence: https://t.co/TcgN29wN19&quot; / Twitter</a></li>
+                          <li><a href="https://www.coindesk.com/business/2023/04/27/russian-bitcoin-wallets-allegedly-exposed-by-apparent-hacker/">Russian Bitcoin (BTC) Wallets Allegedly Exposed by Apparent Hacker</a></li>
+                          <li><a href="https://www.wired.com/story/solarwinds-hack-public-disclosure/">DOJ Detected SolarWinds Breach Months Before Public Disclosure | WIRED</a></li>
+                          <li><a href="https://www.wired.com/story/the-untold-story-of-solarwinds-the-boldest-supply-chain-hack-ever/">SolarWinds: The Untold Story of the Boldest Supply-Chain Hack | WIRED</a></li>
+                          <li><a href="https://therecord.media/cold-storage-company-americold-reports-cyberattack">Cold storage company Americold reports cyberattack to SEC</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/cisa-public-comment-software-security-attestation/648932/">CISA seeks public comment on software security attestation form | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.cisa.gov/sites/default/files/2023-04/secure-software-self-attestation_common-form_508.pdf">Secure Software Development Attestation Form Instructions</a></li>
+                          <li><a href="https://therecord.media/csrb-legislation-congress-white-house-rob-silvers-rsac">DHS pushes Congress to formally establish Cyber Safety Review Board</a></li>
+                          <li><a href="https://therecord.media/first-draft-of-un-cybercrime-treaty-expected-in-june">First draft of controversial UN Cybercrime Treaty slated for June</a></li>
+                          <li><a href="https://cyberscoop.com/earn-it-stop-csam-encryption-privacy/">Return of the EARN IT Act rekindles encryption debate at critical moment for privacy-protecting apps | CyberScoop</a></li>
+                          <li><a href="https://techcrunch.com/2023/05/01/apple-rapid-security-fixes/">Apple releases first ‘rapid’ security fixes for iPhones, iPads and Macs | TechCrunch</a></li>
+                          <li><a href="https://www.lookout.com/blog/iranian-spyware-bouldspy">BouldSpy: Android Spyware Tied to Iranian Police Targets Minorities | Lookout</a></li>
+                          <li><a href="https://www.welivesecurity.com/2023/04/26/evasive-panda-apt-group-malware-updates-popular-chinese-software/">Evasive Panda APT group delivers malware via updates for popular Chinese software | WeLiveSecurity</a></li>
+                          <li><a href="https://techcrunch.com/2023/04/26/hackers-are-breaking-into-att-email-accounts-to-steal-cryptocurrency/">Hackers are breaking into AT&amp;T email accounts to steal cryptocurrency | TechCrunch</a></li>
+                          <li><a href="https://therecord.media/illumina-dna-sequencing-devices-vulnerability-fda-cisa">CISA, FDA warn of new Illumina DNA device vulnerability</a></li>
+                          <li><a href="https://gizmodo.com/airtag-apple-google-find-my-app-1850396569">Apple and Google Set Joint Standards to Stop AirTag Stalking</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/04/many-public-salesforce-sites-are-leaking-private-data/">Many Public Salesforce Sites are Leaking Private Data – Krebs on Security</a></li>
+                          <li><a href="https://therecord.media/brother-helix-crypto-mixer-jailed-stealing-bitcoin">Brother of man who ran Helix cryptocurrency mixer jailed for stealing 712 bitcoin</a></li>
+                          <li><a href="https://cyberscoop.com/monopoly-market-takedown-fbi-europol/">Nearly 300 arrested in sprawling international dark web drug market takedown | CyberScoop</a></li>
+                          <li><a href="https://www.nbcnews.com/tech/security/students-psychological-reports-abuse-allegations-leaked-ransomware-hac-rcna79414">Students’ psychological reports, abuse allegations leaked by ransomware hackers</a></li>
+                          <li><a href="https://www.cybersecuritydive.com/news/mandiant-ceo-7-tips-cyber-defense/648917/">Mandiant CEO’s 7 tips for cyber defense | Cybersecurity Dive</a></li>
+                          <li><a href="https://www.wired.com/story/bluesky-is-fun/">I Regret to Inform You That Bluesky Is Fun | WIRED</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #703 -- Russia whines about its tech dependence on China</title>
+            <pubDate>Wed, 26 Apr 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB703</link>
+            <guid isPermaLink="true">https://risky.biz/RB703</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB703.mp3" length="53776177" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Yo dawg, I hear you like supply chain attacks so I put a supply chain attack in your supply chain attack...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  The supply chain attack in the supply chain attack
+  Russia has a China dependency problem
+  Recent research into TLS resumption flaws
+  Google and Intel team up on hardware hacking
+  DHS will hack enterprise kit
+  Much, much more
+
+
+This week’s show is brought to you by Corelight. Brian Dye, Corelight’s CEO, is this week’s sponsor guest. He’s talking about the (actually sensible) ChatGPT-driven features Corelight has built into its NDR platform.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>The supply chain attack in the supply chain attack</li>
+  <li>Russia has a China dependency problem</li>
+  <li>Recent research into TLS resumption flaws</li>
+  <li>Google and Intel team up on hardware hacking</li>
+  <li>DHS will hack enterprise kit</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Corelight. Brian Dye, Corelight’s CEO, is this week’s sponsor guest. He’s talking about the (actually sensible) ChatGPT-driven features Corelight has built into its NDR platform.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://zetter.substack.com/p/software-maker-3cx-was-compromised">Software Maker 3CX Was Compromised in First-of-its-Kind Threaded Supply-Chain Hack - Updated</a></li>
+                          <li><a href="https://archive.md/2WAVk#selection-3867.0-3879.384">Russia China Worries Set Out in Private Memo on Tech Risk - Bloomberg</a></li>
+                          <li><a href="https://therecord.media/space-cybersecurity-satellite-hacked-esa-thales">Hackers to show they can take over a European Space Agency satellite</a></li>
+                          <li><a href="https://therecord.media/doj-lisa-monaco-urges-cisos-to-work-with-gov-uber-sentencing">DOJ urges CISOs to continue working with law enforcement ahead of Uber security chief’s sentencing</a></li>
+                          <li><a href="https://cyberscoop.com/doj-cybercrime-disruption-ransomware/">To combat cybercrime, US law enforcement increasingly prioritizes disruption | CyberScoop</a></li>
+                          <li><a href="https://cyberscoop.com/information-sharing-cisa-cyber-commands-rsa-conference/">Collaboration between CISA, Cyber Command thwarted dangerous cyberattacks, officials said | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/cisa-cnmf-stopped-iranian-hackers-2020-election">US gov’t stopped Iranian hackers who ‘gained access’ to 2020 election infrastructure</a></li>
+                          <li><a href="https://therecord.media/dhs-cyber-testing-centers-bill-rep-ritchie-torres">Bill proposes new DHS centers for testing security of critical government tech</a></li>
+                          <li><a href="https://therecord.media/uk-ncsc-warning-cyber-groups-critical-infrastructure">UK says ‘Wagner-like cyber groups’ attacking critical infrastructure</a></li>
+                          <li><a href="https://cyberscoop.com/russia-sandworm-ukraine-wagner-youtube/">Russia&#39;s digital warriors adapt to support the war effort in Ukraine, Google threat researchers say | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/bipartisan-legislation-aims-to-arm-taiwan-in-cyber">Bipartisan legislation aims to ‘arm Taiwan to the teeth in the cyber domain’</a></li>
+                          <li><a href="https://archive.is/SeQRV#selection-377.0-389.140">Ex-NSA boss won $700,000 Saudi consulting deal after Khashoggi death - The Washington Post</a></li>
+                          <li><a href="https://www.pbs.org/newshour/politics/u-s-approves-massive-arms-sale-to-saudi-arabia-united-arab-emirates-to-counter-iran">U.S. approves massive arms sale to Saudi Arabia, United Arab Emirates to counter Iran | PBS NewsHour</a></li>
+                          <li><a href="https://www.wired.com/story/intel-google-cloud-chip-security/">Intel Let Google Cloud Hack Its New Secure Chips and Found 10 Bugs | WIRED</a></li>
+                          <li><a href="https://www.wired.com/story/google-authenticator-app-sync-phones/">Google’s Authenticator App Now Lets You Sync 2FA Codes Across Devices | WIRED</a></li>
+                          <li><a href="https://upb-syssec.github.io/blog/2023/session-tickets/">We Really Need to Talk About Session Tickets | System Security Group</a></li>
+                          <li><a href="https://therecord.media/internet-protocol-vulnerability-opens-door-to-dos-attacks">Internet protocol vulnerability opens door to ‘massive’ DoS amplification attacks</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/04/exploit-released-for-9-8-severity-papercut-flaw-already-under-attack/">Exploit released for 9.8-severity PaperCut flaw already under attack | Ars Technica</a></li>
+                          <li><a href="https://www.runzero.com/blog/finding-papercut-servers/">Finding PaperCut MF and NG servers</a></li>
+                          <li><a href="https://therecord.media/dc-health-exchange-breach-traced-to-aws-server">DC health exchange breach traced back to misconfigured Amazon server</a></li>
+                          <li><a href="https://blog.google/threat-analysis-group/ukraine-remains-russias-biggest-cyber-focus-in-2023/">Ukraine remains Russia’s biggest cyber focus in 2023</a></li>
+                          <li><a href="https://therecord.media/bassterlord-interview-hacker-initial-access-broker">The hacker Bassterlord in his own words: Portrait of an access broker as a young man</a></li>
+                          <li><a href="https://www.wired.com/story/hacker-naming-schemes-spandex-tempest/">Hacker Group Names Are Now Absurdly Out of Control | WIRED</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Snake Oilers: Socket, Teleport and Mandiant's Purple Team</title>
+            <pubDate>Thu, 20 Apr 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/snakeoilers17pt1</link>
+            <guid isPermaLink="true">https://risky.biz/snakeoilers17pt1</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/snakeoilers17pt1.mp3" length="39570959" type="audio/mpeg" />
+            <itunes:subtitle>Roll up roll up!</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                Snake Oilers isn’t our regular weekly podcast, it’s a wholly sponsored series we do at Risky.Biz where vendors come on to the show to pitch their products to you, the Risky Business listener. To be clear – everyone you hear in one of these editions, paid to be here.
+
+We’ll hear from three vendors in this edition of Snake Oilers:
+
+
+  Socket.dev, a software supply chain product that currently deploys as a GitHub addon
+  Teleport, a company that makes a secure access gateway/single sign on product for engineers to securely access infrastructure
+  Mandiant joins us to pitch its Purple Team engagement product
+
+
+Enjoy!
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>Snake Oilers isn’t our regular weekly podcast, it’s a wholly sponsored series we do at Risky.Biz where vendors come on to the show to pitch their products to you, the Risky Business listener. To be clear – everyone you hear in one of these editions, paid to be here.</p>
+
+<p>We’ll hear from three vendors in this edition of Snake Oilers:</p>
+
+<ul>
+  <li><a href="https://socket.dev">Socket.dev</a>, a software supply chain product that currently deploys as a GitHub addon</li>
+  <li><a href="https://goteleport.com/">Teleport</a>, a company that makes a secure access gateway/single sign on product for engineers to securely access infrastructure</li>
+  <li><a href="https://www.mandiant.com/services/technical-assurance/purple-team-assessment">Mandiant</a> joins us to pitch its Purple Team engagement product</li>
+</ul>
+
+<p>Enjoy!</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://socket.dev/">Socket - Secure your supply chain. Ship with confidence.</a></li>
+                          <li><a href="https://goteleport.com/">Teleport: Identity-Native Infrastructure Access. Faster. More Secure.</a></li>
+                          <li><a href="https://www.mandiant.com/services/technical-assurance/purple-team-assessment">Purple Team Assessment | Improve Detection &amp; Response</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #702 -- 3CX: It's like SolarWinds, but stupider</title>
+            <pubDate>Wed, 19 Apr 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB702</link>
+            <guid isPermaLink="true">https://risky.biz/RB702</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB702.mp3" length="58855927" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Why Wiz's latest AzureAD research is worth a second look...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:
+
+
+  Why 3CX was the dumbest supply chain attack we’ve seen
+  Why Wiz’s AzureAD research was a showstopper that didn’t get the attention it deserved
+  How attackers are burning down cloud infrastructure
+  The latest from the world of spyware
+  Much, much more
+
+
+This week’s show is brought to you by Nucleus Security. Chris Hughes from Aquia is this week’s sponsor guest. He appeared at Nucleus Security’s invitation.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>Why 3CX was the dumbest supply chain attack we’ve seen</li>
+  <li>Why Wiz’s AzureAD research was a showstopper that didn’t get the attention it deserved</li>
+  <li>How attackers are burning down cloud infrastructure</li>
+  <li>The latest from the world of spyware</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Nucleus Security. Chris Hughes from Aquia is this week’s sponsor guest. He appeared at Nucleus Security’s invitation.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.wired.com/story/3cx-supply-chain-attack-north-korea-cryptocurrency-targets/">Massive 3CX Supply-Chain Hack Targeted Cryptocurrency Firms | WIRED</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/3cx-knew-its-app-was-flagged-as-malicious-but-took-no-action-for-7-days/">3CX support tells customers to investigate malware warnings themselves | Ars Technica</a></li>
+                          <li><a href="https://therecord.media/north-korea-hackers-linked-to-3cx-attack">North Korean hackers linked to 3CX supply-chain attack, investigation finds</a></li>
+                          <li><a href="https://www.wiz.io/blog/azure-active-directory-bing-misconfiguration">BingBang: AAD misconfiguration led to Bing.com results manipulation and account takeover | Wiz Blog</a></li>
+                          <li><a href="https://cyberscoop.com/microsoft-cobalt-strike-hacking-tool/">Microsoft leads effort to disrupt illicit use of Cobalt Strike, a dangerous hacking tool in the wrong hands | CyberScoop</a></li>
+                          <li><a href="https://www.microsoft.com/en-us/security/blog/2023/04/07/mercury-and-dev-1084-destructive-attack-on-hybrid-environment/">MERCURY and DEV-1084: Destructive attack on hybrid environment - Microsoft Security Blog</a></li>
+                          <li><a href="https://therecord.media/cisa-cisco-russia-military-hackers-routers">CISA, Cisco highlight Russian military targeting of router vulnerabilities</a></li>
+                          <li><a href="https://therecord.media/israeli-spyware-company-quadream-surveilling-journalists">Israeli spyware software surveilling journalists, politicians</a></li>
+                          <li><a href="https://techcrunch.com/2023/04/11/quadream-spyware-hacked-iphones-calendar-invites/?guccounter=1">Mercenary spyware hacked iPhone victims with rogue calendar invites, researchers say | TechCrunch</a></li>
+                          <li><a href="https://www.haaretz.com/israel-news/security-aviation/2023-04-16/ty-article/.premium/offensive-israeli-cyber-firm-quadream-closes-and-fires-all-employees/00000187-8b5c-d484-adef-ebdc048c0000">Israeli Spyware Maker QuaDream Closes, Fires All Employees - National Security &amp; Cyber - Haaretz.com</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/29/hackers-variston-spyware-uae-google/">Hackers used spyware made in Spain to target users in the UAE, Google says | TechCrunch</a></li>
+                          <li><a href="https://techcrunch.com/2023/04/18/apple-lockdown-mode-iphone-nso-pegasus/">Apple’s high security mode blocked NSO spyware, researchers say | TechCrunch</a></li>
+                          <li><a href="https://therecord.media/biden-administration-commits-25-million-costa-rica-ransomware-recovery">US commits $25 million to Costa Rica for Conti ransomware recovery</a></li>
+                          <li><a href="https://therecord.media/foreign-cyber-aid-state-department-congress">State Department, Congress working on formal program for US cyber aid</a></li>
+                          <li><a href="https://fedscoop.com/cisa-and-partners-issue-secure-by-design-principles-for-software-manufacturers/">CISA and partners issue secure-by-design principles for software manufacturers  | FedScoop</a></li>
+                          <li><a href="https://www.fdd.org/analysis/2023/04/14/time-to-designate-space-systems-as-critical-infrastructure/">Time to Designate Space Systems as Critical Infrastructure</a></li>
+                          <li><a href="https://www.wired.com/story/apple-mac-lockbit-ransomware-samples/">Apple’s Macs Have Long Escaped Ransomware. That May Be Changing | WIRED</a></li>
+                          <li><a href="https://therecord.media/darktrace-caught-up-in-lockbit-blunder">Cyber company Darktrace gets caught up in LockBit gang&#39;s apparent blunder</a></li>
+                          <li><a href="https://therecord.media/payments-giant-ncr-investigating-ransomware">Payments giant says it is investigating ransomware incident that caused POS outage</a></li>
+                          <li><a href="https://therecord.media/canadian-hospital-treatment-delays-cyberattack-ontario">Cyberattack causing treatment delays at Canadian hospital</a></li>
+                          <li><a href="https://therecord.media/rheinmetall-cyberattack-germany-arms-manufacturer">German arms manufacturer Rheinmetall confirms cyberattack</a></li>
+                          <li><a href="https://therecord.media/hackers-use-log4j-in-proxyjacking-scheme">Hackers using Log4j bug to profit from victim IP addresses through ‘proxyjacking’ scheme</a></li>
+                          <li><a href="https://therecord.media/genesis-market-arrests-cybercrime">Police arrest almost 120 people globally following Genesis Market takedown</a></li>
+                          <li><a href="https://therecord.media/genesis-market-fbi-access-backend-servers">FBI accessed Genesis Market&#39;s backend servers as part of takedown</a></li>
+                          <li><a href="https://www.wired.com/story/linkedin-verification-clear/">LinkedIn Verification Now Lets You Verify Your Job and Account | WIRED</a></li>
+                          <li><a href="https://therecord.media/nsa-hiring-tech-layoffs-rob-joyce">Tech industry’s pain is NSA’s gain, cyber leader says about layoffs</a></li>
+                          <li><a href="https://research.checkpoint.com/2023/queuejumper-critical-unauthorized-rce-vulnerability-in-msmq-service/">QueueJumper: Critical Unauthenticated RCE Vulnerability in MSMQ Service - Check Point Research</a></li>
+                          <li><a href="https://www.microsoft.com/en-us/security/blog/2023/04/18/microsoft-shifts-to-a-new-threat-actor-naming-taxonomy/">Microsoft shifts to a new threat actor naming taxonomy - Microsoft Security Blog</a></li>
+                          <li><a href="https://zetter.substack.com/p/leaked-pentagon-document-claims-russian">Leaked Pentagon Document Claims Russian Hacktivists Breached Canadian Gas Pipeline Company</a></li>
+                          <li><a href="https://cyberscoop.com/water-oldsmar-incident-cyberattack/">Did someone really hack into the Oldsmar, Florida, water treatment plant? New details suggest maybe not. | CyberScoop</a></li>
+                          <li><a href="https://www.bellingcat.com/news/2023/04/09/from-discord-to-4chan-the-improbable-journey-of-a-us-defence-leak/">From Discord to 4chan: The Improbable Journey of a US Intelligence Leak - bellingcat</a></li>
+                          <li><a href="https://www.nbcnews.com/politics/national-security/us-intel-agencies-missed-classified-documents-leaked-on-discord-rcna79404">U.S. intel agencies may change how they monitor social media, chatrooms after missing leaked U.S. documents for weeks</a></li>
+                          <li><a href="https://www.washingtonpost.com/national-security/2023/04/15/taiwan-china-invasion-leaked-documents/">Taiwan highly vulnerable to Chinese air attack, leaked documents show - The Washington Post</a></li>
+                          <li><a href="https://www.washingtonpost.com/national-security/2023/04/14/pentagon-leaked-documents/">Pentagon document leak raises questions about internal security - The Washington Post</a></li>
+                          <li><a href="https://www.washingtonpost.com/national-security/2023/04/14/chinese-spy-balloon-leaked-documents/">Leaked secret documents detail additional Chinese spy balloons - The Washington Post</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Biz Soap Box: Haroon Meer on why the VC apocalypse is great news</title>
+            <pubDate>Tue, 11 Apr 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/soapbox75</link>
+            <guid isPermaLink="true">https://risky.biz/soapbox75</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://media3.risky.biz/soapbox75.mp3" length="31724909" type="audio/mpeg" />
+            <itunes:subtitle>The wicked will be punished! The righteous will ascend!</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                In this Soap Box edition of the show, Thinkst Canary founder Haroon Meer joins us to talk about why the sudden pullback in venture funding in infosec is actually a good thing.
+
+He thinks this will give founders licence to slow down and actually focus on making good products, instead of trying to build a company around vapourware or a minimum viable product.
+
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>In this Soap Box edition of the show, Thinkst Canary founder Haroon Meer joins us to talk about why the sudden pullback in venture funding in infosec is actually a good thing.</p>
+
+<p>He thinks this will give founders licence to slow down and actually focus on making good products, instead of trying to build a company around vapourware or a minimum viable product.</p>
+
+
+                
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #701 -- Why infosec is wrong about TikTok</title>
+            <pubDate>Wed, 29 Mar 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB701</link>
+            <guid isPermaLink="true">https://risky.biz/RB701</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB701.mp3" length="56349820" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: White House drops executive order on spyware...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                NOTE: Patrick’s audio is a bit degraded in a few parts of this episode. It’s still clear enough, but if you hear some degradation in parts then yes, it’s us, not you.
+
+On this week’s show Patrick Gray, Adam Boileau and Tom Uren discuss the week’s security news. They cover:
+
+
+  The Biden White House’s executive order on spyware
+  Why the infosec community writ large is wrong on TikTok
+  Clop campaign: it’s time to ditch your file transfer gateways
+  Major Android app booted from store because it was full of 0day privesc exploits lol
+  More detail on the BreachForums admin arrest
+  Much, much more
+
+
+This week’s show is brought to you by runZero. HD Moore, co-founder of runZero, is this week’s sponsor guest.
+
+Links to everything that we discussed are below and you can follow Patrick, Adam and Tom on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>NOTE: Patrick’s audio is a bit degraded in a few parts of this episode. It’s still clear enough, but if you hear some degradation in parts then yes, it’s us, not you.</p>
+
+<p>On this week’s show Patrick Gray, Adam Boileau and Tom Uren discuss the week’s security news. They cover:</p>
+
+<ul>
+  <li>The Biden White House’s executive order on spyware</li>
+  <li>Why the infosec community writ large is wrong on TikTok</li>
+  <li>Clop campaign: it’s time to ditch your file transfer gateways</li>
+  <li>Major Android app booted from store because it was full of 0day privesc exploits lol</li>
+  <li>More detail on the BreachForums admin arrest</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by runZero. HD Moore, co-founder of runZero, is this week’s sponsor guest.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a>, <a href="https://infosec.exchange/@metlstorm">Adam</a> and <a href="https://infosec.exchange/@tomatospy">Tom</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.nbcnews.com/tech/security/least-50-us-government-employees-hit-spyware-white-house-says-rcna76820">At least 50 U.S. government employees hit with spyware, White House says</a></li>
+                          <li><a href="https://www.nbcnews.com/politics/congress/kevin-mccarthy-says-house-will-move-forward-tiktok-legislation-rcna76772">Kevin McCarthy says House &#39;will be moving forward&#39; with TikTok legislation</a></li>
+                          <li><a href="https://therecord.media/tiktok-hearing-congress-ceo-shou-chew">US lawmakers tell TikTok CEO the app ‘should be banned’</a></li>
+                          <li><a href="https://risky.biz/BTN30/">Between Two Nerds: The Real Problem with TikTok - Risky Business</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/22/fortra-goanywhere-ransomware-attack/">New victims come forward after mass-ransomware attack | TechCrunch</a></li>
+                          <li><a href="https://therecord.media/uk-pension-protection-fund-clop-goanywhere-fortra">UK Pension Protection Fund latest victim of GoAnywhere hack</a></li>
+                          <li><a href="https://www.abc.net.au/news/2023-03-27/crown-resorts-ransomware-threat-by-hackers-data-breach/102151816">Crown Resorts investigating potential data breach after being contacted by hacking group - ABC News</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/24/fortra-goanywhere-clop-ransomware/">Fortra told breached companies their data was safe | TechCrunch</a></li>
+                          <li><a href="https://www.goanywhere.com/blog/which-is-better-dropbox-vs-mft">When to use Dropbox vs. MFT: Best Versatile File Sharing and Security | GoAnywhere MFT</a></li>
+                          <li><a href="https://therecord.media/toronto-virgin-clop-hack-goanywhere">City of Toronto and Virgin confirm hackers accessed data through file transfer systems</a></li>
+                          <li><a href="https://therecord.media/tasmania-added-to-clop-ransomware-list">Tasmania investigating attack after Clop ransomware group adds to victim list</a></li>
+                          <li><a href="https://www.theguardian.com/australia-news/2023/mar/28/latitude-financial-faces-possible-class-action-after-millions-affected-by-data-breach#:~:text=On%20Monday%2C%20Latitude%20revealed%20that,data%20dating%20back%20to%202005.&text=The%20documents%20include%207.9m,passport%20numbers%2C%20and%20financial%20statements.">Latitude Financial faces possible class action after millions affected by data breach | Australia news | The Guardian</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/android-app-from-china-executed-0-day-exploit-on-millions-of-devices/">Android app from China executed 0-day exploit on millions of devices | Ars Technica</a></li>
+                          <li><a href="https://therecord.media/telecom-giant-lumen-discovered-two-cyber-intrusions">Telecom giant Lumen says it discovered two separate cyber intrusions</a></li>
+                          <li><a href="https://therecord.media/oak-ridge-tennessee-ransomware-attack">Tennessee city hit with ransomware attack</a></li>
+                          <li><a href="https://therecord.media/fbi-investigating-cyberattack-on-puerto-rico">FBI, CISA investigating cyberattack on Puerto Rico’s water authority</a></li>
+                          <li><a href="https://therecord.media/hospital-cyberattack-walsall-england">British hospital investigating impact of ‘contained’ cyber incident</a></li>
+                          <li><a href="https://therecord.media/guam-telecom-cyberattack-restore">Largest telecom in Guam starts restoring services after cyberattack</a></li>
+                          <li><a href="https://www.nbcnews.com/news/us-news/frustrated-dish-customers-still-spending-hours-hold-weeks-ransomware-a-rcna76181">Frustrated Dish customers still spending hours on hold weeks after ransomware attack, they say</a></li>
+                          <li><a href="https://therecord.media/ddos-for-hire-fake-sites-uk-national-crime-agency">UK National Crime Agency reveals it ran fake DDoS-for-hire sites to collect users’ data</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/24/how-the-fbi-caught-the-breachforums-admin/">How the FBI caught the BreachForums admin | TechCrunch</a></li>
+                          <li><a href="https://cyberscoop.com/dc-health-link-breach-russia-hacker-congress/">Hacker tied to D.C. Health Link breach says attack &#39;born out of Russian patriotism&#39; | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/north-korea-apt-kimsuky-attacks">North Korean APT group ‘Kimsuky’ targeting experts with new spearphishing campaign</a></li>
+                          <li><a href="https://www.wired.com/story/north-korea-apt43-crypto-mining-laundering/">North Korea Is Now Mining Crypto to Launder Its Stolen Loot | WIRED</a></li>
+                          <li><a href="https://www.cybercom.mil/Media/News/Article/3337717/committed-partners-in-cyberspace-following-cyberattack-us-conducts-first-defens/">“Committed Partners in Cyberspace”: Following cyberattack, US conducts first defensive Hunt Operation in Albania &gt; U.S. Cyber Command &gt; News</a></li>
+                          <li><a href="https://securelist.com/bad-magic-apt/109087/">Bad magic: new APT found in the area of Russo-Ukrainian conflict | Securelist</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/22/kelly-aloria-lum-passes-away-at-41-obituary/">Beloved hacking veteran Kelly ‘Aloria’ Lum passes away at 41 | TechCrunch</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #700 -- Yevgeny Prigozhin's empire gets owned</title>
+            <pubDate>Wed, 22 Mar 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB700</link>
+            <guid isPermaLink="true">https://risky.biz/RB700</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB700.mp3" length="55231007" type="audio/mpeg" />
+            <itunes:subtitle>...and the details are incredible...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news in front of a live audience at AISA’s CyberCon in Canberra.
+
+They cover:
+
+
+  Yevgeny Prigozhin’s entire enterprise got majorly owned
+  Kremlin bans iPhones among President’s staff
+  A look at those Android handset baseband bugs (woof)
+  A discussion of the acropalypse issue
+  Why you need to sort out your egress filtering in light of the latest Outlook bug
+  Shanna Daly joins us on stage to talk about why the infosec industry sucks
+  Plus much much more
+
+
+This week’s show is sponsored by Stairwell. Mike Wiacek, Stairwell’s founder, is this week’s sponsor guest.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news in front of a live audience at AISA’s CyberCon in Canberra.</p>
+
+<p>They cover:</p>
+
+<ul>
+  <li>Yevgeny Prigozhin’s entire enterprise got majorly owned</li>
+  <li>Kremlin bans iPhones among President’s staff</li>
+  <li>A look at those Android handset baseband bugs (woof)</li>
+  <li>A discussion of the acropalypse issue</li>
+  <li>Why you need to sort out your egress filtering in light of the latest Outlook bug</li>
+  <li>Shanna Daly joins us on stage to talk about why the infosec industry sucks</li>
+  <li>Plus much much more</li>
+</ul>
+
+<p>This week’s show is sponsored by Stairwell. Mike Wiacek, Stairwell’s founder, is this week’s sponsor guest.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://olgalautman.substack.com/p/dossier-center-investigation-prigozhins">Dossier Center Investigation: Prigozhin&#39;s Cyber Troops</a></li>
+                          <li><a href="https://www.kommersant.ru/doc/5886759">Unwanted communications - Newspaper Kommersant No. 46 (7491) dated 03/20/2023</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/critical-vulnerabilities-allow-some-android-phones-to-be-hacked/">Google tells users of some Android phones: Nuke voice calling to avoid infection | Ars Technica</a></li>
+                          <li><a href="https://www.bleepingcomputer.com/news/security/google-finds-18-zero-day-vulnerabilities-in-samsung-exynos-chipsets/">Google finds 18 zero-day vulnerabilities in Samsung Exynos chipsets</a></li>
+                          <li><a href="https://www.androidpolice.com/android-pixel-markup-exploit-discord-acropalypse/">Severe exploit could expose sensitive data on Pixel screenshots previously cropped</a></li>
+                          <li><a href="https://www.darkreading.com/application-security/microsoft-outlook-vulnerability-2023-it-bug">Microsoft Outlook Vulnerability Could Be 2023&#39;s &#39;It&#39; Bug</a></li>
+                          <li><a href="https://therecord.media/ransomware-zero-day-microsoft-google">Ransomware gang exploited a zero-day in Microsoft security feature, Google says</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/03/feds-charge-ny-man-as-breachforums-boss-pompompurin/">Feds Charge NY Man as BreachForums Boss “Pompompurin” – Krebs on Security</a></li>
+                          <li><a href="https://therecord.media/breachforums-arrest-new-administrator">After BreachForums arrest, new site administrator says the platform will live on</a></li>
+                          <li><a href="https://twitter.com/3xp0rtblog/status/1637760889896960001">3xp0rt on Twitter: &quot;BreachForums is offline everywhere https://t.co/Q2o133e9Oy&quot; / Twitter</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/03/two-us-men-charged-in-2022-hacking-of-dea-portal/">Two U.S. Men Charged in 2022 Hacking of DEA Portal – Krebs on Security</a></li>
+                          <li><a href="https://www.forbes.com/sites/thomasbrewster/2023/03/15/us-shuts-down-crypto-mixer-chipmixer-used-by-russian-and-north-korea-spies/?sh=2f3504805721">Crypto ‘Mixer’ Laundered $700 Million For Customers, Including Russian And North Korean Spies, DOJ Says</a></li>
+                          <li><a href="https://therecord.media/china-linked-hackers-exploit-fortinet-zero-day">China-linked hackers exploit Fortinet zero-day in new spying campaign</a></li>
+                          <li><a href="https://www.cisa.gov/news-events/cybersecurity-advisories/aa23-074a">Threat Actors Exploit Progress Telerik Vulnerability in U.S. Government IIS Server | CISA</a></li>
+                          <li><a href="https://www.malwarebytes.com/blog/news/2023/03/clop-ransomware-is-victimizing-goanywhere-mft-customers">Clop ransomware is victimizing GoAnywhere MFT customers</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/security-firm-rubrik-is-latest-to-be-felled-by-goanywhere-vulnerability/">Security firm Rubrik is latest to be felled by GoAnywhere vulnerability | Ars Technica</a></li>
+                          <li><a href="https://therecord.media/crypto-atm-manufacturer-general-bytes-hacked">Crypto ATM manufacturer General Bytes hacked, at least $1.5 million stolen	</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #699 -- BYOD risks ramp up</title>
+            <pubDate>Wed, 15 Mar 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB699</link>
+            <guid isPermaLink="true">https://risky.biz/RB699</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB699a.mp3" length="57362667" type="audio/mpeg" />
+            <itunes:subtitle>Threat actors are really enjoying home networks and BYOD these days… </itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                Threat actors are really enjoying home networks and BYOD these days…
+
+On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:
+
+
+  Why our LastPass/DPRK hunch weakened
+  CISA launches ransomware warning program
+  Is the Ring data extortion real?
+  White House flags cloud service security regulation
+  Pig Butchering overtakes BEC as top cybercrime earner
+  Much more!
+
+
+This week’s show is sponsored by Yubico. The company’s COO, Jerrod Chong, is this week’s sponsor guest.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>Threat actors are really enjoying home networks and BYOD these days…</p>
+
+<p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:</p>
+
+<ul>
+  <li>Why our LastPass/DPRK hunch weakened</li>
+  <li>CISA launches ransomware warning program</li>
+  <li>Is the Ring data extortion real?</li>
+  <li>White House flags cloud service security regulation</li>
+  <li>Pig Butchering overtakes BEC as top cybercrime earner</li>
+  <li>Much more!</li>
+</ul>
+
+<p>This week’s show is sponsored by Yubico. The company’s COO, Jerrod Chong, is this week’s sponsor guest.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.mandiant.com/resources/blog/lightshow-north-korea-unc2970">Stealing the LIGHTSHOW (Part One) — North Korea&#39;s UNC2970 | Mandiant</a></li>
+                          <li><a href="https://www.mandiant.com/resources/blog/lightshift-and-lightshow">Stealing the LIGHTSHOW (Part Two) — LIGHTSHIFT and LIGHTSHOW | Mandiant</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/security-researchers-are-again-in-the-crosshairs-of-north-korean-hackers/">North Korean hackers target security researchers with a new backdoor | Ars Technica</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/14/ring-alphv-ransomware-attack/">Ring won’t say if it was hacked after ransomware gang claims attack | TechCrunch</a></li>
+                          <li><a href="https://www.politico.com/news/2023/03/10/white-house-cloud-overhaul-00086595">Biden admin’s cloud security problem: ‘It could take down the internet like a stack of dominos’ - POLITICO</a></li>
+                          <li><a href="https://therecord.media/cisa-ransomware-warning-pilot">CISA unveils ransomware warning pilot for critical infrastructure</a></li>
+                          <li><a href="https://www.nbcnews.com/politics/congress/data-breach-hits-lawmakers-staff-capitol-hill-rcna74061">Data breach hits lawmakers and staff on Capitol Hill</a></li>
+                          <li><a href="https://cyberscoop.com/dc-health-data-posted-online/">Hacker posts more D.C. Health Link data online, exposing lawmakers&#39; personal information | CyberScoop</a></li>
+                          <li><a href="https://cyberscoop.com/patient-sues-leigh-valley-ransomware/">Cancer patient sues medical provider after ransomware group posts her photos online | CyberScoop</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/10/cerebral-shared-millions-patient-data-advertisers/">Telehealth startup Cerebral shared millions of patients’ data with advertisers | TechCrunch</a></li>
+                          <li><a href="https://www.wired.com/story/fbi-purchase-location-data-wray-senate/">The FBI Just Admitted It Bought US Location Data | WIRED</a></li>
+                          <li><a href="https://www.wired.com/story/pig-butchering-fbi-ic3-2022-report/">‘Pig Butchering’ Scams Are Now a $3 Billion Threat | WIRED</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/malware-infecting-widely-used-security-appliance-survives-firmware-updates/">Malware infecting widely used security appliance survives firmware updates | Ars Technica</a></li>
+                          <li><a href="https://www.vice.com/en/article/jg5eak/people-used-facebooks-leaked-ai-to-create-a-based-chatbot-that-says-the-n-word-basedgpt">People Used Facebook&#39;s Leaked AI to Create a &#39;Based&#39; Chatbot that Says the N-Word</a></li>
+                          <li><a href="https://www.nbcnews.com/tech/tech-news/openai-gpt-4-rcna74916">OpenAI releases GPT-4, artificial intelligence that can &#39;see&#39; and do taxes</a></li>
+                          <li><a href="https://therecord.media/australia-russia-cybercrime-home-affairs-michael-pezzullo">Australian official demands Russia bring criminal hackers ‘to heel’</a></li>
+                          <li><a href="https://www.microsoft.com/en-us/security/blog/2023/03/13/dev-1101-enables-high-volume-aitm-campaigns-with-open-source-phishing-kit/?ranMID=42411&ranEAID=TnL5HPStwNw&ranSiteID=TnL5HPStwNw-bJDm8ZexFwD2R72UBQt9rA&epi=TnL5HPStwNw-bJDm8ZexFwD2R72UBQt9rA&irgwc=1&OCID=AID2200057_aff_7815_1243925&tduid=%28ir__dlslmvn2qckfbybbwnga2w1pqm2x61cnlpfmp2gm00%29%287815%29%281243925%29%28TnL5HPStwNw-bJDm8ZexFwD2R72UBQt9rA%29%28%29&irclickid=_dlslmvn2qckfbybbwnga2w1pqm2x61cnlpfmp2gm00">DEV-1101 enables high-volume AiTM campaigns with open-source phishing kit - Microsoft Security Blog</a></li>
+                          <li><a href="https://krebsonsecurity.com/2023/03/sued-by-meta-freenom-halts-domain-registrations/">Sued by Meta, Freenom Halts Domain Registrations – Krebs on Security</a></li>
+                          <li><a href="https://www.vice.com/en/article/3ak8v8/twitters-most-important-anti-censorship-tool-is-currently-dead">Twitter’s Most Important Anti-Censorship Tool Is Currently Dead</a></li>
+                          <li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23415">CVE-2023-23415 - Security Update Guide - Microsoft - Internet Control Message Protocol (ICMP) Remote Code Execution Vulnerability</a></li>
+                          <li><a href="https://msrc.microsoft.com/update-guide/vulnerability/CVE-2023-23397">CVE-2023-23397 - Security Update Guide - Microsoft - Microsoft Outlook Elevation of Privilege Vulnerability</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Biz Soap Box: Six degrees of Domain Admin </title>
+            <pubDate>Fri, 10 Mar 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/soapbox74</link>
+            <guid isPermaLink="true">https://risky.biz/soapbox74</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/soapbox74.mp3" length="41057497" type="audio/mpeg" />
+            <itunes:subtitle>Why your Active Directory is a mess and how you can fix it with Bloodhound...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                Today’s soap box is an absolute cracker. We’re talking to Andy Robbins, the principal product architect at SpecterOps and one of the three original creators of the original open source version of Bloodhound.
+
+If you don’t know what Bloodhound is, it’s a tool that grabs Active Directory information and turns it into a navigable graph. So if you’re an attacker you land on a network, enumerate directory information, and then map out a path to domain admin.
+
+Bloodhound has been extremely popular with red teamers for years – to the point that it’s just a standard tool in the red team toolkit. But the team behind Bloodhound is now turning their attention to making Bloodhound a defensive tool as well as an offensive tool.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>Today’s soap box is an absolute cracker. We’re talking to Andy Robbins, the principal product architect at SpecterOps and one of the three original creators of the original open source version of Bloodhound.</p>
+
+<p>If you don’t know what Bloodhound is, it’s a tool that grabs Active Directory information and turns it into a navigable graph. So if you’re an attacker you land on a network, enumerate directory information, and then map out a path to domain admin.</p>
+
+<p>Bloodhound has been extremely popular with red teamers for years – to the point that it’s just a standard tool in the red team toolkit. But the team behind Bloodhound is now turning their attention to making Bloodhound a defensive tool as well as an offensive tool.</p>
+
+                
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #698 -- Why LastPass was probably DPRK*</title>
+            <pubDate>Wed, 08 Mar 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB698</link>
+            <guid isPermaLink="true">https://risky.biz/RB698</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB698.mp3" length="58493643" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: A look at the White House cybersecurity strategy…</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:
+
+
+  Why the White House’s cybersecurity strategy is actually quite good
+  The LastPass breach was probably DPRK
+  UEFI bootkits are going downmarket, and this is bad
+  GitHub will scan repos for secrets
+  A look at some interesting DJI drone research
+  Much, much more
+
+
+This week’s show is brought to you by Airlock Digital. Two of Airlock’s founders – Daniel Schell and David Cottingham – are this week’s sponsor guests.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+&amp;ast; NOTE: We now think LastPass was likely not DPRK. It’s complicated and we’ll explain why we think we got this wrong in next week’s show
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:</p>
+
+<ul>
+  <li>Why the White House’s cybersecurity strategy is actually quite good</li>
+  <li>The LastPass breach was probably DPRK</li>
+  <li>UEFI bootkits are going downmarket, and this is bad</li>
+  <li>GitHub will scan repos for secrets</li>
+  <li>A look at some interesting DJI drone research</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Airlock Digital. Two of Airlock’s founders – Daniel Schell and David Cottingham – are this week’s sponsor guests.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+<p>&amp;ast; NOTE: We now think LastPass was likely <em>not</em> DPRK. It’s complicated and we’ll explain why we think we got this wrong in next week’s show</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://riskybiznews.substack.com/p/risky-biz-news-white-house-unveils">Risky Biz News: White House unveils National Cybersecurity Strategy</a></li>
+                          <li><a href="https://www.nbcnews.com/tech/security/white-house-looks-put-cybersecurity-pressure-companies-rcna72941">White House looks to put cybersecurity pressure on companies</a></li>
+                          <li><a href="https://cyberscoop.com/surveillance-oversight-board-section-702-fisa/">Surveillance oversight board member explores concerns about Section 702 renewal | CyberScoop</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/02/secret-service-ice-warrantless-stingray/?guccounter=1">Secret Service and ICE conducted warrantless stingray surveillance, says watchdog | TechCrunch</a></li>
+                          <li><a href="https://thehackernews.com/2023/03/lastpass-hack-engineers-failure-to.html">LastPass Hack: Engineer&#39;s Failure to Update Plex Software Led to Massive Data Breach</a></li>
+                          <li><a href="https://srslyriskybiz.substack.com/p/give-me-e2ee-or-give-me-death">Give Me E2EE or Give Me Death - by Tom Uren</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/03/unkillable-uefi-malware-bypassing-secure-boot-enabled-by-unpatchable-windows-flaw/">Stealthy UEFI malware bypassing Secure Boot enabled by unpatchable Windows flaw | Ars Technica</a></li>
+                          <li><a href="https://www.bleepingcomputer.com/news/security/github-s-secret-scanning-alerts-now-available-for-all-public-repos/">GitHub’s secret scanning alerts now available for all public repos</a></li>
+                          <li><a href="https://www.wired.com/story/dji-droneid-operator-location-hacker-tool/">This Hacker Tool Can Pinpoint a DJI Drone Operator&#39;s Exact Location | WIRED</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/02/hackers-steal-gun-owners-data-from-firearm-auction-website/">Hackers steal gun owners’ data from firearm auction website | TechCrunch</a></li>
+                          <li><a href="https://www.securityweek.com/new-atm-malware-fixs-emerges/">New ATM Malware &#39;FiXS&#39; Emerges - SecurityWeek</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/03/us-government-royal-ransomware-advisory/">US government warns Royal ransomware is targeting critical infrastructure | TechCrunch</a></li>
+                          <li><a href="https://www.beckershospitalreview.com/cybersecurity/ransomware-gang-posts-breast-cancer-patient-photos-from-pennsylvania-health-network-to-dark-web.html">Ransomware gang posts breast cancer patient photos from Pennsylvania health network to dark web</a></li>
+                          <li><a href="https://www.bleepingcomputer.com/news/security/hospital-cl-nic-de-barcelona-severely-impacted-by-ransomware-attack/">Hospital Clínic de Barcelona severely impacted by ransomware attack</a></li>
+                          <li><a href="https://www.nbcbayarea.com/news/local/east-bay/oakland-ransomware-attack-2/3173067/">Hackers Release Data Stolen in Oakland Ransomware Attack – NBC Bay Area</a></li>
+                          <li><a href="https://salt.security/blog/traveling-with-oauth-account-takeover-on-booking-com">Salt Labs | Traveling with OAuth - Account Takeover on Booking.com</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/02/google-adds-client-side-encryption-to-gmail-and-calendar-should-you-care/">Google adds client-side encryption to Gmail and Calendar. Should you care? | Ars Technica</a></li>
+                          <li><a href="https://techcrunch.com/2023/03/01/us-postal-service-change-of-address-fraud/">The life-upending flaw that USPS won’t fix | TechCrunch</a></li>
+                          <li><a href="https://cyberscoop.com/meta-large-language-model-available-online/">Powerful Meta large language model widely available online | CyberScoop</a></li>
+                          <li><a href="https://portswigger.net/daily-swig/were-going-teetotal-its-goodbye-to-the-daily-swig">We’re going teetotal: It’s goodbye to The Daily Swig | The Daily Swig</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #697 -- LastPass attacker: Do you gotta hand it to 'em?</title>
+            <pubDate>Wed, 01 Mar 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB697</link>
+            <guid isPermaLink="true">https://risky.biz/RB697</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB697.mp3" length="56929572" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Ransomware crew hits US Marshals service...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:
+
+
+  A look at LastPass’s intrusion post mortem
+  A very stable genius decided to ransomware the US Marshals Service
+  Why Signal’s complaints about UK’s Online Safety Act are bad faith
+  Much, much more…
+
+
+This week’s show is brought to you by Tines, the no-code automation platform. Its co-founder and CEO Eoin Hinchy joins the show in the sponsor slot, and you can check out a Tines demo we recorded with Eoin on YouTube.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:</p>
+
+<ul>
+  <li>A look at LastPass’s intrusion post mortem</li>
+  <li>A very stable genius decided to ransomware the US Marshals Service</li>
+  <li>Why Signal’s complaints about UK’s Online Safety Act are bad faith</li>
+  <li>Much, much more…</li>
+</ul>
+
+<p>This week’s show is brought to you by Tines, the no-code automation platform. Its co-founder and CEO Eoin Hinchy joins the show in the sponsor slot, and you can check out a Tines demo we recorded with Eoin <a href="https://www.youtube.com/watch?v=6OZBOY_NMEY">on YouTube</a>.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://support.lastpass.com/help/incident-2-additional-details-of-the-attack">Additional details of the attack - LastPass Support</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/02/lastpass-hackers-infected-employees-home-computer-and-stole-corporate-vault/?utm_brand=arstechnica&utm_source=twitter&utm_social-type=owned&utm_medium=social">LastPass says employee’s home computer was hacked and corporate vault taken | Ars Technica</a></li>
+                          <li><a href="https://www.nbcnews.com/politics/politics-news/major-us-marshals-service-hack-compromises-sensitive-info-rcna72581">&#39;Major&#39; U.S. Marshals Service hack compromises sensitive info</a></li>
+                          <li><a href="https://therecord.media/dish-tells-sec-that-ransomware-attack-caused-outages-personal-info-may-have-been-stolen/">DISH tells SEC that ransomware attack caused outages; personal info may have been stolen - The Record from Recorded Future News</a></li>
+                          <li><a href="https://therecord.media/dish-says-system-issue-affecting-internal-servers-phone-systems/">DISH says ‘system issue’ affecting internal servers, phone systems - The Record from Recorded Future News</a></li>
+                          <li><a href="https://therecord.media/danish-hospitals-hit-by-cyberattack-from-anonymous-sudan/">Danish hospitals hit by cyberattack from ‘Anonymous Sudan’ - The Record from Recorded Future News</a></li>
+                          <li><a href="https://cyberscoop.com/victor-zhora-ukraine-russia-cyber-war-one-year/">&#39;A year of cyberwar&#39; with Russia: An inside look from a top Ukrainian cybersecurity official | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/russia-radio-hackers-fake-air-raid-missile-strike-warnings/">Russia blames hackers as commercial radio stations broadcast fake air strike warnings - The Record from Recorded Future News</a></li>
+                          <li><a href="https://therecord.media/dutch-intelligence-russia-cyberattacks-many-not-yet-public-knowledge/">Dutch intelligence: Many cyberattacks by Russia are not yet public knowledge - The Record from Recorded Future News</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/02/signal-vows-to-defy-uk-legislation-that-puts-e2e-encryption-in-the-crosshairs/">Signal CEO: We “1,000% won’t participate” in UK law to weaken encryption | Ars Technica</a></li>
+                          <li><a href="https://cyberscoop.com/white-house-cybersecurity-strategy/">White House cybersecurity strategy to force large companies to make systems secure by design | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/ibm-aspera-faspex-bug-cisa-known-vulnerability-list/">Popular IBM file transfer tool vulnerable to cyberattacks, CISA says - The Record from Recorded Future News</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/02/unpatched-vulnerabilities-in-fortinet-and-zoho-products-come-under-mass-attack/">A world of hurt for Fortinet and ManageEngine after users fail to install patches | Ars Technica</a></li>
+                          <li><a href="https://www.darkreading.com/omdia/gigamon-exits-ndr-market-sells-threatinsight-business-to-fortinet">Gigamon Exits NDR Market, Sells ThreatInsight Business to Fortinet</a></li>
+                          <li><a href="https://portswigger.net/daily-swig/cisco-clamav-anti-malware-scanner-vulnerable-to-serious-security-flaw">Cisco ClamAV anti-malware scanner vulnerable to serious security flaw | The Daily Swig</a></li>
+                          <li><a href="https://www.vice.com/en/article/dy7axa/how-i-broke-into-a-bank-account-with-an-ai-generated-voice">How I Broke Into a Bank Account With an AI-Generated Voice</a></li>
+                          <li><a href="https://therecord.media/chatgpt-phishing-fake-websites-hackers-malware/">Hackers use ChatGPT phishing websites to infect users with malware - The Record from Recorded Future News</a></li>
+                          <li><a href="https://therecord.media/cybersecurity-vc-investments-2022-momentum-report/">Venture capital financing of cyber companies slid to $18.5 billion in 2022 - The Record from Recorded Future News</a></li>
+                          <li><a href="https://www.youtube.com/watch?v=6OZBOY_NMEY">Tines Automation Platform - YouTube</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>An interview with Andrew Boyd, director of the CIA's Centre for Cyber Intelligence</title>
+            <pubDate>Thu, 23 Feb 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/andrewboyd</link>
+            <guid isPermaLink="true">https://risky.biz/andrewboyd</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/andrewboyd.mp3" length="50567261" type="audio/mpeg" />
+            <itunes:subtitle>Why the lessons learned in Ukraine may not help us in the Taiwan Strait…</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                In this interview the director of the CIA’s Center for Cyber Intelligence (CCI) sits down with Risky Business podcast host Patrick Gray to talk about:
+
+
+  What CCI actually does
+  The CIA’s role in cyber intel and operations
+  What lessons have been learned from Russia’s cyber campaigns targeting Ukraine
+  Why a cyber conflict with China will be very, very different
+  His views on the ransomware threat
+  Much, much more
+
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>In this interview the director of the CIA’s Center for Cyber Intelligence (CCI) sits down with Risky Business podcast host Patrick Gray to talk about:</p>
+
+<ul>
+  <li>What CCI actually does</li>
+  <li>The CIA’s role in cyber intel and operations</li>
+  <li>What lessons have been learned from Russia’s cyber campaigns targeting Ukraine</li>
+  <li>Why a cyber conflict with China will be very, very different</li>
+  <li>His views on the ransomware threat</li>
+  <li>Much, much more</li>
+</ul>
+
+                
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+        <item>
+            <title>Risky Business #696 -- Why Twitter had to kill SMS 2FA</title>
+            <pubDate>Wed, 22 Feb 2023 00:00:00 +0000</pubDate>
+            <link>https://risky.biz/RB696</link>
+            <guid isPermaLink="true">https://risky.biz/RB696</guid>
+            
+            
+            <category>risky-business</category>
+            <enclosure url="https://chtbl.com/track/383384/media3.risky.biz/RB696.mp3" length="60886811" type="audio/mpeg" />
+            <itunes:subtitle>PLUS: Semiconductor supply chain disrupted by ransomware...</itunes:subtitle>
+            <itunes:explicit>No</itunes:explicit>
+            <itunes:summary>
+            	<![CDATA[
+                On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:
+
+
+  Why Twitter had to kill SMS 2FA
+  A look at Meta’s new verification service
+  How a ransomware attack disrupted the semiconductor supply chain
+  Why Anonymous Sudan is probably a Russian info op
+  Microsoft mixes up public and private keys in Azure B2C (for real)
+  Much, much more
+
+
+This week’s show is brought to you by Proofpoint. Its Executive Vice President of Cybersecurity Strategy Ryan Kalember joins the show in the sponsor slot.
+
+Links to everything that we discussed are below and you can follow Patrick or Adam on Mastodon if that’s your thing.
+
+                ]]>
+            </itunes:summary>
+            <description>
+            	<![CDATA[
+                <p>On this week’s show Patrick Gray and Adam Boileau discuss the week’s security news, including:</p>
+
+<ul>
+  <li>Why Twitter had to kill SMS 2FA</li>
+  <li>A look at Meta’s new verification service</li>
+  <li>How a ransomware attack disrupted the semiconductor supply chain</li>
+  <li>Why Anonymous Sudan is probably a Russian info op</li>
+  <li>Microsoft mixes up public and private keys in Azure B2C (for real)</li>
+  <li>Much, much more</li>
+</ul>
+
+<p>This week’s show is brought to you by Proofpoint. Its Executive Vice President of Cybersecurity Strategy Ryan Kalember joins the show in the sponsor slot.</p>
+
+<p>Links to everything that we discussed are below and you can follow <a href="https://infosec.exchange/@riskybusiness">Patrick</a> or <a href="https://infosec.exchange/@metlstorm">Adam</a> on Mastodon if that’s your thing.</p>
+
+                
+                
+                <div class="panel panel-default">
+                    <div class="panel-heading">
+                        <h3 class="panel-title">Show notes</h3>
+                    </div>
+                    <div class="panel-body">
+                        <ul>
+                        
+                          <li><a href="https://www.wired.com/story/twitter-2fa-sms-alternatives-twitter-blue/">How to Protect Yourself From Twitter’s 2FA Crackdown | WIRED</a></li>
+                          <li><a href="https://commsrisk.com/elon-musk-says-twitter-lost-60mn-a-year-because-390-telcos-used-bot-accounts-to-pump-a2p-sms/">Elon Musk Says Twitter Lost $60mn a Year Because 390 Telcos Used Bot Accounts to Pump A2P SMS | Commsrisk</a></li>
+                          <li><a href="https://www.wired.com/story/twitter-sms-2fa-twitter-blue/">Twitter’s Two-Factor Authentication Change ‘Doesn&#39;t Make Sense’ | WIRED</a></li>
+                          <li><a href="https://twitter.com/elonmusk/status/1626996774820024321?s=46&t=4xTcSpJ-gOkwvkp4Zd8RUQ">Elon Musk on Twitter: &quot;@MKBHD Twitter is getting scammed by phone companies for $60M/year of fake 2FA SMS messages&quot; / Twitter</a></li>
+                          <li><a href="https://twitter.com/mikeisaac/status/1627371985012670465?s=46&t=skePTt43nHa-MrM2mkx-4w">rat king 🐀 on Twitter: &quot;as twitter goes through diff versions of what it’s subscription service looks like, meta rolls out its own verified program… https://t.co/BPNILEFGZ0&quot; / Twitter</a></li>
+                          <li><a href="https://www.news.com.au/finance/business/other-industries/aussie-business-owner-slams-instagram-as-account-deactivated-costing-50000-in-lost-bookings/news-story/a0cb971d61da33c5bd5a8b2a60a810d7">WA wedding photographer’s fury as Instagram account deactivated | news.com.au — Australia’s leading news site</a></li>
+                          <li><a href="https://therecord.media/applied-materials-supply-chain-mks-ransomware-attack/">Semiconductor industry giant says ransomware attack on supplier will cost it $250 million - The Record from Recorded Future News</a></li>
+                          <li><a href="https://therecord.media/oakland-ransomware-emergency-declared/">State of emergency as City of Oakland grapples with ransomware attack - The Record from Recorded Future News</a></li>
+                          <li><a href="https://therecord.media/virgin-media-television-ireland-cyberattack/">Irish TV broadcaster says attempted hack will affect programming - The Record from Recorded Future News</a></li>
+                          <li><a href="https://www.theguardian.com/world/2023/feb/18/cambridge-analytica-staff-leaked-emails-team-jorge-nigeria-election-sam-patten-tal-hanan?CMP=Share_iOSApp_Other">Revealed: the US adviser who tried to swing Nigeria’s 2015 election | Cambridge Analytica | The Guardian</a></li>
+                          <li><a href="https://www.theguardian.com/world/2023/feb/15/political-aides-hacked-by-team-jorge-in-run-up-to-kenyan-election">Political aides hacked by ‘Team Jorge’ in run-up to Kenyan election | World news | The Guardian</a></li>
+                          <li><a href="https://www.nbcnews.com/media/private-fox-news-stars-staff-blasted-election-fraud-claims-bogus-court-rcna71123">Fox News stars and staffers privately blasted election fraud claims as bogus, court filing shows</a></li>
+                          <li><a href="https://services.google.com/fh/files/blogs/google_fog_of_war_research_report.pdf">google_fog_of_war_research_report.pdf</a></li>
+                          <li><a href="https://cyberscoop.com/hacks-leaks-and-wipers-google-analyzes-a-year-of-russian-cyberattacks-on-ukraine/">Hacks, leaks and wipers: Google analyzes a year of Russian cyberattacks on Ukraine | CyberScoop</a></li>
+                          <li><a href="https://therecord.media/scandinavian-airlines-cyberattack-anonymous-sudan/">Scandinavian Airlines hit by cyberattack, &#39;Anonymous Sudan&#39; claims responsibility - The Record from Recorded Future News</a></li>
+                          <li><a href="https://www.praetorian.com/blog/azure-b2c-crypto-misuse-and-account-compromise/">Azure B2C Crypto Misuse and Account Compromise - Praetorian</a></li>
+                          <li><a href="https://www.bleepingcomputer.com/news/security/godaddy-hackers-stole-source-code-installed-malware-in-multi-year-breach/">GoDaddy: Hackers stole source code, installed malware in multi-year breach</a></li>
+                          <li><a href="https://www.sentinelone.com/labs/wip26-espionage-threat-actors-abuse-cloud-infrastructure-in-targeted-telco-attacks/">WIP26 Espionage | Threat Actors Abuse Cloud Infrastructure in Targeted Telco Attacks - SentinelOne</a></li>
+                          <li><a href="https://therecord.media/hyundai-kia-anti-theft-software-response-tiktok-challenge/">Hyundai, Kia to provide anti-theft software updates following viral TikTok challenge - The Record from Recorded Future News</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/02/goanywhere-vulnerability-exploit-used-to-steal-health-info-of-1-million-patients/">Health info for 1 million patients stolen using critical GoAnywhere vulnerability | Ars Technica</a></li>
+                          <li><a href="https://arstechnica.com/information-technology/2023/02/451-malicious-packages-available-in-pypi-contained-crypto-stealing-malware/">Latest attack on PyPI users shows crooks are only getting better | Ars Technica</a></li>
+                          <li><a href="https://portswigger.net/daily-swig/belgium-launches-nationwide-safe-harbor-for-ethical-hackers">Belgium launches nationwide safe harbor for ethical hackers | The Daily Swig</a></li>
+                          <li><a href="https://www.vice.com/en/article/z34jbj/tor-projects-moves-away-from-team-cymru-infrastructure">Tor Project Moves Away from Infrastructure Ran by Internet Monitoring Firm</a></li>
+                          <li><a href="https://www.reddit.com/r/LegalAdviceUK/comments/113xdf4/bank_accounts_overdrawn_missing_and_suspended/">Bank accounts overdrawn, missing and suspended without warning, bank won&#39;t talk to me : LegalAdviceUK</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                ]]>
+            </description>
+        </item>
+            
+        
+    </channel>
+</rss>

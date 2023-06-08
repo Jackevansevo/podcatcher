@@ -43,5 +43,4 @@ class PodcastAdmin(admin.ModelAdmin):
     readonly_fields = fields
 
     def save_model(self, request, obj, form, change):
-        resp = httpx.get(obj.feed_link, follow_redirects=True)
-        ingest_podcast(resp.content)
+        ingest_podcast(obj.feed_link)

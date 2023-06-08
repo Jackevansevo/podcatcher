@@ -1,0 +1,2087 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom">
+      <channel>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss" rel="self" type="application/rss+xml"/>
+        <atom:link href="https://feeds.soundcloud.com/users/soundcloud:users:220484243/sounds.rss?before=264585843" rel="next" type="application/rss+xml"/>
+        <title>defn</title>
+        <link>https://soundcloud.com/defn-771544745</link>
+        <pubDate>Fri, 21 Apr 2023 09:06:53 +0000</pubDate>
+        <lastBuildDate>Fri, 21 Apr 2023 09:06:53 +0000</lastBuildDate>
+        <ttl>60</ttl>
+        <language>en</language>
+        <copyright>All rights reserved</copyright>
+        <webMaster>feeds@soundcloud.com (SoundCloud Feeds)</webMaster>
+        <description>The world's greatest vegetarian Clojure podcast. Support us on https://patreon.com/defn
+
+Hosted by Vijay Kiran and Ray McDermott</description>
+        <itunes:subtitle>The world's greatest vegetarian Clojure podcast. …</itunes:subtitle>
+        <itunes:owner>
+          <itunes:name>defn</itunes:name>
+          <itunes:email>defn.podcast@gmail.com</itunes:email>
+        </itunes:owner>
+        <itunes:author>defn</itunes:author>
+        <itunes:explicit>yes</itunes:explicit>
+        <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+        <image>
+          <url>https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg</url>
+          <title>defn</title>
+          <link>https://soundcloud.com/defn-771544745</link>
+        </image>
+        <itunes:category text="Technology"/>
+        <item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1497507580</guid>
+      <title>#88 Matthew Davidson a.k.a kingmob</title>
+      <pubDate>Fri, 21 Apr 2023 09:06:53 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/88-matthew-davidson-aka-kingmob</link>
+      <itunes:duration>01:41:14</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Matthew Davidson, maintainer of Aleph/Manifold joins us to talk about his Clojure journey and https://www.speederino.com and zen :)</itunes:summary>
+      <itunes:subtitle>Matthew Davidson, maintainer of Aleph/Manifold jo…</itunes:subtitle>
+      <description>Matthew Davidson, maintainer of Aleph/Manifold joins us to talk about his Clojure journey and https://www.speederino.com and zen :)</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1497507580-defn-771544745-88-matthew-davidson-aka-kingmob.mp3" length="88631026"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-8xYQnHziCV5fpXjx-S8SPiA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1454859361</guid>
+      <title>#87 Jack Rusher</title>
+      <pubDate>Fri, 24 Feb 2023 12:21:04 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/87-jack-rusher</link>
+      <itunes:duration>00:51:25</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We are back our (ir)regular schedule! Kickstarting 2023 with Jack Rusher  https://jackrusher.com  - talking about Clojure, exploratory programming, types, pull requests and more!</itunes:summary>
+      <itunes:subtitle>We are back our (ir)regular schedule! Kickstartin…</itunes:subtitle>
+      <description>We are back our (ir)regular schedule! Kickstarting 2023 with Jack Rusher  https://jackrusher.com  - talking about Clojure, exploratory programming, types, pull requests and more!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1454859361-defn-771544745-87-jack-rusher.mp3" length="44157154"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-YFbnd5HSdSo0EgRh-nPTImw-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1382223424</guid>
+      <title>#86 Kira McLean</title>
+      <pubDate>Sun, 13 Nov 2022 14:59:17 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/86-kira-mclean</link>
+      <itunes:duration>01:46:42</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We are back from long summer break with Kira McLean, clojurian and working on Clojure Data Cookbook. 
+
+Follow her on for updates and check out the data cook cookbook https://github.com/scicloj/clojure-data-cookbook</itunes:summary>
+      <itunes:subtitle>We are back from long summer break with Kira McLe…</itunes:subtitle>
+      <description>We are back from long summer break with Kira McLean, clojurian and working on Clojure Data Cookbook. 
+
+Follow her on for updates and check out the data cook cookbook https://github.com/scicloj/clojure-data-cookbook</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1382223424-defn-771544745-86-kira-mclean.mp3" length="91476122"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-dQH70IxMC27SGLZJ-xyNNPA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1279102390</guid>
+      <title>#85 Clojure Dart Duo: Christophe and Baptiste</title>
+      <pubDate>Wed, 01 Jun 2022 12:19:37 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/85-clojure-dart-duo-christophe-and-baptiste</link>
+      <itunes:duration>01:35:40</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Christophe (clojure) Grand (master) and Baptiste share the behind scenes of Clojure Dart project.
+
+Check it out on: https://github.com/Tensegritics/ClojureDart</itunes:summary>
+      <itunes:subtitle>Christophe (clojure) Grand (master) and Baptiste …</itunes:subtitle>
+      <description>Christophe (clojure) Grand (master) and Baptiste share the behind scenes of Clojure Dart project.
+
+Check it out on: https://github.com/Tensegritics/ClojureDart</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1279102390-defn-771544745-85-clojure-dart-duo-christophe-and-baptiste.mp3" length="70758896"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-r5krFR9wMWOpR9GF-kzimAg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1272659164</guid>
+      <title>#84 - Debbie and Wilker Lúcio</title>
+      <pubDate>Sat, 21 May 2022 14:50:36 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/84-debbie-and-wilker-lucio</link>
+      <itunes:duration>01:34:25</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We invited super cute and fabulous Debbie the Corgi and also Wilker who happened to be in the same room to talk about Clojure - creator of Pathom and EQL!
+
+Check out the his blog on https://blog.wsscode.com/</itunes:summary>
+      <itunes:subtitle>We invited super cute and fabulous Debbie the Cor…</itunes:subtitle>
+      <description>We invited super cute and fabulous Debbie the Corgi and also Wilker who happened to be in the same room to talk about Clojure - creator of Pathom and EQL!
+
+Check out the his blog on https://blog.wsscode.com/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1272659164-defn-771544745-84-debbie-and-wilker-lucio.mp3" length="77946839"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-OG9HMfnKmMwgPsNO-hhdoUg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1256092837</guid>
+      <title>#83 Tim Zöller aka The Java Hippie</title>
+      <pubDate>Sun, 24 Apr 2022 15:55:37 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/83-tim-zoller-aka-the-java-hippie</link>
+      <itunes:duration>01:35:29</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We got Tim to talk about Dogs, Cheese and his journey into Clojure and test containers project and his startup!
+
+Check his website: https://javahippie.net</itunes:summary>
+      <itunes:subtitle>We got Tim to talk about Dogs, Cheese and his jou…</itunes:subtitle>
+      <description>We got Tim to talk about Dogs, Cheese and his journey into Clojure and test containers project and his startup!
+
+Check his website: https://javahippie.net</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1256092837-defn-771544745-83-tim-zoller-aka-the-java-hippie.mp3" length="79715771"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-HLY7u2YzMLjWWoze-epG8LQ-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1243920685</guid>
+      <title>#82 - Ben Sless</title>
+      <pubDate>Mon, 04 Apr 2022 09:18:43 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/82-ben-sless</link>
+      <itunes:duration>01:36:12</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Ben Sless joined author of clj-fast (https://github.com/bsless/clj-fast/)  us to tell the one weird trick to make your Clojure code blazing fast!
+
+Check Ben's work in: https://bsless.github.io</itunes:summary>
+      <itunes:subtitle>Ben Sless joined author of clj-fast (https://gith…</itunes:subtitle>
+      <description>Ben Sless joined author of clj-fast (https://github.com/bsless/clj-fast/)  us to tell the one weird trick to make your Clojure code blazing fast!
+
+Check Ben's work in: https://bsless.github.io</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1243920685-defn-771544745-82-ben-sless.mp3" length="92180719"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-ce2wgIsDHPk0Jgg3-lJzXQA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1200497407</guid>
+      <title>#81 - Lojban edition with Joshua Suskalo</title>
+      <pubDate>Thu, 20 Jan 2022 22:31:38 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/81-lojban-edition-with-joshua-suskalo</link>
+      <itunes:duration>01:38:37</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We had fantastic chat with Joshua learning a thing or two about coffi the clojure FFI and farolero that is bringing Common LISP conditionals to to clojure. 
+
+As far as we know, this is the first Clojure podcast to have Lojban in it!
+
+We would love it if you can join us for first ever defn call in show live with Joshua on 13th February 20:00 CET on our discord https://discord.gg/dDWd75xC</itunes:summary>
+      <itunes:subtitle>We had fantastic chat with Joshua learning a thin…</itunes:subtitle>
+      <description>We had fantastic chat with Joshua learning a thing or two about coffi the clojure FFI and farolero that is bringing Common LISP conditionals to to clojure. 
+
+As far as we know, this is the first Clojure podcast to have Lojban in it!
+
+We would love it if you can join us for first ever defn call in show live with Joshua on 13th February 20:00 CET on our discord https://discord.gg/dDWd75xC</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1200497407-defn-771544745-81-lojban-edition-with-joshua-suskalo.mp3" length="80404053"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-vhzXrmKnz7ykmrmW-KzdXeg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1186151356</guid>
+      <title>#80 - Vedang</title>
+      <pubDate>Tue, 28 Dec 2021 13:11:37 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-80</link>
+      <itunes:duration>01:10:12</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We have another awesome Clojurian Vedang from Incredible India, we talk about Indian food, culture and working at one of the first Clojure startups in India Helpshift.</itunes:summary>
+      <itunes:subtitle>We have another awesome Clojurian Vedang from Inc…</itunes:subtitle>
+      <description>We have another awesome Clojurian Vedang from Incredible India, we talk about Indian food, culture and working at one of the first Clojure startups in India Helpshift.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1186151356-defn-771544745-defn-80.mp3" length="62065361"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-A3GfRCOqZcahpnBr-Xf1ofw-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1181932396</guid>
+      <title>#79 - Eric Dallo</title>
+      <pubDate>Tue, 21 Dec 2021 20:13:02 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/79-eric-dallo</link>
+      <itunes:duration>01:14:43</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We are delighted to have Eric as our guest talking about all the amazing work he has been doing on Clojure LSP and converting people to Emacs.
+
+Check him out on https://github.com/ericdallo and support him on Patreon https://www.patreon.com/ericdallo</itunes:summary>
+      <itunes:subtitle>We are delighted to have Eric as our guest talkin…</itunes:subtitle>
+      <description>We are delighted to have Eric as our guest talking about all the amazing work he has been doing on Clojure LSP and converting people to Emacs.
+
+Check him out on https://github.com/ericdallo and support him on Patreon https://www.patreon.com/ericdallo</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1181932396-defn-771544745-79-eric-dallo.mp3" length="77390499"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-u9pSJlezyQdttNQP-HP4hnA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1160885605</guid>
+      <title>#78 Adrian Smith a.k.a phronmophobic</title>
+      <pubDate>Tue, 16 Nov 2021 10:09:40 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/78-adrian-smith-aka-phronmophobic</link>
+      <itunes:duration>01:36:15</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Our guest this time is Adrian Smith aka phronmophobic inventing better ways to build UIs with https://github.com/phronmophobic/membrane
+
+Bonus: Rambles about brambles</itunes:summary>
+      <itunes:subtitle>Our guest this time is Adrian Smith aka phronmoph…</itunes:subtitle>
+      <description>Our guest this time is Adrian Smith aka phronmophobic inventing better ways to build UIs with https://github.com/phronmophobic/membrane
+
+Bonus: Rambles about brambles</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1160885605-defn-771544745-78-adrian-smith-aka-phronmophobic.mp3" length="96636183"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-FIlqZztDp1rozY83-X4oDxA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1144584310</guid>
+      <title>#77 - Michelle Lim</title>
+      <pubDate>Tue, 19 Oct 2021 20:39:30 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/77-michelle-lim</link>
+      <itunes:duration>01:33:05</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk to Michelle about her multi-major studies and Clojure(Script) and more!
+
+Yet another defn first - A crossover episode with a cameo!! 
+
+Checkout Michelle's work on  https://github.com/eemshi and http://mmmanyfold.com/</itunes:summary>
+      <itunes:subtitle>We talk to Michelle about her multi-major studies…</itunes:subtitle>
+      <description>We talk to Michelle about her multi-major studies and Clojure(Script) and more!
+
+Yet another defn first - A crossover episode with a cameo!! 
+
+Checkout Michelle's work on  https://github.com/eemshi and http://mmmanyfold.com/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1144584310-defn-771544745-77-michelle-lim.mp3" length="95371239"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-ijuIQSqAxB5vxtZB-xeacyg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1125663364</guid>
+      <title>#76 - The Desi Episode with Kartik Gupta and HariOm Gaur</title>
+      <pubDate>Thu, 16 Sep 2021 13:12:35 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/76-the-desi-episode-with-kartik-gupta-and-hariom-gaur</link>
+      <itunes:duration>01:28:03</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>defn has turned Desi with 2 Indian Clojurists! Kartik and HariOm join us to talk about Indian food and spiced up our discussion with Clojure and Ziggurat (https://github.com/gojek/ziggurat) and more!</itunes:summary>
+      <itunes:subtitle>defn has turned Desi with 2 Indian Clojurists! Ka…</itunes:subtitle>
+      <description>defn has turned Desi with 2 Indian Clojurists! Kartik and HariOm join us to talk about Indian food and spiced up our discussion with Clojure and Ziggurat (https://github.com/gojek/ziggurat) and more!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1125663364-defn-771544745-76-the-desi-episode-with-kartik-gupta-and-hariom-gaur.mp3" length="126806400"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-4fHzii2TuYxWDkXV-LFUanA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1103343064</guid>
+      <title>#75 - Philippa Markovics</title>
+      <pubDate>Tue, 10 Aug 2021 08:36:52 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/75-philippa-markovics</link>
+      <itunes:duration>01:07:47</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>#75 - Philippa Markovics by defn</itunes:summary>
+      <itunes:subtitle>#75 - Philippa Markovics by defn</itunes:subtitle>
+      <description>#75 - Philippa Markovics by defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1103343064-defn-771544745-75-philippa-markovics.mp3" length="97625024"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-BSewOemCTHus3CXe-uBZrlg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1091026255</guid>
+      <title>#74 - Will Acton and the greatest Clojure podcast Crossover!</title>
+      <pubDate>Tue, 20 Jul 2021 19:58:04 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/74-will-acton-and-the-greatest-clojure-podcast-crossover</link>
+      <itunes:duration>01:53:04</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Will Acton joins the &quot;mobcast&quot; to talk about Martial arts, Punk Music and a bit about his Clojure projects hx and Helix!
+
+We are honoured to have @lambduhhh (https://linktr.ee/lambduhhh) as a guest-host in the greatest Clojure podcast crossover!</itunes:summary>
+      <itunes:subtitle>Will Acton joins the &quot;mobcast&quot; to talk about Mart…</itunes:subtitle>
+      <description>Will Acton joins the &quot;mobcast&quot; to talk about Martial arts, Punk Music and a bit about his Clojure projects hx and Helix!
+
+We are honoured to have @lambduhhh (https://linktr.ee/lambduhhh) as a guest-host in the greatest Clojure podcast crossover!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1091026255-defn-771544745-74-will-acton-and-the-greatest-clojure-podcast-crossover.mp3" length="162824776"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-Hlrxyd6ssnf5BJLQ-9YFpOw-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1068678403</guid>
+      <title>#73 - Paula Gearon</title>
+      <pubDate>Tue, 15 Jun 2021 07:34:36 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/73-paula-gearon</link>
+      <itunes:duration>01:39:15</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>In this epi(c)sode we had a blast chatting with Paula,  graph database and Clojure expert, and creator Asami https://github.com/threatgrid/asami 
+
+Check it out!</itunes:summary>
+      <itunes:subtitle>In this epi(c)sode we had a blast chatting with P…</itunes:subtitle>
+      <description>In this epi(c)sode we had a blast chatting with Paula,  graph database and Clojure expert, and creator Asami https://github.com/threatgrid/asami 
+
+Check it out!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1068678403-defn-771544745-73-paula-gearon.mp3" length="142940159"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-Zd46n6iWzrWbSEyu-L6T0FA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1063603234</guid>
+      <title>#72 Chris Badahdah from Phoenix!</title>
+      <pubDate>Mon, 07 Jun 2021 12:59:24 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/72-chris-badahdah-from-phoenix</link>
+      <itunes:duration>01:14:36</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Chris takes us into his Clojure Portal and other Clojure adventures :)
+
+Check his awesome tool: https://djblue.github.io/portal/</itunes:summary>
+      <itunes:subtitle>Chris takes us into his Clojure Portal and other …</itunes:subtitle>
+      <description>Chris takes us into his Clojure Portal and other Clojure adventures :)
+
+Check his awesome tool: https://djblue.github.io/portal/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1063603234-defn-771544745-72-chris-badahdah-from-phoenix.mp3" length="107429092"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-qkbEAxlDDg52gns8-Jl2yqQ-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1042964212</guid>
+      <title>#71 - The true and brave Daniel Higginbotham</title>
+      <pubDate>Wed, 05 May 2021 09:17:57 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/71-the-true-and-brave-daniel-higginbotham</link>
+      <itunes:duration>01:33:13</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk to Daniel and try to settle the age old dispute between the Higginbotham clan and the Higginbotham clan.
+
+There is some #Clojure stuff in the episode too ;)</itunes:summary>
+      <itunes:subtitle>We talk to Daniel and try to settle the age old d…</itunes:subtitle>
+      <description>We talk to Daniel and try to settle the age old dispute between the Higginbotham clan and the Higginbotham clan.
+
+There is some #Clojure stuff in the episode too ;)</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1042964212-defn-771544745-71-the-true-and-brave-daniel-higginbotham.mp3" length="134250160"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-Q0kCzrq4MdreDZQr-iW6rig-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1033821580</guid>
+      <title>#70 - Yehonathan Sharvit</title>
+      <pubDate>Wed, 21 Apr 2021 09:35:35 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/70-yehonathan-sharvit</link>
+      <itunes:duration>01:24:01</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>The second coming of Yehonathan on defn, who brought us Klipse,  in which he talks about what/why/how of data oriented programming and why Clojure is the best language for data oriented programming with a dash of christian theology.</itunes:summary>
+      <itunes:subtitle>The second coming of Yehonathan on defn, who brou…</itunes:subtitle>
+      <description>The second coming of Yehonathan on defn, who brought us Klipse,  in which he talks about what/why/how of data oriented programming and why Clojure is the best language for data oriented programming with a dash of christian theology.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1033821580-defn-771544745-70-yehonathan-sharvit.mp3" length="121001063"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-4tXH1ge5wLzMtj8C-A9q2CA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1017778177</guid>
+      <title>#69 - Mike Fikes</title>
+      <pubDate>Sun, 04 Apr 2021 08:00:20 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/69-mike-fikes</link>
+      <itunes:duration>01:18:19</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Episode 69 - we go back to our first ever guest, Mike Fikes, creator of ambly, replete and bringing Clojurescript to microcontrollers!</itunes:summary>
+      <itunes:subtitle>Episode 69 - we go back to our first ever guest, …</itunes:subtitle>
+      <description>Episode 69 - we go back to our first ever guest, Mike Fikes, creator of ambly, replete and bringing Clojurescript to microcontrollers!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1017778177-defn-771544745-69-mike-fikes.mp3" length="112781896"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-Dyzo2dX1G2k2JKfL-ynwFNA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/1017774082</guid>
+      <title>#68 - Michiel Borkent aka borkdude</title>
+      <pubDate>Sun, 28 Mar 2021 08:13:09 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/68-michiel-borkent-aka-borkdude</link>
+      <itunes:duration>01:49:02</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We got borkdude back on the show for an epi(c)sode ! Diving into all sorts of Clojure stuff!</itunes:summary>
+      <itunes:subtitle>We got borkdude back on the show for an epi(c)sod…</itunes:subtitle>
+      <description>We got borkdude back on the show for an epi(c)sode ! Diving into all sorts of Clojure stuff!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/1017774082-defn-771544745-68-michiel-borkent-aka-borkdude.mp3" length="157018069"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-Y6hsXoY0WMi0iUmP-UwmmVQ-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/994856074</guid>
+      <title>#67 - Juan Monetta</title>
+      <pubDate>Sun, 28 Feb 2021 10:19:30 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/67-juan-monetta</link>
+      <itunes:duration>01:12:39</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talked to Juan about all Clojure stuff from Diagrams to Debugging!
+
+Check out ....  https://github.com/jpmonettas?tab=repositories</itunes:summary>
+      <itunes:subtitle>We talked to Juan about all Clojure stuff from Di…</itunes:subtitle>
+      <description>We talked to Juan about all Clojure stuff from Diagrams to Debugging!
+
+Check out ....  https://github.com/jpmonettas?tab=repositories</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/994856074-defn-771544745-67-juan-monetta.mp3" length="104621661"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-CqYeM8WF6YmGwAEs-ywDM6g-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/944553511</guid>
+      <title>#66 - Dominic Monroe</title>
+      <pubDate>Wed, 09 Dec 2020 21:14:04 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/66-dominic-monroe</link>
+      <itunes:duration>01:41:43</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We cover every Clojure topic from edge to wedge and more in episode 66 with Dominic Monroe who wants to have a word with you about TNS-45
+
+Links of interest: 
+https://dominic.io
+https://juxt.land/edge/
+https://sr.ht/~severeoverfl0w/wedge/sources
+https://clojure.atlassian.net/browse/TNS-45</itunes:summary>
+      <itunes:subtitle>We cover every Clojure topic from edge to wedge a…</itunes:subtitle>
+      <description>We cover every Clojure topic from edge to wedge and more in episode 66 with Dominic Monroe who wants to have a word with you about TNS-45
+
+Links of interest: 
+https://dominic.io
+https://juxt.land/edge/
+https://sr.ht/~severeoverfl0w/wedge/sources
+https://clojure.atlassian.net/browse/TNS-45</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/944553511-defn-771544745-66-dominic-monroe.mp3" length="146484244"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-F6uQymEG99WId1qO-Nbi7Fg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/927380161</guid>
+      <title>#65 Vlad Protsenko</title>
+      <pubDate>Wed, 11 Nov 2020 16:36:06 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/65-vlad-protsenko</link>
+      <itunes:duration>01:27:33</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk to Vlad a designer turned developer and &quot;reveal&quot;ed a new REPL experience for Clojure! 
+
+Check it out on https://vlaaad.github.io/reveal/</itunes:summary>
+      <itunes:subtitle>We talk to Vlad a designer turned developer and &quot;…</itunes:subtitle>
+      <description>We talk to Vlad a designer turned developer and &quot;reveal&quot;ed a new REPL experience for Clojure! 
+
+Check it out on https://vlaaad.github.io/reveal/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/927380161-defn-771544745-65-vlad-protsenko.mp3" length="126087417"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-YSmZb14uO7ynLEIO-0UdWSA-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/902341789</guid>
+      <title>#64 - James Henderson - Crux</title>
+      <pubDate>Wed, 30 Sep 2020 19:08:19 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/64-james-henderson-crux</link>
+      <itunes:duration>01:39:44</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>#64 - James Henderson - Crux by defn</itunes:summary>
+      <itunes:subtitle>#64 - James Henderson - Crux by defn</itunes:subtitle>
+      <description>#64 - James Henderson - Crux by defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/902341789-defn-771544745-64-james-henderson-crux.mp3" length="143626030"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-UMrjgPyR9GPzg2rO-rSjCVg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/872772139</guid>
+      <title>#63 - Bruce Durling</title>
+      <pubDate>Sun, 09 Aug 2020 09:47:07 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/63-bruce-durling</link>
+      <itunes:duration>01:18:10</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We got a chance to talk to Clojure community veteran Bruce Durling( London Clojure Community, ClojureBridge, ClojureX and more)about his Clojure Journey and more :)</itunes:summary>
+      <itunes:subtitle>We got a chance to talk to Clojure community vete…</itunes:subtitle>
+      <description>We got a chance to talk to Clojure community veteran Bruce Durling( London Clojure Community, ClojureBridge, ClojureX and more)about his Clojure Journey and more :)</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/872772139-defn-771544745-63-bruce-durling.mp3" length="112564348"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-2b7pzWyFy1hISshH-yGuYVQ-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/853636495</guid>
+      <title>#62 - Mia</title>
+      <pubDate>Tue, 07 Jul 2020 13:11:21 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-62</link>
+      <itunes:duration>01:31:00</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We had super fun talking to Mia - &quot;rock&quot; star Clojure Developer and co-host of apropos! Enjoy!</itunes:summary>
+      <itunes:subtitle>We had super fun talking to Mia - &quot;rock&quot; star Clo…</itunes:subtitle>
+      <description>We had super fun talking to Mia - &quot;rock&quot; star Clojure Developer and co-host of apropos! Enjoy!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/853636495-defn-771544745-defn-62.mp3" length="131062804"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/829253680</guid>
+      <title>#61 - Daniel Szmulewicz</title>
+      <pubDate>Wed, 27 May 2020 18:54:04 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/61-daniel-szmulewicz</link>
+      <itunes:duration>01:15:44</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk to Daniel Szmulewicz about Programming languages, Writing, meyvn and of course Clojure!</itunes:summary>
+      <itunes:subtitle>We talk to Daniel Szmulewicz about Programming la…</itunes:subtitle>
+      <description>We talk to Daniel Szmulewicz about Programming languages, Writing, meyvn and of course Clojure!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/829253680-defn-771544745-61-daniel-szmulewicz.mp3" length="109074180"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-f5fUIxF4fzNWUGJ4-9aE0WQ-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/821808193</guid>
+      <title>#60 4th Anniversary Episode - Return of David Nolen (aka @swannodette)</title>
+      <pubDate>Sat, 16 May 2020 16:59:21 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/60-4th-anniversary-episode-return-of-david-nolen-aka-swannodette</link>
+      <itunes:duration>01:29:27</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>David is back for our anniversary episode to chat about plenty of Clojure Script and projects -  especially about https://github.com/vouch-opensource/krell
+
+
+Checkout https://github.com/swannodette and https://github.com/mfikes to sponsor David or Mike!</itunes:summary>
+      <itunes:subtitle>David is back for our anniversary episode to chat…</itunes:subtitle>
+      <description>David is back for our anniversary episode to chat about plenty of Clojure Script and projects -  especially about https://github.com/vouch-opensource/krell
+
+
+Checkout https://github.com/swannodette and https://github.com/mfikes to sponsor David or Mike!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/821808193-defn-771544745-60-4th-anniversary-episode-return-of-david-nolen-aka-swannodette.mp3" length="128820244"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-LlDKqv3mLb0xYePg-zJh8Xw-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/812547229</guid>
+      <title># 59 jr0cket in Space(macs) aka practicalli aka John Stevenson</title>
+      <pubDate>Sun, 03 May 2020 09:50:28 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/59-jr0cket-in-spacemacs-aka-practicalli-aka-john-stevenson</link>
+      <itunes:duration>01:39:40</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Checkout our latest episode - a fun and interesting conversation with one of the most prolific Clojure community contributor - John Stevenson!
+
+Check him out on http://practicalli.github.io/ and https://twitter.com/jr0cket</itunes:summary>
+      <itunes:subtitle>Checkout our latest episode - a fun and interesti…</itunes:subtitle>
+      <description>Checkout our latest episode - a fun and interesting conversation with one of the most prolific Clojure community contributor - John Stevenson!
+
+Check him out on http://practicalli.github.io/ and https://twitter.com/jr0cket</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/812547229-defn-771544745-59-jr0cket-in-spacemacs-aka-practicalli-aka-john-stevenson.mp3" length="143542020"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-Xzqv4adCen7qfApj-lLrROg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/796647487</guid>
+      <title>#58 - An &quot;Assum&quot; Easter Episode with Erik</title>
+      <pubDate>Sun, 12 Apr 2020 09:25:38 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/58-an-assum-easter-episode-with-erik</link>
+      <itunes:duration>01:28:01</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We chat up with Assum guest - Erik Assum to talk about maintainable Clojure, rock-climbing and more!
+
+Erik's Talk: https://youtu.be/Tq7r97G4b7Y and his OSS is on https://github.com/slipset
+
+Enjoy!</itunes:summary>
+      <itunes:subtitle>We chat up with Assum guest - Erik Assum to talk …</itunes:subtitle>
+      <description>We chat up with Assum guest - Erik Assum to talk about maintainable Clojure, rock-climbing and more!
+
+Erik's Talk: https://youtu.be/Tq7r97G4b7Y and his OSS is on https://github.com/slipset
+
+Enjoy!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/796647487-defn-771544745-58-an-assum-easter-episode-with-erik.mp3" length="126745703"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-6rnexXAD40egMMrh-XAdcMg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/756632221</guid>
+      <title>#57 - Ray and Vijay welcome our first Rhyming Guest: Jeaye</title>
+      <pubDate>Fri, 07 Feb 2020 13:17:43 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/57-ray-an-vijay-welcome-our-fist-rhyming-guest-jeaye</link>
+      <itunes:duration>01:41:13</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Our next episode with Jeaye Wilkerson (https://jeaye.com) - a C++ programmer who turned into a Clojure programer and CTO of gaming startup.</itunes:summary>
+      <itunes:subtitle>Our next episode with Jeaye Wilkerson (https://je…</itunes:subtitle>
+      <description>Our next episode with Jeaye Wilkerson (https://jeaye.com) - a C++ programmer who turned into a Clojure programer and CTO of gaming startup.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/756632221-defn-771544745-57-ray-an-vijay-welcome-our-fist-rhyming-guest-jeaye.mp3" length="145773295"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-dEzKMqCmN3pyLgWX-1qJmzg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/736248151</guid>
+      <title>#56 First returning guest Eric Normand explains how to Grok Simplicity</title>
+      <pubDate>Tue, 31 Dec 2019 10:35:40 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/56-first-returning-guest-eric-normand-explains-how-to-grok-simplicity</link>
+      <itunes:duration>01:25:29</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Check out Eric's book in MEAP - https://www.manning.com/books/grokking-simplicity</itunes:summary>
+      <itunes:subtitle>Check out Eric's book in MEAP - https://www.manni…</itunes:subtitle>
+      <description>Check out Eric's book in MEAP - https://www.manning.com/books/grokking-simplicity</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/736248151-defn-771544745-56-first-returning-guest-eric-normand-explains-how-to-grok-simplicity.mp3" length="123107904"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000660423298-vb2sfr-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/728897257</guid>
+      <title>#55 Learning Schafkopf with Martin Kavalar</title>
+      <pubDate>Mon, 16 Dec 2019 22:41:46 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/55-learning-schafkopf-with-martin-kavalar</link>
+      <itunes:duration>01:17:41</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talked to Martin (https://www.sauspiel.de/schafkopf-lernen fame) to learn about a famous Bavarian card game.
+
+Oh, also we talk about some other stuff like Erlang, Clojure and ClojureScript :)</itunes:summary>
+      <itunes:subtitle>We talked to Martin (https://www.sauspiel.de/scha…</itunes:subtitle>
+      <description>We talked to Martin (https://www.sauspiel.de/schafkopf-lernen fame) to learn about a famous Bavarian card game.
+
+Oh, also we talk about some other stuff like Erlang, Clojure and ClojureScript :)</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/728897257-defn-771544745-55-learning-schafkopf-with-martin-kavalar.mp3" length="111886848"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000653089516-tvw8b2-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/707198473</guid>
+      <title>#54 with Peter Strömberg, Master Calva Distiller</title>
+      <pubDate>Sun, 03 Nov 2019 11:00:23 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/54-with-peter-stromberg-master-calva-distiller</link>
+      <itunes:duration>01:42:06</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk to master Calva distiller Peter, and talk about how he has been building &quot;best Clojure experience for VS Code users&quot;
+
+If you are a VSCode user - checkout Calva https://github.com/BetterThanTomorrow/calva
+
+To sponsor all the amazing work Peter has been doing goto : https://github.com/sponsors/PEZ</itunes:summary>
+      <itunes:subtitle>We talk to master Calva distiller Peter, and talk…</itunes:subtitle>
+      <description>We talk to master Calva distiller Peter, and talk about how he has been building &quot;best Clojure experience for VS Code users&quot;
+
+If you are a VSCode user - checkout Calva https://github.com/BetterThanTomorrow/calva
+
+To sponsor all the amazing work Peter has been doing goto : https://github.com/sponsors/PEZ</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/707198473-defn-771544745-54-with-peter-stromberg-master-calva-distiller.mp3" length="147040128"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000628835515-pn9t8l-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/693942907</guid>
+      <title>#53 - Dave Yarwood</title>
+      <pubDate>Thu, 10 Oct 2019 20:59:56 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/53-dave-yarwood</link>
+      <itunes:duration>01:15:43</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We had the pleasure meeting Dave at Heart of Clojure, and he joins our podcast with his own music composition program https://alda.io with live performance at the end. 
+
+Listen now for more juicy details on how Dave ended up with Clojure from Music, how Alda is built, and the future!</itunes:summary>
+      <itunes:subtitle>We had the pleasure meeting Dave at Heart of Cloj…</itunes:subtitle>
+      <description>We had the pleasure meeting Dave at Heart of Clojure, and he joins our podcast with his own music composition program https://alda.io with live performance at the end. 
+
+Listen now for more juicy details on how Dave ended up with Clojure from Music, how Alda is built, and the future!</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/693942907-defn-771544745-53-dave-yarwood.mp3" length="109050624"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000610677181-hc8204-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/669021362</guid>
+      <title>#52 - Gary Fredericks aka @gfredericks on GitHub</title>
+      <pubDate>Wed, 21 Aug 2019 15:57:12 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/52-gary-fredericks-aka-gfredericks-on-github</link>
+      <itunes:duration>01:32:57</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>garyGary tests us with his Clojure and general knowledge.
+
+The quality of Gary's track isn't the best but it has been scrubbed as clean as the DEFN audio crew can get it. We hope that you will agree that the content is good enough for you to forgive us just this once.
+
+We hope you enjoy the episode and you can check out Gary's great work, especially on the amazing QuineDB, at GitHub https://github.com/gfredericks</itunes:summary>
+      <itunes:subtitle>garyGary tests us with his Clojure and general kn…</itunes:subtitle>
+      <description>garyGary tests us with his Clojure and general knowledge.
+
+The quality of Gary's track isn't the best but it has been scrubbed as clean as the DEFN audio crew can get it. We hope that you will agree that the content is good enough for you to forgive us just this once.
+
+We hope you enjoy the episode and you can check out Gary's great work, especially on the amazing QuineDB, at GitHub https://github.com/gfredericks</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/669021362-defn-771544745-52-gary-fredericks-aka-gfredericks-on-github.mp3" length="133853308"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000585676769-kpea99-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/645178956</guid>
+      <title>#51 - Sean Corfield a.k.a @seancorfield</title>
+      <pubDate>Tue, 02 Jul 2019 14:30:32 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/51-sean-corfield-aka-seancorfield</link>
+      <itunes:duration>01:25:19</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We meet the king of JDBC and discover his many other areas of expertise.
+
+A gentle and warm conversation with a delightful gent.
+
+Enjoy his many repos and links to his other work
+
+https://github.com/seancorfield</itunes:summary>
+      <itunes:subtitle>We meet the king of JDBC and discover his many ot…</itunes:subtitle>
+      <description>We meet the king of JDBC and discover his many other areas of expertise.
+
+A gentle and warm conversation with a delightful gent.
+
+Enjoy his many repos and links to his other work
+
+https://github.com/seancorfield</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/645178956-defn-771544745-51-sean-corfield-aka-seancorfield.mp3" length="122863071"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000560550534-6b0802-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/633934473</guid>
+      <title>#50 - Michiel Borkent a.k.a @borkdude</title>
+      <pubDate>Sun, 09 Jun 2019 06:29:50 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/50-michiel-borkent-aka-borkdude</link>
+      <itunes:duration>01:31:52</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>For our #50 episode we catch up with Michiel Borkent from the the Netherlands to discuss old English literature, Haskell and a bit of Clojure and the tools he is building to help the Clojure Devs!
+
+Checkout his latest talk at Clojure Days: https://www.youtube.com/watch?v=Ygrml6tyrq0
+Links of Interest:
+
+* https://github.com/borkdude
+* https://github.com/borkdude/clj-kondo
+* https://github.com/borkdude/speculative
+* https://github.com/borkdude/re-find and https://re-find.it</itunes:summary>
+      <itunes:subtitle>For our #50 episode we catch up with Michiel Bork…</itunes:subtitle>
+      <description>For our #50 episode we catch up with Michiel Borkent from the the Netherlands to discuss old English literature, Haskell and a bit of Clojure and the tools he is building to help the Clojure Devs!
+
+Checkout his latest talk at Clojure Days: https://www.youtube.com/watch?v=Ygrml6tyrq0
+Links of Interest:
+
+* https://github.com/borkdude
+* https://github.com/borkdude/clj-kondo
+* https://github.com/borkdude/speculative
+* https://github.com/borkdude/re-find and https://re-find.it</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/633934473-defn-771544745-50-michiel-borkent-aka-borkdude.mp3" length="132292230"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000548963784-2s6m3n-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/624690975</guid>
+      <title>#49 Crux with Jon and Jeremy</title>
+      <pubDate>Wed, 22 May 2019 10:33:48 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/49-crux-with-jon-and-jeremy</link>
+      <itunes:duration>01:38:39</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>In which, we talk to Jon &amp; Jeremy about Crux the new Bi-Temporal Database by Juxt (https://juxt.pro/crux/docs/get_started.html)</itunes:summary>
+      <itunes:subtitle>In which, we talk to Jon &amp; Jeremy about Crux the …</itunes:subtitle>
+      <description>In which, we talk to Jon &amp; Jeremy about Crux the new Bi-Temporal Database by Juxt (https://juxt.pro/crux/docs/get_started.html)</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/624690975-defn-771544745-49-crux-with-jon-and-jeremy.mp3" length="142061190"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/606371796</guid>
+      <title>#48 David Miller and Clojure on the CLR</title>
+      <pubDate>Mon, 15 Apr 2019 16:12:40 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/48-david-miller-and-clojure-on-the-clr</link>
+      <itunes:duration>01:29:37</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>After 10 years of diligently maintaining the CLR version of Clojure, David discusses the project for the first time.
+
+It was our absolute pleasure to speak with David and discover his motivations, ideas and plans for the next generation of the CLR port.
+
+David on GitHub - https://github.com/dmiller
+Clojure on the CLR - https://clojure.org/about/clojureclr</itunes:summary>
+      <itunes:subtitle>After 10 years of diligently maintaining the CLR …</itunes:subtitle>
+      <description>After 10 years of diligently maintaining the CLR version of Clojure, David discusses the project for the first time.
+
+It was our absolute pleasure to speak with David and discover his motivations, ideas and plans for the next generation of the CLR port.
+
+David on GitHub - https://github.com/dmiller
+Clojure on the CLR - https://clojure.org/about/clojureclr</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/606371796-defn-771544745-48-david-miller-and-clojure-on-the-clr.mp3" length="129058480"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000520395882-7w4t2f-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/598826145</guid>
+      <title>#47 - Tommi Reiman</title>
+      <pubDate>Sun, 31 Mar 2019 17:17:54 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/47-tommi-reiman</link>
+      <itunes:duration>01:14:17</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>#47 - Tommi Reiman by defn</itunes:summary>
+      <itunes:subtitle>#47 - Tommi Reiman by defn</itunes:subtitle>
+      <description>#47 - Tommi Reiman by defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/598826145-defn-771544745-47-tommi-reiman.mp3" length="106960320"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000513034464-c09xke-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/593476626</guid>
+      <title>#46 - Roman Liutikov</title>
+      <pubDate>Thu, 21 Mar 2019 11:47:07 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/46-roman-liutikov</link>
+      <itunes:duration>01:02:08</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>#46 - Roman Liutikov by defn</itunes:summary>
+      <itunes:subtitle>#46 - Roman Liutikov by defn</itunes:subtitle>
+      <description>#46 - Roman Liutikov by defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/593476626-defn-771544745-46-roman-liutikov.mp3" length="89472939"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000507562167-7b61x2-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/573205197</guid>
+      <title>#45 - Moe Aboulkheir</title>
+      <pubDate>Sun, 10 Feb 2019 19:14:30 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/45-moe-aboulkheir</link>
+      <itunes:duration>01:16:37</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Links of interest:
+
+https://datopia.io
+https://nervous.io/
+https://github.com/nervous-systems/sputter
+https://github.com/replikativ/datahike</itunes:summary>
+      <itunes:subtitle>Links of interest:
+
+https://datopia.io
+https://ne…</itunes:subtitle>
+      <description>Links of interest:
+
+https://datopia.io
+https://nervous.io/
+https://github.com/nervous-systems/sputter
+https://github.com/replikativ/datahike</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/573205197-defn-771544745-45-moe-aboulkheir.mp3" length="110339342"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000486379806-s38n2p-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/565358013</guid>
+      <title># 44 - Tims Gardner</title>
+      <pubDate>Sun, 27 Jan 2019 14:20:30 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/44-tims-gardner</link>
+      <itunes:duration>01:24:42</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Tims on twitter - https://twitter.com/timsgardner
+Arcadia - https://github.com/arcadia-unity/arcadia</itunes:summary>
+      <itunes:subtitle>Tims on twitter - https://twitter.com/timsgardner…</itunes:subtitle>
+      <description>Tims on twitter - https://twitter.com/timsgardner
+Arcadia - https://github.com/arcadia-unity/arcadia</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/565358013-defn-771544745-44-tims-gardner.mp3" length="121964668"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000478486140-icwz9o-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/550185954</guid>
+      <title>#43 - Alex Yakushev</title>
+      <pubDate>Wed, 26 Dec 2018 11:33:28 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/43-alex-yakushev</link>
+      <itunes:duration>01:19:58</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>In this episode Alex stuns us with his preferred option in the spaces / tabs debate.
+
+He goes on to impress with his work on Clojure performance at scale.
+
+Here are some links to his work:
+
+Writing: http://clojure-goes-fast.com
+
+Code: https://github.com/clojure-goes-fast/clj-memory-meter
+
+Follow Alex on Twitter: https://twitter.com/unlog1c
+
+Sadly, we didn't get around to talk about this on the show but it's a great favourite of the community:
+
+https://github.com/alexander-yakushev/compliment</itunes:summary>
+      <itunes:subtitle>In this episode Alex stuns us with his preferred …</itunes:subtitle>
+      <description>In this episode Alex stuns us with his preferred option in the spaces / tabs debate.
+
+He goes on to impress with his work on Clojure performance at scale.
+
+Here are some links to his work:
+
+Writing: http://clojure-goes-fast.com
+
+Code: https://github.com/clojure-goes-fast/clj-memory-meter
+
+Follow Alex on Twitter: https://twitter.com/unlog1c
+
+Sadly, we didn't get around to talk about this on the show but it's a great favourite of the community:
+
+https://github.com/alexander-yakushev/compliment</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/550185954-defn-771544745-43-alex-yakushev.mp3" length="115149217"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000472198278-th78gz-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/538844484</guid>
+      <title>#42 -António Monteiro</title>
+      <pubDate>Sun, 02 Dec 2018 21:36:58 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/42-antonio-monteiro</link>
+      <itunes:duration>01:29:57</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Links of Note:
+* https://github.com/anmonteiro/lumo
+* António's talk on ReasonML https://www.youtube.com/watch?v=XLnWMfdbQEo
+* http://unikernel.org/
+* https://reasonml.github.io/
+* https://zeit.co/ Serverless Platform</itunes:summary>
+      <itunes:subtitle>Links of Note:
+* https://github.com/anmonteiro/lu…</itunes:subtitle>
+      <description>Links of Note:
+* https://github.com/anmonteiro/lumo
+* António's talk on ReasonML https://www.youtube.com/watch?v=XLnWMfdbQEo
+* http://unikernel.org/
+* https://reasonml.github.io/
+* https://zeit.co/ Serverless Platform</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/538844484-defn-771544745-42-antonio-monteiro.mp3" length="129526177"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000452093727-m5avo0-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/525251373</guid>
+      <title>#41 - Timothy Baldridge aka @halgari</title>
+      <pubDate>Mon, 05 Nov 2018 19:26:38 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/41-timothy-baldridge-aka-halgari</link>
+      <itunes:duration>01:52:37</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>An epic tour de force with Timothy. This is our longest episode yet so you may have to hit the pause button once or twice!
+
+He has many interesting stories and opinions so we just couldn't stop talking :)
+
+[ On this show at least he is not as stern as the photo suggests ]
+
+Links
+
+Twitter - https://twitter.com/timbaldridge
+Github - https://github.com/halgari
+Youtube - https://www.youtube.com/channel/UCLxWPHbkxjR-G-y6CVoEHOw
+PivotShare tutorials - https://tbaldridge.pivotshare.com/home</itunes:summary>
+      <itunes:subtitle>An epic tour de force with Timothy. This is our l…</itunes:subtitle>
+      <description>An epic tour de force with Timothy. This is our longest episode yet so you may have to hit the pause button once or twice!
+
+He has many interesting stories and opinions so we just couldn't stop talking :)
+
+[ On this show at least he is not as stern as the photo suggests ]
+
+Links
+
+Twitter - https://twitter.com/timbaldridge
+Github - https://github.com/halgari
+Youtube - https://www.youtube.com/channel/UCLxWPHbkxjR-G-y6CVoEHOw
+PivotShare tutorials - https://tbaldridge.pivotshare.com/home</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/525251373-defn-771544745-41-timothy-baldridge-aka-halgari.mp3" length="162166490"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000434378649-9qb8rg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/516023691</guid>
+      <title>#40 - Nikita Prokopov aka @tonsky</title>
+      <pubDate>Thu, 18 Oct 2018 04:17:41 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/40-nikita-prokopov-aka-tonsky</link>
+      <itunes:duration>01:06:47</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Links of Interest:
+Tonsky's Website: http://tonsky.me
+Flutter https://flutter.io
+FiraCode Font: https://github.com/tonsky/FiraCode
+Nikita's blog post : http://tonsky.me/blog/disenchantment/
+DataScript: https://github.com/tonsky/datascript
+Rum: https://github.com/tonsky/rum</itunes:summary>
+      <itunes:subtitle>Links of Interest:
+Tonsky's Website: http://tonsk…</itunes:subtitle>
+      <description>Links of Interest:
+Tonsky's Website: http://tonsky.me
+Flutter https://flutter.io
+FiraCode Font: https://github.com/tonsky/FiraCode
+Nikita's blog post : http://tonsky.me/blog/disenchantment/
+DataScript: https://github.com/tonsky/datascript
+Rum: https://github.com/tonsky/rum</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/516023691-defn-771544745-40-nikita-prokopov-aka-tonsky.mp3" length="96162376"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000423145671-vommy4-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/499810755</guid>
+      <title>#39 - Cult member echo chamber FTW with Dmitri Sotnikov aka @yogthos</title>
+      <pubDate>Fri, 14 Sep 2018 13:09:24 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/39-cult-member-echo-chamber-ftw-with-dmitri-sotnikov-aka-yogthos</link>
+      <itunes:duration>01:26:24</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>#39 - Cult member echo chamber FTW with Dmitri Sotnikov aka @yogthos by defn</itunes:summary>
+      <itunes:subtitle>#39 - Cult member echo chamber FTW with Dmitri So…</itunes:subtitle>
+      <description>#39 - Cult member echo chamber FTW with Dmitri Sotnikov aka @yogthos by defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/499810755-defn-771544745-39-cult-member-echo-chamber-ftw-with-dmitri-sotnikov-aka-yogthos.mp3" length="124421014"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000405323994-33jloz-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/484900848</guid>
+      <title>#38 - Climbing Hammock Mountain with Valentin Waeselynck aka @val_waeselynck</title>
+      <pubDate>Mon, 13 Aug 2018 12:39:11 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/38-climbing-hammock-mountain-with-valentin-waeselynck-aka-val_waeselynck</link>
+      <itunes:duration>01:23:07</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We run underwater before surfacing with Valentin as he heads off to Hammock Mountain for some climbing and cogitation.</itunes:summary>
+      <itunes:subtitle>We run underwater before surfacing with Valentin …</itunes:subtitle>
+      <description>We run underwater before surfacing with Valentin as he heads off to Hammock Mountain for some climbing and cogitation.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/484900848-defn-771544745-38-climbing-hammock-mountain-with-valentin-waeselynck-aka-val_waeselynck.mp3" length="119686372"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000388289922-q8ed0j-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/478566900</guid>
+      <title># 37 A long glass of CIDER with Bozhidar Batsov aka @bbatsov</title>
+      <pubDate>Mon, 30 Jul 2018 07:34:49 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/36-a-long-glass-of-cider-with-bozhidar-batsov-aka-bbatsov</link>
+      <itunes:duration>01:31:58</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>It's a miserable life but made tolerable for some of us with CIDER.
+
+We skip gaily through a mire of existential woes and somehow feel better for it afterwards.
+
+We hope you enjoy the therapy as much as we did.</itunes:summary>
+      <itunes:subtitle>It's a miserable life but made tolerable for some…</itunes:subtitle>
+      <description>It's a miserable life but made tolerable for some of us with CIDER.
+
+We skip gaily through a mire of existential woes and somehow feel better for it afterwards.
+
+We hope you enjoy the therapy as much as we did.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/478566900-defn-771544745-36-a-long-glass-of-cider-with-bozhidar-batsov-aka-bbatsov.mp3" length="132422634"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000381273750-66nxt4-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/453248565</guid>
+      <title># 36 The Tao of Peter aka @ptaoussanis</title>
+      <pubDate>Sun, 03 Jun 2018 19:44:36 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/36-the-tao-of-peter-aka-ptaoussanis</link>
+      <itunes:duration>01:46:27</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary># 36 The Tao of Peter aka @ptaoussanis by defn</itunes:summary>
+      <itunes:subtitle># 36 The Tao of Peter aka @ptaoussanis by defn</itunes:subtitle>
+      <description># 36 The Tao of Peter aka @ptaoussanis by defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/453248565-defn-771544745-36-the-tao-of-peter-aka-ptaoussanis.mp3" length="153294679"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000356249802-d4mbeg-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/442946472</guid>
+      <title>#35 Thomas Heller aka @thheller</title>
+      <pubDate>Sat, 12 May 2018 08:31:55 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/35-thomas-heller-aka-thheller</link>
+      <itunes:duration>01:11:59</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Heller woke podcast where Thomas cuts a sharp silhouette while discussing his work on the awesome shadow-cljs</itunes:summary>
+      <itunes:subtitle>Heller woke podcast where Thomas cuts a sharp sil…</itunes:subtitle>
+      <description>Heller woke podcast where Thomas cuts a sharp silhouette while discussing his work on the awesome shadow-cljs</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/442946472-defn-771544745-35-thomas-heller-aka-thheller.mp3" length="69111639"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000347299425-ypnh3q-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/430041249</guid>
+      <title>#34 - Mike Thompson aka @wazound</title>
+      <pubDate>Sun, 15 Apr 2018 15:28:59 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/34-mike-thompson-aka-wazound</link>
+      <itunes:duration>01:28:06</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Mike tells us how ClojureScript has finally steered him towards a decent replacement for Flash.
+
+There are many pearls of wisdom from the reframe supremo including his insights on documentation and we could listen forever to his views on finite state machines.
+
+More info and links over on https://defn.audio</itunes:summary>
+      <itunes:subtitle>Mike tells us how ClojureScript has finally steer…</itunes:subtitle>
+      <description>Mike tells us how ClojureScript has finally steered him towards a decent replacement for Flash.
+
+There are many pearls of wisdom from the reframe supremo including his insights on documentation and we could listen forever to his views on finite state machines.
+
+More info and links over on https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/430041249-defn-771544745-34-mike-thompson-aka-wazound.mp3" length="126865448"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000335508567-lg95az-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/415565115</guid>
+      <title>#33 - Pierre-Yves Ritschard aka @pyr</title>
+      <pubDate>Sun, 18 Mar 2018 16:39:10 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/33-pierre-yves-ritschard-aka-pyr</link>
+      <itunes:duration>01:17:39</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk with Pierre-Yves about how he uses Clojure in the Cloud and why he and his co-founders are betting the business on it.
+
+Vijay also wants to submit to bit-masking. Yeah, so be sure to listen to the end.
+
+More information and links are posted on the website
+
+http://defn.audio</itunes:summary>
+      <itunes:subtitle>We talk with Pierre-Yves about how he uses Clojur…</itunes:subtitle>
+      <description>We talk with Pierre-Yves about how he uses Clojure in the Cloud and why he and his co-founders are betting the business on it.
+
+Vijay also wants to submit to bit-masking. Yeah, so be sure to listen to the end.
+
+More information and links are posted on the website
+
+http://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/415565115-defn-771544745-33-pierre-yves-ritschard-aka-pyr.mp3" length="111823933"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000318476565-uplzsv-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/405115557</guid>
+      <title>#32 - Conrad Barski aka @lisperati</title>
+      <pubDate>Sun, 25 Feb 2018 21:30:54 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/32-conrad-barski-aka-lisperati</link>
+      <itunes:duration>01:31:55</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Conrad speaks clearly about his love of LISP and how that evolved into Clojure. 
+
+His projects have been inspired by teaching and remaining true to the spirit of LISPs as a toolkit for building languages and now we see that being brought to the blockchain. 
+
+It never grows old !
+
+More information at the web site https://defn.audio</itunes:summary>
+      <itunes:subtitle>Conrad speaks clearly about his love of LISP and …</itunes:subtitle>
+      <description>Conrad speaks clearly about his love of LISP and how that evolved into Clojure. 
+
+His projects have been inspired by teaching and remaining true to the spirit of LISPs as a toolkit for building languages and now we see that being brought to the blockchain. 
+
+It never grows old !
+
+More information at the web site https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/405115557-defn-771544745-32-conrad-barski-aka-lisperati.mp3" length="132350536"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000307781481-27h4wl-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/397530951</guid>
+      <title># 31 - Bruce Figgy Hauman aka @bhauman</title>
+      <pubDate>Sat, 10 Feb 2018 21:48:09 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/31-bruce-figgy-hauman-aka-bhauman</link>
+      <itunes:duration>01:43:05</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Oh man, so nice to speak with Bruce. He is such a great programmer and has inspired the whole Clojure community with his amazing tools.
+
+It's a long episode, as it should be.</itunes:summary>
+      <itunes:subtitle>Oh man, so nice to speak with Bruce. He is such a…</itunes:subtitle>
+      <description>Oh man, so nice to speak with Bruce. He is such a great programmer and has inspired the whole Clojure community with his amazing tools.
+
+It's a long episode, as it should be.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/397530951-defn-771544745-31-bruce-figgy-hauman-aka-bhauman.mp3" length="148447189"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000300255903-61uwsu-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/389944893</guid>
+      <title># 30 - Zach Tellman aka @ztellman</title>
+      <pubDate>Sat, 27 Jan 2018 16:30:53 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/30-zach-tellman-aka-ztellman</link>
+      <itunes:duration>01:42:33</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>The towering intellect of Mr Tellman is manifold. 
+
+Bit of a #Clojure joke there.
+
+This is a LOOOONG high density episode so strap in.
+
+Also, take your time. Breath. 
+
+And enjoy!
+
+Go over to the web site for information and links 
+
+https://defn.audio</itunes:summary>
+      <itunes:subtitle>The towering intellect of Mr Tellman is manifold.…</itunes:subtitle>
+      <description>The towering intellect of Mr Tellman is manifold. 
+
+Bit of a #Clojure joke there.
+
+This is a LOOOONG high density episode so strap in.
+
+Also, take your time. Breath. 
+
+And enjoy!
+
+Go over to the web site for information and links 
+
+https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/389944893-defn-771544745-30-zach-tellman-aka-ztellman.mp3" length="147667277"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000291704163-rcj7tj-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/377382596</guid>
+      <title>#29.b - Zach &quot;It's Aliiiive&quot; Oakes</title>
+      <pubDate>Mon, 01 Jan 2018 17:33:07 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/29b-zach-its-aliiiive-oakes</link>
+      <itunes:duration>00:21:08</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Our theory was that one day, with enough swearing, we could reach a zen like understanding with our guests.
+
+Here's the proof.
+
+Watch the heck out 2018.</itunes:summary>
+      <itunes:subtitle>Our theory was that one day, with enough swearing…</itunes:subtitle>
+      <description>Our theory was that one day, with enough swearing, we could reach a zen like understanding with our guests.
+
+Here's the proof.
+
+Watch the heck out 2018.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/377382596-defn-771544745-29b-zach-its-aliiiive-oakes.mp3" length="30450415"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/373949708</guid>
+      <title>#29 - Zach &quot;The Mighty&quot; Oakes</title>
+      <pubDate>Sun, 24 Dec 2017 19:35:24 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/29-zach-the-mighty-oakes</link>
+      <itunes:duration>01:14:59</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Hold on to your Explicit Tags cowboys as we take this wild ride into the dynamic world of Clojure's own Bob Ross aka Mr Zach Oakes.
+
+There is a special surprise at the end for those who can take the pace !
+
+A very, very proud Happy Clojuremas to one and all.</itunes:summary>
+      <itunes:subtitle>Hold on to your Explicit Tags cowboys as we take …</itunes:subtitle>
+      <description>Hold on to your Explicit Tags cowboys as we take this wild ride into the dynamic world of Clojure's own Bob Ross aka Mr Zach Oakes.
+
+There is a special surprise at the end for those who can take the pace !
+
+A very, very proud Happy Clojuremas to one and all.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/373949708-defn-771544745-29-zach-the-mighty-oakes.mp3" length="107989576"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000274789757-memsdi-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/370902815</guid>
+      <title>#28 - Max Penet aka @mpenet</title>
+      <pubDate>Sun, 17 Dec 2017 21:28:20 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/28-max-penet-aka-mpenet</link>
+      <itunes:duration>01:16:28</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>An entertaining episode with the Max Penet who has made his own keyboards as well as some popular Clojure libraries for noSQL databases.
+
+[ We know the track is slightly crackly but we think the content is good so we hope that it's good enough for the non-audiopholes out there ]</itunes:summary>
+      <itunes:subtitle>An entertaining episode with the Max Penet who ha…</itunes:subtitle>
+      <description>An entertaining episode with the Max Penet who has made his own keyboards as well as some popular Clojure libraries for noSQL databases.
+
+[ We know the track is slightly crackly but we think the content is good so we hope that it's good enough for the non-audiopholes out there ]</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/370902815-defn-771544745-28-max-penet-aka-mpenet.mp3" length="110122421"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000271178891-iuqy12-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/361285196</guid>
+      <title>#27 with Daniel Compton aka @danielwithmusic</title>
+      <pubDate>Sun, 26 Nov 2017 22:05:41 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/27-with-daniel-compton-aka-danielwithmusic</link>
+      <itunes:duration>01:17:01</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Daniel speaks to us from a room of ethereal light and inspiration.
+
+As well as being as an expert on New Zealand geography, he is a stalwart of the Clojure community working on flashy GUIs and essential infrastructure projects.
+
+More show notes at https://defn.audio</itunes:summary>
+      <itunes:subtitle>Daniel speaks to us from a room of ethereal light…</itunes:subtitle>
+      <description>Daniel speaks to us from a room of ethereal light and inspiration.
+
+As well as being as an expert on New Zealand geography, he is a stalwart of the Clojure community working on flashy GUIs and essential infrastructure projects.
+
+More show notes at https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/361285196-defn-771544745-27-with-daniel-compton-aka-danielwithmusic.mp3" length="110894810"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000261571046-ads4y9-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/355054697</guid>
+      <title>#26 with David Nolen aka @swannodette</title>
+      <pubDate>Mon, 13 Nov 2017 11:34:05 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/26-with-david-nolen-aka-swannodette</link>
+      <itunes:duration>01:05:30</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk with David about the mind blowing possibilities that have emerged with ClojureScript over the past few years and how it is set to rocket into the future.
+
+Please check the web site for more detailed show notes
+https://defn.audio
+
+If you wish to support the show you can use Patreon
+https://www.patreon.com/defn</itunes:summary>
+      <itunes:subtitle>We talk with David about the mind blowing possibi…</itunes:subtitle>
+      <description>We talk with David about the mind blowing possibilities that have emerged with ClojureScript over the past few years and how it is set to rocket into the future.
+
+Please check the web site for more detailed show notes
+https://defn.audio
+
+If you wish to support the show you can use Patreon
+https://www.patreon.com/defn</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/355054697-defn-771544745-26-with-david-nolen-aka-swannodette.mp3" length="94328580"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000255362288-wmi01b-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/344129547</guid>
+      <title>#24.JOY.EC2017 Bonus Episode - The Joy of EuroClojure aka @iamjoyclark</title>
+      <pubDate>Tue, 26 Sep 2017 16:43:09 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/24joyec2017-bonus-episode-the-joy-of-euroclojure-aka-iamjoyclark</link>
+      <itunes:duration>00:20:39</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Where we talk with The Joy [ Clarke ] of EuroClojure
+
+Joy gave a talk at EuroClojure about keeping security simple
+
+https://www.youtube.com/watch?v=lRHPZXKQVLk&amp;index=8&amp;list=PLZdCLR02grLpzt6WENiHe16-vx74VbCw_
+
+Security makes us all feel vulnerable and we had a safe space in Berlin.
+
+As usual we bang on about frameworks and libs.
+
+Joy gives Emacs one finger (rather than all 10) and uses NightCoder.
+
+Check out her sketch notes from the conference and other places on here Twitter feed.</itunes:summary>
+      <itunes:subtitle>Where we talk with The Joy [ Clarke ] of EuroCloj…</itunes:subtitle>
+      <description>Where we talk with The Joy [ Clarke ] of EuroClojure
+
+Joy gave a talk at EuroClojure about keeping security simple
+
+https://www.youtube.com/watch?v=lRHPZXKQVLk&amp;index=8&amp;list=PLZdCLR02grLpzt6WENiHe16-vx74VbCw_
+
+Security makes us all feel vulnerable and we had a safe space in Berlin.
+
+As usual we bang on about frameworks and libs.
+
+Joy gives Emacs one finger (rather than all 10) and uses NightCoder.
+
+Check out her sketch notes from the conference and other places on here Twitter feed.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/344129547-defn-771544745-24joyec2017-bonus-episode-the-joy-of-euroclojure-aka-iamjoyclark.mp3" length="29739466"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247590701-1tv635-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/343528638</guid>
+      <title>#25 - Fulcro and co with Tony Kay @fulcrologic</title>
+      <pubDate>Fri, 22 Sep 2017 12:14:19 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/25-fulcro-and-co-with-tony-kay-fulcrologic</link>
+      <itunes:duration>01:13:18</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Where we talk about mould, scala and then the good stuff
+
+Fulcro is an opinionated take on om.next that will save you tons of work
+
+Tony is a true gent</itunes:summary>
+      <itunes:subtitle>Where we talk about mould, scala and then the goo…</itunes:subtitle>
+      <description>Where we talk about mould, scala and then the good stuff
+
+Fulcro is an opinionated take on om.next that will save you tons of work
+
+Tony is a true gent</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/343528638-defn-771544745-25-fulcro-and-co-with-tony-kay-fulcrologic.mp3" length="105548276"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591243-djwb8w-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/334150004</guid>
+      <title>#24 Enter the Dragan with @draganrocks</title>
+      <pubDate>Fri, 21 Jul 2017 12:16:05 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-24-v3</link>
+      <itunes:duration>01:07:20</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Where we learn all about the expressive power of Clojure running at the speed of raw machine code on CPUs and GPUs.</itunes:summary>
+      <itunes:subtitle>Where we learn all about the expressive power of …</itunes:subtitle>
+      <description>Where we learn all about the expressive power of Clojure running at the speed of raw machine code on CPUs and GPUs.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/334150004-defn-771544745-defn-24-v3.mp3" length="96966111"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591329-b4cxu2-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/328831510</guid>
+      <title>#23 The Right Honourable Stuart Halloway</title>
+      <pubDate>Mon, 19 Jun 2017 14:39:32 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/23-the-right-honourable-stuart-halloway</link>
+      <itunes:duration>01:23:48</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Wherein we discuss a sweeping array of topics 
+- the history of Cognitect
+- the story of Spec
+- past and future of Datomic
+- maybe Clojure isn't quite dead yet
+
+Phew!
+
+Thanks very much to Stu for giving his time to us and the community and for his openness to both ours and community questions</itunes:summary>
+      <itunes:subtitle>Wherein we discuss a sweeping array of topics 
+- …</itunes:subtitle>
+      <description>Wherein we discuss a sweeping array of topics 
+- the history of Cognitect
+- the story of Spec
+- past and future of Datomic
+- maybe Clojure isn't quite dead yet
+
+Phew!
+
+Thanks very much to Stu for giving his time to us and the community and for his openness to both ours and community questions</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/328831510-defn-771544745-23-the-right-honourable-stuart-halloway.mp3" length="120667532"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591449-totxpq-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/324756570</guid>
+      <title>#22 -  Yehonathan Sharvit aka @viebel on Klipse</title>
+      <pubDate>Sat, 27 May 2017 14:22:47 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/22-yehonathan-sharvit-aka-viebel-on-klipse</link>
+      <itunes:duration>01:16:20</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Yehonathan is the author of Klipse - the live content browser plugin
+
+More details at https://defn.audio</itunes:summary>
+      <itunes:subtitle>Yehonathan is the author of Klipse - the live con…</itunes:subtitle>
+      <description>Yehonathan is the author of Klipse - the live content browser plugin
+
+More details at https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/324756570-defn-771544745-22-yehonathan-sharvit-aka-viebel-on-klipse.mp3" length="109928697"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591532-v6zyjz-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/322130082</guid>
+      <title>#21 - James Reeves aka @weavejester</title>
+      <pubDate>Thu, 11 May 2017 16:53:47 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/21-james-reeves-aka-weavejester</link>
+      <itunes:duration>01:12:52</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Wow - we speak with @weavejester himself.
+
+This was a fun episode for us and there are some true gems from the library master himself, Mr James Reeves.
+
+More details and links over the web site: http://defn.audio
+
+Please tweet or retweet the defn Twitter account if you enjoy:
+
+https://twitter.com/defnpodcast
+
+Thanks :)</itunes:summary>
+      <itunes:subtitle>Wow - we speak with @weavejester himself.
+
+This w…</itunes:subtitle>
+      <description>Wow - we speak with @weavejester himself.
+
+This was a fun episode for us and there are some true gems from the library master himself, Mr James Reeves.
+
+More details and links over the web site: http://defn.audio
+
+Please tweet or retweet the defn Twitter account if you enjoy:
+
+https://twitter.com/defnpodcast
+
+Thanks :)</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/322130082-defn-771544745-21-james-reeves-aka-weavejester.mp3" length="104940864"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591578-y6o1jj-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/317238496</guid>
+      <title>#20 - Eric Normand</title>
+      <pubDate>Tue, 11 Apr 2017 19:54:39 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/20-eric-normand</link>
+      <itunes:duration>01:10:57</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Eric imparts his smooth, smooth tones and worldly wisdom to the Defn podcast crew.
+
+See the full show notes over at https://defn.audio</itunes:summary>
+      <itunes:subtitle>Eric imparts his smooth, smooth tones and worldly…</itunes:subtitle>
+      <description>Eric imparts his smooth, smooth tones and worldly wisdom to the Defn podcast crew.
+
+See the full show notes over at https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/317238496-defn-771544745-20-eric-normand.mp3" length="102162807"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591614-j2lskd-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/314574576</guid>
+      <title>#19 - Carin Meier</title>
+      <pubDate>Sun, 26 Mar 2017 18:45:43 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/19-carin-meier</link>
+      <itunes:duration>01:13:16</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Where we meet Carin and and, when we can get a break from laughing, discuss chickens and the weather. A little bit on Pascal, oh and Clojure too!
+
+Show notes at https://defn.audio</itunes:summary>
+      <itunes:subtitle>Where we meet Carin and and, when we can get a br…</itunes:subtitle>
+      <description>Where we meet Carin and and, when we can get a break from laughing, discuss chickens and the weather. A little bit on Pascal, oh and Clojure too!
+
+Show notes at https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/314574576-defn-771544745-19-carin-meier.mp3" length="105513795"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591667-7873bx-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/308550288</guid>
+      <title>#18 - Gijs Stuurman</title>
+      <pubDate>Sun, 19 Feb 2017 20:43:16 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/18-gijs-stuurman</link>
+      <itunes:duration>00:54:54</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Where we meet Gijs and and, among other things, discuss his latest Clojure project: CREPL
+
+Show notes are at https://defn.audio</itunes:summary>
+      <itunes:subtitle>Where we meet Gijs and and, among other things, d…</itunes:subtitle>
+      <description>Where we meet Gijs and and, among other things, discuss his latest Clojure project: CREPL
+
+Show notes are at https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/308550288-defn-771544745-18-gijs-stuurman.mp3" length="105415257"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591724-54h8h3-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/303460176</guid>
+      <title>#17 - Village Idiots</title>
+      <pubDate>Thu, 19 Jan 2017 08:42:01 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/17-village-idiots</link>
+      <itunes:duration>00:48:15</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>One for the vi lovers ;-)
+
+**Credits**
+
+Music
+
+Thanks to youthful exuberance of PTZERY for the intro / outro music
+The track name, chiming with our show theme, is Melon Hamburger https://soundcloud.com/ptzery/melon-hamburger. Listen to more of his work via his SoundCloud https://soundcloud.com/ptzery
+
+Design
+
+Thanks to the fabulous freelance designer, Lubov Soltan for the logo  
+Follow her on Twitter @moolver_sin https://twitter.com/moolver_sin Check out her work at Deviant Art http://moolver-sin.deviantart.com
+
+Mixing
+
+Thanks to Wouter Dullaert for all the help with mixing and fixing of the audio  
+Follow him on Twitter @wouter https://twitter.com/wouterdullaer</itunes:summary>
+      <itunes:subtitle>One for the vi lovers ;-)
+
+**Credits**
+
+Music
+
+Th…</itunes:subtitle>
+      <description>One for the vi lovers ;-)
+
+**Credits**
+
+Music
+
+Thanks to youthful exuberance of PTZERY for the intro / outro music
+The track name, chiming with our show theme, is Melon Hamburger https://soundcloud.com/ptzery/melon-hamburger. Listen to more of his work via his SoundCloud https://soundcloud.com/ptzery
+
+Design
+
+Thanks to the fabulous freelance designer, Lubov Soltan for the logo  
+Follow her on Twitter @moolver_sin https://twitter.com/moolver_sin Check out her work at Deviant Art http://moolver-sin.deviantart.com
+
+Mixing
+
+Thanks to Wouter Dullaert for all the help with mixing and fixing of the audio  
+Follow him on Twitter @wouter https://twitter.com/wouterdullaer</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/303460176-defn-771544745-17-village-idiots.mp3" length="69486184"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/298038944</guid>
+      <title>#16 - Malcolm Sparks</title>
+      <pubDate>Thu, 15 Dec 2016 15:53:07 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/16-malcolm-sparks</link>
+      <itunes:duration>01:13:29</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>- Before Clojure ... journey to enlightenment  
+
+- JUXT ... what it is and how it's going  
+
+ - Yada  
+
+- defn community questions for Malcolm
+
+More details and links on the defn web site
+
+https://defn.audio/2016/12/15/episode-16-malcolm-sparks/</itunes:summary>
+      <itunes:subtitle>- Before Clojure ... journey to enlightenment  
+
+…</itunes:subtitle>
+      <description>- Before Clojure ... journey to enlightenment  
+
+- JUXT ... what it is and how it's going  
+
+ - Yada  
+
+- defn community questions for Malcolm
+
+More details and links on the defn web site
+
+https://defn.audio/2016/12/15/episode-16-malcolm-sparks/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/298038944-defn-771544745-16-malcolm-sparks.mp3" length="105822772"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247591845-v85xs7-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/297375310</guid>
+      <title>#15 EuroClojure 2016 Interviews (Part 2 of 2)</title>
+      <pubDate>Sun, 11 Dec 2016 13:22:44 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/15-euroclojure-2016-interviews-part-2-of-2</link>
+      <itunes:duration>00:59:51</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>At EuroClojure 2016, we had the pleasure of talking with these fine folks:
+
+Malcolm &quot;Yada&quot; Sparks
+Dragan &quot;The GPU Tamer&quot;  Djuric
+David &quot;The CLojureScript Guy&quot; Nolen</itunes:summary>
+      <itunes:subtitle>At EuroClojure 2016, we had the pleasure of talki…</itunes:subtitle>
+      <description>At EuroClojure 2016, we had the pleasure of talking with these fine folks:
+
+Malcolm &quot;Yada&quot; Sparks
+Dragan &quot;The GPU Tamer&quot;  Djuric
+David &quot;The CLojureScript Guy&quot; Nolen</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/297375310-defn-771544745-15-euroclojure-2016-interviews-part-2-of-2.mp3" length="114931252"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000261610610-2dt24k-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/296675054</guid>
+      <title>#14 - Euroclojure 2016 Interviews (Part 1)</title>
+      <pubDate>Wed, 07 Dec 2016 15:45:18 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/14-euroclojure-2016-interviews-part-1</link>
+      <itunes:duration>00:49:56</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>At EuroClojure 2016, we had the pleasure of talking with these fine folks:
+
+Colin &quot;The Cursive&quot; Fleming
+Jon &quot;The JUXT&quot; Pither
+Srihari &quot;The Carnatic&quot; Sriraman
+Carin &quot;The Healer&quot; Meier</itunes:summary>
+      <itunes:subtitle>At EuroClojure 2016, we had the pleasure of talki…</itunes:subtitle>
+      <description>At EuroClojure 2016, we had the pleasure of talking with these fine folks:
+
+Colin &quot;The Cursive&quot; Fleming
+Jon &quot;The JUXT&quot; Pither
+Srihari &quot;The Carnatic&quot; Sriraman
+Carin &quot;The Healer&quot; Meier</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/296675054-defn-771544745-14-euroclojure-2016-interviews-part-1.mp3" length="95861812"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000261610688-jp54p7-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/293641023</guid>
+      <title>#13 - Arne Brasseur: Clojure Bridge and Lambda Island</title>
+      <pubDate>Fri, 18 Nov 2016 14:21:19 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/13-arne-brasseur-clojure-bridge-and-lambda-island</link>
+      <itunes:duration>01:07:15</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Discussion points
+
+* Chestnut
+* Clojure Bridge
+* Lambda Island
+* Clojure Script - reframe
+
+More show notes and links at the web site https://defn.audio/</itunes:summary>
+      <itunes:subtitle>Discussion points
+
+* Chestnut
+* Clojure Bridge
+* …</itunes:subtitle>
+      <description>Discussion points
+
+* Chestnut
+* Clojure Bridge
+* Lambda Island
+* Clojure Script - reframe
+
+More show notes and links at the web site https://defn.audio/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/293641023-defn-771544745-13-arne-brasseur-clojure-bridge-and-lambda-island.mp3" length="129115872"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247593195-37xrsm-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/289209267</guid>
+      <title>#12 - EuroClojure Preview</title>
+      <pubDate>Thu, 20 Oct 2016 21:22:15 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/12-euroclojure-preview</link>
+      <itunes:duration>00:50:04</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We talk about the talks in a meta-tastic preview of the upcoming EuroClojure conference in Bratislava, Slovakia
+
+More notes at http://defn.audio</itunes:summary>
+      <itunes:subtitle>We talk about the talks in a meta-tastic preview …</itunes:subtitle>
+      <description>We talk about the talks in a meta-tastic preview of the upcoming EuroClojure conference in Bratislava, Slovakia
+
+More notes at http://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/289209267-defn-771544745-12-euroclojure-preview.mp3" length="96137472"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000261619787-18fwa8-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/286429956</guid>
+      <title>#11 - Alex Miller</title>
+      <pubDate>Thu, 06 Oct 2016 21:27:44 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/episode-11-alex-miller</link>
+      <itunes:duration>01:15:49</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>We interview the famously energetic and prolific ambassador for Clojure, Mr Alex Miller
+
+Please check the web site for the show notes:
+
+https://defn.audio</itunes:summary>
+      <itunes:subtitle>We interview the famously energetic and prolific …</itunes:subtitle>
+      <description>We interview the famously energetic and prolific ambassador for Clojure, Mr Alex Miller
+
+Please check the web site for the show notes:
+
+https://defn.audio</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/286429956-defn-771544745-episode-11-alex-miller.mp3" length="145559808"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247593377-jkz93f-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/283834845</guid>
+      <title>#10 - Spec.ial</title>
+      <pubDate>Wed, 21 Sep 2016 18:10:34 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-10-20092016-2218</link>
+      <itunes:duration>01:02:04</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>A discussion about spec
+
+For detailed information and links, see the show notes at 
+
+https://defn.audio/2016/09/21/episode-10-spec-ial/</itunes:summary>
+      <itunes:subtitle>A discussion about spec
+
+For detailed information…</itunes:subtitle>
+      <description>A discussion about spec
+
+For detailed information and links, see the show notes at 
+
+https://defn.audio/2016/09/21/episode-10-spec-ial/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/283834845-defn-771544745-defn-10-20092016-2218.mp3" length="119185998"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/281694759</guid>
+      <title>#9 - Onyx with Mike and Lucas</title>
+      <pubDate>Tue, 06 Sep 2016 19:40:06 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/episode-9-onyx-with-mike-and-lucas</link>
+      <itunes:duration>01:30:26</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Summary:
+
+A fun, loooong episode to discuss the awesome Onyx with Mike Drogalis and Lucas Bradstreet
+
+Show notes at https://defn.audio/2016/09/06/episode-9-onyx-with-mike-and-lucas/
+
+Credits:
+
+Guests: Thanks to Mike and Lucas for the great conversation and all of the lovely software.
+
+Music: Thanks to the very talented ptzery for the permitting us to use his music on the opening and closing of the podcast. This track is Melon Hamburger. You can give his work some ❤️ and hear more on his SoundCloud https://soundcloud.com/ptzery
+</itunes:summary>
+      <itunes:subtitle>Summary:
+
+A fun, loooong episode to discuss the a…</itunes:subtitle>
+      <description>Summary:
+
+A fun, loooong episode to discuss the awesome Onyx with Mike Drogalis and Lucas Bradstreet
+
+Show notes at https://defn.audio/2016/09/06/episode-9-onyx-with-mike-and-lucas/
+
+Credits:
+
+Guests: Thanks to Mike and Lucas for the great conversation and all of the lovely software.
+
+Music: Thanks to the very talented ptzery for the permitting us to use his music on the opening and closing of the podcast. This track is Melon Hamburger. You can give his work some ❤️ and hear more on his SoundCloud https://soundcloud.com/ptzery
+</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/281694759-defn-771544745-episode-9-onyx-with-mike-and-lucas.mp3" length="173627691"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247657118-iosiuv-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/279411156</guid>
+      <title>#8 - Discussion: scaling with Clojure</title>
+      <pubDate>Mon, 22 Aug 2016 19:04:31 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/8-discussion-scaling-with-clojure</link>
+      <itunes:duration>01:11:40</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>News &amp; Events
+
+https://juxt.pro/XT16.html - 6th October, 2016
+Defn will be at Euroclojure - October 25/26
+EuroClojure talks  - David Nolen, Carin Meier etc.
+https://skillsmatter.com/conferences/7430-clojure-exchange-2016
+
+Onyx got funding
+re-frame a new version 
+Ambrose IndieGoGo : https://www.indiegogo.com/projects/typed-clojure-clojure-spec-auto-annotations#/
+
+Main discussion - Clojure at Scale
+
+OOP has design patterns UML etc. OOAD 
+Scaling - two thingies: Static vs. Dynamic
+Functional Programming without OOP Paradigms
+component/mount
+“Modules” or namespaces / 
+Distribution - fund the clojars! (https://salt.bountysource.com/teams/clojars)
+Functions as first class (high-order fns, fns as return types)
+Code testing/schema/spec
+Team - Sizes
+Micro-services / Serverless
+
+Links 
+Open Source book - http://aosabook.org/en/index.html
+Peter Novig on Design Patterns in LISP - http://norvig.com/design-patterns/design-patterns.pdf
+Fred George on Programmer Anarchy https://www.youtube.com/results?search_query=fred+george+programmer+anarchy
+Docker and Unikernels
+https://blog.docker.com/2016/01/unikernel/
+
+
+Credits
+Thanks to Ptzery for intro / outro … Melon Hamburger
+https://soundcloud.com/ptzery
+</itunes:summary>
+      <itunes:subtitle>News &amp; Events
+
+https://juxt.pro/XT16.html - 6th O…</itunes:subtitle>
+      <description>News &amp; Events
+
+https://juxt.pro/XT16.html - 6th October, 2016
+Defn will be at Euroclojure - October 25/26
+EuroClojure talks  - David Nolen, Carin Meier etc.
+https://skillsmatter.com/conferences/7430-clojure-exchange-2016
+
+Onyx got funding
+re-frame a new version 
+Ambrose IndieGoGo : https://www.indiegogo.com/projects/typed-clojure-clojure-spec-auto-annotations#/
+
+Main discussion - Clojure at Scale
+
+OOP has design patterns UML etc. OOAD 
+Scaling - two thingies: Static vs. Dynamic
+Functional Programming without OOP Paradigms
+component/mount
+“Modules” or namespaces / 
+Distribution - fund the clojars! (https://salt.bountysource.com/teams/clojars)
+Functions as first class (high-order fns, fns as return types)
+Code testing/schema/spec
+Team - Sizes
+Micro-services / Serverless
+
+Links 
+Open Source book - http://aosabook.org/en/index.html
+Peter Novig on Design Patterns in LISP - http://norvig.com/design-patterns/design-patterns.pdf
+Fred George on Programmer Anarchy https://www.youtube.com/results?search_query=fred+george+programmer+anarchy
+Docker and Unikernels
+https://blog.docker.com/2016/01/unikernel/
+
+
+Credits
+Thanks to Ptzery for intro / outro … Melon Hamburger
+https://soundcloud.com/ptzery
+</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/279411156-defn-771544745-8-discussion-scaling-with-clojure.mp3" length="137589577"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/277716719</guid>
+      <title>#7 - Datomic with Robert Stuttaford</title>
+      <pubDate>Wed, 10 Aug 2016 21:22:48 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/7-dataomic-with-robert-stuttaford</link>
+      <itunes:duration>01:09:27</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>A roving tour of Datomic with the pioneering Mr Stuttaford.
+
+For detailed show notes please check the web site
+
+https://defn.audio/2016/08/10/episode-7-datomic-with-robert-stuttaford/</itunes:summary>
+      <itunes:subtitle>A roving tour of Datomic with the pioneering Mr S…</itunes:subtitle>
+      <description>A roving tour of Datomic with the pioneering Mr Stuttaford.
+
+For detailed show notes please check the web site
+
+https://defn.audio/2016/08/10/episode-7-datomic-with-robert-stuttaford/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/277716719-defn-771544745-7-dataomic-with-robert-stuttaford.mp3" length="133348963"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247657212-uunoh8-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/275325675</guid>
+      <title>#6 - Concurrency and Parallelism</title>
+      <pubDate>Mon, 25 Jul 2016 19:59:49 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/6-concurrency-and-parallelism</link>
+      <itunes:duration>01:01:32</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>A rambling discussion struggling to come to terms with concurrency and parallelism
+
+See the show notes at defn.audio
+
+https://defn.audio/2016/07/25/episode-6-concurrency-and-parallelism/</itunes:summary>
+      <itunes:subtitle>A rambling discussion struggling to come to terms…</itunes:subtitle>
+      <description>A rambling discussion struggling to come to terms with concurrency and parallelism
+
+See the show notes at defn.audio
+
+https://defn.audio/2016/07/25/episode-6-concurrency-and-parallelism/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/275325675-defn-771544745-6-concurrency-and-parallelism.mp3" length="118137756"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/273498278</guid>
+      <title>#5 - Hoplon Special with Micha Niskin</title>
+      <pubDate>Wed, 13 Jul 2016 16:11:58 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/05-hoplon-special-with-micha-niskin</link>
+      <itunes:duration>01:29:23</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>*Follow up*
+
+We retain our status as the top vegetarian Clojure podcast. Phew.
+
+Maria Geller’s video - in which she did a great job of explaining how the CLJS compiler works and provides some interface to the contribution process:
+https://www.youtube.com/watch?v=Elg17s_nwDg
+
+*News*
+
+Euro Clojure - Bratislava tickets are on sale. Defn will be there
+
+*Main discussion - ClojureScript UI - Hoplon Special*
+
+http://hoplon.io
+
+Welcome to Micha Niskin - co-author of the awesome Hoplon library collection
+ 
+Potted history of Micha and the main goals of Hoplon
+Hoplon - LISP based DOM manipulation
+
+Javelin - Spreadsheet data flow model
+
+Castra - CQRS, RPC
+
+Comparison to React / Rum / Reagent
+
+*Credits*
+
+Special Guest: Micha Niskin. Thanks Micha and please look after those nukes.
+
+Music: Thanks to the very talented ptzery for the permitting us to use his music on the opening and closing of the podcast. This track is Melon Hamburger. You can give his work some ❤️ and hear more on his SoundCloud.
+</itunes:summary>
+      <itunes:subtitle>*Follow up*
+
+We retain our status as the top vege…</itunes:subtitle>
+      <description>*Follow up*
+
+We retain our status as the top vegetarian Clojure podcast. Phew.
+
+Maria Geller’s video - in which she did a great job of explaining how the CLJS compiler works and provides some interface to the contribution process:
+https://www.youtube.com/watch?v=Elg17s_nwDg
+
+*News*
+
+Euro Clojure - Bratislava tickets are on sale. Defn will be there
+
+*Main discussion - ClojureScript UI - Hoplon Special*
+
+http://hoplon.io
+
+Welcome to Micha Niskin - co-author of the awesome Hoplon library collection
+ 
+Potted history of Micha and the main goals of Hoplon
+Hoplon - LISP based DOM manipulation
+
+Javelin - Spreadsheet data flow model
+
+Castra - CQRS, RPC
+
+Comparison to React / Rum / Reagent
+
+*Credits*
+
+Special Guest: Micha Niskin. Thanks Micha and please look after those nukes.
+
+Music: Thanks to the very talented ptzery for the permitting us to use his music on the opening and closing of the podcast. This track is Melon Hamburger. You can give his work some ❤️ and hear more on his SoundCloud.
+</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/273498278-defn-771544745-05-hoplon-special-with-micha-niskin.mp3" length="171629846"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247657310-6xvewk-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/271111530</guid>
+      <title>#4 - Immutable Persistent Collections</title>
+      <pubDate>Mon, 27 Jun 2016 19:34:00 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-04-immutable-persistent-collections</link>
+      <itunes:duration>01:11:05</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Overview of Persistent Collections
+
+- Intro | Follow-up | News
+  - Discussion on community relations
+
+- Immutable Persistent Collections
+
+List vs Vector
+- Linked list vs tree implementation
+
+Map vs Set
+- Key can be anything
+- KV | Unique KV
+- Relational operations on set are outside of core
+
+Seq library
+- ISeq (first, rest, cons)
+- Interop with Java utterable
+- Functions are written to work against the Seq interface
+- Seq in, Seq out
+
+Immutability and Persistence
+- What is it?
+- Why is it important?
+- Implementation
+
+Lazy collections
+- What does it mean to be lazy?
+- What does it mean to hold on the head?
+
+Eager operations
+- Sometimes you need side effects so you cannot be lazy
+- Doall, doseq
+
+Persistent vs. Transient
+- Performance
+
+SPECTER - Nathan Marz
+- Ensure output format of collection operations is controlled
+- Editing operations
+
+Community contributed collections - shout out to
+- Chris Houser - Data.zip
+- Michał Marczyk - Ctries and AVL
+- Mark Engelberg - Priority maps
+- Lean Hash Maps Peter Schuck
+
+See the podcast web site http://defn.audio for links
+</itunes:summary>
+      <itunes:subtitle>Overview of Persistent Collections
+
+- Intro | Fol…</itunes:subtitle>
+      <description>Overview of Persistent Collections
+
+- Intro | Follow-up | News
+  - Discussion on community relations
+
+- Immutable Persistent Collections
+
+List vs Vector
+- Linked list vs tree implementation
+
+Map vs Set
+- Key can be anything
+- KV | Unique KV
+- Relational operations on set are outside of core
+
+Seq library
+- ISeq (first, rest, cons)
+- Interop with Java utterable
+- Functions are written to work against the Seq interface
+- Seq in, Seq out
+
+Immutability and Persistence
+- What is it?
+- Why is it important?
+- Implementation
+
+Lazy collections
+- What does it mean to be lazy?
+- What does it mean to hold on the head?
+
+Eager operations
+- Sometimes you need side effects so you cannot be lazy
+- Doall, doseq
+
+Persistent vs. Transient
+- Performance
+
+SPECTER - Nathan Marz
+- Ensure output format of collection operations is controlled
+- Editing operations
+
+Community contributed collections - shout out to
+- Chris Houser - Data.zip
+- Michał Marczyk - Ctries and AVL
+- Mark Engelberg - Priority maps
+- Lean Hash Maps Peter Schuck
+
+See the podcast web site http://defn.audio for links
+</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/271111530-defn-771544745-defn-04-immutable-persistent-collections.mp3" length="136493688"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/268923837</guid>
+      <title>#3 - A tour of the REPLs with Mike Fikes</title>
+      <pubDate>Mon, 13 Jun 2016 19:46:13 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn3-repls</link>
+      <itunes:duration>01:11:29</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>This episode we welcome Mr Mike Fikes to help us on a tour of the Clojure REPLs</itunes:summary>
+      <itunes:subtitle>This episode we welcome Mr Mike Fikes to help us …</itunes:subtitle>
+      <description>This episode we welcome Mr Mike Fikes to help us on a tour of the Clojure REPLs</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/268923837-defn-771544745-defn3-repls.mp3" length="137248522"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247657483-kkvo0d-t3000x3000.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/266633192</guid>
+      <title>#2 - The Reader</title>
+      <pubDate>Mon, 30 May 2016 17:16:02 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-02-the-reader</link>
+      <itunes:duration>00:53:51</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Defn Episode #02 - The Reader
+
+[ a little news: spec ]
+
+The wonders of the Reader
+- Compare to the C pre-processor 
+- How it underpins the language
+- Reader forms
+- EDN / Transit
+- Tagged literals
+- Reader Conditionals (1.7+)
+- clojure.tools.reader
+- Finally, why no user defined reader macros (as in Common Lisp and Scheme)?
+
+References
+The Data-Reader's Guide to the Galaxy (Clojure West, 2013) by Steve Miner
+Spyscope by David Greenberg
+
+More information and links at the DEFN website 
+https://defn.audio/2016/05/30/episode-02-the-reader/
+
+Our thanks to Ptzery for the intro and outro music (Melon Hamburger)
+https://soundcloud.com/ptzery/</itunes:summary>
+      <itunes:subtitle>Defn Episode #02 - The Reader
+
+[ a little news: s…</itunes:subtitle>
+      <description>Defn Episode #02 - The Reader
+
+[ a little news: spec ]
+
+The wonders of the Reader
+- Compare to the C pre-processor 
+- How it underpins the language
+- Reader forms
+- EDN / Transit
+- Tagged literals
+- Reader Conditionals (1.7+)
+- clojure.tools.reader
+- Finally, why no user defined reader macros (as in Common Lisp and Scheme)?
+
+References
+The Data-Reader's Guide to the Galaxy (Clojure West, 2013) by Steve Miner
+Spyscope by David Greenberg
+
+More information and links at the DEFN website 
+https://defn.audio/2016/05/30/episode-02-the-reader/
+
+Our thanks to Ptzery for the intro and outro music (Melon Hamburger)
+https://soundcloud.com/ptzery/</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/266633192-defn-771544745-defn-02-the-reader.mp3" length="103389648"/>
+      <itunes:image href="https://i1.sndcdn.com/avatars-000395124672-x6gkuo-original.jpg"/>
+    </item><item>
+      <guid isPermaLink="false">tag:soundcloud,2010:tracks/264585843</guid>
+      <title>#1 - Hello World</title>
+      <pubDate>Tue, 17 May 2016 17:24:47 +0000</pubDate>
+      <link>https://soundcloud.com/defn-771544745/defn-01</link>
+      <itunes:duration>00:50:49</itunes:duration>
+      <itunes:author>defn</itunes:author>
+      <itunes:explicit>yes</itunes:explicit>
+      <itunes:summary>Launch episode explaining our motivations for being Clojure and ClojureScipt enthusiasts.</itunes:summary>
+      <itunes:subtitle>Launch episode explaining our motivations for bei…</itunes:subtitle>
+      <description>Launch episode explaining our motivations for being Clojure and ClojureScipt enthusiasts.</description>
+      <enclosure type="audio/mpeg" url="http://www.podtrac.com/pts/redirect.mp3/feeds.soundcloud.com/stream/264585843-defn-771544745-defn-01.mp3" length="97580544"/>
+      <itunes:image href="https://i1.sndcdn.com/artworks-000247657764-e0g7gs-t3000x3000.jpg"/>
+    </item>
+      </channel>
+    </rss>

@@ -1,0 +1,491 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<?xml-stylesheet href="https://feeds.buzzsprout.com/styles.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:podcast="https://podcastindex.org/namespace/1.0" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:atom="http://www.w3.org/2005/Atom">
+<channel>
+  <atom:link href="https://feeds.buzzsprout.com/1817535.rss" rel="self" type="application/rss+xml" />
+  <atom:link href="https://pubsubhubbub.appspot.com/" rel="hub" xmlns="http://www.w3.org/2005/Atom" />
+  <title>The Haskell Interlude</title>
+  <lastBuildDate>Thu, 08 Jun 2023 10:56:30 -0400</lastBuildDate>
+  <link>https://haskell.foundation/podcast/</link>
+  <language>en-us</language>
+  <copyright>© 2023 The Haskell Interlude</copyright>
+  <podcast:locked>yes</podcast:locked>
+    <podcast:guid>8fb597da-5142-5c2a-b097-9c8c657bd7c3</podcast:guid>
+    <itunes:author>Haskell Podcast</itunes:author>
+  <itunes:type>episodic</itunes:type>
+  <itunes:explicit>false</itunes:explicit>
+  <description><![CDATA[This is the Haskell Interlude, where the five co-hosts (Wouter Swierstra, Andres Löh, Alejandro Serrano, Niki Vazou, and Joachim Breitner) chat with Haskell guests! ]]></description>
+  <itunes:owner>
+    <itunes:name>Haskell Podcast</itunes:name>
+  </itunes:owner>
+  <image>
+     <url>https://storage.buzzsprout.com/variants/im3xnx7ovvommfg5648cxvumiuoj/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg</url>
+     <title>The Haskell Interlude</title>
+     <link>https://haskell.foundation/podcast/</link>
+  </image>
+  <itunes:image href="https://storage.buzzsprout.com/variants/im3xnx7ovvommfg5648cxvumiuoj/60854458c4d1acdf4e1c2f79c4137142d85d78e379bdafbd69bd34c85f5819ad.jpg" />
+  <itunes:category text="Technology" />
+  <item>
+    <itunes:title>27: Christiaan Baaij</itunes:title>
+    <title>27: Christiaan Baaij</title>
+    <description><![CDATA[<p>In this episode Christiaan Baaij is interviewed by Wouter Swierstra and Mattias Páll. Christiaan talks about his work on the Clash compiler, what it is like to found your own company, his desire for ergonomic dependent types, and the foundations to all his success, namely capitalising on luck.</p><p><br/></p><p><br/></p><p><b>Errata: </b>Around the 21m19s mark Christiaan talks about “his“ contributions to GHC with regards to dynamic linking on OSX. Later he remembered that it was actually Moritz Angermann who [worked on the symbol limit restrictions](<a href='https://gitlab.haskell.org/ghc/ghc/-/commit/b592bd98ff25730bbe3c13d6f62a427df8c78e28'>https://gitlab.haskell.org/ghc/ghc/-/commit/b592bd98ff25730bbe3c13d6f62a427df8c78e28</a>). However, Christiaan did [some other work on OSX linking](https://gitlab.haskell.org/ghc/ghc/-/commit/f7be53ac9dac85b83e7fe5ecede01b98a572ba48) and some of the [RPATH handling](https://github.com/haskell/cabal/pull/2255/commits).</p>]]></description>
+    <link>https://haskell.foundation/podcast/27/</link>
+    <content:encoded><![CDATA[<p>In this episode Christiaan Baaij is interviewed by Wouter Swierstra and Mattias Páll. Christiaan talks about his work on the Clash compiler, what it is like to found your own company, his desire for ergonomic dependent types, and the foundations to all his success, namely capitalising on luck.</p><p><br/></p><p><br/></p><p><b>Errata: </b>Around the 21m19s mark Christiaan talks about “his“ contributions to GHC with regards to dynamic linking on OSX. Later he remembered that it was actually Moritz Angermann who [worked on the symbol limit restrictions](<a href='https://gitlab.haskell.org/ghc/ghc/-/commit/b592bd98ff25730bbe3c13d6f62a427df8c78e28'>https://gitlab.haskell.org/ghc/ghc/-/commit/b592bd98ff25730bbe3c13d6f62a427df8c78e28</a>). However, Christiaan did [some other work on OSX linking](https://gitlab.haskell.org/ghc/ghc/-/commit/f7be53ac9dac85b83e7fe5ecede01b98a572ba48) and some of the [RPATH handling](https://github.com/haskell/cabal/pull/2255/commits).</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12919972-27-christiaan-baaij.mp3" length="36545310" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12919972</guid>
+    <pubDate>Thu, 25 May 2023 15:00:00 +0000</pubDate>
+    <itunes:duration>3044</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>27</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>26: Simon Marlow</itunes:title>
+    <title>26: Simon Marlow</title>
+    <description><![CDATA[<p>In this episode Simon Marlow talks with Andres Löh and Matthias Pall. Simon is a long time GHC contributor, currently working at Meta. He talks about compiling functional  languages via C and the Evil Mangler, the importance of using parallelism and its impact on garbage collection, and about using Haskell in the real world via Sigma, Haxl, and Glean. </p><p><br/></p>]]></description>
+    <link>https://haskell.foundation/podcast/26/</link>
+    <content:encoded><![CDATA[<p>In this episode Simon Marlow talks with Andres Löh and Matthias Pall. Simon is a long time GHC contributor, currently working at Meta. He talks about compiling functional  languages via C and the Evil Mangler, the importance of using parallelism and its impact on garbage collection, and about using Haskell in the real world via Sigma, Haxl, and Glean. </p><p><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12919696-26-simon-marlow.mp3" length="39260260" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12919696</guid>
+    <pubDate>Thu, 25 May 2023 14:00:00 +0000</pubDate>
+    <itunes:duration>3270</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>26</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>25: Bodigrim</itunes:title>
+    <title>25: Bodigrim</title>
+    <description><![CDATA[<p>In this episode Joachim Breitner and Wouter Swierstra talk to Andrew Lelechenko, also known as Bodigrim. Bodigrim went from a being a mathematician to a failed PHP developer the chair of the Core Libraries Committee. In this episode, we discuss whether he prefers number theory or Haskell, whether he prefers working with compilers or PHP frameworks, and whether he prefers high salaries for Haskell developers or breaking changes to the base library</p>]]></description>
+    <content:encoded><![CDATA[<p>In this episode Joachim Breitner and Wouter Swierstra talk to Andrew Lelechenko, also known as Bodigrim. Bodigrim went from a being a mathematician to a failed PHP developer the chair of the Core Libraries Committee. In this episode, we discuss whether he prefers number theory or Haskell, whether he prefers working with compilers or PHP frameworks, and whether he prefers high salaries for Haskell developers or breaking changes to the base library</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12741964-25-bodigrim.mp3" length="32972683" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12741964</guid>
+    <pubDate>Fri, 28 Apr 2023 13:00:00 +0000</pubDate>
+    <itunes:duration>2746</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>24: Jeremy Gibbons</itunes:title>
+    <title>24: Jeremy Gibbons</title>
+    <description><![CDATA[<p>In this episode Andres Löh and Niki Vazou chat with Jeremy Gibbons. Jeremy Gibbons is professor at Oxford and talks about his journey from Orwell to Haskell, how to teach Haskell and specification languages to undergraduates as well as professional programmers, how programming languages should keep simple things simple, and how paper writing can or even should be like poetry.</p>]]></description>
+    <content:encoded><![CDATA[<p>In this episode Andres Löh and Niki Vazou chat with Jeremy Gibbons. Jeremy Gibbons is professor at Oxford and talks about his journey from Orwell to Haskell, how to teach Haskell and specification languages to undergraduates as well as professional programmers, how programming languages should keep simple things simple, and how paper writing can or even should be like poetry.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12623500-24-jeremy-gibbons.mp3" length="40722601" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12623500</guid>
+    <pubDate>Mon, 10 Apr 2023 19:00:00 +0000</pubDate>
+    <itunes:duration>3392</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>24</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>true</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>23: Ben Gamari</itunes:title>
+    <title>23: Ben Gamari</title>
+    <description><![CDATA[<p>In this episode Wouter Swierstra and Joachim Breitner chat with Ben Gamari. Ben is a consultant at well-typed known for his work at GHC. Ben tells us a little bit about his switch from Python to Haskell but not because he was missing the static typing, how programming his thermostat lead him to a career in the compiler development, and what it&apos;s like to be a GHC force multiplier. </p>]]></description>
+    <content:encoded><![CDATA[<p>In this episode Wouter Swierstra and Joachim Breitner chat with Ben Gamari. Ben is a consultant at well-typed known for his work at GHC. Ben tells us a little bit about his switch from Python to Haskell but not because he was missing the static typing, how programming his thermostat lead him to a career in the compiler development, and what it&apos;s like to be a GHC force multiplier. </p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12492098-23-ben-gamari.mp3" length="33387094" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12492098</guid>
+    <pubDate>Wed, 22 Mar 2023 09:00:00 +0000</pubDate>
+    <itunes:duration>2780</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>23</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>22: Alejandro Russo</itunes:title>
+    <title>22: Alejandro Russo</title>
+    <description><![CDATA[<p>In this episode Andres Löh and Niki Vazou talk with Alejandro Russo.  Alejandro is a professor at Chalmers University in Gothenburg Sweden, he is an enthusiastic functional programmer as well as a researcher in the fields of security and privacy. He talks about the unique strengths Haskell has in these areas and how to move research ideas into industry. </p>]]></description>
+    <content:encoded><![CDATA[<p>In this episode Andres Löh and Niki Vazou talk with Alejandro Russo.  Alejandro is a professor at Chalmers University in Gothenburg Sweden, he is an enthusiastic functional programmer as well as a researcher in the fields of security and privacy. He talks about the unique strengths Haskell has in these areas and how to move research ideas into industry. </p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12335263-22-alejandro-russo.mp3" length="35045357" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12335263</guid>
+    <pubDate>Mon, 27 Feb 2023 08:00:00 +0000</pubDate>
+    <itunes:duration>2919</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>22</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>true</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>21: Andrey Mokhov</itunes:title>
+    <title>21: Andrey Mokhov</title>
+    <description><![CDATA[<p>In this episode Matthías Páll and Andres Löh  talk with Andrey Mokhov. <br/>Andrey is best known for his work on the Hadrian build system and today he talks about algebraic graphs, selective functors, and the  difference between OCaml and Haskell. <br/><br/></p><p><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>In this episode Matthías Páll and Andres Löh  talk with Andrey Mokhov. <br/>Andrey is best known for his work on the Hadrian build system and today he talks about algebraic graphs, selective functors, and the  difference between OCaml and Haskell. <br/><br/></p><p><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12240448-21-andrey-mokhov.mp3" length="31873356" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12240448</guid>
+    <pubDate>Mon, 13 Feb 2023 08:00:00 +0000</pubDate>
+    <itunes:duration>2654</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>21</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>20: Jesper Cockx</itunes:title>
+    <title>20: Jesper Cockx</title>
+    <description><![CDATA[<p>In this episode Jesper Cockx, one of the main Agda developers, is interviews by Niki Vazou and Matthias Pall. They talk about how to explain dependent types to one&apos;s father, how Agda’s automation and proof search work, and how Agda can be used to verify Haskell code bases.</p>]]></description>
+    <link>https://haskell.foundation/podcast/20/</link>
+    <content:encoded><![CDATA[<p>In this episode Jesper Cockx, one of the main Agda developers, is interviews by Niki Vazou and Matthias Pall. They talk about how to explain dependent types to one&apos;s father, how Agda’s automation and proof search work, and how Agda can be used to verify Haskell code bases.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/12051036-20-jesper-cockx.mp3" length="36373520" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-12051036</guid>
+    <pubDate>Mon, 16 Jan 2023 06:00:00 +0000</pubDate>
+    <itunes:duration>3029</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>20</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>19: Marc Scholten</itunes:title>
+    <title>19: Marc Scholten</title>
+    <description><![CDATA[<p>In this episode Marc Scholten is interviewed by Andres Löh and Joachim Breitner. They talk about the Integrated Haskell Platform web framework (IHP), implicit parameters and nix.</p>]]></description>
+    <content:encoded><![CDATA[<p>In this episode Marc Scholten is interviewed by Andres Löh and Joachim Breitner. They talk about the Integrated Haskell Platform web framework (IHP), implicit parameters and nix.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/11829745-19-marc-scholten.mp3" length="36329950" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-11829745</guid>
+    <pubDate>Wed, 07 Dec 2022 12:00:00 +0000</pubDate>
+    <itunes:duration>3026</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>19</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>18: Matthias Pall Gissurarson &amp; Jimmy Koppel</itunes:title>
+    <title>18: Matthias Pall Gissurarson &amp; Jimmy Koppel</title>
+    <description><![CDATA[<p>In this episode Matthias Pall Gissurarson &amp; Jimmy Koppel are interviewed by Wouter Swierstra and Niki Vazou. They talk about program synthesis, typed holes, program repair, and generating properties using a new technique called ECTAs.</p>]]></description>
+    <link>https://haskell.foundation/podcast/18</link>
+    <content:encoded><![CDATA[<p>In this episode Matthias Pall Gissurarson &amp; Jimmy Koppel are interviewed by Wouter Swierstra and Niki Vazou. They talk about program synthesis, typed holes, program repair, and generating properties using a new technique called ECTAs.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/11706397-18-matthias-pall-gissurarson-jimmy-koppel.mp3" length="28201743" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-11706397</guid>
+    <pubDate>Wed, 16 Nov 2022 11:00:00 +0000</pubDate>
+    <itunes:duration>2348</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>18</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>17: Ningning Xie</itunes:title>
+    <title>17: Ningning Xie</title>
+    <description><![CDATA[<p>Ningning Xie is interviewed by Niki Vazou and Andres Loh. Ningning first contributed to GHC at her Google summer of code project with a very ambitious goal of implementing the whole dependent Haskell. Also later she fixed several ghc bugs and worked on Koka’s Algebraic effects. Her future hope and advice is to use programming language concepts on real-word problems.</p><p><br/></p>]]></description>
+    <link>https://haskell.foundation/podcast/17/</link>
+    <content:encoded><![CDATA[<p>Ningning Xie is interviewed by Niki Vazou and Andres Loh. Ningning first contributed to GHC at her Google summer of code project with a very ambitious goal of implementing the whole dependent Haskell. Also later she fixed several ghc bugs and worked on Koka’s Algebraic effects. Her future hope and advice is to use programming language concepts on real-word problems.</p><p><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/11564042-17-ningning-xie.mp3" length="34646618" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-11564042</guid>
+    <pubDate>Tue, 25 Oct 2022 10:00:00 +0000</pubDate>
+    <itunes:duration>2885</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>17</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>16: Oskar Wickström</itunes:title>
+    <title>16: Oskar Wickström</title>
+    <description><![CDATA[<p>Oskar Wickström is interviewed by Wouter Swierstra and Alejandro Serrano, he will tell us a little bit about property-based testing (PBT) Haskell code but also applying these ideas to the testing of complete systems. He will say a little bit about interfacing Haskell to other languages and even with your web browser and what it&apos;s like to learn Rust as a Haskell programmer.</p>]]></description>
+    <link>https://haskell.foundation/podcast/16</link>
+    <content:encoded><![CDATA[<p>Oskar Wickström is interviewed by Wouter Swierstra and Alejandro Serrano, he will tell us a little bit about property-based testing (PBT) Haskell code but also applying these ideas to the testing of complete systems. He will say a little bit about interfacing Haskell to other languages and even with your web browser and what it&apos;s like to learn Rust as a Haskell programmer.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/11220661-16-oskar-wickstrom.mp3" length="36395135" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-11220661</guid>
+    <pubDate>Wed, 31 Aug 2022 07:00:00 +0000</pubDate>
+    <itunes:duration>3031</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>16</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>15: Facundo Dominguez</itunes:title>
+    <title>15: Facundo Dominguez</title>
+    <description><![CDATA[<p>Facundo Dominguez is interviewed by Niki Vazou and Joachim Breitner. Facundo Dominguez tells us the difference between STM and SMT. We also talk about Liquid Haskell and its relation to dependent types and the `QualifiedDo` extension -- which is one of the most highly discussed GHC proposals -- and the general GHC proposals. And, finally, Facundo lets have Haskell peacefully coexist with other languages thanks to his work in the build system Bazel.</p><p><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>Facundo Dominguez is interviewed by Niki Vazou and Joachim Breitner. Facundo Dominguez tells us the difference between STM and SMT. We also talk about Liquid Haskell and its relation to dependent types and the `QualifiedDo` extension -- which is one of the most highly discussed GHC proposals -- and the general GHC proposals. And, finally, Facundo lets have Haskell peacefully coexist with other languages thanks to his work in the build system Bazel.</p><p><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10962514-15-facundo-dominguez.mp3" length="42581133" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10962514</guid>
+    <pubDate>Thu, 14 Jul 2022 16:00:00 +0000</pubDate>
+    <itunes:duration>3398</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>15</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>14: Ryan Trinkle</itunes:title>
+    <title>14: Ryan Trinkle</title>
+    <description><![CDATA[<p>Ryan Trinkle is interviewed by Joachim Breitner and Niki Vazou. Ryan Trinkle has co-founded Obsidian Systems, a company that not just uses Haskell but even more exotic tech that as Functional Reactive Programming (FRP) and Nix. Ryan shed some light on the business side of Haskell and we get to hear that hiring for Haskell is actually excellent.</p>]]></description>
+    <content:encoded><![CDATA[<p>Ryan Trinkle is interviewed by Joachim Breitner and Niki Vazou. Ryan Trinkle has co-founded Obsidian Systems, a company that not just uses Haskell but even more exotic tech that as Functional Reactive Programming (FRP) and Nix. Ryan shed some light on the business side of Haskell and we get to hear that hiring for Haskell is actually excellent.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10868136-14-ryan-trinkle.mp3" length="38287561" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10868136</guid>
+    <pubDate>Tue, 28 Jun 2022 10:00:00 +0000</pubDate>
+    <itunes:duration>3057</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>14</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>13: David Christiansen</itunes:title>
+    <title>13: David Christiansen</title>
+    <description><![CDATA[<p>David Christiansen is interviewed by Alejandro Serrano  and Wouter Swierstra.  They talk about many functional programming things, from Idris to Racket and of course Haskell and David&apos;s new role as the executive director of Haskell Foundation. </p><p><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>David Christiansen is interviewed by Alejandro Serrano  and Wouter Swierstra.  They talk about many functional programming things, from Idris to Racket and of course Haskell and David&apos;s new role as the executive director of Haskell Foundation. </p><p><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10738139-13-david-christiansen.mp3" length="39856458" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10738139</guid>
+    <pubDate>Sun, 05 Jun 2022 07:00:00 +0000</pubDate>
+    <itunes:duration>3320</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>13</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>12: Gergő Érdi</itunes:title>
+    <title>12: Gergő Érdi</title>
+    <description><![CDATA[<p>Gergő Érdi is interviewed by Wouter Swierstra and  Andres Löh. Gergő has an interesting path into Haskell taking many twists and turns. This episode discusses about these twists and Gergő&apos;s recent book on implementing retro computers using Haskell.</p>]]></description>
+    <link>https://haskell.foundation/podcast/12</link>
+    <content:encoded><![CDATA[<p>Gergő Érdi is interviewed by Wouter Swierstra and  Andres Löh. Gergő has an interesting path into Haskell taking many twists and turns. This episode discusses about these twists and Gergő&apos;s recent book on implementing retro computers using Haskell.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10585707-12-gergo-erdi.mp3" length="56112337" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10585707</guid>
+    <pubDate>Mon, 09 May 2022 14:00:00 +0000</pubDate>
+    <podcast:transcript url="https://feeds.buzzsprout.com/1817535/10585707/transcript" type="text/html" />
+    <itunes:duration>4674</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>12</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>11: Simon Peyton Jones</itunes:title>
+    <title>11: Simon Peyton Jones</title>
+    <description><![CDATA[<p>Simon Peyton Jones is interviewed by Andres Löh and Joachim Breitner.  Simon is the creator of Haskell and in this episode he talks about his new position at Epic, the origins of Haskell and why &quot;it feels right&quot;, and the (extra)ordinary Haskell programmers.</p>]]></description>
+    <content:encoded><![CDATA[<p>Simon Peyton Jones is interviewed by Andres Löh and Joachim Breitner.  Simon is the creator of Haskell and in this episode he talks about his new position at Epic, the origins of Haskell and why &quot;it feels right&quot;, and the (extra)ordinary Haskell programmers.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10316819-11-simon-peyton-jones.mp3" length="46912654" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10316819</guid>
+    <pubDate>Fri, 25 Mar 2022 13:00:00 +0000</pubDate>
+    <podcast:transcript url="https://feeds.buzzsprout.com/1817535/10316819/transcript" type="text/html" />
+    <itunes:duration>3908</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>11</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>10: Nadia Polikarpova</itunes:title>
+    <title>10: Nadia Polikarpova</title>
+    <description><![CDATA[<p>Nadia Polikarpova is interviewed by Alejandro Serrano and Niki Vazou. Nadia is an assistant professor at UCSD, where she works on improving how we write programs. They talk about some of her projects, like Hoogle+ and Synquid, and how she approaches teaching about these topics.</p>]]></description>
+    <link>https://haskell.foundation/podcast/10/</link>
+    <content:encoded><![CDATA[<p>Nadia Polikarpova is interviewed by Alejandro Serrano and Niki Vazou. Nadia is an assistant professor at UCSD, where she works on improving how we write programs. They talk about some of her projects, like Hoogle+ and Synquid, and how she approaches teaching about these topics.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10194353-10-nadia-polikarpova.mp3" length="40504710" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10194353</guid>
+    <pubDate>Sat, 05 Mar 2022 21:00:00 +0000</pubDate>
+    <itunes:duration>3374</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>10</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>09: Sebastian Graf</itunes:title>
+    <title>09: Sebastian Graf</title>
+    <description><![CDATA[<p>Sebastian Graf is interviewed by Joachim Breitner and Alejandro Serrano.  Sebastian is one of the most active contributors to GHC, and tells of this experience, from his very first commit to GHC to his current work on the pattern coverage checker and demand analyzer. He also gives us hints on how to reason about the strictness of Haskell programs.</p>]]></description>
+    <content:encoded><![CDATA[<p>Sebastian Graf is interviewed by Joachim Breitner and Alejandro Serrano.  Sebastian is one of the most active contributors to GHC, and tells of this experience, from his very first commit to GHC to his current work on the pattern coverage checker and demand analyzer. He also gives us hints on how to reason about the strictness of Haskell programs.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/10051487-09-sebastian-graf.mp3" length="44583882" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-10051487</guid>
+    <pubDate>Thu, 10 Feb 2022 19:00:00 +0000</pubDate>
+    <itunes:duration>3714</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>9</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>08: Théophile Choutri</itunes:title>
+    <title>08: Théophile Choutri</title>
+    <description><![CDATA[<p>Niki Vazou and Andres Löh are joined by guest Théophile Choutri (they/them), who also goes by Hécate. Théophile coordinates multiple projects and volunteer groups within the Haskell Foundation, notably the Haskell School project (intending to provide a free online open source library for teaching Haskell), and works on improving GHC core documentation and developing an alternative to Hackage. Together they discuss Théophile&apos;s introduction to Haskell and their ongoing projects with the Foundation and the broader community, with a focus on the challenges facing Haskell non-experts and how they hope to tackle them.</p>]]></description>
+    <link>https://haskell.foundation/podcast/8/</link>
+    <content:encoded><![CDATA[<p>Niki Vazou and Andres Löh are joined by guest Théophile Choutri (they/them), who also goes by Hécate. Théophile coordinates multiple projects and volunteer groups within the Haskell Foundation, notably the Haskell School project (intending to provide a free online open source library for teaching Haskell), and works on improving GHC core documentation and developing an alternative to Hackage. Together they discuss Théophile&apos;s introduction to Haskell and their ongoing projects with the Foundation and the broader community, with a focus on the challenges facing Haskell non-experts and how they hope to tackle them.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9846037-08-theophile-choutri.mp3" length="46191986" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9846037</guid>
+    <pubDate>Fri, 07 Jan 2022 12:00:00 +0000</pubDate>
+    <itunes:duration>3848</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>8</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>07: José Calderón</itunes:title>
+    <title>07: José Calderón</title>
+    <description><![CDATA[<p>José Calderón  is interviewed by Niki Vazou and Wouter Swierstra .  José has been working on functional programming at Galois and University of Maryland.  He tells us about his research background in many different continents, his experience with teaching compilers, the relation between music and functional programming and the &quot;Recursive Programming Techniques&quot; book that in the  1970s captured the essence of functional programming. </p>]]></description>
+    <link>https://haskell.foundation/podcast/7/</link>
+    <content:encoded><![CDATA[<p>José Calderón  is interviewed by Niki Vazou and Wouter Swierstra .  José has been working on functional programming at Galois and University of Maryland.  He tells us about his research background in many different continents, his experience with teaching compilers, the relation between music and functional programming and the &quot;Recursive Programming Techniques&quot; book that in the  1970s captured the essence of functional programming. </p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9739319-07-jose-calderon.mp3" length="40911899" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9739319</guid>
+    <pubDate>Fri, 17 Dec 2021 12:00:00 +0000</pubDate>
+    <podcast:transcript url="https://feeds.buzzsprout.com/1817535/9739319/transcript" type="text/html" />
+    <itunes:duration>3408</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>7</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>06: Graham Hutton</itunes:title>
+    <title>06: Graham Hutton</title>
+    <description><![CDATA[<p>Graham Hutton is interviewed by Wouter Swierstra and Andres Löh. Graham is known for his work on Haskell both in research and teaching Haskell, and in particular his Haskell book. Graham will tell us a little bit about how his book came about and give us advice for how to write a book ourselves, but also look back on his experience using Haskell and teaching Haskell in the last thirty years, and tell us a little bit about how bad the compile times were for the very first versions of GHC.<br/><br/></p>]]></description>
+    <link>https://haskell.foundation/podcast/6/</link>
+    <content:encoded><![CDATA[<p>Graham Hutton is interviewed by Wouter Swierstra and Andres Löh. Graham is known for his work on Haskell both in research and teaching Haskell, and in particular his Haskell book. Graham will tell us a little bit about how his book came about and give us advice for how to write a book ourselves, but also look back on his experience using Haskell and teaching Haskell in the last thirty years, and tell us a little bit about how bad the compile times were for the very first versions of GHC.<br/><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9616803-06-graham-hutton.mp3" length="42391788" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9616803</guid>
+    <pubDate>Fri, 26 Nov 2021 14:00:00 +0000</pubDate>
+    <podcast:transcript url="https://feeds.buzzsprout.com/1817535/9616803/transcript" type="text/html" />
+    <itunes:duration>3531</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>6</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>05: Chris Smith</itunes:title>
+    <title>05: Chris Smith</title>
+    <description><![CDATA[<p>Chris Smith is interviewed by Joachim Breitner and Andres Löh. Chris is the author of the CodeWorld teaching tool and discusses why too much curry in the language can make error messages hard to digest and why a self respecting testing library certainly should be used to test itself.   </p>]]></description>
+    <content:encoded><![CDATA[<p>Chris Smith is interviewed by Joachim Breitner and Andres Löh. Chris is the author of the CodeWorld teaching tool and discusses why too much curry in the language can make error messages hard to digest and why a self respecting testing library certainly should be used to test itself.   </p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9537767-05-chris-smith.mp3" length="48949564" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9537767</guid>
+    <pubDate>Fri, 12 Nov 2021 14:00:00 +0000</pubDate>
+    <itunes:duration>4077</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>5</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>04: Jasper Van der Jeugt</itunes:title>
+    <title>04: Jasper Van der Jeugt</title>
+    <description><![CDATA[<p>Jasper Van der Jeug is interviewed by Niki Vazou and Joachim Breitner. Jasper plays an important role in the Haskell community, helping with haskell.org, the Google Summer of Code project, ZuriHac and the ICPF programming contest, so there is much to talk about.</p>]]></description>
+    <content:encoded><![CDATA[<p>Jasper Van der Jeug is interviewed by Niki Vazou and Joachim Breitner. Jasper plays an important role in the Haskell community, helping with haskell.org, the Google Summer of Code project, ZuriHac and the ICPF programming contest, so there is much to talk about.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9454765-04-jasper-van-der-jeugt.mp3" length="45415214" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9454765</guid>
+    <pubDate>Fri, 29 Oct 2021 10:00:00 +0000</pubDate>
+    <podcast:transcript url="https://feeds.buzzsprout.com/1817535/9454765/transcript" type="text/html" />
+    <itunes:duration>3783</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>4</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>03: Gabriella Gonzalez</itunes:title>
+    <title>03: Gabriella Gonzalez</title>
+    <description><![CDATA[<p>The guest in our second episode is Gabriella Gonzalez. The hosts are Joachim Breitner and Alejandro Serrano. We talk about Dhall, Nix, and Haskell, learn why Gabriella&apos;s packages are sometimes called after characters of computer games, and get to know her elevator pitch for educating Haskell. The interviewee now goes by Gabriella as their preferred name, but at the time was still using Gabriel.</p>]]></description>
+    <content:encoded><![CDATA[<p>The guest in our second episode is Gabriella Gonzalez. The hosts are Joachim Breitner and Alejandro Serrano. We talk about Dhall, Nix, and Haskell, learn why Gabriella&apos;s packages are sometimes called after characters of computer games, and get to know her elevator pitch for educating Haskell. The interviewee now goes by Gabriella as their preferred name, but at the time was still using Gabriel.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9368484-03-gabriella-gonzalez.mp3" length="43274843" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9368484</guid>
+    <pubDate>Thu, 14 Oct 2021 15:00:00 +0000</pubDate>
+    <itunes:duration>3604</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>3</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>02: Lennart Augustsson</itunes:title>
+    <title>02: Lennart Augustsson</title>
+    <description><![CDATA[<p>The guest in our second episode is Lennart Augustsson. The hosts are Wouter Swierstra and Niki Vazou. We talk about Lennart&apos;s long history with Haskell, about the various jobs he has had, all the compilers he has written, and about dependent types.</p>]]></description>
+    <content:encoded><![CDATA[<p>The guest in our second episode is Lennart Augustsson. The hosts are Wouter Swierstra and Niki Vazou. We talk about Lennart&apos;s long history with Haskell, about the various jobs he has had, all the compilers he has written, and about dependent types.</p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/9286902-02-lennart-augustsson.mp3" length="49290331" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-9286902</guid>
+    <pubDate>Thu, 30 Sep 2021 14:00:00 +0000</pubDate>
+    <itunes:duration>4106</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>2</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>01: Emily Pillmore</itunes:title>
+    <title>01: Emily Pillmore</title>
+    <description><![CDATA[<p>The guest of our first regular episode is Emily Pillmore, CTO of the Haskell Foundation. The hosts are Alejandro Serrano and Andres Löh. We talk about Emily&apos;s path to Haskell, the role of the Haskell Foundation and the CTO within the Haskell Foundation, about current projects, the Haskell Community and about Emily&apos;s work on Optics.<br/><br/></p>]]></description>
+    <content:encoded><![CDATA[<p>The guest of our first regular episode is Emily Pillmore, CTO of the Haskell Foundation. The hosts are Alejandro Serrano and Andres Löh. We talk about Emily&apos;s path to Haskell, the role of the Haskell Foundation and the CTO within the Haskell Foundation, about current projects, the Haskell Community and about Emily&apos;s work on Optics.<br/><br/></p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/8984158-01-emily-pillmore.mp3" length="53297152" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-8984158</guid>
+    <pubDate>Mon, 09 Aug 2021 18:00:00 +0000</pubDate>
+    <podcast:chapters url="https://feeds.buzzsprout.com/1817535/8984158/chapters.json" type="application/json" />
+    <itunes:duration>4440</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episode>1</itunes:episode>
+    <itunes:episodeType>full</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+  <item>
+    <itunes:title>00: Teaser</itunes:title>
+    <title>00: Teaser</title>
+    <description><![CDATA[<p>This is the Haskell Interlude! <br/>Welcome to our new Haskell podcast, where the five co-hosts, Wouter Swierstra, Andres Löh, Alejandro Serrano, Niki Vazou, and Joahim Breitner introduce themselves.  </p>]]></description>
+    <content:encoded><![CDATA[<p>This is the Haskell Interlude! <br/>Welcome to our new Haskell podcast, where the five co-hosts, Wouter Swierstra, Andres Löh, Alejandro Serrano, Niki Vazou, and Joahim Breitner introduce themselves.  </p>]]></content:encoded>
+    <itunes:author>Haskell Podcast</itunes:author>
+    <enclosure url="https://www.buzzsprout.com/1817535/8849953-00-teaser.mp3" length="4283626" type="audio/mpeg" />
+    <guid isPermaLink="false">Buzzsprout-8849953</guid>
+    <pubDate>Mon, 12 Jul 2021 14:00:00 +0000</pubDate>
+    <itunes:duration>355</itunes:duration>
+    <itunes:keywords></itunes:keywords>
+    <itunes:season>1</itunes:season>
+    <itunes:episodeType>trailer</itunes:episodeType>
+    <itunes:explicit>false</itunes:explicit>
+  </item>
+</channel>
+</rss>

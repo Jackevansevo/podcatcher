@@ -9,33 +9,38 @@ from django.db import IntegrityError
 from .models import Episode, Podcast
 
 
-def ingest_podcast(data):
-    parsed_podcast, parsed_episodes = parse_podcast(data)
+def ingest_podcast(url: str):
+    # Avoid fetching existing podcasts
+    podcast = Podcast.by_url(url)
+    if podcast:
+        return podcast, False
 
-    if isinstance(data, httpx.Response):
-        resp = data
-        parsed_podcast["feed_link"] = resp.url
-        etag = resp.headers.get("ETag")
-        if etag is not None:
-            parsed_podcast["etag"] = etag
+    resp = httpx.get(url, follow_redirects=True)
 
-    created = False
+    # If redirected, check new source already exist
+    if resp.url != url:
+        podcast = Podcast.by_url(resp.url)
+        if podcast:
+            return podcast, False
 
-    try:
-        podcast = Podcast.objects.get(feed_link=parsed_podcast["feed_link"])
-    except Podcast.DoesNotExist:
-        podcast = Podcast(**parsed_podcast)
-        podcast.save()
-        for parsed_episode in parsed_episodes:
-            if not parsed_episode.get("media_link"):
-                continue
+    # Else we're clear to proceed
+    parsed_podcast, parsed_episodes = parse_podcast(resp.content)
 
-            episode = Episode(**parsed_episode, podcast=podcast)
-            episode.save()
+    parsed_podcast["feed_link"] = resp.url
+    etag = resp.headers.get("ETag")
+    if etag is not None:
+        parsed_podcast["etag"] = etag
 
-        created = True
+    podcast = Podcast(**parsed_podcast)
+    podcast.save()
+    for parsed_episode in parsed_episodes:
+        if not parsed_episode.get("media_link"):
+            continue
 
-    return podcast, created
+        episode = Episode(**parsed_episode, podcast=podcast)
+        episode.save()
+
+    return podcast, True
 
 
 def parse_guid(guid):

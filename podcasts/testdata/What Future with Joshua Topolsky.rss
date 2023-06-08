@@ -1,0 +1,737 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/" xmlns:psc="https://podlove.org/simple-chapters/" xmlns:omny="https://omny.fm/rss-extensions" xmlns:content="http://purl.org/rss/1.0/modules/content/" xmlns:acast="https://schema.acast.com/1.0/" xmlns:podcast="https://podcastindex.org/namespace/1.0" version="2.0">
+  <channel>
+    <omny:organizationId>e73c998e-6e60-432f-8610-ae210140c5b1</omny:organizationId>
+    <omny:networkId>e6332207-0c1b-4f4b-9893-ae3e015a2399</omny:networkId>
+    <omny:programId>40fa8192-202d-4013-a673-af2500f51945</omny:programId>
+    <omny:playlistId>62c5a2fc-0e1b-4dfb-a223-af2500f55bfa</omny:playlistId>
+    <language>en-US</language>
+    <atom:link rel="self" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/62c5a2fc-0e1b-4dfb-a223-af2500f55bfa/podcast.rss" />
+    <atom:link rel="first" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/62c5a2fc-0e1b-4dfb-a223-af2500f55bfa/podcast.rss?page=1" />
+    <atom:link rel="last" type="application/rss+xml" href="https://www.omnycontent.com/d/playlist/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/62c5a2fc-0e1b-4dfb-a223-af2500f55bfa/podcast.rss?page=1" />
+    <title>What Future with Joshua Topolsky</title>
+    <link>https://www.iheart.com/podcast/1119-what-future-103516818/</link>
+    <description><![CDATA[<p>Host Joshua Topolsky (co-creator of Vox Media and founder of <em>The Verge</em>) deconstructs modern culture, mining the surprising connections that make up our increasingly frenetic world. A heady mixture of fugue-state monologues and spontaneous, irreverent conversations with experts, weirdos, and big thinkers, <em>What Future</em> is here to dissect our insane reality, lasso the pieces, and ride off into the sunset with your money, your woman, and your pride.</p>]]></description>
+    <itunes:type>episodic</itunes:type>
+    <itunes:summary>Host Joshua Topolsky (co-creator of Vox Media and founder of The Verge) deconstructs modern culture, mining the surprising connections that make up our increasingly frenetic world. A heady mixture of fugue-state monologues and spontaneous, irreverent conversations with experts, weirdos, and big thinkers, What Future is here to dissect our insane reality, lasso the pieces, and ride off into the sunset with your money, your woman, and your pride.</itunes:summary>
+    <itunes:owner>
+      <itunes:name>iHeartPodcasts</itunes:name>
+      <itunes:email>applepodcast@howstuffworks.com</itunes:email>
+    </itunes:owner>
+    <itunes:author>iHeartPodcasts</itunes:author>
+    <copyright>2023 iHeartPodcasts</copyright>
+    <itunes:explicit>yes</itunes:explicit>
+    <itunes:category text="Society &amp; Culture"></itunes:category>
+    <itunes:category text="News">
+      <itunes:category text="News Commentary" />
+    </itunes:category>
+    <itunes:category text="Technology"></itunes:category>
+    <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+    <image>
+      <url>https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large</url>
+      <title>What Future with Joshua Topolsky</title>
+      <link>https://www.iheart.com/podcast/1119-what-future-103516818/</link>
+    </image>
+    <item>
+      <title>Apple's Vision of the Future (Mark Gurman, Act 2)</title>
+      <itunes:title>Apple's Vision of the Future (Mark Gurman, Act 2)</itunes:title>
+      <description><![CDATA[<p>It finally, really happened. You maniacs! You forced Apple to make an insane ski goggle VR thing that I guess is the future now? Even though it seems depressing and isolating and kind of dorky but not in a cool brooding outsider way? Because Mark Gurman is the god emperor of scoops and literally knew everything about the Apple Vision before it was announced, we had to have him back on the show to do a big post-mortem. Discussed: memes, money, motion sickness.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>It finally, really happened. You maniacs! You forced Apple to make an insane ski goggle VR thing that I guess is the future now? Even though it seems depressing and isolating and kind of dorky but not in a cool brooding outsider way? Because Mark Gurman is the god emperor of scoops and literally knew everything about the Apple Vision before it was announced, we had to have him back on the show to do a big post-mortem. Discussed: memes, money, motion sickness.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>32</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/9545201b-b183-4311-ad45-b01b0027c236/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/apples-vision-of-the-future-mark-gurman-act-2/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9545201b-b183-4311-ad45-b01b0027c236</guid>
+      <omny:clipId>9545201b-b183-4311-ad45-b01b0027c236</omny:clipId>
+      <pubDate>Thu, 08 Jun 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>2694</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/9545201b-b183-4311-ad45-b01b0027c236/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="43165498" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/apples-vision-of-the-future-mark-gurman-act-2</link>
+    </item>
+    <item>
+      <title>Apple's Virtual Reality Distortion Field, with Mark Gurman</title>
+      <itunes:title>Apple's Virtual Reality Distortion Field, with Mark Gurman</itunes:title>
+      <description><![CDATA[<p>Apple is going to do something that none of us could have predicted. The company is about to announce its most ambitious product in years: a headset that looks like ski goggles that allows you to experience both virtual and augmented reality. How do we know this? Because of our guest Mark Gurman — a Bloomberg reporter and master of the Apple scoop. On this episode, Gurman takes us deep inside the bunker, reveals the inner turmoil that led to this device, and ponders what the future might hold for the world's most valuable company. Discussed: laser surgery, cartoon eyes, Steve Jobs hating the internet.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Apple is going to do something that none of us could have predicted. The company is about to announce its most ambitious product in years: a headset that looks like ski goggles that allows you to experience both virtual and augmented reality. How do we know this? Because of our guest Mark Gurman — a Bloomberg reporter and master of the Apple scoop. On this episode, Gurman takes us deep inside the bunker, reveals the inner turmoil that led to this device, and ponders what the future might hold for the world's most valuable company. Discussed: laser surgery, cartoon eyes, Steve Jobs hating the internet.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>31</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/9d6fc9f1-dc13-47d6-a96b-b013016b5dfc/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/apples-virtual-reality-distortion-field-with-mark/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">9d6fc9f1-dc13-47d6-a96b-b013016b5dfc</guid>
+      <omny:clipId>9d6fc9f1-dc13-47d6-a96b-b013016b5dfc</omny:clipId>
+      <pubDate>Thu, 01 Jun 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>2802</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/9d6fc9f1-dc13-47d6-a96b-b013016b5dfc/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="44890424" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/apples-virtual-reality-distortion-field-with-mark</link>
+    </item>
+    <item>
+      <title>I Survived the Apocalypse and All I Got was This Great Economy, with Felix Salmon</title>
+      <itunes:title>I Survived the Apocalypse and All I Got was This Great Economy, with Felix Salmon</itunes:title>
+      <description><![CDATA[<p>The pandemic made the global economy weird. Very weird. So weird, in fact, that you could write a book about how many things have gotten upended, turned around, and totally blown up during the peak COVID years. And that's exactly what Felix Salmon has done. Salmon, the chief financial correspondent for Axios and host of Slate's Money podcast, joins Josh to opine on the mystical nature of the "Phoenix Economy" and what it means for the world. Discussed: Granola, ape JPEGs, Canadian truckers.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>The pandemic made the global economy weird. Very weird. So weird, in fact, that you could write a book about how many things have gotten upended, turned around, and totally blown up during the peak COVID years. And that's exactly what Felix Salmon has done. Salmon, the chief financial correspondent for Axios and host of Slate's Money podcast, joins Josh to opine on the mystical nature of the "Phoenix Economy" and what it means for the world. Discussed: Granola, ape JPEGs, Canadian truckers.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>30</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/06506db6-6235-430d-aff6-b00c017e5a57/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/i-survived-the-apocalypse-and-all-i-got-was-this-g/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">06506db6-6235-430d-aff6-b00c017e5a57</guid>
+      <omny:clipId>06506db6-6235-430d-aff6-b00c017e5a57</omny:clipId>
+      <pubDate>Thu, 25 May 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>2987</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/06506db6-6235-430d-aff6-b00c017e5a57/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="47856285" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/i-survived-the-apocalypse-and-all-i-got-was-this-g</link>
+    </item>
+    <item>
+      <title>Maximum Reading with Max Read</title>
+      <itunes:title>Maximum Reading with Max Read</itunes:title>
+      <description><![CDATA[<p>Max Read. To know him is to love him. And to read him is to know him. Editor, writer, newsletter proprietor — citizen of the internet. Max is many things, and today he's Josh's guest, covering a wide range of topics on the show including but not limited to: artificial intelligence, the media industry and its woes, the high art of the 1992 cyberpunk film Nemesis, and what it means to truly blog. Discussed: Unions, ChatGPT, Mike White, David Pogue.oll</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Max Read. To know him is to love him. And to read him is to know him. Editor, writer, newsletter proprietor — citizen of the internet. Max is many things, and today he's Josh's guest, covering a wide range of topics on the show including but not limited to: artificial intelligence, the media industry and its woes, the high art of the 1992 cyberpunk film Nemesis, and what it means to truly blog. Discussed: Unions, ChatGPT, Mike White, David Pogue.oll</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>29</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/19e08b11-9bd7-4b38-b045-b006002c94a5/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/maximum-reading-with-max-read/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">19e08b11-9bd7-4b38-b045-b006002c94a5</guid>
+      <omny:clipId>19e08b11-9bd7-4b38-b045-b006002c94a5</omny:clipId>
+      <pubDate>Thu, 18 May 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3602</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/19e08b11-9bd7-4b38-b045-b006002c94a5/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="57690737" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/maximum-reading-with-max-read</link>
+    </item>
+    <item>
+      <title>Inside the Trillionaire Mindset, with Ben Cahn &amp; Emil DeRosa</title>
+      <itunes:title>Inside the Trillionaire Mindset, with Ben Cahn &amp; Emil DeRosa</itunes:title>
+      <description><![CDATA[<p>What is the Trillionaire Mindset? How do you enter the Trillionaire Mindset? Are you born with the Trillionaire Mindset, or can it be taught? All these questions and more will be answered by Ben Cahn and Emil DeRosa — hosts of a podcast called... Trillionaire Mindset. Josh and the boys go on a wild ride through the world of money, the entertainment industry, politics, and the modern thrill of being in front of a live audience. Discussed: the Coronation, desks, cartoons, gambling.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>What is the Trillionaire Mindset? How do you enter the Trillionaire Mindset? Are you born with the Trillionaire Mindset, or can it be taught? All these questions and more will be answered by Ben Cahn and Emil DeRosa — hosts of a podcast called... Trillionaire Mindset. Josh and the boys go on a wild ride through the world of money, the entertainment industry, politics, and the modern thrill of being in front of a live audience. Discussed: the Coronation, desks, cartoons, gambling.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>28</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/e117e652-0a14-4635-8c0a-affe018ac905/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/inside-the-trillionaire-mindset-with-ben-cahn-emil/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">e117e652-0a14-4635-8c0a-affe018ac905</guid>
+      <omny:clipId>e117e652-0a14-4635-8c0a-affe018ac905</omny:clipId>
+      <pubDate>Thu, 11 May 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3719</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/e117e652-0a14-4635-8c0a-affe018ac905/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="59574510" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/inside-the-trillionaire-mindset-with-ben-cahn-emil</link>
+    </item>
+    <item>
+      <title>Katie Baker and the Secrets of Succession</title>
+      <itunes:title>Katie Baker and the Secrets of Succession</itunes:title>
+      <description><![CDATA[<p>On today's episode, Josh is joined by The Ringer's Katie Baker. The two delve into Katie's mysterious past as a junior online moderator, Goldman Sachs alum, and first-generation bloggerati before hopping on a private jet and taking a trip to fuck off island. While on the island, Josh and Katie explore the past, present, and future of HBO's runaway hit... Succession. Will Logan Roy rise from the dead? Will Kendall do another rap? Will Cousin Greg stammer his way into the big chair? Find out. Or don't. Fuck off! Discussed: eWorld, Six Feet Under, sad Gilt models</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>On today's episode, Josh is joined by The Ringer's Katie Baker. The two delve into Katie's mysterious past as a junior online moderator, Goldman Sachs alum, and first-generation bloggerati before hopping on a private jet and taking a trip to fuck off island. While on the island, Josh and Katie explore the past, present, and future of HBO's runaway hit... Succession. Will Logan Roy rise from the dead? Will Kendall do another rap? Will Cousin Greg stammer his way into the big chair? Find out. Or don't. Fuck off! Discussed: eWorld, Six Feet Under, sad Gilt models</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>27</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/8f1062c5-4e77-42bf-81b7-aff80010ce5a/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/katie-baker-and-the-secrets-of-succession/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">8f1062c5-4e77-42bf-81b7-aff80010ce5a</guid>
+      <omny:clipId>8f1062c5-4e77-42bf-81b7-aff80010ce5a</omny:clipId>
+      <pubDate>Thu, 04 May 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3613</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/8f1062c5-4e77-42bf-81b7-aff80010ce5a/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="57878413" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/katie-baker-and-the-secrets-of-succession</link>
+    </item>
+    <item>
+      <title>Just Do It with Joshua Topolsky</title>
+      <itunes:title>Just Do It with Joshua Topolsky</itunes:title>
+      <description><![CDATA[<p>The What Future team takes the opportunity to grill Josh after our guest cancelled at the last minute. Just how did he become the man he is today? Tune in to hear the pivotal moments of Josh's career on an episode some are calling "inspiring," while others say, "invasive." Discussed: V Rave, truancy, Palm Pilots, Vox </p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>The What Future team takes the opportunity to grill Josh after our guest cancelled at the last minute. Just how did he become the man he is today? Tune in to hear the pivotal moments of Josh's career on an episode some are calling "inspiring," while others say, "invasive." Discussed: V Rave, truancy, Palm Pilots, Vox </p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>26</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/a00d2a08-dc0b-4a93-bdb7-aff10056c8f4/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/just-do-it-with-joshua-topolsky/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">a00d2a08-dc0b-4a93-bdb7-aff10056c8f4</guid>
+      <omny:clipId>a00d2a08-dc0b-4a93-bdb7-aff10056c8f4</omny:clipId>
+      <pubDate>Thu, 27 Apr 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3071</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/a00d2a08-dc0b-4a93-bdb7-aff10056c8f4/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="49199898" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/just-do-it-with-joshua-topolsky</link>
+    </item>
+    <item>
+      <title>Veni, Vidi, Viva, with Jennifer Romolini</title>
+      <itunes:title>Veni, Vidi, Viva, with Jennifer Romolini</itunes:title>
+      <description><![CDATA[<p>Power. Sex. Fame. Greed. These are all words. Powerful words that make you feel something deep, deep in your soul. And all those ideas are on full display in the new podcast Stiffed, hosted by this week’s guest, writer and podcaster Jennifer Romolini. Join Josh and Jenn as they go back in time to explore the ill-fated magazine Viva, and reflect on how the media landscape of the 1970’s, which gave rise to porn and quasi-porn magazines alike was somehow both better and worse than the media hellworld of today. Discussed: Feminism, bad editors, “content.”</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Power. Sex. Fame. Greed. These are all words. Powerful words that make you feel something deep, deep in your soul. And all those ideas are on full display in the new podcast Stiffed, hosted by this week’s guest, writer and podcaster Jennifer Romolini. Join Josh and Jenn as they go back in time to explore the ill-fated magazine Viva, and reflect on how the media landscape of the 1970’s, which gave rise to porn and quasi-porn magazines alike was somehow both better and worse than the media hellworld of today. Discussed: Feminism, bad editors, “content.”</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>25</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/356003b3-bdb1-4939-9f7f-afea00008ae4/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/veni-vidi-viva-with-jennifer-romolini/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">356003b3-bdb1-4939-9f7f-afea00008ae4</guid>
+      <omny:clipId>356003b3-bdb1-4939-9f7f-afea00008ae4</omny:clipId>
+      <pubDate>Thu, 20 Apr 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3087</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/356003b3-bdb1-4939-9f7f-afea00008ae4/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="49465311" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/veni-vidi-viva-with-jennifer-romolini</link>
+    </item>
+    <item>
+      <title>Bex Taylor-Klaus is Gaming the System</title>
+      <itunes:title>Bex Taylor-Klaus is Gaming the System</itunes:title>
+      <description><![CDATA[<p>Acclaimed actor Bex Taylor-Klaus — star of '13 Reasons Why' and the 'Scream' TV series — joins Josh on a raucous romp through the realities of growing up Jewish, queer, and southern. The two bond over their shared heritage and Josh's lack of belief in god before going on to talk about finding joy on the darkest timeline, how acting in life can translate to acting on screen, and what it's like to become a teenage tree. Discussed: Peter Pan, Dungeons &amp; Dragons, 'Hades.'</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Acclaimed actor Bex Taylor-Klaus — star of '13 Reasons Why' and the 'Scream' TV series — joins Josh on a raucous romp through the realities of growing up Jewish, queer, and southern. The two bond over their shared heritage and Josh's lack of belief in god before going on to talk about finding joy on the darkest timeline, how acting in life can translate to acting on screen, and what it's like to become a teenage tree. Discussed: Peter Pan, Dungeons &amp; Dragons, 'Hades.'</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>24</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/26a9041c-d0d1-449b-9427-afe2017cd3a7/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/bex-taylor-klaus-is-gaming-the-system/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">26a9041c-d0d1-449b-9427-afe2017cd3a7</guid>
+      <omny:clipId>26a9041c-d0d1-449b-9427-afe2017cd3a7</omny:clipId>
+      <pubDate>Thu, 13 Apr 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>2965</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/26a9041c-d0d1-449b-9427-afe2017cd3a7/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="47511843" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/bex-taylor-klaus-is-gaming-the-system</link>
+    </item>
+    <item>
+      <title>Ryan Broderick, Scholar of the Internet</title>
+      <itunes:title>Ryan Broderick, Scholar of the Internet</itunes:title>
+      <description><![CDATA[<p>Ryan Broderick, creator of Garbage Day (the day, and also the newsletter and burgeoning media empire) knows a thing or two about "online." Not only has he been covering general weirdness on the internet since before the dawn of Pepe, but he's got some strong notions about where all this madness is going. Join Josh and Ryan on this special journey, won't you? Discussed: Backpack kid, The Rationalists, Muckerberg</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Ryan Broderick, creator of Garbage Day (the day, and also the newsletter and burgeoning media empire) knows a thing or two about "online." Not only has he been covering general weirdness on the internet since before the dawn of Pepe, but he's got some strong notions about where all this madness is going. Join Josh and Ryan on this special journey, won't you? Discussed: Backpack kid, The Rationalists, Muckerberg</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>23</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/ba724dad-3ce3-4e8e-a8f8-afdc000db06d/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/ryan-broderick-scholar-of-the-internet/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">ba724dad-3ce3-4e8e-a8f8-afdc000db06d</guid>
+      <omny:clipId>ba724dad-3ce3-4e8e-a8f8-afdc000db06d</omny:clipId>
+      <pubDate>Wed, 05 Apr 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3697</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/ba724dad-3ce3-4e8e-a8f8-afdc000db06d/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="59223821" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/ryan-broderick-scholar-of-the-internet</link>
+    </item>
+    <item>
+      <title>Cruising with Jamie Loftus</title>
+      <itunes:title>Cruising with Jamie Loftus</itunes:title>
+      <description><![CDATA[<p>Jamie Loftus is a comedian, a writer, an actor, a PODCASTER (listen to understand these caps), but most importantly... she is a person who decided to write an entire book about the humble food item we all affectionately refer to as a "hot dog." Jamie joins Josh on a truly 360 adventure where the two explore the minefield that is life, love, and loss in the 21st century. Discussed: Mental health, Weinermobile marriages, Lolita, knees.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Jamie Loftus is a comedian, a writer, an actor, a PODCASTER (listen to understand these caps), but most importantly... she is a person who decided to write an entire book about the humble food item we all affectionately refer to as a "hot dog." Jamie joins Josh on a truly 360 adventure where the two explore the minefield that is life, love, and loss in the 21st century. Discussed: Mental health, Weinermobile marriages, Lolita, knees.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>22</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/bad4b0cd-7c63-4045-bc36-afd50025df42/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/cruising-with-jamie-loftus/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">bad4b0cd-7c63-4045-bc36-afd50025df42</guid>
+      <omny:clipId>bad4b0cd-7c63-4045-bc36-afd50025df42</omny:clipId>
+      <pubDate>Thu, 30 Mar 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3542</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/bad4b0cd-7c63-4045-bc36-afd50025df42/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="56739041" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/cruising-with-jamie-loftus</link>
+    </item>
+    <item>
+      <title>Let Sara Schaefer Be Your Guide</title>
+      <itunes:title>Let Sara Schaefer Be Your Guide</itunes:title>
+      <description><![CDATA[<p>Acclaimed stand up comedian, writer, and Emmy Award winner Sara Schaefer joins Josh on a raucous journey, exploring the dark underworld of reverse cancel culture, mob rule, one-woman shows, and theme park rides. Sara and Josh do a full conversational road trip, pondering the madness of social media, the cruel and beautiful world of comedy, and the shocking truth about college campuses. Discussed: Splash Mountain, pronouns, fedoras.</p>
+<hr>
+<p>Sara's Live Dates:</p>
+<p><a href="https://linktr.ee/saraschaeferlive">https://linktr.ee/saraschaeferlive</a></p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Acclaimed stand up comedian, writer, and Emmy Award winner Sara Schaefer joins Josh on a raucous journey, exploring the dark underworld of reverse cancel culture, mob rule, one-woman shows, and theme park rides. Sara and Josh do a full conversational road trip, pondering the madness of social media, the cruel and beautiful world of comedy, and the shocking truth about college campuses. Discussed: Splash Mountain, pronouns, fedoras.</p>
+<hr>
+<p>Sara's Live Dates:</p>
+<p><a href="https://linktr.ee/saraschaeferlive">https://linktr.ee/saraschaeferlive</a></p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>21</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/43e7eaeb-e25b-4a96-9f7d-afce002e34a1/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/let-sara-schaefer-be-your-guide/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">43e7eaeb-e25b-4a96-9f7d-afce002e34a1</guid>
+      <omny:clipId>43e7eaeb-e25b-4a96-9f7d-afce002e34a1</omny:clipId>
+      <pubDate>Thu, 23 Mar 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>3902</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/43e7eaeb-e25b-4a96-9f7d-afce002e34a1/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="62498106" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/let-sara-schaefer-be-your-guide</link>
+    </item>
+    <item>
+      <title>Panic! At The Bank with Felix Salmon</title>
+      <itunes:title>Panic! At The Bank with Felix Salmon</itunes:title>
+      <description><![CDATA[<p>You've heard the rest, now hear the best. Josh welcomes Axios Chief Financial Correspondent Felix Salmon to run a post-mortem on the Silicon Valley Bank &amp; Signature collapse, the implosion of Silvergate, and the wide variety of freakouts and breakdowns that accompanied the not-so-micro failure. Discussed: Mary Poppins, ontology, bunkers, stonks.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>You've heard the rest, now hear the best. Josh welcomes Axios Chief Financial Correspondent Felix Salmon to run a post-mortem on the Silicon Valley Bank &amp; Signature collapse, the implosion of Silvergate, and the wide variety of freakouts and breakdowns that accompanied the not-so-micro failure. Discussed: Mary Poppins, ontology, bunkers, stonks.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>20</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/80775f3f-a8fd-4d87-b7d0-afc700255e86/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/panic-at-the-bank-with-felix-salmon/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">80775f3f-a8fd-4d87-b7d0-afc700255e86</guid>
+      <omny:clipId>80775f3f-a8fd-4d87-b7d0-afc700255e86</omny:clipId>
+      <pubDate>Thu, 16 Mar 2023 07:00:00 +0000</pubDate>
+      <itunes:duration>2882</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/80775f3f-a8fd-4d87-b7d0-afc700255e86/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="46183568" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/panic-at-the-bank-with-felix-salmon</link>
+    </item>
+    <item>
+      <title>Return of the Slap with Nick Turner</title>
+      <itunes:title>Return of the Slap with Nick Turner</itunes:title>
+      <description><![CDATA[<p>Josh is elated to speak with Nick Turner, not Nicks Turners as his Twitter handle would lead you to believe. As a standup and podcaster, he's been through it all and will not be stopped by a wet heckler. His latest special "Ice Cold" is available on YouTube. Check out Nick live: March 10th San Francisco, <a href="https://www.eventbrite.com/e/greater-purpose-comedy-nick-turner-tickets-574745809187">11th Santa Cruz</a>, <a href="https://www.showpass.com/nick-turner/">17th Salem</a>, <a href="https://instagram.com/setupcomedyshow?igshid=YmMyMTA2M2Y=">18th San Francisco</a>, April 7th in Houston, then to Dallas and Austin. Discussed: Chris Rock, Liquid IV, The Oscars, Long term relationships</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Josh is elated to speak with Nick Turner, not Nicks Turners as his Twitter handle would lead you to believe. As a standup and podcaster, he's been through it all and will not be stopped by a wet heckler. His latest special "Ice Cold" is available on YouTube. Check out Nick live: March 10th San Francisco, <a href="https://www.eventbrite.com/e/greater-purpose-comedy-nick-turner-tickets-574745809187">11th Santa Cruz</a>, <a href="https://www.showpass.com/nick-turner/">17th Salem</a>, <a href="https://instagram.com/setupcomedyshow?igshid=YmMyMTA2M2Y=">18th San Francisco</a>, April 7th in Houston, then to Dallas and Austin. Discussed: Chris Rock, Liquid IV, The Oscars, Long term relationships</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>19</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/c0cb0989-438b-4a37-a9bd-afc0007154c4/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/the-slap-is-whack-with-nick-turner/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">c0cb0989-438b-4a37-a9bd-afc0007154c4</guid>
+      <omny:clipId>c0cb0989-438b-4a37-a9bd-afc0007154c4</omny:clipId>
+      <pubDate>Thu, 09 Mar 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>3887</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/c0cb0989-438b-4a37-a9bd-afc0007154c4/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="62259873" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/the-slap-is-whack-with-nick-turner</link>
+    </item>
+    <item>
+      <title>Even Trolls Can Die with Katie Notopoulos</title>
+      <itunes:title>Even Trolls Can Die with Katie Notopoulos</itunes:title>
+      <description><![CDATA[<p>It's a family affair today as Josh welcomes his sister-in-law and Senior Technology Reporter for Buzzfeed News, Katie Notopoulos. Lots to uncover and dissect in a world wide web gone mad, but thankfully we have an expert in the chaos. Discussed: Dilbert, Bold Glamour, Slurp Juices, SAG Awards </p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>It's a family affair today as Josh welcomes his sister-in-law and Senior Technology Reporter for Buzzfeed News, Katie Notopoulos. Lots to uncover and dissect in a world wide web gone mad, but thankfully we have an expert in the chaos. Discussed: Dilbert, Bold Glamour, Slurp Juices, SAG Awards </p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>18</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/cab6bc88-f739-44db-a4f0-afb900144a0c/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/even-trolls-can-die-with-katie-notopoulos/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">cab6bc88-f739-44db-a4f0-afb900144a0c</guid>
+      <omny:clipId>cab6bc88-f739-44db-a4f0-afb900144a0c</omny:clipId>
+      <pubDate>Thu, 02 Mar 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>3095</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/cab6bc88-f739-44db-a4f0-afb900144a0c/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="49580745" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/even-trolls-can-die-with-katie-notopoulos</link>
+    </item>
+    <item>
+      <title>Boomer's Paradise with Philip Bump</title>
+      <itunes:title>Boomer's Paradise with Philip Bump</itunes:title>
+      <description><![CDATA[<p>Josh welcomes Washington Post columnist and author of 'The Aftermath: The Last Days of the Baby Boom and the Future of Power in America,' Philip Bump! Boomers, Gen X, Millennials, Gen Z, where are they and where are they going? You are one of them, but what does that mean for the country you grew up in and what happens next? Discussed: Stillness, '2000 Mules,' Florida Man </p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Josh welcomes Washington Post columnist and author of 'The Aftermath: The Last Days of the Baby Boom and the Future of Power in America,' Philip Bump! Boomers, Gen X, Millennials, Gen Z, where are they and where are they going? You are one of them, but what does that mean for the country you grew up in and what happens next? Discussed: Stillness, '2000 Mules,' Florida Man </p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>17</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/c2ad319e-8368-4de0-85de-afb200500c0f/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/boomers-paradise-with-philip-bump/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">c2ad319e-8368-4de0-85de-afb200500c0f</guid>
+      <omny:clipId>c2ad319e-8368-4de0-85de-afb200500c0f</omny:clipId>
+      <pubDate>Thu, 23 Feb 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>2832</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/c2ad319e-8368-4de0-85de-afb200500c0f/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="45377323" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/boomers-paradise-with-philip-bump</link>
+    </item>
+    <item>
+      <title>What Scares Jason Blum? [Rerelease]</title>
+      <itunes:title>What Scares Jason Blum? [Rerelease]</itunes:title>
+      <description><![CDATA[<p>[rerelease]: On the premiere episode Joshua explores Spooky Season with Jason Blum (founder and CEO of Blumhouse Productions), a man behind some of the most iconic horror films of the past decade — like 'Get Out,' 'The Purge,' and 'Paranormal Activity.' Discussed: the horror of reality, the reality of horror, how data is killing art, the politics of hunting people, film industry lifehacks.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>[rerelease]: On the premiere episode Joshua explores Spooky Season with Jason Blum (founder and CEO of Blumhouse Productions), a man behind some of the most iconic horror films of the past decade — like 'Get Out,' 'The Purge,' and 'Paranormal Activity.' Discussed: the horror of reality, the reality of horror, how data is killing art, the politics of hunting people, film industry lifehacks.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>16</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/3522b3c7-0bd5-4fdc-86a2-afa9016790db/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/what-scares-jason-blum-rerelease/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">3522b3c7-0bd5-4fdc-86a2-afa9016790db</guid>
+      <omny:clipId>3522b3c7-0bd5-4fdc-86a2-afa9016790db</omny:clipId>
+      <pubDate>Thu, 16 Feb 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>2470</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/3522b3c7-0bd5-4fdc-86a2-afa9016790db/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="39579394" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/what-scares-jason-blum-rerelease</link>
+    </item>
+    <item>
+      <title>Dallas Goldtooth is Making Changes</title>
+      <itunes:title>Dallas Goldtooth is Making Changes</itunes:title>
+      <description><![CDATA[<p>Actor, writer, activist &amp; organizer, Dallas Goldtooth, only got 3 hours of sleep last night, but he's up for a lively conversation with Josh. As "Spirit" on the FX series Reservation Dogs, Goldtooth subverts expectations and breaks down long-lasting tropes in American media. Discussed: Hell Let Loose, night owls, Avatar, Harry Potter the trust fund kid</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Actor, writer, activist &amp; organizer, Dallas Goldtooth, only got 3 hours of sleep last night, but he's up for a lively conversation with Josh. As "Spirit" on the FX series Reservation Dogs, Goldtooth subverts expectations and breaks down long-lasting tropes in American media. Discussed: Hell Let Loose, night owls, Avatar, Harry Potter the trust fund kid</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/1ab2dd85-d55d-421f-b1d0-afa3013ced40/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/dallas-goldtooth-is-making-changes/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">1ab2dd85-d55d-421f-b1d0-afa3013ced40</guid>
+      <omny:clipId>1ab2dd85-d55d-421f-b1d0-afa3013ced40</omny:clipId>
+      <pubDate>Thu, 09 Feb 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>2390</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/1ab2dd85-d55d-421f-b1d0-afa3013ced40/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="38307961" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/dallas-goldtooth-is-making-changes</link>
+    </item>
+    <item>
+      <title>Josh Versus the Professor</title>
+      <itunes:title>Josh Versus the Professor</itunes:title>
+      <description><![CDATA[<p>On today's episode, Josh is interrupted by an unexpected visitor.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>On today's episode, Josh is interrupted by an unexpected visitor.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>14</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/2579dda2-f0b7-43a0-9087-af9b01512fdd/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/professor-scientist/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">2579dda2-f0b7-43a0-9087-af9b01512fdd</guid>
+      <omny:clipId>2579dda2-f0b7-43a0-9087-af9b01512fdd</omny:clipId>
+      <pubDate>Thu, 02 Feb 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>2301</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/2579dda2-f0b7-43a0-9087-af9b01512fdd/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="36888563" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/professor-scientist</link>
+    </item>
+    <item>
+      <title>The Haters Don't Phase Rebecca Jennings</title>
+      <itunes:title>The Haters Don't Phase Rebecca Jennings</itunes:title>
+      <description><![CDATA[<p>On today's episode, Josh is joined by the ever-insightful Rebecca Jennings, a senior correspondent for The Goods at Vox and a woman who isn't afraid to peer into the void. Josh and Rebecca cover the gamut of internet celebrities and influencers — from Kim Kardashian to Paris Hilton to Andrew Tate to MrBeast, looking into who's really responsible for the cool state of social media today. Discussed: MrBeast's real age, influencer self worth, pick-me girls, hat people.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>On today's episode, Josh is joined by the ever-insightful Rebecca Jennings, a senior correspondent for The Goods at Vox and a woman who isn't afraid to peer into the void. Josh and Rebecca cover the gamut of internet celebrities and influencers — from Kim Kardashian to Paris Hilton to Andrew Tate to MrBeast, looking into who's really responsible for the cool state of social media today. Discussed: MrBeast's real age, influencer self worth, pick-me girls, hat people.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>13</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/faa351a9-38a9-4097-a9a7-af96003d12eb/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/the-haters-dont-phase-rebecca-jennings/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">faa351a9-38a9-4097-a9a7-af96003d12eb</guid>
+      <omny:clipId>faa351a9-38a9-4097-a9a7-af96003d12eb</omny:clipId>
+      <pubDate>Thu, 26 Jan 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>2808</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/faa351a9-38a9-4097-a9a7-af96003d12eb/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="44993223" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/the-haters-dont-phase-rebecca-jennings</link>
+    </item>
+    <item>
+      <title>Baratunde Thurston Explains Our Pain</title>
+      <itunes:title>Baratunde Thurston Explains Our Pain</itunes:title>
+      <description><![CDATA[<p>On the show this week Josh is joined by the illuminating and hilarious Baratunde Thurston (host of the PBS show America Outdoors, Puck News writer, and all-around genius) to discuss... the total breakdown of information in the world. Baratunde and Josh take the listener on a sprawling conversational ride, revealing unexpected truths about the future of all life on Earth. Discussed: Original conspiracy theories, the diversity of TikTok haters, Tim Cook's sense of well-being, deep breathing, being who you are.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>On the show this week Josh is joined by the illuminating and hilarious Baratunde Thurston (host of the PBS show America Outdoors, Puck News writer, and all-around genius) to discuss... the total breakdown of information in the world. Baratunde and Josh take the listener on a sprawling conversational ride, revealing unexpected truths about the future of all life on Earth. Discussed: Original conspiracy theories, the diversity of TikTok haters, Tim Cook's sense of well-being, deep breathing, being who you are.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>12</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/c9c1842e-4a31-4a95-a5d8-af8f00419cc1/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/baratunde-thurston-explains-our-pain/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">c9c1842e-4a31-4a95-a5d8-af8f00419cc1</guid>
+      <omny:clipId>c9c1842e-4a31-4a95-a5d8-af8f00419cc1</omny:clipId>
+      <pubDate>Thu, 19 Jan 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>3488</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/c9c1842e-4a31-4a95-a5d8-af8f00419cc1/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="55866428" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/baratunde-thurston-explains-our-pain</link>
+    </item>
+    <item>
+      <title>Leah Finnegan Puts Baby in a Corner</title>
+      <itunes:title>Leah Finnegan Puts Baby in a Corner</itunes:title>
+      <description><![CDATA[<p>On today's episode, Josh is joined by longtime friend, collaborator, and Gawker editor-in-chief, the inimitable Leah Finnegan. Leah's adorable yet lethally uncouth dog Baby caused some disruptions early in the recording, forcing Leah to take drastic action to silence the creature (she put Baby in her bed). Luckily Josh and Leah were able to get things back on track despite the disturbance, leading to a shocking reveal regarding Leah's true feelings on certain members of the Royal Family. Discussed: Golden Globes, nicknaming your special someone, bus-riding dogs.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>On today's episode, Josh is joined by longtime friend, collaborator, and Gawker editor-in-chief, the inimitable Leah Finnegan. Leah's adorable yet lethally uncouth dog Baby caused some disruptions early in the recording, forcing Leah to take drastic action to silence the creature (she put Baby in her bed). Luckily Josh and Leah were able to get things back on track despite the disturbance, leading to a shocking reveal regarding Leah's true feelings on certain members of the Royal Family. Discussed: Golden Globes, nicknaming your special someone, bus-riding dogs.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>11</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/a3d409b6-5c4c-4f13-9a6e-af88008e4f98/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/leah-finnegan-puts-baby-in-a-corner/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">a3d409b6-5c4c-4f13-9a6e-af88008e4f98</guid>
+      <omny:clipId>a3d409b6-5c4c-4f13-9a6e-af88008e4f98</omny:clipId>
+      <pubDate>Thu, 12 Jan 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>3050</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/a3d409b6-5c4c-4f13-9a6e-af88008e4f98/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="48871044" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/leah-finnegan-puts-baby-in-a-corner</link>
+    </item>
+    <item>
+      <title>The Out List</title>
+      <itunes:title>The Out List</itunes:title>
+      <description><![CDATA[<p>This is not Josh's favorite time of year; but we can still find some trends to look forward to in 2023. Discussed: Las Vegas, CDs, Dry January, The Twilight Zone</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>This is not Josh's favorite time of year; but we can still find some trends to look forward to in 2023. Discussed: Las Vegas, CDs, Dry January, The Twilight Zone</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>10</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/72f704eb-855e-4c58-afaf-af81005625a0/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/the-out-list/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">72f704eb-855e-4c58-afaf-af81005625a0</guid>
+      <omny:clipId>72f704eb-855e-4c58-afaf-af81005625a0</omny:clipId>
+      <pubDate>Thu, 05 Jan 2023 08:00:00 +0000</pubDate>
+      <itunes:duration>2146</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/72f704eb-855e-4c58-afaf-af81005625a0/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="34408798" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/the-out-list</link>
+    </item>
+    <item>
+      <title>Josh’s Ode to Joy</title>
+      <itunes:title>Josh’s Ode to Joy</itunes:title>
+      <description><![CDATA[<p>Well folks — that’s about it for the year 2022. But what a ride! Right! Right? There have been many things to lament this year, but it hasn’t been without its pleasures as well. Josh is saying goodbye to the year that brought us a reverse red wave, Alex Jones’ downfall, and multiple days of the world’s (former) richest man getting owned on the website he just bought for $44 billon U.S. dollars. But what else was good this year? Josh counts down his top ten. Discussed: Adam Driver’s hunk factor, Chinese food in Victorian England, The Sims, Mrs. Basil E. Frankweiler.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Well folks — that’s about it for the year 2022. But what a ride! Right! Right? There have been many things to lament this year, but it hasn’t been without its pleasures as well. Josh is saying goodbye to the year that brought us a reverse red wave, Alex Jones’ downfall, and multiple days of the world’s (former) richest man getting owned on the website he just bought for $44 billon U.S. dollars. But what else was good this year? Josh counts down his top ten. Discussed: Adam Driver’s hunk factor, Chinese food in Victorian England, The Sims, Mrs. Basil E. Frankweiler.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>9</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/61d60204-3886-4335-acaa-af720177ca64/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/josh-s-ode-to-joy/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">61d60204-3886-4335-acaa-af720177ca64</guid>
+      <omny:clipId>61d60204-3886-4335-acaa-af720177ca64</omny:clipId>
+      <pubDate>Thu, 22 Dec 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>2537</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/61d60204-3886-4335-acaa-af720177ca64/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="40654369" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/josh-s-ode-to-joy</link>
+    </item>
+    <item>
+      <title>Penelope Scott and the Discourse Räts</title>
+      <itunes:title>Penelope Scott and the Discourse Räts</itunes:title>
+      <description><![CDATA[<p>Josh finally lets his inner fanboy out by talking to his favorite musician of 2022 — the one-of-a-kind genius Penelope Scott. After rising to fame and sonic virality on TikTok for her shockingly honest and extremely online songs, Scott went on to garner hundreds of millions of listens across the internet, along with all of the commentary you might imagine is unavoidable when that happens. Whether it’s songs about how Ted Bundy truly sucks, succinct takedowns of America’s broken healthcare system, or a deconstruction of the lies Silicon Valley tells us (set against an 8-bit carnival stomp of course), everything she touches seems infused with an energy that is uniquely of this moment. Discussed: The discourse behind the discourse, LMMS, four hour remixes, pandemic memory issues.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Josh finally lets his inner fanboy out by talking to his favorite musician of 2022 — the one-of-a-kind genius Penelope Scott. After rising to fame and sonic virality on TikTok for her shockingly honest and extremely online songs, Scott went on to garner hundreds of millions of listens across the internet, along with all of the commentary you might imagine is unavoidable when that happens. Whether it’s songs about how Ted Bundy truly sucks, succinct takedowns of America’s broken healthcare system, or a deconstruction of the lies Silicon Valley tells us (set against an 8-bit carnival stomp of course), everything she touches seems infused with an energy that is uniquely of this moment. Discussed: The discourse behind the discourse, LMMS, four hour remixes, pandemic memory issues.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>8</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/e0d461e8-0e74-4e98-8279-af6c000ce3ff/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/penelope-scott-and-the-discourse-r-ts/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">e0d461e8-0e74-4e98-8279-af6c000ce3ff</guid>
+      <omny:clipId>e0d461e8-0e74-4e98-8279-af6c000ce3ff</omny:clipId>
+      <pubDate>Thu, 15 Dec 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>2946</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/e0d461e8-0e74-4e98-8279-af6c000ce3ff/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="47194613" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/penelope-scott-and-the-discourse-r-ts</link>
+    </item>
+    <item>
+      <title>You Can't Cancel Taylor Lorenz</title>
+      <itunes:title>You Can't Cancel Taylor Lorenz</itunes:title>
+      <description><![CDATA[<p>In the age of femcels, proud boys, groypers, and C.H.U.D.s, one reporter is striving to make sense of it all. Her name is Taylor Lorenz, and her beat is literally the entire internet and all of the strange people who inhabit it. When she’s not discovering the next new thing in influencer culture or shining a light on the dark patterns of misinformation, Taylor is fending off attacks by Tucker Carlson, terrible trolls who aren’t Tucker Carlson, and other assorted villains who are just rude online. Taylor and Josh go deep on the modern state of existing on social media, fighting for the future, and straying further from god’s light every day. Discussed: Chili, doxxing, context collapse, chili.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>In the age of femcels, proud boys, groypers, and C.H.U.D.s, one reporter is striving to make sense of it all. Her name is Taylor Lorenz, and her beat is literally the entire internet and all of the strange people who inhabit it. When she’s not discovering the next new thing in influencer culture or shining a light on the dark patterns of misinformation, Taylor is fending off attacks by Tucker Carlson, terrible trolls who aren’t Tucker Carlson, and other assorted villains who are just rude online. Taylor and Josh go deep on the modern state of existing on social media, fighting for the future, and straying further from god’s light every day. Discussed: Chili, doxxing, context collapse, chili.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>7</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/2f5ac8cf-71f4-4dfd-ad6c-af650090d419/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/you-cant-cancel-taylor-lorenz/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">2f5ac8cf-71f4-4dfd-ad6c-af650090d419</guid>
+      <omny:clipId>2f5ac8cf-71f4-4dfd-ad6c-af650090d419</omny:clipId>
+      <pubDate>Thu, 08 Dec 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>3128</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/2f5ac8cf-71f4-4dfd-ad6c-af650090d419/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="50116140" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/you-cant-cancel-taylor-lorenz</link>
+    </item>
+    <item>
+      <title>Elon Musk’s Nightmare is Casey Newton</title>
+      <itunes:title>Elon Musk’s Nightmare is Casey Newton</itunes:title>
+      <description><![CDATA[<p>Casey Newton is one of the best reporters in the world when it comes to getting an inside look at the triumphs and tragedies of the Silicon Valley elite. Lately he’s been something of a scoop machine about all things Twitter. From mistaken firings to panicked midnight emails, Casey has been tracking all the nasty details of Twitter’s flop era — so who better to clue Josh in to what the future may hold for the social network you love to hate. Discussed: Christianity, Excited CEOs, the Cuomo brothers, Diet Coke.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Casey Newton is one of the best reporters in the world when it comes to getting an inside look at the triumphs and tragedies of the Silicon Valley elite. Lately he’s been something of a scoop machine about all things Twitter. From mistaken firings to panicked midnight emails, Casey has been tracking all the nasty details of Twitter’s flop era — so who better to clue Josh in to what the future may hold for the social network you love to hate. Discussed: Christianity, Excited CEOs, the Cuomo brothers, Diet Coke.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>6</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/6ebdfd55-2dce-484c-91d7-af5e006b12ff/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/elon-musk-s-nightmare-is-casey-newton/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">6ebdfd55-2dce-484c-91d7-af5e006b12ff</guid>
+      <omny:clipId>6ebdfd55-2dce-484c-91d7-af5e006b12ff</omny:clipId>
+      <pubDate>Thu, 01 Dec 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>2842</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/6ebdfd55-2dce-484c-91d7-af5e006b12ff/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="45534480" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/elon-musk-s-nightmare-is-casey-newton</link>
+    </item>
+    <item>
+      <title>Heading Home with Anne Helen Petersen</title>
+      <itunes:title>Heading Home with Anne Helen Petersen</itunes:title>
+      <description><![CDATA[<p>As Thanksgiving approaches, Josh is thinking about the things that really matter in life, like family, health, and new gadgets for making sick beats. This is also a time to think about the communities we’re in — both near and far, and who better to discuss our life offline and on than Anne Helen Petersen, author of “Can’t Even,” the definitive book about burnout, and a Very Online Person who has managed to stay sane. Discussed: septic tanks, babysitters, Discord families, and Delilah.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>As Thanksgiving approaches, Josh is thinking about the things that really matter in life, like family, health, and new gadgets for making sick beats. This is also a time to think about the communities we’re in — both near and far, and who better to discuss our life offline and on than Anne Helen Petersen, author of “Can’t Even,” the definitive book about burnout, and a Very Online Person who has managed to stay sane. Discussed: septic tanks, babysitters, Discord families, and Delilah.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>5</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/1cd7b6f9-9974-440a-899e-af560130dbee/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/heading-home-with-anne-helen-peterson/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">1cd7b6f9-9974-440a-899e-af560130dbee</guid>
+      <omny:clipId>1cd7b6f9-9974-440a-899e-af560130dbee</omny:clipId>
+      <pubDate>Thu, 24 Nov 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>3344</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/1cd7b6f9-9974-440a-899e-af560130dbee/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="53576013" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/heading-home-with-anne-helen-peterson</link>
+    </item>
+    <item>
+      <title>Vincenzo Natali's Peripheral Visions</title>
+      <itunes:title>Vincenzo Natali's Peripheral Visions</itunes:title>
+      <description><![CDATA[<p>Come for Josh's rant on the future of the internet, stay for his conversation with Vincenzo Natali, director of 'Cube,' 'Splice,' and your favorite episodes of 'Hannibal,' who has taken on William Gibson's reality-bending book 'The Peripheral' and turned it into electrifying TV. The two discuss how horror is in our DNA, his creative relationship with AI, and the difficulties of turning 80's sci-fi into modern art. Discussed: Ray Harryhausen, math that kills you, "big" iPads.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Come for Josh's rant on the future of the internet, stay for his conversation with Vincenzo Natali, director of 'Cube,' 'Splice,' and your favorite episodes of 'Hannibal,' who has taken on William Gibson's reality-bending book 'The Peripheral' and turned it into electrifying TV. The two discuss how horror is in our DNA, his creative relationship with AI, and the difficulties of turning 80's sci-fi into modern art. Discussed: Ray Harryhausen, math that kills you, "big" iPads.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>4</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/741b8aad-c2cf-4566-9907-af50003f8dde/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/vincenzo-natalis-peripheral-visions/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">741b8aad-c2cf-4566-9907-af50003f8dde</guid>
+      <omny:clipId>741b8aad-c2cf-4566-9907-af50003f8dde</omny:clipId>
+      <pubDate>Thu, 17 Nov 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>3112</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/741b8aad-c2cf-4566-9907-af50003f8dde/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="49856593" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/vincenzo-natalis-peripheral-visions</link>
+    </item>
+    <item>
+      <title>How Computers Dream with David Holz</title>
+      <itunes:title>How Computers Dream with David Holz</itunes:title>
+      <description><![CDATA[<p>What you’re reading right now was written by an artificially intelligent — though not sentient — neural network designed to write descriptions for podcasts. Or was it? You don’t know, and that’s what makes AI so fascinating, cool, and scary. Since Josh loves all of those feelings, he sat down with the founder of controversial AI-generated art startup Midjourney, David Holz, to unpack the future of creativity. Discussed: Porn, therapy, families, Hitler. This one’s a doozy!</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>What you’re reading right now was written by an artificially intelligent — though not sentient — neural network designed to write descriptions for podcasts. Or was it? You don’t know, and that’s what makes AI so fascinating, cool, and scary. Since Josh loves all of those feelings, he sat down with the founder of controversial AI-generated art startup Midjourney, David Holz, to unpack the future of creativity. Discussed: Porn, therapy, families, Hitler. This one’s a doozy!</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>3</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/ac0a437f-8c5a-4c30-b2fc-af49005b22b7/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/how-computers-dream-with-david-holz/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">ac0a437f-8c5a-4c30-b2fc-af49005b22b7</guid>
+      <omny:clipId>ac0a437f-8c5a-4c30-b2fc-af49005b22b7</omny:clipId>
+      <pubDate>Thu, 10 Nov 2022 08:00:00 +0000</pubDate>
+      <itunes:duration>3480</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/ac0a437f-8c5a-4c30-b2fc-af49005b22b7/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="55741799" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/how-computers-dream-with-david-holz</link>
+    </item>
+    <item>
+      <title>Life Offline with Jia Tolentino</title>
+      <itunes:title>Life Offline with Jia Tolentino</itunes:title>
+      <description><![CDATA[<p>Twitter is now owned by edgelord supreme Elon Musk, and Josh has many, many thoughts on the subject. To explore and dissect the coming post-social media world we're all about to live in, Josh sits down with New Yorker staff writer Jia Tolentino, whose book 'Trick Mirror' explored all of the ways that being very online is bad, weird, and probably ruining our real lives. Discussed: Nathan Fielder, incels, italian cuisine, blogging.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Twitter is now owned by edgelord supreme Elon Musk, and Josh has many, many thoughts on the subject. To explore and dissect the coming post-social media world we're all about to live in, Josh sits down with New Yorker staff writer Jia Tolentino, whose book 'Trick Mirror' explored all of the ways that being very online is bad, weird, and probably ruining our real lives. Discussed: Nathan Fielder, incels, italian cuisine, blogging.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>2</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/f6eee22e-f779-4207-afd8-af420055612a/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/life-offline-with-jia-tolentino/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">f6eee22e-f779-4207-afd8-af420055612a</guid>
+      <omny:clipId>f6eee22e-f779-4207-afd8-af420055612a</omny:clipId>
+      <pubDate>Thu, 03 Nov 2022 07:00:00 +0000</pubDate>
+      <itunes:duration>3000</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/f6eee22e-f779-4207-afd8-af420055612a/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="48066790" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/life-offline-with-jia-tolentino</link>
+    </item>
+    <item>
+      <title>What Scares Jason Blum?</title>
+      <itunes:title>What Scares Jason Blum?</itunes:title>
+      <description><![CDATA[<p>On the premiere episode Joshua explores Spooky Season with Jason Blum (founder and CEO of Blumhouse Productions), a man behind some of the most iconic horror films of the past decade — like 'Get Out,' 'The Purge,' and 'Paranormal Activity.' Discussed: the horror of reality, the reality of horror, how data is killing art, the politics of hunting people, film industry lifehacks.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>On the premiere episode Joshua explores Spooky Season with Jason Blum (founder and CEO of Blumhouse Productions), a man behind some of the most iconic horror films of the past decade — like 'Get Out,' 'The Purge,' and 'Paranormal Activity.' Discussed: the horror of reality, the reality of horror, how data is killing art, the politics of hunting people, film industry lifehacks.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>full</itunes:episodeType>
+      <itunes:season>1</itunes:season>
+      <itunes:episode>1</itunes:episode>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/aa0f88b9-7438-4090-a491-af3b00585b9e/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/what-scares-jason-blum/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">aa0f88b9-7438-4090-a491-af3b00585b9e</guid>
+      <omny:clipId>aa0f88b9-7438-4090-a491-af3b00585b9e</omny:clipId>
+      <pubDate>Thu, 27 Oct 2022 07:00:00 +0000</pubDate>
+      <itunes:duration>2465</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/aa0f88b9-7438-4090-a491-af3b00585b9e/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="39511544" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/what-scares-jason-blum</link>
+      <psc:chapters>
+        <psc:chapter start="00:18:04" title="Break 1" />
+        <psc:chapter start="00:29:48" title="Break 2" />
+      </psc:chapters>
+    </item>
+    <item>
+      <title>Introducing: What Future</title>
+      <itunes:title>Introducing: What Future</itunes:title>
+      <description><![CDATA[<p>Coming October 27th, host Joshua Topolsky (co-creator of Vox Media and founder of The Verge) deconstructs modern culture, mining the surprising connections that make up our increasingly frenetic world. A heady mixture of fugue-state monologues and spontaneous, irreverent conversations with experts, weirdos, and big thinkers, What Future is here to dissect our insane reality, lasso the pieces, and ride off into the sunset with your money, your woman, and your pride.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></description>
+      <content:encoded><![CDATA[<p>Coming October 27th, host Joshua Topolsky (co-creator of Vox Media and founder of The Verge) deconstructs modern culture, mining the surprising connections that make up our increasingly frenetic world. A heady mixture of fugue-state monologues and spontaneous, irreverent conversations with experts, weirdos, and big thinkers, What Future is here to dissect our insane reality, lasso the pieces, and ride off into the sunset with your money, your woman, and your pride.</p><p>See <a href="https://omnystudio.com/listener">omnystudio.com/listener</a> for privacy information.</p>]]></content:encoded>
+      <itunes:episodeType>trailer</itunes:episodeType>
+      <itunes:author>iHeartPodcasts</itunes:author>
+      <itunes:image href="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" />
+      <media:content url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/b0de29ce-e71e-4415-b181-af2500f59e63/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" type="audio/mpeg">
+        <media:player url="https://omny.fm/shows/what-future/what-future/embed" />
+      </media:content>
+      <media:content url="https://www.omnycontent.com/d/programs/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/image.jpg?t=1667493246&amp;size=Large" type="image/jpeg" />
+      <guid isPermaLink="false">b0de29ce-e71e-4415-b181-af2500f59e63</guid>
+      <omny:clipId>b0de29ce-e71e-4415-b181-af2500f59e63</omny:clipId>
+      <pubDate>Thu, 20 Oct 2022 05:00:00 +0000</pubDate>
+      <itunes:duration>73</itunes:duration>
+      <enclosure url="https://chtbl.com/track/5899E/podtrac.com/pts/redirect.mp3/traffic.omny.fm/d/clips/e73c998e-6e60-432f-8610-ae210140c5b1/40fa8192-202d-4013-a673-af2500f51945/b0de29ce-e71e-4415-b181-af2500f59e63/audio.mp3?utm_source=Podcast&amp;in_playlist=62c5a2fc-0e1b-4dfb-a223-af2500f55bfa" length="1234893" type="audio/mpeg" />
+      <link>https://omny.fm/shows/what-future/what-future</link>
+    </item>
+  </channel>
+</rss>

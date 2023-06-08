@@ -1,0 +1,383 @@
+<?xml version="1.0" encoding="UTF-8"?><!-- generator="podbean/5.5" -->
+<rss version="2.0"
+     xmlns:content="http://purl.org/rss/1.0/modules/content/"
+     xmlns:wfw="http://wellformedweb.org/CommentAPI/"
+     xmlns:dc="http://purl.org/dc/elements/1.1/"
+     xmlns:atom="http://www.w3.org/2005/Atom"
+     xmlns:itunes="http://www.itunes.com/dtds/podcast-1.0.dtd"
+     xmlns:googleplay="http://www.google.com/schemas/play-podcasts/1.0"
+     xmlns:spotify="http://www.spotify.com/ns/rss"
+     xmlns:podcast="https://podcastindex.org/namespace/1.0"
+    xmlns:media="http://search.yahoo.com/mrss/">
+
+<channel>
+    <title>The Nerd of the Rings</title>
+    <atom:link href="https://feed.podbean.com/nerdoftherings/feed.xml" rel="self" type="application/rss+xml"/>
+    <link>https://nerdoftherings.podbean.com</link>
+    <description>The official podcast of the Nerd of the Rings YouTube channel, featuring Tolkien-related news and interviews with those who live, breathe, and work in Middle-earth!</description>
+    <pubDate>Tue, 04 Oct 2022 10:00:00 -0400</pubDate>
+    <generator>https://podbean.com/?v=5.5</generator>
+    <language>en</language>
+        <copyright>Copyright 2021 All rights reserved.</copyright>
+    <category>Arts</category>
+    <ttl>1440</ttl>
+    <itunes:type>episodic</itunes:type>
+    <itunes:subtitle>The official podcast of the Nerd of the Rings YouTube channel.</itunes:subtitle>
+          <itunes:summary>Interviewing guests from the world of Tolkien's Middle-earth, including film cast, authors, illustrators, game designers, and more!</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+<itunes:category text="Arts" />
+	<itunes:category text="Arts">
+		<itunes:category text="Books" />
+	</itunes:category>
+	<itunes:category text="News">
+		<itunes:category text="Entertainment News" />
+	</itunes:category>
+    <itunes:owner>
+        <itunes:name>Nerd of the Rings</itunes:name>
+            </itunes:owner>
+	<itunes:block>No</itunes:block>
+	<itunes:explicit>no</itunes:explicit>
+    <itunes:image href="https://deow9bq0xqvbj.cloudfront.net/image-logo/11115318/NotR_ProfilePic_podcast.jpg" />
+    <image>
+        <url>https://deow9bq0xqvbj.cloudfront.net/image-logo/11115318/NotR_ProfilePic_podcast.jpg</url>
+        <title>The Nerd of the Rings</title>
+        <link>https://nerdoftherings.podbean.com</link>
+        <width>144</width>
+        <height>144</height>
+    </image>
+    <item>
+        <title>Maxim Baldry, Isildur - The Lord of the Rings: The Rings of Power</title>
+        <itunes:title>Maxim Baldry, Isildur - The Lord of the Rings: The Rings of Power</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/maxim-baldry-isildur-the-lord-of-the-rings-the-rings-of-power/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/maxim-baldry-isildur-the-lord-of-the-rings-the-rings-of-power/#comments</comments>        <pubDate>Tue, 04 Oct 2022 10:00:00 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/d628590a-5ca1-3bf5-83ae-6c5becc491d8</guid>
+                      <description><![CDATA[<p>We chat with Maxim Baldry about Isildur in The Lord of the Rings: The Rings of Power, including diving into the text, a more in-depth look at the dynamics in Númenor, and seeing Isildur as the hero he is in the books.</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>We chat with Maxim Baldry about Isildur in The Lord of the Rings: The Rings of Power, including diving into the text, a more in-depth look at the dynamics in Númenor, and seeing Isildur as the hero he is in the books.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/gwtezc/LIVE_with_Maxim_Baldry_Isildur_in_The_Rings_of_Power_b4hz5.mp3" length="28673071" type="audio/mpeg"/>
+        <itunes:subtitle>We chat with Maxim Baldry about Isildur in The Lord of the Rings: The Rings of Power, including diving into the text, a more in-depth look at the dynamics in Númenor, and seeing Isildur as the hero he is in the books.</itunes:subtitle>
+        <itunes:summary>We chat with Maxim Baldry about Isildur in The Lord of the Rings: The Rings of Power, including diving into the text, a more in-depth look at the dynamics in Númenor, and seeing Isildur as the hero he is in the books.</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>29:51</itunes:duration>
+        <itunes:season>2</itunes:season>
+        <itunes:episode>3</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Wayne Yip, Director - The Lord of the Rings: The Rings of Power</title>
+        <itunes:title>Wayne Yip, Director - The Lord of the Rings: The Rings of Power</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/wayne-yip-director-the-lord-of-the-rings-the-rings-of-power/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/wayne-yip-director-the-lord-of-the-rings-the-rings-of-power/#comments</comments>        <pubDate>Sat, 01 Oct 2022 10:00:00 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/9433203a-a6aa-3824-8e65-fa01b1e14e2b</guid>
+                      <description><![CDATA[<p>We chat with Wayne Yip about his directing work on episodes 3, 4, & 5 on The Lord of the Rings: The Rings of Power.</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>We chat with Wayne Yip about his directing work on episodes 3, 4, & 5 on The Lord of the Rings: The Rings of Power.</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/bktgmz/LIVE_with_Wayne_Yip_Director_The_Rings_of_Power_60iz7.mp3" length="33270493" type="audio/mpeg"/>
+        <itunes:subtitle>We chat with Wayne Yip about his directing work on episodes 3, 4, &amp; 5 on The Lord of the Rings: The Rings of Power.</itunes:subtitle>
+        <itunes:summary>We chat with Wayne Yip about his directing work on episodes 3, 4, &amp; 5 on The Lord of the Rings: The Rings of Power.</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>34:38</itunes:duration>
+        <itunes:season>2</itunes:season>
+        <itunes:episode>2</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Lloyd Owen, Elendil - The Lord of the Rings: The Rings of Power</title>
+        <itunes:title>Lloyd Owen, Elendil - The Lord of the Rings: The Rings of Power</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/lloyd-owen-elendil-the-lord-of-the-rings-the-rings-of-power/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/lloyd-owen-elendil-the-lord-of-the-rings-the-rings-of-power/#comments</comments>        <pubDate>Thu, 29 Sep 2022 10:00:00 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/d36f3c32-dbc4-3406-8744-938c6f20cb31</guid>
+                      <description><![CDATA[<p>Today, we chat with with Lloyd Owen about his character Elendil, the island realm of Númenor, and his deep dives into Tolkien's more obscure writings to inform the Elendil we meet in The Lord of the Rings: The Rings of Power!</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Today, we chat with with Lloyd Owen about his character Elendil, the island realm of Númenor, and his deep dives into Tolkien's more obscure writings to inform the Elendil we meet in The Lord of the Rings: The Rings of Power!</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/mnq64t/LIVE_with_Lloyd_Owen_Elendil_in_The_Rings_of_Power_6yc0a.mp3" length="33699172" type="audio/mpeg"/>
+        <itunes:subtitle>Today, we chat with with Lloyd Owen about his character Elendil, the island realm of Númenor, and his deep dives into Tolkien's more obscure writings to inform the Elendil we meet in The Lord of the Rings: The Rings of Power!</itunes:subtitle>
+        <itunes:summary>Today, we chat with with Lloyd Owen about his character Elendil, the island realm of Númenor, and his deep dives into Tolkien’s more obscure writings to inform the Elendil we meet in The Lord of the Rings: The Rings of Power!</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>35:05</itunes:duration>
+        <itunes:season>2</itunes:season>
+        <itunes:episode>1</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>John Rhys-Davies talks Gimli, Lord of the Rings, Indiana Jones, and more!</title>
+        <itunes:title>John Rhys-Davies talks Gimli, Lord of the Rings, Indiana Jones, and more!</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/gimli/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/gimli/#comments</comments>        <pubDate>Thu, 18 Nov 2021 08:53:02 -0500</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/32fb2343-8b75-3f0c-b11f-1e54fc789a4a</guid>
+                      <description><![CDATA[<p>The one and only John Rhys-Davies talks about his experience as Gimli and Sallah, his library, and reads a fan-favorite portion from the books - Gimli's description of the Glittering Caves.  This interview with the Lord of the Rings star was possible through the "It's Time to Shout James" fundraiser.  To donate to a great cause, visit: <a href='https://t.co/Ehvtb745UE?amp=1'>http://tinyurl.com/47j9wfxr</a></p>
+<p> </p>
+<p>To get the full effect of my interview with John, check it out on YouTube: <a href='https://t.co/f4UpAA5INr?amp=1'>https://youtu.be/qNnPE0Hpry8</a></p>
+]]></description>
+                      <content:encoded><![CDATA[<p>The one and only John Rhys-Davies talks about his experience as Gimli and Sallah, his library, and reads a fan-favorite portion from the books - Gimli's description of the Glittering Caves.  This interview with the Lord of the Rings star was possible through the "It's Time to Shout James" fundraiser.  To donate to a great cause, visit: <a href='https://t.co/Ehvtb745UE?amp=1'>http://tinyurl.com/47j9wfxr</a></p>
+<p> </p>
+<p>To get the full effect of my interview with John, check it out on YouTube: <a href='https://t.co/f4UpAA5INr?amp=1'>https://youtu.be/qNnPE0Hpry8</a></p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/6zpxfx/JRD-Podcast.mp3" length="93538461" type="audio/mpeg"/>
+        <itunes:subtitle>The one and only John Rhys-Davies talks about his experience as Gimli and Sallah, his library, and reads a fan-favorite portion from the books - Gimli's description of the Glittering Caves.  This interview with the Lord of the Rings star was possible...</itunes:subtitle>
+        <itunes:summary>The one and only John Rhys-Davies talks about his experience as Gimli and Sallah, his library, and reads a fan-favorite portion from the books - Gimli‘s description of the Glittering Caves.  This interview with the Lord of the Rings star was possible through the ”It‘s Time to Shout James” fundraiser.  To donate to a great cause, visit: http://tinyurl.com/47j9wfxr
+
+To get the full effect of my interview with John, check it out on YouTube: https://youtu.be/qNnPE0Hpry8</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:37:36</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>10</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Sir Richard Taylor, WETA Workshop</title>
+        <itunes:title>Sir Richard Taylor, WETA Workshop</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/richardtaylor/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/richardtaylor/#comments</comments>        <pubDate>Fri, 17 Sep 2021 21:40:12 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/f7425f2e-d6e5-393d-9ed3-4b662776445f</guid>
+                      <description><![CDATA[<p>WETA Workshop Co-Founder and Creative Director Sir Richard Taylor joins us to talk about his time in Middle-earth!  We'll talk about Richard's first exposure to Tolkien and what it was like bringing some of the most iconic locations, weapons, and characters to life in The Lord of the Rings and The Hobbit films trilogies!</p>
+<p>For the latest and greatest videos on The Lord of the Rings and Middle-earth, visit youtube.com/NerdoftheRings</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>WETA Workshop Co-Founder and Creative Director Sir Richard Taylor joins us to talk about his time in Middle-earth!  We'll talk about Richard's first exposure to Tolkien and what it was like bringing some of the most iconic locations, weapons, and characters to life in The Lord of the Rings and The Hobbit films trilogies!</p>
+<p>For the latest and greatest videos on The Lord of the Rings and Middle-earth, visit youtube.com/NerdoftheRings</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/uspc5z/RichardTaylor-WETA.mp3" length="49093231" type="audio/mpeg"/>
+        <itunes:subtitle>WETA Workshop Co-Founder and Creative Director Sir Richard Taylor joins us to talk about his time in Middle-earth!  We'll talk about Richard's first exposure to Tolkien and what it was like bringing some of the most iconic locations, weapons, and cha...</itunes:subtitle>
+        <itunes:summary>WETA Workshop Co-Founder and Creative Director Sir Richard Taylor joins us to talk about his time in Middle-earth!  We‘ll talk about Richard‘s first exposure to Tolkien and what it was like bringing some of the most iconic locations, weapons, and characters to life in The Lord of the Rings and The Hobbit films trilogies!</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>51:11</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>9</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Carl Hostetter, editor, The Nature of Middle-earth</title>
+        <itunes:title>Carl Hostetter, editor, The Nature of Middle-earth</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/natureofmiddleearth/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/natureofmiddleearth/#comments</comments>        <pubDate>Thu, 02 Sep 2021 13:21:49 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/0919125e-cc36-3f0c-8007-40529678dc7f</guid>
+                      <description><![CDATA[<p>Carl Hostetter joins us to talk about the 25-year road to the publication of The Nature of Middle-earth, working with Christopher Tolkien, new discoveries for Tolkien fans, dancing bears, and more!</p>
+<p> </p>
+<p>The Nature of Middle-earth is now available for purchase:</p>
+<p>US: <a href='https://amzn.to/3mXzYzI'>https://amzn.to/3mXzYzI </a></p>
+<p>UK: <a href='https://amzn.to/3DGgoO5'>https://amzn.to/3DGgoO5</a></p>
+<p>(affiliate links)</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Carl Hostetter joins us to talk about the 25-year road to the publication of The Nature of Middle-earth, working with Christopher Tolkien, new discoveries for Tolkien fans, dancing bears, and more!</p>
+<p> </p>
+<p>The Nature of Middle-earth is now available for purchase:</p>
+<p>US: <a href='https://amzn.to/3mXzYzI'>https://amzn.to/3mXzYzI </a></p>
+<p>UK: <a href='https://amzn.to/3DGgoO5'>https://amzn.to/3DGgoO5</a></p>
+<p>(affiliate links)</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/vcng8f/Podcast_-_Carl_Hostetter6up1r.mp3" length="73081747" type="audio/mpeg"/>
+        <itunes:subtitle>Carl Hostetter joins us to talk about the 25-year road to the publication of The Nature of Middle-earth, working with Christopher Tolkien, new discoveries for Tolkien fans, dancing bears, and more!
+ 
+The Nature of Middle-earth is now available for pu...</itunes:subtitle>
+        <itunes:summary>Carl Hostetter joins us to talk about the 25-year road to the publication of The Nature of Middle-earth, working with Christopher Tolkien, new discoveries for Tolkien fans, dancing bears, and more!</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:16:03</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>8</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Billy Boyd &amp; Dominic Monaghan, The Friendship Onion &amp; The Lord of the Rings</title>
+        <itunes:title>Billy Boyd &amp; Dominic Monaghan, The Friendship Onion &amp; The Lord of the Rings</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/thefriendshiponion/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/thefriendshiponion/#comments</comments>        <pubDate>Tue, 18 May 2021 10:00:00 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/615e74fd-34c5-38fa-9d08-2a3a6d039d85</guid>
+                      <description><![CDATA[<p>Today, we chat with Dom & Billy as they launch their new podcast, The Friendship Onion!  We talk about the films, The Scouring of the Shire, which cast members were funny, Dom's immunity to hiccups, and more!</p>
+<p>For the video version of this interview, as well as all kinds of great Middle-earth videos, go to <a href='http://www.youtube.com/NerdoftheRings'>www.youtube.com/NerdoftheRings</a></p>
+<p>Also, be sure to subscribe, rate, and review The Friendship Onion - available on all podcast platforms and YouTube: https://www.youtube.com/channel/UCM2SO69PhFRKKEYwGSV4sHQ</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Today, we chat with Dom & Billy as they launch their new podcast, The Friendship Onion!  We talk about the films, The Scouring of the Shire, which cast members were funny, Dom's immunity to hiccups, and more!</p>
+<p>For the video version of this interview, as well as all kinds of great Middle-earth videos, go to <a href='http://www.youtube.com/NerdoftheRings'>www.youtube.com/NerdoftheRings</a></p>
+<p>Also, be sure to subscribe, rate, and review The Friendship Onion - available on all podcast platforms and YouTube: https://www.youtube.com/channel/UCM2SO69PhFRKKEYwGSV4sHQ</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/b2ca8n/Dom_Billy-Audio91o44.mp3" length="53679662" type="audio/mpeg"/>
+        <itunes:subtitle>Today, we chat with Dom &amp; Billy as they launch their new podcast, The Friendship Onion!  We talk about the films, The Scouring of the Shire, which cast members were funny, Dom's immunity to hiccups, and more!
+For the video version of this interview, ...</itunes:subtitle>
+        <itunes:summary>Today, we chat with Dom &amp; Billy as they launch their new podcast, The Friendship Onion!  We talk about the films, The Scouring of the Shire, which cast members were funny, Dom's immunity to hiccups, and more!
+
+For the video version of this interview, as well as all kinds of great Middle-earth videos, go to www.youtube.com/NerdoftheRings
+
+Also, be sure to subscribe, rate, and review The Friendship Onion - available on all podcast platforms and YouTube: https://www.youtube.com/channel/UCM2SO69PhFRKKEYwGSV4sHQ</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>55:53</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>7</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Stephen Hunter, Bombur - The Hobbit Trilogy (Recorded December 2020)</title>
+        <itunes:title>Stephen Hunter, Bombur - The Hobbit Trilogy (Recorded December 2020)</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/stephenhunter/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/stephenhunter/#comments</comments>        <pubDate>Sun, 09 May 2021 10:35:17 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/c7f0c393-8a82-3ecb-8cbb-ff8f1c3940f8</guid>
+                      <description><![CDATA[<p>In this interview (recorded in Dec '20), we chat with actor Stephen Hunter, who portrayed Bombur in The Hobbit Trilogy!  We chat about all things The Hobbit - including how much his suit weighed and some amusing stories involving his dwarven castmates!</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>In this interview (recorded in Dec '20), we chat with actor Stephen Hunter, who portrayed Bombur in The Hobbit Trilogy!  We chat about all things The Hobbit - including how much his suit weighed and some amusing stories involving his dwarven castmates!</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/sq2evu/Stephen_Hunter_-_Bombur8i853.mp3" length="46387456" type="audio/mpeg"/>
+        <itunes:subtitle>In this interview (recorded in Dec '20), we chat with actor Stephen Hunter, who portrayed Bombur in The Hobbit Trilogy!  We chat about all things The Hobbit - including how much his suit weighed and some amusing stories involving his dwarven castmate...</itunes:subtitle>
+        <itunes:summary>In this interview (recorded in Dec '20), we chat with actor Stephen Hunter, who portrayed Bombur in The Hobbit Trilogy!  We chat about all things The Hobbit - including how much his suit weighed and some amusing stories involving his dwarven castmates!</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>48:18</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>6</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Brian Sibley, writer, BBC's The Lord of the Rings (1981)</title>
+        <itunes:title>Brian Sibley, writer, BBC's The Lord of the Rings (1981)</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/briansibley/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/briansibley/#comments</comments>        <pubDate>Tue, 20 Apr 2021 09:30:00 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/c64bc0c1-a85f-3559-a1c2-d71b0cf4ed94</guid>
+                      <description><![CDATA[<p>Today, we welcome the writer of one of my absolute favorite Tolkien adaptations - the 1981 BBC Radio Dramatization of The Lord of the Rings - Brian Sibley! We talk about the radio drama celebrating its 40th anniversary, Brian's experience writing about Peter Jackson and his Lord of the Rings and Hobbit trilogies, the challenges of adapting for radio, why Tom Bombadil get's cut from adaptations, and much more!</p>
+<p>Visit youtube.com/NerdoftheRings for the video version of this interview, Middle-earth lore videos, theories, and more!</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Today, we welcome the writer of one of my absolute favorite Tolkien adaptations - the 1981 BBC Radio Dramatization of The Lord of the Rings - Brian Sibley! We talk about the radio drama celebrating its 40th anniversary, Brian's experience writing about Peter Jackson and his Lord of the Rings and Hobbit trilogies, the challenges of adapting for radio, why Tom Bombadil get's cut from adaptations, and much more!</p>
+<p>Visit youtube.com/NerdoftheRings for the video version of this interview, Middle-earth lore videos, theories, and more!</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/h7gq6b/Brian_Sibley_-_Nerd_of_the_Rings_Interview72ezo.mp3" length="177973760" type="audio/mpeg"/>
+        <itunes:subtitle>Today, we welcome the writer of one of my absolute favorite Tolkien adaptations - the 1981 BBC Radio Dramatization of The Lord of the Rings - Brian Sibley! We talk about the radio drama celebrating its 40th anniversary, Brian's experience writing abo...</itunes:subtitle>
+        <itunes:summary><![CDATA[Today, we welcome the writer of one of my absolute favorite Tolkien adaptations - the 1981 BBC Radio Dramatization of The Lord of the Rings - Brian Sibley! We talk about the radio drama celebrating its 40th anniversary, Brian's experience writing about Peter Jackson and his Lord of the Rings and Hobbit trilogies, the challenges of adapting for radio, why Tom Bombadil get's cut from adaptations, and much more!
+Visit youtube.com/NerdoftheRings for the video version of this interview, Middle-earth lore videos, theories, and more!]]></itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>03:05:21</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>5</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Ian Nathan, author, "Anything You Can Imagine: Peter Jackson and the Making of Middle-earth"</title>
+        <itunes:title>Ian Nathan, author, "Anything You Can Imagine: Peter Jackson and the Making of Middle-earth"</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/iannathan/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/iannathan/#comments</comments>        <pubDate>Tue, 23 Mar 2021 10:01:24 -0400</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/9ebe41ef-4db2-3fee-8536-9170cc3d9709</guid>
+                      <description><![CDATA[<p>We talk about Peter Jackson and how the Middle-earth films came together with someone who spent time behind the scenes on both The Lord of the Rings and The Hobbit trilogies. We hear his favorite stories from the set, what sets Peter Jackson apart from other directors, his idea for a future Lord of the Rings book, the upcoming Amazon show and more!</p>
+<p>Ian Nathan is a film author, who has written books on The Terminator, Fantastic Beasts, Ridley Scott, Tim Burton, Quentin Tarantino and most notably, "<a href='https://amzn.to/319ryZC'>Anything You Can Imagine: Peter Jackson and the Making of Middle-earth</a>".</p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>We talk about Peter Jackson and how the Middle-earth films came together with someone who spent time behind the scenes on both The Lord of the Rings and The Hobbit trilogies. We hear his favorite stories from the set, what sets Peter Jackson apart from other directors, his idea for a future Lord of the Rings book, the upcoming Amazon show and more!</p>
+<p>Ian Nathan is a film author, who has written books on The Terminator, Fantastic Beasts, Ridley Scott, Tim Burton, Quentin Tarantino and most notably, "<a href='https://amzn.to/319ryZC'>Anything You Can Imagine: Peter Jackson and the Making of Middle-earth</a>".</p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/yr7jyn/Podcast_Ep_4_-_Ian_Nathan8wmyi.mp3" length="124694814" type="audio/mpeg"/>
+        <itunes:subtitle>We talk about Peter Jackson and how the Middle-earth films came together with someone who spent time behind the scenes on both The Lord of the Rings and The Hobbit trilogies. We hear his favorite stories from the set, what sets Peter Jackson apart fr...</itunes:subtitle>
+        <itunes:summary>We talk about Peter Jackson and how the Middle-earth films came together with someone who spent time behind the scenes on both The Lord of the Rings and The Hobbit trilogies. We hear his favorite stories from the set, what sets Peter Jackson apart from other directors, his idea for a future Lord of the Rings book, the upcoming Amazon show and more!
+
+Ian Nathan is a film author, who has written books on The Terminator, Fantastic Beasts, Ridley Scott, Tim Burton, Quentin Tarantino and most notably, "Anything You Can Imagine: Peter Jackson and the Making of Middle-earth".
+
+Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>02:09:59</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>4</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Jed Brophy, actor - The Hobbit &amp; The Lord of the Rings trilogies</title>
+        <itunes:title>Jed Brophy, actor - The Hobbit &amp; The Lord of the Rings trilogies</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/jedbrophy/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/jedbrophy/#comments</comments>        <pubDate>Tue, 09 Mar 2021 08:59:21 -0500</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/cebe9e6d-9f94-3721-b955-bbaf3bd616a0</guid>
+                      <description><![CDATA[<p>Today we are joined by the incredible Jed Brophy, one of the very few actors to appear in all six Middle-earth films!  His roles include the orcs Snaga and Sharku, as well as the dwarf Nori.  During this live chat on the Nerd of the Rings YouTube channel, we chat about all things Middle-earth, while raising money for frontline healthcare workers.</p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Today we are joined by the incredible Jed Brophy, one of the very few actors to appear in all six Middle-earth films!  His roles include the orcs Snaga and Sharku, as well as the dwarf Nori.  During this live chat on the Nerd of the Rings YouTube channel, we chat about all things Middle-earth, while raising money for frontline healthcare workers.</p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/yfjzfb/Podcast_Ep_3_-_Jed_Brophy96v1c.mp3" length="76742408" type="audio/mpeg"/>
+        <itunes:subtitle>Today we are joined by the incredible Jed Brophy, one of the very few actors to appear in all six Middle-earth films!  His roles include the orcs Snaga and Sharku, as well as the dwarf Nori.  During this live chat on the Nerd of the Rings YouTube cha...</itunes:subtitle>
+        <itunes:summary><![CDATA[Today we are joined by the incredible Jed Brophy, one of the very few actors to appear in all six Middle-earth films!  His roles include the orcs Snaga and Sharku, as well as the dwarf Nori.  During this live chat on the Nerd of the Rings YouTube channel, we chat about all things Middle-earth, while raising money for frontline healthcare workers.
+Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings]]></itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:20:01</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>3</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Francesco Nepitello, Designer - The One Ring RPG</title>
+        <itunes:title>Francesco Nepitello, Designer - The One Ring RPG</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/francesco-nepitello-designer-the-one-ring-rpg/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/francesco-nepitello-designer-the-one-ring-rpg/#comments</comments>        <pubDate>Thu, 04 Mar 2021 09:09:31 -0500</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/c1becf41-e1e4-334b-a58a-73dea166361f</guid>
+                      <description><![CDATA[<p>Today, we chat with Francesco Nepitello about the brand new Second Edition of The One Ring RPG.  We talk about what's new in this second edition, adapting Tolkien's world, and advice for players who are new to tabletop gaming!  At time of release, The One Ring Second Edition has earned $1.9 Million on Kickstarter and is due for release in late 2021. </p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Today, we chat with Francesco Nepitello about the brand new Second Edition of The One Ring RPG.  We talk about what's new in this second edition, adapting Tolkien's world, and advice for players who are new to tabletop gaming!  At time of release, The One Ring Second Edition has earned $1.9 Million on Kickstarter and is due for release in late 2021. </p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/uptexp/Podcast_Ep_2_-_TOR_Francesco6cyp7.mp3" length="55832320" type="audio/mpeg"/>
+        <itunes:subtitle>Today, we chat with Francesco Nepitello about the brand new Second Edition of The One Ring RPG.  We talk about what's new in this second edition, adapting Tolkien's world, and advice for players who are new to tabletop gaming!  At time of release, Th...</itunes:subtitle>
+        <itunes:summary>Today, we chat with Francesco Nepitello about the brand new Second Edition of The One Ring RPG.  We talk about what's new in this second edition, adapting Tolkien's world, and advice for players who are new to tabletop gaming!  At time of release, The One Ring Second Edition has earned $1.9 Million on Kickstarter and is due for release in late 2021.</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>58:12:24</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>2</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+    <item>
+        <title>Corey Olsen, The Tolkien Professor</title>
+        <itunes:title>Corey Olsen, The Tolkien Professor</itunes:title>
+        <link>https://nerdoftherings.podbean.com/e/tolkienprofessor/</link>
+                    <comments>https://nerdoftherings.podbean.com/e/tolkienprofessor/#comments</comments>        <pubDate>Thu, 25 Feb 2021 12:29:44 -0500</pubDate>
+        <guid isPermaLink="false">nerdoftherings.podbean.com/7922c5b9-572d-3acf-83ad-047ff48f1263</guid>
+                      <description><![CDATA[<p>Talking with the Tolkien Professor about LOTRonPrime, LOTRO, The Silmarillion, and why balrogs don't have wings! Corey is the President and Founder of Signum University and the Mythgard Institute. For more info, visit Signum University on YouTube!</p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></description>
+                      <content:encoded><![CDATA[<p>Talking with the Tolkien Professor about LOTRonPrime, LOTRO, The Silmarillion, and why balrogs don't have wings! Corey is the President and Founder of Signum University and the Mythgard Institute. For more info, visit Signum University on YouTube!</p>
+<p>Visit YouTube.com/NerdoftheRings for weekly Middle-earth videos, including Tolkien Explained, Complete Travels, Theories, and the video version of this episode.  To Support NOTR, visit Patreon.com/NerdoftheRings</p>
+]]></content:encoded>
+                    
+        <enclosure url="https://mcdn.podbean.com/mf/web/qgcry8/Podcast_Ep_1_-_Tolkien_Professor_v27yo5h.mp3" length="98363103" type="audio/mpeg"/>
+        <itunes:subtitle>Talking with the Tolkien Professor about LOTRonPrime, LOTRO, The Silmarillion, and why balrogs don't have wings! Corey is the President and Founder of Signum University and the Mythgard Institute. For more info, visit Signum University on YouTube!
+Vi...</itunes:subtitle>
+        <itunes:summary>Talking with the Tolkien Professor about LOTRonPrime, LOTRO, The Silmarillion, and why balrogs don't have wings!</itunes:summary>
+        <itunes:author>Nerd of the Rings</itunes:author>
+        <itunes:explicit>no</itunes:explicit>
+        <itunes:block>No</itunes:block>
+        <itunes:duration>01:57:04</itunes:duration>
+        <itunes:season>1</itunes:season>
+        <itunes:episode>1</itunes:episode>
+        <itunes:episodeType>full</itunes:episodeType>
+            </item>
+</channel>
+</rss>
