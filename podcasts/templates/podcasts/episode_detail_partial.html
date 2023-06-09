@@ -1,0 +1,16 @@
+<div class="container pt-4">
+    <div class="card">
+        <div class="card-body">
+            <div class="d-flex">
+                <img src="{{ episode.podcast.image_link }}" class="card-img-top" alt="..." style="width: 18rem">
+                <div class="pt-3 ps-3">
+                    <h5 class="card-title">{{ episode.title }}</h5>
+                    <a class="text-decoration-none text-secondary" href="{{ episode.podcast.get_absolute_url }}"><h6 class="card-subtitle mb-2 text-body-secondary">{{ episode.podcast.title }}</h6></a>
+                </div>
+            </div>
+            <div class="pt-4">
+                {{ episode.description|safe }}
+            </div>
+        </div>
+    </div>
+</div>

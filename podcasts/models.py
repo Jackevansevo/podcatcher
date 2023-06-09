@@ -69,6 +69,12 @@ class Episode(models.Model):
     class Meta:
         ordering = ["-pub_date"]
 
+    def get_absolute_url(self):
+        return reverse(
+            "episode-detail",
+            kwargs={"podcast_id": self.podcast.id, "episode_id": self.id},
+        )
+
     def __str__(self):
         return self.title
 

@@ -8,7 +8,12 @@
         hx-swap="afterend"
       {% endif %}>
     <a class="episodeURL text-decoration-none {% if interaction.listened %}link-secondary{% else %}link-dark{% endif %}"
-       href="#">
+       href="{{ episode.get_absolute_url }}"
+       hx-get="{{ episode.get_absolute_url }}"
+       hx-trigger="click"
+       hx-push-url="true"
+       hx-target="#page"
+    >
       <h6>
         {{ episode.title }}
       </h6>

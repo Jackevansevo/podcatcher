@@ -12,7 +12,7 @@ from django.db import transaction
 from django.db.models import Exists, OuterRef, Prefetch
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_GET, require_POST
-from django.views.generic.detail import DetailView
+from django.views.generic.detail import DetailView, View
 from django.views.generic.list import ListView
 
 from .models import Episode, EpisodeInteraction, Podcast, Subscription
@@ -194,6 +194,20 @@ class EpisodeListeningView(EpisodeListView):
             interactions__progress__isnull=False,
             interactions__listened=False,
         )
+
+
+class EpisodeDetailView(View):
+    def get(self, request, podcast_id, episode_id):
+        episode = get_object_or_404(Episode, podcast_id=podcast_id, id=episode_id)
+        context = {
+            "episode": episode,
+        }
+        if self.request.htmx:
+            template = "podcasts/episode_detail_partial.html"
+        else:
+            template = "podcasts/episode_detail.html"
+
+        return render(request, template, context)
 
 
 def podcast_detail_view(request, pk):

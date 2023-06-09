@@ -21,4 +21,9 @@ urlpatterns = [
         name="episode-listening",
     ),
     path("podcast/<uuid:pk>", views.podcast_detail_view, name="podcast-detail"),
+    path(
+        "podcast/<uuid:podcast_id>/episode/<uuid:episode_id>",
+        views.EpisodeDetailView.as_view(),
+        name="episode-detail",
+    ),
 ]
