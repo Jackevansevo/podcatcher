@@ -23,6 +23,8 @@ def ingest_podcast(url: str):
         if podcast:
             return podcast, False
 
+    resp.raise_for_status()
+
     # Else we're clear to proceed
     parsed_podcast, parsed_episodes = parse_podcast(resp.content)
 

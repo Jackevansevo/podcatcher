@@ -8,17 +8,17 @@
         hx-swap="afterend"
       {% endif %}>
     <span class="d-flex">
-      <a href="{{ episode.podcast.get_absolute_url }}">
+      <a href="{{ episode.podcast.get_absolute_url }}" hx-get="{{ episode.podcast.get_absolute_url }}" hx-trigger="click" hx-push-url="true" hx-target="#page">
         <img class="img rounded float-start" style="width: 70px; height: 70px;" src="{{ episode.podcast.image_link }}">
         </img>
       </a>
       <div class="pt-2 ms-4">
-        <a href="{{ episode.get_absolute_url }}" class="link-dark text-decoration-none">
+        <a href="{{ episode.get_absolute_url }}" hx-get="{{ episode.get_absolute_url }}" hx-trigger="click" hx-push-url="true" hx-target="#page" class="link-dark text-decoration-none">
           <h5>
             {{ episode.title }}
           </h5>
         </a>
-        <a href="{{ episode.podcast.get_absolute_url }}" class="link-secondary text-decoration-none">
+        <a href="{{ episode.podcast.get_absolute_url }}" hx-get="{{ episode.podcast.get_absolute_url }}" hx-trigger="click" hx-push-url="true" hx-target="#page" class="link-secondary text-decoration-none">
           <h6>
             {{ episode.podcast.title }}
           </h6>

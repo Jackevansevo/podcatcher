@@ -1,3 +1,4 @@
+import datetime as dt
 import hashlib
 import os
 import time
@@ -5,9 +6,12 @@ from http import HTTPStatus
 from urllib.parse import urlparse
 
 import httpx
+from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
 from django.contrib.auth.models import User
+from django.core.exceptions import ValidationError
 from django.core.paginator import Paginator
+from django.core.validators import URLValidator
 from django.db import transaction
 from django.db.models import Exists, OuterRef, Prefetch
 from django.shortcuts import get_object_or_404, redirect, render
@@ -16,7 +20,7 @@ from django.views.generic.detail import DetailView, View
 from django.views.generic.list import ListView
 
 from .models import Episode, EpisodeInteraction, Podcast, Subscription
-from .parser import ingest_podcast
+from .parser import ingest_podcast, parse_podcast
 
 
 @require_POST
@@ -71,61 +75,90 @@ def subscribe(request):
                 pass
             else:
                 return redirect(subscription.podcast)
-            podcast, _ = ingest_podcast(url)
-            Subscription.objects.get_or_create(podcast=podcast, user=request.user)
-            return redirect(podcast)
+            try:
+                podcast, _ = ingest_podcast(url)
+            except httpx.HTTPError as ex:
+                messages.error(request, f"Failed to fetch podcast: {str(ex)}")
+                referer = request.META.get("HTTP_REFERER")
+                return redirect(referer)
+            else:
+                Subscription.objects.get_or_create(podcast=podcast, user=request.user)
+                return redirect(podcast)
 
 
 @require_GET
 def search(request):
-    search_term = request.GET["search"]
-    if search_term:
+    search_term = request.GET.get("search")
+
+    # determine if the search term is a link
+    validate = URLValidator()
+
+    is_url = True
+    try:
+        validate(search_term)
+    except ValidationError:
+        is_url = False
+
+    if is_url:
         try:
             podcast = Podcast.objects.get(feed_link=search_term)
         except Podcast.DoesNotExist:
-            pass
+            resp = httpx.get(search_term, follow_redirects=True)
+            parsed_podcast, _ = parse_podcast(resp.content)
+            results = {
+                "feeds": [
+                    {
+                        "title": parsed_podcast["title"],
+                        "image": parsed_podcast["image_link"],
+                        "url": parsed_podcast["feed_link"],
+                        "lastUpdateTime": parsed_podcast["last_build_date"],
+                    }
+                ]
+            }
         else:
             return redirect(podcast)
+    else:
+        url = "https://api.podcastindex.org/api/1.0/search/byterm?q=" + search_term
 
-    # results = Podcast.objects.filter(title__contains=search_term)
+        # we'll need the unix time
+        epoch_time = int(time.time())
 
-    url = "https://api.podcastindex.org/api/1.0/search/byterm?q=" + search_term
+        api_key = os.environ.get("PODCAST_INDEX_API_KEY")
+        api_secret = os.environ.get("PODCAST_INDEX_API_SECRET")
 
-    # we'll need the unix time
-    epoch_time = int(time.time())
+        # our hash here is the api key + secret + time
+        data_to_hash = api_key + api_secret + str(epoch_time)
+        # which is then sha-1'd
+        sha_1 = hashlib.sha1(data_to_hash.encode()).hexdigest()
 
-    api_key = os.environ.get("PODCAST_INDEX_API_KEY")
-    api_secret = os.environ.get("PODCAST_INDEX_API_SECRET")
+        # now we build our request headers
+        headers = {
+            "X-Auth-Date": str(epoch_time),
+            "X-Auth-Key": api_key,
+            "Authorization": sha_1,
+            "User-Agent": "postcasting-index-python-cli",
+        }
 
-    # our hash here is the api key + secret + time
-    data_to_hash = api_key + api_secret + str(epoch_time)
-    # which is then sha-1'd
-    sha_1 = hashlib.sha1(data_to_hash.encode()).hexdigest()
+        resp = httpx.post(url, headers=headers)
 
-    # now we build our request headers
-    headers = {
-        "X-Auth-Date": str(epoch_time),
-        "X-Auth-Key": api_key,
-        "Authorization": sha_1,
-        "User-Agent": "postcasting-index-python-cli",
-    }
+        results = {}
+        if resp.status_code == HTTPStatus.OK:
+            results = resp.json()
 
-    resp = httpx.post(url, headers=headers)
-
-    results = {}
-    if resp.status_code == HTTPStatus.OK:
-        results = resp.json()
-
-    if results.get("feeds"):
-        subscriptions = set(
-            Subscription.objects.filter(user=request.user).values_list(
-                "podcast__feed_link", flat=True
+        if results.get("feeds"):
+            subscriptions = set(
+                Subscription.objects.filter(user=request.user).values_list(
+                    "podcast__feed_link", flat=True
+                )
             )
-        )
-        for index, result in enumerate(results["feeds"]):
-            results["feeds"][index]["subscribed"] = (
-                result["originalUrl"] in subscriptions
-            )
+            for index, result in enumerate(results["feeds"]):
+                results["feeds"][index]["subscribed"] = result["url"] in subscriptions
+
+                results["feeds"][index][
+                    "lastUpdateTime"
+                ] = dt.datetime.utcfromtimestamp(
+                    results["feeds"][index]["lastUpdateTime"]
+                )
 
     if request.htmx:
         return render(request, "podcasts/search_partial.html", {"results": results})

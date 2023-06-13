@@ -1,22 +1,21 @@
-<div class="container pt-4">
+<div class="container p-4">
   <div class="d-flex">
-    <div class="card me-4" style="width: 18rem;">
+    <div class="card me-4" style="width: 14rem;">
       <img src="{{ podcast.image_link }}" class="card-img-top" alt="...">
     </div>
-    <div class="card w-100">
-      <div class="card-body">
-        <h5 class="card-title">{{ podcast.title }}</h5>
-        <p class="card-text">{{ podcast.description }}</p>
-        <a href="{{ podcast.site_link }}" class="btn btn-primary">Visit site</a>
-        {% if podcast.subscribed %}
-          <a href="{% url 'unsubscribe' %}?url={{ podcast.feed_link|urlencode }}" class="btn btn-danger">Unsubscribe</a>
-        {% else %}
-          <a href="{% url 'subscribe' %}?url={{ podcast.feed_link|urlencode }}" class="btn btn-success">Subscribe</a>
-        {% endif %}
-      </div>
+    <div>
+      <h1 class="display-5">{{ podcast.title }}</h1>
+      <p>{{ podcast.description|safe }}</p>
+      <a href="{{ podcast.site_link }}" class="btn btn-outline-primary">Visit site</a>
+      {% if podcast.subscribed %}
+        <a href="{% url 'unsubscribe' %}?url={{ podcast.feed_link|urlencode }}" class="btn btn-outline-danger">Unsubscribe</a>
+      {% else %}
+        <a href="{% url 'subscribe' %}?url={{ podcast.feed_link|urlencode }}" class="btn btn-outline-success">Subscribe</a>
+      {% endif %}
     </div>
   </div>
-  <div class="row pt-4">
+  <hr class="mt-4">
+  <div class="row">
     <ul class="list-group list-group-flush">
       {% include "podcasts/podcast_episode_list_partial.html" with component="podcasts/episode_list_item_partial.html" %}
     </ul>

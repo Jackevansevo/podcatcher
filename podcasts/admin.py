@@ -40,7 +40,7 @@ class PodcastAdmin(admin.ModelAdmin):
         "ttl",
         "etag",
     ]
-    readonly_fields = fields
+    readonly_fields = [f for f in fields if f != "feed_link"]
 
     def save_model(self, request, obj, form, change):
         ingest_podcast(obj.feed_link)
