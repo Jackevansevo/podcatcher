@@ -104,19 +104,20 @@ def search(request):
             podcast = Podcast.objects.get(feed_link=search_term)
         except Podcast.DoesNotExist:
             resp = httpx.get(search_term, follow_redirects=True)
-            parsed_podcast, _ = parse_podcast(resp.content)
+            parsed_podcast, parsed_episodes = parse_podcast(resp.content)
             results = {
                 "feeds": [
                     {
                         "title": parsed_podcast["title"],
                         "image": parsed_podcast["image_link"],
                         "url": parsed_podcast["feed_link"],
-                        "lastUpdateTime": parsed_podcast["last_build_date"],
+                        "lastUpdateTime": parsed_podcast.get("last_build_date")
+                        or parsed_episodes[0]["pub_date"],
                     }
                 ]
             }
         else:
-            return redirect(podcast)
+            return redirect(podcast.get_absolute_url() + "?external_redirect=True")
     else:
         url = "https://api.podcastindex.org/api/1.0/search/byterm?q=" + search_term
 
@@ -266,7 +267,11 @@ def podcast_detail_view(request, pk):
     page_obj = paginator.get_page(page_number)
     if request.htmx:
         referer = request.META.get("HTTP_REFERER")
-        if referer and urlparse(referer).path == request.path:
+        if (
+            referer
+            and urlparse(referer).path == request.path
+            and not request.GET.get("external_redirect")
+        ):
             return render(
                 request,
                 "podcasts/podcast_episode_list_partial.html",

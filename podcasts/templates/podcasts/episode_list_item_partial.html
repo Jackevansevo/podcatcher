@@ -26,7 +26,7 @@
         hx-swap="outerHTML"
         hx-target="#episodeListItem{{ episode.id }}"
         hx-post="/{% if interaction.favourite %}un{% endif %}favourite/{{ episode.id }}"
-        class="link-warning text-decoration-none pe-3">
+        class="link-warning text-decoration-none me-3">
         <i class="bi bi-star{% if interaction.favourite %}-fill{% endif %}" style="font-size: 1.2rem"></i>
       </a>
       <a href="{{ episode.media_link }}" class="link-secondary text-decoration-none" id="episodeLink{{ episode.id }}">

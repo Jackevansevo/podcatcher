@@ -1,9 +1,9 @@
 <div class="container p-4">
-  <div class="d-flex">
-    <div class="card me-4" style="width: 14rem;">
-      <img src="{{ podcast.image_link }}" class="card-img-top" alt="...">
+  <div class="row">
+    <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+      <img src="{{ podcast.image_link }}" class="img-fluid rounded float mx-auto d-block border" alt="...">
     </div>
-    <div>
+    <div class="col-lg-10 col-md-8 col-sm-6 col-xs-12 pt-4 pt-sm-0">
       <h1 class="display-5">{{ podcast.title }}</h1>
       <p>{{ podcast.description|safe }}</p>
       <a href="{{ podcast.site_link }}" class="btn btn-outline-primary">Visit site</a>

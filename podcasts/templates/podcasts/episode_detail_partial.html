@@ -1,6 +1,7 @@
 <div class="container p-4">
-    <div class="d-flex">
-        <div class="card me-4" style="width: 14rem;">
+    <div class="row">
+        <div class="col-lg-2 col-md-4 col-sm-6 col-xs-12">
+
             <a
                 href="{{ episode.podcast.get_absolute_url }}"
                 hx-get="{{ episode.podcast.get_absolute_url }}"
@@ -8,10 +9,11 @@
                 hx-push-url="true"
                 hx-target="#page"
             >
-                <img src="{{ episode.podcast.image_link }}" class="card-img-top" alt="...">
+                <img src="{{ episode.podcast.image_link }}" class="img-fluid rounded float mx-auto d-block border" alt="...">
             </a>
         </div>
-        <div>
+        <div class="col-lg-10 col-md-8 col-sm-6 col-xs-12 pt-4 pt-sm-0">
+
             <h1 class="display-5">{{ episode.title }}</h1>
             <a
                 class="text-decoration-none text-secondary"
