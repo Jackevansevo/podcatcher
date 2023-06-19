@@ -77,7 +77,9 @@ def parse_podcast(data):
         data = xmltodict.parse(data.content)
     else:
         data = xmltodict.parse(data)
-    rss = data["rss"]
+    rss = data.get("rss")
+    if rss is None:
+        raise Exception("Unsupported feed type")
     channel = rss["channel"]
     pub_date = channel.get("pubDate")
     last_build_date = channel.get("lastBuildDate")
