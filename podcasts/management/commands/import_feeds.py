@@ -4,6 +4,7 @@ from pathlib import Path
 
 import httpx
 import xmltodict
+from django.contrib.auth.models import User
 from django.core.management.base import BaseCommand
 from podcasts.models import Podcast, Subscription
 from podcasts.parser import ingest_podcast
@@ -14,8 +15,13 @@ class Command(BaseCommand):
 
     def add_arguments(self, parser):
         parser.add_argument("input_file", nargs="?", type=argparse.FileType("r"))
+        parser.add_argument("--username", nargs="?", type=str)
 
-    def handle(self, *args, input_file, **options):
+    def handle(self, *args, input_file, username, **options):
+        user = None
+        if username is not None:
+            user = User.objects.get(username=username)
+
         if input_file.name.endswith(".db"):
             con = sqlite3.connect(input_file.name)
             cur = con.cursor()
@@ -43,6 +49,8 @@ class Command(BaseCommand):
                 url = outline["@xmlUrl"]
                 name = outline["@text"]
                 podcast, created = ingest_podcast(url)
+                if user is not None:
+                    Subscription.objects.get_or_create(podcast=podcast, user=user)
                 if created:
                     self.stdout.write(
                         self.style.SUCCESS(
