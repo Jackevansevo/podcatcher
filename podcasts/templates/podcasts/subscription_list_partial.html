@@ -1,9 +1,9 @@
-<div class="container-fluid p-4 d-flex flex-wrap justify-content-start align-items-center">
+<div class="container-fluid">
+<div class="row justify-content-start no-gutters">
   {% for subscription in object_list %}
-    <a href="{{ subscription.podcast.get_absolute_url }}" hx-get="{{ subscription.podcast.get_absolute_url }}" hx-push-url="true" hx-trigger="click" hx-target="#page" class="text-decoration-none m-2">
-      <div class="card " style="width: 18rem;">
-        <img src="{{ subscription.podcast.image_link }}" class="card-img-top" alt="...">
-      </div>
+    <a href="{{ subscription.podcast.get_absolute_url }}" hx-get="{{ subscription.podcast.get_absolute_url }}" hx-push-url="true" hx-trigger="click" hx-target="#page" class="text-decoration-none col-xl-1 col-lg-2 col-md-3 col-sm-4 col-6 m-0 p-0">
+        <img src="{{ subscription.podcast.image_link }}" class="mx-auto d-block img-fluid" alt="...">
     </a>
   {% endfor %}
+  </div>
 </div>
