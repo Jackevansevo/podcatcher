@@ -1,4 +1,5 @@
 {% load humanize %}
+{% load podcast_extras %}
 {% with next_page=request.GET.page|default:1|add:1 %}
   <li class="list-group-item d-flex justify-content-between align-items-center"
       id="episodeListItem{{ episode.id }}"
@@ -20,6 +21,7 @@
     </a>
     <span class="d-flex align-items-center">
       <h6 class="text-secondary mb-0 pe-5">{{ episode.pub_date|naturalday }}</h6>
+      <h6 class="text-secondary mb-0 pe-5">{{ episode.duration|format_duration }}</h6>
       <a
         href="#"
         hx-trigger="click"

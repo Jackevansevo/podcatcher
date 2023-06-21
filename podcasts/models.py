@@ -65,6 +65,7 @@ class Episode(models.Model):
     media_link = models.URLField()
     pub_date = models.DateTimeField()
     guid = models.CharField(max_length=300)
+    duration = models.DurationField(blank=True, null=True)
 
     class Meta:
         ordering = ["-pub_date"]

@@ -52,6 +52,23 @@ def parse_guid(guid):
         return guid.get("#text")
 
 
+def parse_duration(time_string) -> dt.timedelta:
+    if time_string is None:
+        return None
+    hours, minutes, seconds = 0, 0, 0
+    if ":" in time_string:
+        parts = list(map(int, time_string.split(":")))
+        if len(parts) == 1:
+            seconds = time_string
+        elif len(parts) == 2:
+            minutes, seconds = parts
+        else:
+            hours, minutes, seconds = parts
+
+        duration = hours * 3600 + minutes * 60 + seconds
+        return dt.timedelta(seconds=duration)
+
+
 def parse_item(data):
     return {
         "title": data.get("title"),
@@ -60,6 +77,7 @@ def parse_item(data):
         "media_link": data.get("enclosure", {}).get("@url"),
         "guid": parse_guid(data.get("guid")),
         "pub_date": parsedate_to_datetime(data.get("pubDate")),
+        "duration": parse_duration(data.get("itunes:duration")),
     }
 
 
