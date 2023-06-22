@@ -8,7 +8,7 @@
         hx-trigger="revealed"
         hx-swap="afterend"
       {% endif %}>
-    <a class="episodeURL text-decoration-none {% if interaction.listened %}link-secondary{% else %}link-dark{% endif %}"
+    <a class="episodeURL link-opacity-50-hover text-decoration-none {% if interaction.listened %}link-secondary{% else %}link-dark{% endif %}"
        href="{{ episode.get_absolute_url }}"
        hx-get="{{ episode.get_absolute_url }}"
        hx-trigger="click"
