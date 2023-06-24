@@ -8,7 +8,6 @@ from urllib.parse import urlparse
 import httpx
 from django.contrib import messages
 from django.contrib.auth.mixins import LoginRequiredMixin
-from django.contrib.auth.models import User
 from django.core.exceptions import ValidationError
 from django.core.paginator import Paginator
 from django.core.validators import URLValidator
@@ -16,7 +15,7 @@ from django.db import transaction
 from django.db.models import Exists, OuterRef, Prefetch
 from django.shortcuts import get_object_or_404, redirect, render
 from django.views.decorators.http import require_GET, require_POST
-from django.views.generic.detail import DetailView, View
+from django.views.generic.detail import View
 from django.views.generic.list import ListView
 
 from .models import Episode, EpisodeInteraction, Podcast, Subscription
