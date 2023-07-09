@@ -9,6 +9,7 @@ urlpatterns = [
     path("unsubscribe", views.unsubscribe, name="unsubscribe"),
     path("favourite/<uuid:pk>", views.favourite, name="favourite"),
     path("unfavourite/<uuid:pk>", views.unfavourite, name="unfavourite"),
+    path("play/<uuid:pk>", views.mark_playing, name="play"),
     path("episodes", views.EpisodeListView.as_view(), name="episode-list"),
     path(
         "episodes/favourites",

@@ -55,18 +55,18 @@ def parse_guid(guid):
 def parse_duration(time_string) -> dt.timedelta:
     if time_string is None:
         return None
-    hours, minutes, seconds = 0, 0, 0
-    if ":" in time_string:
-        parts = list(map(int, time_string.split(":")))
-        if len(parts) == 1:
-            seconds = time_string
-        elif len(parts) == 2:
-            minutes, seconds = parts
-        else:
-            hours, minutes, seconds = parts
 
-        duration = hours * 3600 + minutes * 60 + seconds
-        return dt.timedelta(seconds=duration)
+    hours, minutes, seconds = 0, 0, 0
+    parts = list(map(int, time_string.split(":")))
+    if len(parts) == 1:
+        seconds, *_ = parts
+    elif len(parts) == 2:
+        minutes, seconds = parts
+    else:
+        hours, minutes, seconds = parts
+
+    duration = hours * 3600 + minutes * 60 + seconds
+    return dt.timedelta(seconds=duration)
 
 
 def parse_item(data):

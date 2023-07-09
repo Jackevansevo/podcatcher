@@ -3,7 +3,6 @@ import hashlib
 import os
 import time
 from http import HTTPStatus
-from urllib.parse import urlparse
 
 import httpx
 from django.contrib import messages
@@ -20,6 +19,26 @@ from django.views.generic.list import ListView
 
 from .models import Episode, EpisodeInteraction, Podcast, Subscription
 from .parser import ingest_podcast, parse_podcast
+
+
+@require_POST
+def mark_playing(request, pk):
+    # TODO, when a user clicks 'play' we can replace the playing audio bottom bar with
+    # a new HTMX partial with all the appropriate episode details, then begin playing on
+    # load
+    interaction, _ = EpisodeInteraction.objects.update_or_create(
+        episode_id=pk, user=request.user
+    )
+    print("made it here")
+    print(interaction.episode)
+    if request.htmx:
+        return render(
+            request,
+            "podcasts/player_bar_partial.html",
+            {"playing": True, "episode": interaction.episode},
+        )
+    else:
+        raise NotImplementedError("only supports htmx")
 
 
 @require_POST
@@ -185,7 +204,7 @@ class SubscriptionListView(LoginRequiredMixin, ListView):
 
 class EpisodeListView(LoginRequiredMixin, ListView):
     model = Episode
-    paginate_by = 100
+    paginate_by = 500
 
     def get_context_data(self, **kwargs):
         context = super().get_context_data(**kwargs)
@@ -194,14 +213,6 @@ class EpisodeListView(LoginRequiredMixin, ListView):
 
     def get_template_names(self):
         if self.request.htmx:
-            referer = self.request.META.get("HTTP_REFERER")
-            if (
-                referer
-                and urlparse(referer).path == self.request.path
-                and self.request.GET.get("page")
-            ):
-                return ["podcasts/podcast_episode_list_partial.html"]
-
             return ["podcasts/episode_list_partial.html"]
         else:
             return ["podcasts/episode_list.html"]
@@ -261,25 +272,10 @@ def podcast_detail_view(request, pk):
         )
     )
     podcast = get_object_or_404(queryset, pk=pk)
-    paginator = Paginator(podcast.episode_set.all(), 100)
+    paginator = Paginator(podcast.episode_set.all(), 500)
     page_number = request.GET.get("page")
     page_obj = paginator.get_page(page_number)
     if request.htmx:
-        referer = request.META.get("HTTP_REFERER")
-        if (
-            referer
-            and urlparse(referer).path == request.path
-            and not request.GET.get("external_redirect")
-        ):
-            return render(
-                request,
-                "podcasts/podcast_episode_list_partial.html",
-                {
-                    "podcast": podcast,
-                    "page_obj": page_obj,
-                    "component": "podcasts/episode_list_item_partial.html",
-                },
-            )
         return render(
             request,
             "podcasts/podcast_detail_partial.html",

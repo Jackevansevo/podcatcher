@@ -1,0 +1,27 @@
+{% load humanize %}
+<div id="playerSection" style="flex-shrink: 0; order: 2; height: 125px" class="bg-dark d-flex w-100">
+{% if episode %}
+  <div class="p-3" style="max-width: 125px; max-height: 15%;" >
+    <img class="rounded mx-auto d-block mw-100" src="{{ episode.podcast.image_link }}" alt="..."/>
+  </div>
+  <div class="w-100 text-center pt-2">
+    <p class="fs-4 text-light mb-0">
+        {{ episode.title }}
+    </p>
+    <p class="fs-6 fw-bold text-secondary">
+        {{ episode.podcast.title }} - {{ episode.pub_date|naturalday }}
+    </p>
+    <audio id="player" controls="true" class="w-100"></audio>
+  </div>
+  {{ episode.media_link|json_script:"mediaLink" }}
+  <script>
+    player = document.getElementById("player")
+    mediaLinkId = document.getElementById('mediaLink');
+    if (mediaLinkId) {
+      let mediaLink = JSON.parse(mediaLinkId.textContent)
+      player.src = mediaLink;
+      player.play();
+    }
+  </script>
+  {% endif %}
+</div>

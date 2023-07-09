@@ -1,12 +1,7 @@
 {% load humanize %}
 {% with next_page=request.GET.page|default:1|add:1 %}
   <li class="list-group-item d-flex justify-content-between align-items-center"
-      id="episodeListItem{{ episode.id }}"
-      {% if forloop.last and next_page <= page_obj.paginator.num_pages %}
-        hx-get="?page={{ next_page }}"
-        hx-trigger="revealed"
-        hx-swap="afterend"
-      {% endif %}>
+      id="episodeListItem{{ episode.id }}">
     <span class="d-flex">
       <a href="{{ episode.podcast.get_absolute_url }}" hx-get="{{ episode.podcast.get_absolute_url }}" hx-trigger="click" hx-push-url="true" hx-target="#page">
         <img class="img rounded float-start" style="width: 70px; height: 70px;" src="{{ episode.podcast.image_link }}">
@@ -29,14 +24,9 @@
       <span class="pe-5">
         <h6 class="text-secondary mb-0">{{ episode.pub_date|naturalday }}</h6>
       </span>
-      <a href="{{ episode.media_link }}" class="link-secondary text-decoration-none" id="episodeLink{{ episode.id }}">
+      <a href="{{ episode.media_link }}" class="episodeLink link-secondary text-decoration-none" id="episodeLink{{ episode.id }}">
         <i class="bi bi-play-circle" style="font-size: 2rem"></i>
       </a>
     </span>
   </li>
 {% endwith %}
-
-<script>
-  episode = document.getElementById("episodeLink{{ episode.id }}")
-  episode.addEventListener("click", playAudio);
-</script>

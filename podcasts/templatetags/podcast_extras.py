@@ -7,4 +7,8 @@ register = template.Library()
 @register.filter
 @stringfilter
 def format_duration(value):
-    return ":".join(str(value).split(":")[:2])
+    hours, minutes, seconds = map(int, value.split(":"))
+    if bool(hours):
+        return f"{hours}h {minutes}m"
+    else:
+        return f"{minutes}m"

@@ -2,12 +2,7 @@
 {% load podcast_extras %}
 {% with next_page=request.GET.page|default:1|add:1 %}
   <li class="list-group-item d-flex justify-content-between align-items-center"
-      id="episodeListItem{{ episode.id }}"
-      {% if forloop.last and next_page <= page_obj.paginator.num_pages %}
-        hx-get="?page={{ next_page }}"
-        hx-trigger="revealed"
-        hx-swap="afterend"
-      {% endif %}>
+      id="episodeListItem{{ episode.id }}">
     <a class="episodeURL link-opacity-50-hover text-decoration-none {% if interaction.listened %}link-secondary{% else %}link-dark{% endif %}"
        href="{{ episode.get_absolute_url }}"
        hx-get="{{ episode.get_absolute_url }}"
@@ -31,14 +26,9 @@
         class="link-warning text-decoration-none me-3">
         <i class="bi bi-star{% if interaction.favourite %}-fill{% endif %}" style="font-size: 1.2rem"></i>
       </a>
-      <a href="{{ episode.media_link }}" class="link-secondary text-decoration-none" id="episodeLink{{ episode.id }}">
+      <a hx-post="/play/{{ episode.id}}" hx-trigger="click" hx-target="#playerSection" class="episodeLink link-secondary text-decoration-none">
         <i class="bi bi-play-circle" style="font-size: 1.2rem"></i>
       </a>
     </span>
   </li>
 {% endwith %}
-
-<script>
-  episode = document.getElementById("episodeLink{{ episode.id }}")
-  episode.addEventListener("click", playAudio);
-</script>
