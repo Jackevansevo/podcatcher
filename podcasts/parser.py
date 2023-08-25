@@ -57,7 +57,7 @@ def parse_duration(time_string) -> dt.timedelta:
         return None
 
     hours, minutes, seconds = 0, 0, 0
-    parts = list(map(int, time_string.split(":")))
+    parts = list(map(float, time_string.split(":")))
     if len(parts) == 1:
         seconds, *_ = parts
     elif len(parts) == 2:
