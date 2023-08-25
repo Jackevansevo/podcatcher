@@ -1,5 +1,5 @@
 {% load humanize %}
-<div id="playerSection" style="flex-shrink: 0; order: 2; height: 125px" class="bg-dark d-flex w-100">
+<div id="playerSection" style="flex-shrink: 0; order: 2; height: 125px {% if not episode %}visibility: hidden;{% endif %}" class="bg-dark d-flex w-100">
 {% if episode %}
   <div class="p-3" style="max-width: 125px; max-height: 15%;" >
     <img class="rounded mx-auto d-block mw-100" src="{{ episode.podcast.image_link }}" alt="..."/>
